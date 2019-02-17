@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I want to lock and unlock my win 7 workstation using window service. in case of lock i m able to lock my work station independently by creating an app while i m integrating my code to windows service its unable to execute it and neither unlock my workstation. for Unlocking i found only is Credential Providers.\ni have tried on its sample but not found the any response from it. \nis there any one know about it please help me out, i just want to unlock my win 7 workstation from my windows service i will pass all credential from my windows service.\n \nLocking is done now i m seeking for unlock win 7.\nif some body knows any thing regarding it please help me out. Thanks in advance.",
+    "LastUpdatedDate": "2013-02-21T19:00:00.26-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-05-23T00:24:41.607-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "how to unlock win 7 using window service.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8875
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello mdheerajgupta,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\nAs far as I know, your sample idea should use COM technology and credential provide to accomplish it. It is a hard topic that I have encounted it.It seems that it relates to serial points about security. And I have read your thread about this topic in other forum. I think they have the same opinion about it. I will conern on this votes and decide to submit it or not.\r\n\r\n\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-05-24T00:38:36.787-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:00.26-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

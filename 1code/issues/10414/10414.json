@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Graphics files may be imported and placed in a Microsoft Word document using InlineShapes.AddPicture and an import filter. This is fine for standard filters which are part of the distribution. However, additional filters from Microsoft and third parties require additional registry setting to prevent being disabled following\n \nhttp://support.microsoft.com/kb/968095/, MS10-105: Vulnerability in Microsoft Office could allow for remote code execution\nhttp://support.microsoft.com/kb/2479871, Security settings for graphic filters for Microsoft Office 2010, the 2007 Microsoft Office system, Microsoft Office 2003, and Microsoft Office XP\n \nAn example is the filter for HP-GL files\n \nhttp://support.microsoft.com/kb/196506, 32-Bit filter for importing HPGL graphics in Word 97 and in Word 2000\n \nThe code sample should include the delopyment project and a very basic filter.",
+    "LastUpdatedDate": "2013-02-21T18:59:27.28-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-02-21T11:25:36.007-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Graphics import filter usable in InlineShapes.AddPicture with deployment",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10414
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

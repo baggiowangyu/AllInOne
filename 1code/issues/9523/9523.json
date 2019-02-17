@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "It would be interested what is the best way to\n \no provide search capabilities for most common file and data types—such as e-mail, media files, contacts, calendar appointments, documents, and other third-party formats. The system's search capabilities can be extended in a number of ways.\n \no provide fast search capabilities within third-party applications, such as a search box placed directly within the application frame or window.\n \nThis is a request which concerns nearly all SmartClient applications as the would like to provide fast search capabilities. It would be very helpful a good full sample using Windows Search SDK-API in .NET application. \n \nWindows Search 4.0 for Developers\nhttp://www.microsoft.com/windows/products/winfamily/desktopsearch/choose/windowssearch4/developers.mspx\n \n \nThank you in advance",
+    "LastUpdatedDate": "2013-02-21T18:59:43.83-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-09-19T23:37:18.493-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "[Code Sample request] Using Windows Search 4.0 API in .NET",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9523
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

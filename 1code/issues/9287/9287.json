@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The current CppHostCLR sample demonstrates using the v1 and v2 hosting interfaces but does not demonstrate the v4 hosting interfaces (http://msdn.microsoft.com/en-us/library/dd380850#hosting_management_interfaces_4).",
+    "LastUpdatedDate": "2013-02-21T18:59:48.493-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-08-06T16:18:09.227-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Extend CppHostCLR to .NET Framework 4 Hosting Management Interfaces",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9287
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "hi FrankBoyne,\r\n\r\nThank you for using our code sample request service. \r\n   It seems that you only watch CPPHostCLR  which is written under vs2008 environment. You can read another sample code such as http://code.msdn.microsoft.com/CppHostCLR-e6581ee0 for getting complete code. This is because that the these two samples don't only backward compatibility. Thanks for kindly suggestion. If problem still exists ,please feel free to let me know! Thank you for the additional information. \r\n\r\nSincerely,\r\nAll-In-OneCode Framework\r\n\r\n\r\n\r\n\r\n\r\n\r\nHave a good day\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-08-22T19:02:10.577-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks.  Yes I had downloaded the older All-In-One Code Framework that did not include the Visual Studio 2010 samples.",
+      "PostedDate": "2011-08-28T19:30:25.007-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-29T20:33:16.297-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-05-05T18:02:42.743-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:48.493-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

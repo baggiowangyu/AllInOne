@@ -1,0 +1,106 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi,\n \nI need a small shell based program that prints the mac address of physical ethernet adapter from it's firmware. I need this utility for license generation and appliance activation. I have tried several example but none of them is flawless, The easiest method I have found is to parese the output of \"ipconfig /all\" command but it has also some drawbacks, finally I am here at MS and hoping that people might help me out. More description:\n1. Firstly program should differentiate between physical and virtual adapters. Physical means installed on board(wired or wireless) or installed additionally. Virtual adapters are those created by VPN or created by virtualization apps such as VirtualBox/VMWare etc. I am not interested in virtual ones.\n2. In case of more them one physical adapters(wired and wireless), it should print the mac address and description(name & vendor) of both/all adapters.\n3. If media is disconnected then also it should be able to read the mac address and description(name, vendor) of card.\n4. This one is bit complex. I have heard there are tools and utility available that changes the mac address to desired one. Although I am not into hardware or network programming but I suppose that even if mac address is changed by some utility, still you can read the mac address that is burned into firmware.\n5. Utility should supports 2k/xp/vista/7 (32/64bit) .\n \nBest Regards\n \nPrashant",
+    "LastUpdatedDate": "2013-02-21T19:00:09.59-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-04-06T01:22:55.69-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Get mac address of physical NIC card from firmware & physical/virtual ethernet identification",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 8607
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3286,
+      "FileName": "getmac.zip",
+      "DownloadUrl": ".\\3286"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Hello anarki,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n   \r\n    Your sample idea is that you want some information about network card. In the past, we would usually develop it under the visual c++ 6.0 environment using ddk library. Now we can use P/INVOKE to invoke ddk function .And I guess we can use WMI to implement the same function. I would dive into it and provide feasible scheme to our internal audit system. Thanks for your sample idea.\r\n\r\nIs my understanding correct? Please let me know if I misunderstood your needs.\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-04-06T01:53:42.21-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi orichisonic,\r\nThanks for the updates.\r\nI am mainly interested in mac address, provided it is always the mac address of physical ethernet interface and never the mac address of any virtual adapter. Rest of the information(vendor and description of interface) is not that important but if you can get it, it would be great. I have absolutely no experience with ddk and with WMI.\r\nI have gathered some solution from the net, if you are interested then I can attach a zip here. Please let me know.\r\n\r\nLooking forward for a solution...;-)\r\n\r\nThanks\r\nPrashant",
+      "PostedDate": "2011-04-06T03:41:41.56-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-06T19:09:29.883-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "hi anarki,\r\n   I have submitted them to our system in order to checking this sample idea. And I find out four ways to solve this issue. So the sample idea mentioned above includes of Various programming schemes. Thank you for your sample idea.\r\n\r\nSincerely\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com",
+      "PostedDate": "2011-04-06T19:43:18.94-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi orichisonic,\r\nI have tried using NetBIOS, RPC, and SNMP methods as mentioned here:\r\nhttp://tangentsoft.net/wskfaq/\r\n(6.7 - 6.9)\r\nbut none of them is satisfying the requirements.\r\nKeep me posted for any updates.\r\n\r\nThanks\r\n\r\nPrashant",
+      "PostedDate": "2011-04-07T05:24:29.08-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi anarki ,\r\n  You should use DeviceIoControl() and createfile() to implement its function. Never mind. I have Submitted this sample idea this afternoon. Thank you for concerning with it.\r\n\r\n\r\nSincerely\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com",
+      "PostedDate": "2011-04-07T07:52:45.13-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-08T06:23:49.25-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi orichisonic,\r\nI was looking for DeviceIoControl() and createfile() as per you suggestion and found this:\r\nhttp://www.winvistatips.com/oid_xxx_permanent_address-does-not-work-network-adpaters-and-cisco-vpn-t190270.html\r\nIs this is the correct way?\r\nLater in the post user said that this method is failed to differentiate between virtual and physical adapter. Is there anything missing in this example? I tried building the solution using VS 2005 but lots of error. The file is attached.\r\n\r\nCheers\r\nPrashant",
+      "PostedDate": "2011-04-08T06:24:53.06-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi orichisonic,\r\nI was looking for DeviceIoControl() and createfile() as per you suggestion and found this:\r\nhttp://www.winvistatips.com/oid_xxx_permanent_address-does-not-work-network-adpaters-and-cisco-vpn-t190270.html\r\nIs this is the correct way?\r\nLater in the post user said that this method is failed to differentiate between virtual and physical adapter. Is there anything missing in this example? I tried building the solution using VS 2005 but lots of error. The file is attached.\r\n\r\nCheers\r\nPrashant",
+      "PostedDate": "2011-04-08T06:25:53.45-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "hi anarki,\r\n    Never mind. This sample request has been submitted already. It seems that it could be approved. Thanks for your additional sample example.\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com",
+      "PostedDate": "2011-04-18T20:21:25.083-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T18:12:20.67-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:09.59-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

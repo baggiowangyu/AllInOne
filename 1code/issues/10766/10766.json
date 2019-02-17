@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Kinectmultipoint is a project for emulating a mouse and other hardware devices that have device drivers installed for the kinect. Right now its focused specially on mouse devices but can emulate any device as long as you have a device driver for it. OS supported on: Windows 7 only. \nIf someone has equivilent code for windows 8 or knows of the windows 8 version of dsf(device simulation framework) if microsoft changed the name or made a new framework which does the same as dsf i will make it work on windows 8 also.",
+    "LastUpdatedDate": "2013-02-21T18:59:18.117-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-05-16T05:49:36.133-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Kinect multipoint project",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10766
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

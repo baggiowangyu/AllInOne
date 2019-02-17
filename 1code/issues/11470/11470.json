@@ -1,0 +1,80 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Dear Sir/Madam,I need one demonstration of the detailed steps with the screenshots for one Biztalk 2009 solution which will perform these below. It can have 2 projects inside doing the following and will call DB stored procedures Upd_status, Upd_status2 respectively.1. in Upd_status, do an insert by also capturing the current path and filename of the input Flat file, into StatusTab table in Upd_status and mark the status column of the current record as 'Received'2. call Upd_status2, which will then retrieve all records with 'Received' status and then inside Biztalk project, the process will load the relevant input Flat file by the file name column just retrieved, into TransTab tableMany Thanks & Best Regards,HuaMin",
+    "LastUpdatedDate": "2013-03-07T19:34:01.9-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2013-01-01T20:45:56.03-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Biztalk 2009 project",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11470
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Need some demonstration for such project",
+      "PostedDate": "2013-01-01T20:47:06.323-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-01-03T19:10:48.183-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi,\nHow can I change the impact of the request to be High, as actually I had raised the same one within Codeplex.com, but it was later on removed and I was not sure about the reason?\r\n\r\nMany Thanks & Best Regards,\nHuaMin\n",
+      "PostedDate": "2013-01-03T19:35:31.873-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Dear all,\nAny help to this?\n",
+      "PostedDate": "2013-01-21T19:17:17.213-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi HuaMinChen,\r\n\r\nThank you for using the Sample Request Service provided by Microsoft All-In-One Code Framework. We are investigating your requirement.\r\n\r\nWe have recently upgraded the sample request forum in order to better serve your requests.  Here is our announcement http://aka.ms/requestcodesamples.  Please consider reposting the sample request to the new forum, and we can continue working on this request there.  We appreciate your understanding. \r\n\r\nThanks and have a great day!\r\n\r\n--------------------\nMicrosoft All-In-One Code Framework \nFeedback address: onecode@microsoft.com\n",
+      "PostedDate": "2013-02-21T18:33:00.867-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:02.243-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Mapeng,\nThanks. Where is the forum to which I should post the current request?\r\n\r\nMany Thanks & Best Regards,\nHuaMin\n",
+      "PostedDate": "2013-02-21T22:21:14.597-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi HuaMinChen,\n \n   I'm sorry for the later.\n   You can refer the following link to submit you request:\n   http://code.msdn.microsoft.com/site/requests\n   \n  Here is our announcement http://aka.ms/requestcodesamples. \r\n\r\n  Thanks and have a great day.\r\n\r\n Microsoft All-In-One Code Framework \nFeedback address: onecode@microsoft.com",
+      "PostedDate": "2013-03-07T19:34:01.9-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "586265",
+    "ThreadId": "251159",
+    "Html": "\r\n<p>I found this in the Doc:&nbsp;<strong><span style=\"font-size:11pt\">Do </span></strong><span style=\"font-size:11pt\">use member overloading rather than defining members with default arguments. Default arguments are not CLS-compliant and cannot be used from\r\n some languages.</span><span style=\"font-size:11pt\"> </span></p>\r\n<p>And I found this from MSDN(<a href=\"http://msdn.microsoft.com/en-us/library/ms182135(VS.100).aspx\">http://msdn.microsoft.com/en-us/library/ms182135(VS.100).aspx</a>):&nbsp;Methods that use default parameters are allowed under the Common Language Specification\r\n (CLS)</p>\r\n<p>&nbsp;</p>\r\n<p>I am a little confused by this.</p>\r\n<p>Would anyone be kind enough to explain this?&nbsp;</p>\r\n<p>Thanks.</p>\r\n",
+    "PostedDate": "2011-03-25T02:08:52.127-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

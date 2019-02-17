@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "There are existing blog articles on creating your custom validation attribute and a validator for client-side error messages, but those are out-dated (using MVC2). Is it possible to have a sample for MVC3 that shows how to create a client-side validator using jQuery and Microsoft Validation scripts?",
+    "LastUpdatedDate": "2013-02-21T19:00:13.297-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-03-28T00:03:01.12-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "MVC3 - How to create custom client-side validator",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 8569
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello extrakun,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\n  Your sample idea metioned above looks like my project that has been completed at last two year. It uses MVC 1.1. I think you prefer to use JQuery Toolkit. You should be includes of JQery script component firstly. Consequently, you should arrange your html present widget for putting them in the suit position. Lastly, your should add the code snippet listed below:\r\n\r\n $(\"#form1\").validate({\r\n            rules:\r\n             {\r\n                 username: { required: true, userName: true, filterChar: true },\r\n               \r\n             },\r\n            messages:\r\n            {\r\n                username: { required: \"&nbsp;&nbsp;[Name could not be empty!]\" },\r\n             }\r\n        });\r\n\r\n               jQuery.validator.addMethod(\"filterChar\", function(value, element) {\r\n                var flag = true;\r\n                var charArray = new Array('<', '>', '%', '&', '|', '(', ')');\r\n                for (var i = 0; i < charArray.length; i++) {\r\n                    if (value.indexOf(charArray[i]) != -1) { flag = false; break;}\r\n                }\r\n                return this.optional(element) || flag;\r\n            }, \"&nbsp;&nbsp;[Invalid characters]\");\r\n                 jQuery.validator.addMethod(\"userName\", function(value, element) {\r\n                return this.optional(element) || /^[\\u0391-\\uFFE5\\w]+$/.test(value);\r\n            }, \"&nbsp;&nbsp;[User name can include text, in English letters, Numbers and underline them!]\");\r\n\r\n \r\n        });\r\n  This is a simple inputbox sample.Is my understanding correct? Please let me know if I misunderstood your needs.\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-03-28T00:54:45.99-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-03-30T02:10:28.077-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-07-20T14:52:22.46-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-15T14:45:49.4-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:13.297-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+
+<div class="wikidoc">
+<div style="clear:both; height:0">&nbsp;</div>
+</div>
+<div class="wikidoc">&nbsp;</div>
+<h1>All-In-One Code Framework Coding Guideline</h1>
+<div class="wikidoc"><a href="http://1code.codeplex.com/releases/84683/download/357518">This document</a> describes the coding style guideline for native
+<strong>C&#43;&#43;</strong> and <strong>.NET (C# and VB.NET)</strong> programming used by the Microsoft All-In-One Code Framework project team.</div>
+<div class="wikidoc">&nbsp;</div>
+<div class="wikidoc">English version: <a href="http://1code.codeplex.com/releases/84683/download/357518">
+http://1code.codeplex.com/releases/84683/download/357518</a></div>
+<div class="wikidoc">中文版: <a href="http://1codechs.codeplex.com/releases/view/62291#DownloadId=221560">
+http://1codechs.codeplex.com/releases/view/62291#DownloadId=221560</a></div>
+<div class="wikidoc">&nbsp;</div>
+<div class="wikidoc"><strong>Table of Contents</strong></div>
+<div class="wikidoc">
+<p>1<span style="color:windowtext; font-size:11pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Overview.......................................................................................................................... 1</p>
+<p>1.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Principles &amp; Themes................................................................................................. 1</p>
+<p>1.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Terminology................................................................................................................ 1</p>
+<p>2<span style="color:windowtext; font-size:11pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>General Coding Standards........................................................................................ 3</p>
+<p>2.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clarity and Consistency........................................................................................... 3</p>
+<p>2.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Formatting and Style................................................................................................ 3</p>
+<p>2.3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Using Libraries........................................................................................................... 5</p>
+<p>2.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Global Variables........................................................................................................ 5</p>
+<p>2.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Variable Declarations and Initalizations............................................................. 5</p>
+<p>2.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Function Declarations and Calls............................................................................ 6</p>
+<p>2.7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Statements................................................................................................................... 8</p>
+<p>2.8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enums............................................................................................................................ 8</p>
+<p>2.9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Whitespace................................................................................................................ 13</p>
+<p>2.10&nbsp;&nbsp; Braces........................................................................................................................... 14</p>
+<p>2.11&nbsp;&nbsp; Comments................................................................................................................... 15</p>
+<p>2.12&nbsp;&nbsp; Regions........................................................................................................................ 23</p>
+<p>3<span style="color:windowtext; font-size:11pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>C&#43;&#43; Coding Standards............................................................................................ 25</p>
+<p>3.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Compiler Options................................................................................................... 25</p>
+<p>3.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Files and Structure.................................................................................................. 26</p>
+<p>3.3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Naming Conventions............................................................................................. 27</p>
+<p>3.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pointers...................................................................................................................... 30</p>
+<p>3.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Constants................................................................................................................... 31</p>
+<p>3.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Casting....................................................................................................................... 32</p>
+<p>3.7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sizeof.......................................................................................................................... 32</p>
+<p>3.8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Strings........................................................................................................................ 33</p>
+<p>3.9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Arrays......................................................................................................................... 34</p>
+<p>3.10&nbsp;&nbsp; Macros........................................................................................................................ 35</p>
+<p>3.11&nbsp;&nbsp; Functions..................................................................................................................... 35</p>
+<p>3.12&nbsp;&nbsp; Structures................................................................................................................... 38</p>
+<p>3.13&nbsp;&nbsp; Classes........................................................................................................................ 38</p>
+<p>3.14&nbsp;&nbsp; COM............................................................................................................................ 44</p>
+<p>3.15&nbsp;&nbsp; Allocations.................................................................................................................. 45</p>
+<p>3.16&nbsp;&nbsp; Errors and Exceptions............................................................................................. 46</p>
+<p>3.17&nbsp;&nbsp; Resource Cleanup..................................................................................................... 48</p>
+<p>3.18&nbsp;&nbsp; Control Flow................................................................................................................ 50</p>
+<p>4<span style="color:windowtext; font-size:11pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>.NET Coding Standards............................................................................................. 54</p>
+<p>4.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Design Guidelines for Developing Class Libraries........................................ 54</p>
+<p>4.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Files and Structure................................................................................................... 54</p>
+<p>4.3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Assembly Properties............................................................................................... 54</p>
+<p>4.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Naming Convensions............................................................................................. 54</p>
+<p>4.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Constants................................................................................................................... 57</p>
+<p>4.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Strings......................................................................................................................... 58</p>
+<p>4.7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Arrays and Collections........................................................................................... 59</p>
+<p>4.8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Structures.................................................................................................................... 61</p>
+<p>4.9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Classes......................................................................................................................... 62</p>
+<p>4.10&nbsp;&nbsp; Namespaces................................................................................................................ 65</p>
+<p>4.11&nbsp;&nbsp; Errors and Exceptions.............................................................................................. 65</p>
+<p>4.12&nbsp;&nbsp; Resource Cleanup...................................................................................................... 68</p>
+<p>4.13&nbsp;&nbsp; Interop........................................................................................................................... 80<br>
+<br>
+</p>
+<p>Each chapter in this document has to acknowledge <strong>Dan Ruder</strong>, a Principal Escalation Engineer of Microsoft. Dan carefully reviewed every word, and contributed review comments on significant portions of the book based on his more than 20 years&rsquo;
+ programming experience. Working with the nice man has been a special treat to me.
+<br>
+<br>
+I also thank four managers at Microsoft for continuously supporting and sponsoring the work:
+<strong>Vivian Luo</strong>, <strong>Allen Ding</strong>, <strong>Felix Wu</strong> and
+<strong>Mei Liang</strong>. <br>
+<br>
+This document wouldn&rsquo;t contain the depth of technical details or the level of completeness it has without the input of the following people<br>
+<br>
+<strong>Alexei Levenkov , Hongye Sun, Jie Wang, Ji Zhou, Michael Sun, Kira Qian, Allen Chen, Yi-Lun Luo, Steven Cheng, Wen-Jun Zhang, Linda Liu</strong></p>
+<p>Some chapters derive from several Microsoft product teams&rsquo; coding standards. I appreciate their sharing.<br>
+<br>
+The coding standards are continuously evolving. If you discover a new best practice or a topic that is not covered, please bring that to the attention of the All-In-One Code Framework Project Group (<a href="mailto:onecode@microsoft.com">onecode@microsoft.com</a>).
+ I look forward to appreciating your contributions.&nbsp; :-)</p>
+</div>

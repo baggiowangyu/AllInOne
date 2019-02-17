@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "GMAIL.com IS USING SMS CONFORMATION THAT SENDS SMS ALERT \"CONFORMATION CODE\" ON CELL PHONE ON SIGN UP.\n \nHOW IS THIS DONE???",
+    "LastUpdatedDate": "2013-02-21T18:59:35.593-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-11-23T18:08:02.527-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "C# EMAIL CONFERMATION HAS BEEN SENT? HOW TO MAKE ONE??? (C#)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9881
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Sample Request:",
+      "PostedDate": "2011-11-24T06:18:17.24-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-24T06:37:28.107-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-24T06:38:13.08-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:35.593-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

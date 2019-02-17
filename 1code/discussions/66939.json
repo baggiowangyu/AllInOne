@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "227569",
+    "ThreadId": "66939",
+    "Html": "<p>Is it possible to create a managed ActiveX component, such as the CSActiveX project, that targets the Compact Framework 2.0 ?<br>I would like to use ActiveX components created in C# or VB.net in 3rd party applications that runs on Windows CE 5.0.</p>\r\n<p>If it's not possible, can it be done in C++, possible using any of the C++ examples?</p>\r\n<p>Thanks for a great lib anyways.</p>\r\n<p>Regards</p>\r\n<p>/Calle</p>",
+    "PostedDate": "2009-08-25T11:03:44.753-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

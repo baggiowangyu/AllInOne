@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I need a sample for POCO code first or EDMX, in which every entity and/or relationship has an IsDeleted status. Once IsDeleted is set, the change must \"propagate\" himself to all children. When reading an Object/Entity from database, the object must contain all undeleted children, respective hierarchy.",
+    "LastUpdatedDate": "2013-02-21T18:59:18.907-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-05-03T04:41:39.08-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "POCO code first with cascading CRUD operations",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10727
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have been creating a Keyboard Macro that saves all the keystroke while it is running globally keystrokes and then a user can assign the saved keystrokes a hotkey and after that the user can paste the dat into active window just by pressing the hotkey, the main problem that I am facing is I don't know much about Visual Basic or Dot Net Framework, I am a student(makes projects in C++) but I got this project to be created in Visual Basic.....and I have succeeded so far in capturing the keystrokes and save them back into database but whenever press the hotkeys the data is pasted into the active window but my function that reads the data from the database won't stop executing until I kill the process from the task manager. I am call the function that reads the data from the database in a timer device , I have tried my best but failed, so any help will be appreciated,,,and I am attaching the compressed file entitled as \"FinalPoject.rar\" and also assist me in memory resource n stuff that I am not wasting extra memory!!!!!!! I am waiting thnx!",
+    "LastUpdatedDate": "2013-02-21T18:59:53.72-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-07-16T07:18:01.313-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Keyboard Macro in Visual Basic",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9100
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3409,
+      "FileName": "FinalProject.rar",
+      "DownloadUrl": ".\\3409"
+    }
+  ],
+  "Comments": []
+}

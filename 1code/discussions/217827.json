@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "461553",
+    "ThreadId": "217827",
+    "Html": "<p>Hello,</p>\r\n<p>I want to register my dll activeX in an environment where I don't have Visual Studio. My code has the same structure as the CSActiveX sample.</p>\r\n<p>Typical functions for registering dlls (as resgam or regsvr32) don't work. What I can do? an exe that invokes the ComRegisterFunction?</p>\r\n<p>Thanks in advance!</p>\r\n<p>Angeles</p>",
+    "PostedDate": "2010-06-30T01:34:32.143-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "463808",
+    "ThreadId": "217827",
+    "Html": "<p>Reg-free COM?</p>\r\n<p>I've just been working it out - a bit tricky but got there in the end.</p>\r\n<p>See:</p>\r\n<p><a href=\"http://msdn.microsoft.com/en-us/library/eew13bza.aspx\">http://msdn.microsoft.com/en-us/library/eew13bza.aspx</a></p>\r\n<p><a href=\"http://msdn.microsoft.com/en-us/library/ms973915.aspx\">http://msdn.microsoft.com/en-us/library/ms973915.aspx</a></p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2010-07-06T08:31:38.177-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

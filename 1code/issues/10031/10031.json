@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "In the Microsoft documentation for XBAP apps hosted in an HTML frame there is talk about utilizing the BrowserInteropHelper.HostScript to communicate between the Host and the WPF browser app. The documentation boasts that you can access the Document DOM, call Functions and access global variables. But the only example they give is HostScript.Close() to close the host application. I have been able to figure out  how to make both standard and custom function calls that do not require any return results using the setTimeout(). But I need some examples of how to pull information from the host with function calls that return values and also how to access the global variables as well as tapping into the DOM. For instance I would like to know when my browser apps host no longer has focus so I can make some modal operations go away until we have focus again. So I guess I would like some sample code to show how to hook into the hosts events and respond accordingly.",
+    "LastUpdatedDate": "2013-02-21T18:59:32.407-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-12-22T04:45:46.22-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Need Some Sample Code Using HostScript",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 10031
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

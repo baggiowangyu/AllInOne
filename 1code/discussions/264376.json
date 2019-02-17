@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "639299",
+    "ThreadId": "264376",
+    "Html": "\r\n<p>I have three steps</p>\r\n<p>A) Create a generic test. in Test Manager 2010<br>\r\nI have created automated test cases by editing the test case, going to the &quot;Associated Automation&quot; properties page to associate a generic test with the current test case.<br>\r\nWhat I want to do is: <br>\r\nUse the TFS API to create a test case, create a generic test, and associate the generic test with the test case.</p>\r\n<p>Using the TFS API I have been able to create a manual test case. However, I am not clear about how to associate the test case with a generic test program in the manner similar what you do with a test case work item.</p>\r\n<p>Example : Generic Test Sample in <a href=\"http://msdn.microsoft.com/en-us/library/ms243137(v=VS.100).aspx\">\r\nhttp://msdn.microsoft.com/en-us/library/ms243137(v=VS.100).aspx</a><br>\r\nI want to create this using some API, I dont want to do it manualy and also run it from Test Manager 2010 using API</p>\r\n<p>Then<br>\r\nB) Create a new build definition and select the test to run during the build. Using TFS API</p>\r\n<p>C) Run the build definition - Using TFS API</p>\r\n<p>Can you give me guidance on this?</p>\r\n<p>&nbsp;</p>\r\n",
+    "PostedDate": "2011-07-08T01:12:56.307-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

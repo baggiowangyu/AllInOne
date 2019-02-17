@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Looking through your available demos, you have a C# project that demos how to use a mouse hook.  However, I'm looking for an example of how to use a mouse hook asynchronously. I've already used P/Invoke to use the LowLevelMouseProc callback, but the documentation at http://msdn.microsoft.com/en-us/library/windows/desktop/ms644986(v=vs.85).aspx states that the hook is called in the context of the thread that installed it.  How could one install the mouse hook, save the information gathered from them (eg. mouse clicks) and then do work on that information from an asynchronous thread?",
+    "LastUpdatedDate": "2013-02-21T18:59:11.317-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-08-02T07:45:49.36-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Using mouse hooks asynchronously (C#)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 11047
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

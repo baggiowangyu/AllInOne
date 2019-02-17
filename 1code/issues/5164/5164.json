@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "http://msdn.microsoft.com/en-us/library/dd996924(VS.85).aspx#enum\nhttp://msdn.microsoft.com/en-us/library/aa385771(VS.85).aspx\n \nEventLogReader reader = new EventLogReader(\"Microsoft-Windows-UAC/Operational\", PathType.LogName);\n            EventRecord r = reader.ReadEvent();\n            MessageBox.Show(r.UserId.Value.ToString());",
+    "LastUpdatedDate": "2017-11-27T10:33:41.037-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-01-26T23:52:53.14-08:00",
+    "Status": {
+      "Name": "Active",
+      "Id": 2
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Event Log Reader",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 5164
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "http://social.msdn.microsoft.com/Forums/en-US/csharplanguage/thread/882df3d5-9a9b-437b-a6ab-e09873ce6ece",
+      "PostedDate": "2010-01-27T00:38:04.943-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:55.7-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T10:33:41.037-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

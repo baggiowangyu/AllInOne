@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello I have to measure the string being entered in richTextBox1 and stop the user when line 12 of the specified RectangleF is full and/or before the linesFilled is = 13.\nThis is a Windows Form application and this is the code but apparently I am missing something:\n \n    private void richTextBox1_TextChanged(object sender, EventArgs e)\n    {\n        strPrintText = richTextBox1.Text.ToString();\n        printFont1 = new Font(\"Times New Roman\", 10);\n        Graphics g = e.Graphics;\n        //float cyFont = printFont1.GetHeight(g);\n        StringFormat format1 = new StringFormat();\n        format1.Trimming = StringTrimming.Word; //Word wrapping\n        RectangleF rectfText;\n        int iCharactersFitted, iLinesFitted;\n        rectfText = new RectangleF(60.0F, 200.0F, 560.0F, 200.0F);\n        g.MeasureString(strPrintText, printFont1, rectfText.Size, format1, out iCharactersFitted, out iLinesFitted);\n \n        if (iLinesFitted == 13)\n        {\n            MessageBox.Show(\"Too many lines.\\nPlease erase some characters.\");\n        }\n    }\n \n \nThis is my first post here. I am new to programming, so please be patient with me if I ask dumb questions.\nThank you.",
+    "LastUpdatedDate": "2013-02-21T18:59:44.543-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-09-04T19:28:41.92-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "C# How to measure a string during richTextBox1_TextChanged event",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9483
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

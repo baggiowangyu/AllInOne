@@ -1,0 +1,158 @@
+[
+  {
+    "Id": "0",
+    "Name": "Sample Browser - by All-In-One Code Framework",
+    "DevelopmentStatus": "Stable",
+    "Description": "[image:http://i3.codeplex.com/Images/v19430/RuntimeBinary.gif] *[url:Install Sample Browser Visual Studio Extension|http://aka.ms/samplebrowservsx]*\n \n[image:http://i1.visualstudiogallery.msdn.s-msft.com/4934b087-e6cc-44dd-b992-a71f00a2a6df/image/file/82553/1/samplebrowserscreenshots.png]\n \n \n \n!! Sample Browser Gets a Big Refresh with Expansion to 3500+ code samples, Favorite Searches, Enriched Query Conditions & More\n\n*Detailed Introduction: \n[url:http://blogs.msdn.com/b/codefx/archive/2012/04/16/samplebrowserbigrefresh.aspx] *\n \n[image:http://i3.codeplex.com/Download?ProjectName=1code&DownloadId=368189]\n \n[image:http://i3.codeplex.com/Download?ProjectName=1code&DownloadId=368197]\n\n\n!!! New Features\n\n* Expansion to *3500+* code samples\n: The new Sample Browser is expanded to search and download over *3500* samples - including *800{\"+\"}* Microsoft All-In-One Code Framework samples, *480{\"+\"}* Windows 8 Beta samples, 600{\"+\"} Windows Forms, ASP.NET, Silverlight and WPF samples, and a lot more. \n\n* Favorite Samples and Favorite Searches\n* Support of English, Japanese and Simplified Chinese\n* Social Media Integration\n* Localized search experience\n* Flexibility in downloading and managing samples\n* Enriched Sample Query Conditions\n* Over 20 other new features, performance improvement, and bug fixes",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2012-12-29T09:46:27.087-08:00",
+    "Files": [
+      {
+        "Id": "3755d9dc-eaeb-4387-93b9-6bda7ec88e93",
+        "FileName": "SampleBrowser.application",
+        "Url": "./0/3755d9dc-eaeb-4387-93b9-6bda7ec88e93",
+        "Type": "Application",
+        "UploadDate": "2012-12-29T09:46:33.337-08:00"
+      },
+      {
+        "Id": "b66a6b92-ed93-4d5e-bfe4-f8455d284ccd",
+        "FileName": "SampleBrowserEULA.pdf",
+        "Url": "./0/b66a6b92-ed93-4d5e-bfe4-f8455d284ccd",
+        "Type": "Documentation",
+        "UploadDate": "2012-04-15T20:28:57.49-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "1",
+    "Name": "C++, .NET Coding Guideline",
+    "DevelopmentStatus": "Stable",
+    "Description": "!! Microsoft All-In-One Code Framework Coding Guideline\n\nThis document describes the coding style guideline for native C++ and .NET (C# and VB.NET) programming used by the Microsoft All-In-One Code Framework project team.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2013-06-03T12:24:44.07-07:00",
+    "Files": [
+      {
+        "Id": "e771acad-df66-4455-8501-7d9efc494b5d",
+        "FileName": "All-In-One Code Framework Coding Standards.docx",
+        "Url": "./1/e771acad-df66-4455-8501-7d9efc494b5d",
+        "Type": "Documentation",
+        "UploadDate": "2012-03-22T02:58:36.963-07:00"
+      },
+      {
+        "Id": "859709b1-5940-417a-9e7a-a2c09291ceca",
+        "FileName": "ActivityTypeMeasurement_LOC_JA-JP.TXT",
+        "Url": "./1/859709b1-5940-417a-9e7a-a2c09291ceca",
+        "Type": "Example",
+        "UploadDate": "2013-06-03T12:24:24.96-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "[Microsoft Next] All-In-One Code Framework",
+    "DevelopmentStatus": "Stable",
+    "Description": "!!! Celerbrating that All-In-One Code Framework wins recognition in [url:Global Microsoft Next|http://blogs.technet.com/b/microsoft_blog/archive/2011/04/20/meet-microsoft-s-next-generation-of-innovators.aspx] contest.  Thanks to the CodePlex community members for the continuous support of All-In-One Code Framework!!\n\n!!! Watch the video:\n\n[image:Microsoft Next: All-In-One Code Framework|http://i3.codeplex.com/Project/Download/FileDownload.aspx?ProjectName=1code&DownloadId=231203|http://www.microsoft.com/showcase/en/us/details/40015bbc-2ded-4aba-9613-2c5a47ee3084]",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2011-05-26T02:31:38.567-07:00",
+    "Files": []
+  },
+  {
+    "Id": "3",
+    "Name": "All-In-One Code Framework Sample Browser",
+    "DevelopmentStatus": "Stable",
+    "Description": "[image:http://download.codeplex.com/Download?ProjectName=1code&DownloadId=288354]\n\n*Introduction*: [url:http://samplebrowserhelp]\n\n!!! Visual Studio Extension of the Sample Browser is released too!\nInstall: [url:http://aka.ms/samplebrowservsx]\nYou can search and download code samples from within Visual Studio 2010.\n\n[image:http://i1.visualstudiogallery.msdn.s-msft.com/4934b087-e6cc-44dd-b992-a71f00a2a6df/image/file/59259/1/screenshot1.png]",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2012-04-15T20:31:06.973-07:00",
+    "Files": [
+      {
+        "Id": "68cb287b-ed73-47b5-9684-d7d1efe1bed0",
+        "FileName": "SampleBrowser.application",
+        "Url": "./3/68cb287b-ed73-47b5-9684-d7d1efe1bed0",
+        "Type": "Application",
+        "UploadDate": "2012-04-15T20:22:20.027-07:00"
+      },
+      {
+        "Id": "2aac94ef-e609-4ee2-905c-2af4e8b4667a",
+        "FileName": "SampleBrowserEULA.pdf",
+        "Url": "./3/2aac94ef-e609-4ee2-905c-2af4e8b4667a",
+        "Type": "Documentation",
+        "UploadDate": "2011-04-15T21:07:19.12-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "Microsoft All-In-One Code Framework Sample Browser",
+    "DevelopmentStatus": "Stable",
+    "Description": "[image:http://download.codeplex.com/Project/Download/FileDownload.aspx?ProjectName=1code&DownloadId=228028]\n\n!! Key features of Sample Browser v3\n*1. \"on-demand\" sample downloading*\nThe Sample Browser is a small and easy-to-install application. It searches for Microsoft All-In-One Code Framework code samples.  Based on your demands, you have the flexible choice between downloading individual code sample by clicking the “Download” button next to the code sample, \n\n[image:http://download.codeplex.com/Project/Download/FileDownload.aspx?ProjectName=1code&DownloadId=228032]\n\nand downloading all code samples in one click. \n\n[image:http://download.codeplex.com/Project/Download/FileDownload.aspx?ProjectName=1code&DownloadId=228034]\n\n*2. Sample download management*\n\nIn Sample Browser v3,  you can configure the folder for managing all downloaded code samples. \n\n[image:http://download.codeplex.com/Project/Download/FileDownload.aspx?ProjectName=1code&DownloadId=228035]\n\nWe recommend that you download all code samples to a centralized place, e.g. \"D:\\Samples\".  Microsoft All-In-One Code Framework Sample Browser will help you manage the downloaded code samples.  If a sample has already been downloaded, Sample Browser displays the “Open” button next to the code sample:\n\n[image:http://download.codeplex.com/Project/Download/FileDownload.aspx?ProjectName=1code&DownloadId=228036]\n\nIf an update becomes available for a code sample, a [Update Available] button will remind you to download the updated code sample. \n\n[image:http://download.codeplex.com/Project/Download/FileDownload.aspx?ProjectName=1code&DownloadId=228037]\n\n*3. Auto-update*\n\nThanks to ClickOnce, you will automatically get updates of Microsoft All-In-One Code Framework Sample Browser when its new versions come out.\n\n[image:http://download.codeplex.com/Project/Download/FileDownload.aspx?ProjectName=1code&DownloadId=228039]\n\nShould you have any feedback, please feel free to let us know by sending email to us at here: [url:onecode@microsoft.com]. Your suggestions are very much appreciated.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2011-04-15T20:59:03.973-07:00",
+    "Files": [
+      {
+        "Id": "32289473-c5e5-47cd-964c-21923bbe1586",
+        "FileName": "SampleBrowser.application",
+        "Url": "./4/32289473-c5e5-47cd-964c-21923bbe1586",
+        "Type": "Application",
+        "UploadDate": "2011-04-15T20:53:24.343-07:00"
+      },
+      {
+        "Id": "1495921f-2d19-46c1-b55a-ea05d63a0560",
+        "FileName": "SampleBrowserEULA.pdf",
+        "Url": "./4/1495921f-2d19-46c1-b55a-ea05d63a0560",
+        "Type": "Documentation",
+        "UploadDate": "2011-04-15T20:59:01.363-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "All-In-One Code Framework Mouse Pad",
+    "DevelopmentStatus": "Stable",
+    "Description": "Mouse pad",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2011-02-08T17:50:24.463-08:00",
+    "Files": [
+      {
+        "Id": "66482554-6dc1-4de0-b13b-756d00572127",
+        "FileName": "mousepad.eps",
+        "Url": "./5/66482554-6dc1-4de0-b13b-756d00572127",
+        "Type": "Documentation",
+        "UploadDate": "2011-02-08T17:50:20.62-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "6",
+    "Name": "Sample Browser v2 (CTP Release)",
+    "DevelopmentStatus": "Beta",
+    "Description": "Sample Browser v2 (CTP Release)\n\n[image:http://i3.codeplex.com/Project/Download/FileDownload.aspx?ProjectName=1code&DownloadId=205917]",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2011-02-07T02:13:10.91-08:00",
+    "Files": [
+      {
+        "Id": "af5cd7ca-36e3-4696-9aee-e489f4670305",
+        "FileName": "All-In-One Code Framework.zip",
+        "Url": "./6/af5cd7ca-36e3-4696-9aee-e489f4670305",
+        "Type": "Application",
+        "UploadDate": "2011-02-07T02:13:07.193-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "7",
+    "Name": "Sample Browser",
+    "DevelopmentStatus": "Stable",
+    "Description": "[image:http://i3.codeplex.com/Images/v19430/RuntimeBinary.gif] *[url:Install Sample Browser Visual Studio Extension|http://aka.ms/samplebrowservsx]*\n \n[image:http://i1.visualstudiogallery.msdn.s-msft.com/4934b087-e6cc-44dd-b992-a71f00a2a6df/image/file/82553/1/samplebrowserscreenshots.png]\n \n \n \n!! Sample Browser Gets a Big Refresh with Expansion to 3500+ code samples, Favorite Searches, Enriched Query Conditions & More\n\n*Detailed Introduction: \n[url:http://blogs.msdn.com/b/codefx/archive/2012/04/16/samplebrowserbigrefresh.aspx] *\n \n[image:http://i3.codeplex.com/Download?ProjectName=1code&DownloadId=368189]\n \n[image:http://i3.codeplex.com/Download?ProjectName=1code&DownloadId=368197]\n\n\n!!! New Features\n\n* Expansion to *3500+* code samples\n: The new Sample Browser is expanded to search and download over *3500* samples - including *800{\"+\"}* Microsoft All-In-One Code Framework samples, *480{\"+\"}* Windows 8 Beta samples, 600{\"+\"} Windows Forms, ASP.NET, Silverlight and WPF samples, and a lot more. \n\n* Favorite Samples and Favorite Searches\n* Support of English, Japanese and Simplified Chinese\n* Social Media Integration\n* Localized search experience\n* Flexibility in downloading and managing samples\n* Enriched Sample Query Conditions\n* Over 20 other new features, performance improvement, and bug fixes",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2015-03-20T14:06:56.053-07:00",
+    "Files": [
+      {
+        "Id": "1eadf2fc-84fd-4e86-acda-9840c7dcee8f",
+        "FileName": "SampleBrowser.application",
+        "Url": "./7/1eadf2fc-84fd-4e86-acda-9840c7dcee8f",
+        "Type": "Application",
+        "UploadDate": "2015-03-20T13:59:58.113-07:00"
+      }
+    ]
+  }
+]

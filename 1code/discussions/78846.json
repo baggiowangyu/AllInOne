@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "269953",
+    "ThreadId": "78846",
+    "Html": "<p>All,</p>\r\n<p>First off, I'm really impressed with the quality of this tool kit.&nbsp; Well done!</p>\r\n<p>I've been struggling with a problem for the last several days regarding latebinding and events.&nbsp; I've based my test EXE Com server off the CSExeCOMServer project and followed some suggestions found on a forum about using latebinding to get an out-of-process EXE.&nbsp; The Latebinding example does not have an example of how to capture events and this has been the source of my struggles.&nbsp;</p>\r\n<p>Currently my test client application is written in managed C++ since all the applications I will connect this to are managed C++.&nbsp; I've been able to create a sink interface matching the COM event interface and was able to &quot;Advise&quot; using an IConnectionPoint without error.&nbsp; Unfortunately, when FloatPropertyChanging is called in the COM server during the call to set_FloatProperty it throws a TargetInvocationException.&nbsp;</p>\r\n<p>Is there something I'm missing here about trying to capture these out-of-process events through late binding?&nbsp; I'm starting to feel like I am missing something since the example doesn't include source for late binding event handling.</p>\r\n<p>Any help here would be greatly appreciated.</p>\r\n<p>Jim</p>",
+    "PostedDate": "2009-12-22T08:40:09.193-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "270202",
+    "ThreadId": "78846",
+    "Html": "<p>Hello Jim</p>\r\n<p>Thanks for the appreciation. Please try these possible solutions. I have not tested them by myself. If they do not work, please let me know.</p>\r\n<p>Possible Solution1.</p>\r\n<p>Step1. Try to export the type library (.tlb) from the out-of-proc COM server by using tlbexp:</p>\r\n<p>tlbexp CSExeCOMServer.exe /out:CSExeCOMServer.tlb</p>\r\n<p>You will get CSExeCOMServer.tlb then.</p>\r\n<p>Step2. Use ATL in your C++ project to register the event. (See the ATLCOMClient sample)</p>\r\n<p>&nbsp;</p>\r\n<p>Possible Solution2</p>\r\n<p>Register event through .NET Reflection</p>\r\n<p>I don't know whether this works for COM events, but it deserves a trial:</p>\r\n<p><a href=\"http://skysigal.xact-solutions.com/Blog/tabid/427/EntryId/1003/-NET-Reflection-Wiring-up-Event-Handlers-using-Reflection-and-Delegates.aspx\">http://skysigal.xact-solutions.com/Blog/tabid/427/EntryId/1003/-NET-Reflection-Wiring-up-Event-Handlers-using-Reflection-and-Delegates.aspx</a></p>\r\n<p>&nbsp;</p>\r\n<p>Jialiang Ge</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-12-23T01:02:23.223-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

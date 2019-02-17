@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Need a good example written in c# on how to deal with complex data types on the client end of an ASP.NET application. Creating the wcf data service exposing the EF model and importing a stored procedure as a function is not that dificult to do. However, consuming a stored proc always returns nothing.\n \nI have read that this is because there is no entity attached to the proc and therefore the data is not transformed(deserialized) correctly, causing an exception.\n \nI hope that this one is not a big one to get some sample code.\nThanks in advance,\nAl Longobardi",
+    "LastUpdatedDate": "2013-02-21T18:59:15.307-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-06-07T15:16:12.987-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "wcf data services using entity framework with stored procedures utilizing complex data types.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10863
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

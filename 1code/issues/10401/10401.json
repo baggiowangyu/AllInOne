@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I know ActiveDocumentHost Control in VS2005 Beta1 (.NET Framework 2 beta1),but it's removed in RTM,DSOFramer are removed from Microsoft Website.FramerEx is old too.I know ActiveDocumentHost can't implements IOleDocumentSite Interface,so no ScrollBar on DocumentView.\nWe need a managed control to host office files,with out WebBrowser Control,with out DSOFramer,pure managed.\nI try to translate DSOFramer c++ code to c#,but failed.",
+    "LastUpdatedDate": "2013-02-21T18:59:28.22-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-02-18T09:52:49.01-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Host Office File(Word,Excel,PowerPoint,etc) in .NET WinForm",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 10401
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

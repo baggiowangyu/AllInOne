@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "444789",
+    "ThreadId": "213142",
+    "Html": "<p>Hello,</p>\r\n<p>&nbsp;</p>\r\n<p>I'm using the CSActiveX code to create an activex dll to use it like an ole object in Power Builder 11.5.</p>\r\n<p>I got that power builder accept it as an OLE object, and insert it in form.<br>I can see events (click and FloatPropertyChanging) but I can't see the methods and properties. <br>I followed the explanations step by step&nbsp; but I can't find any solution. Can anyone help me?</p>\r\n<p>Thanks in advance</p>\r\n<div id=\"_mcePaste\" style=\"width:1px;height:1px;overflow:hidden;top:0px;left:-10000px\">﻿</div>\r\n<p>Angeles</p>",
+    "PostedDate": "2010-05-19T03:28:37.613-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "445317",
+    "ThreadId": "213142",
+    "Html": "<p>Hello Angeles</p>\r\n<p>I do not have Power Builder, so it's difficult for me to test this problem.</p>\r\n<p>Can you try building MFCActiveX, and insert MFCActiveX into a Power Builder form? MFCActiveX is the native version of CSActiveX. If MFCActiveX's methods and properties are not&nbsp;displayed in Power Builder either, it may be a problem in Power Builder.</p>",
+    "PostedDate": "2010-05-20T02:21:59.46-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "446556",
+    "ThreadId": "213142",
+    "Html": "<p>Hello Jialiang,</p>\r\n<p>You are right, the problem is Power Builder. Your code works with power builder, adding the dll activex like an ole object. <span id=\"result_box\"><span>I can&nbsp;use the methods and properties, the problem is that these are not loaded in the tree of resources available to the object. It's only a &quot;visibility&quot; problem when&nbsp;I'm developing in Power Builder(it's my first time using it...).</span></span></p>\r\n<p><span><span>&nbsp;</span></span></p>\r\n<p><span><span>Thank you very much!!&nbsp;</span></span></p>\r\n<p><span><span>&Aacute;ngeles</span></span></p>",
+    "PostedDate": "2010-05-24T01:59:43.753-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

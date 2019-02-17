@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "How do i make a secured Menu based on User roles in WPF?\nIs there a framework or a third party control to automate the Process?\nThank you!",
+    "LastUpdatedDate": "2013-02-21T18:59:53.16-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-07-18T04:35:13.213-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Menu Security in WPF",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 9105
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "hi doorscomputers,\r\n\r\nThank you for using our code sample request service. \r\nYour sample idea is about how to differentiate levels holding different responsibilities. You'd better use table and set some field to store the role authority in Sql server 2008 or any other database. If variety roles login in the system, then you can use select clause  to select authority field and position which menu item should be viewed by customer. It is general approach to do this business logic. If you want to use third party component to support this function, we are not right to do that. This sample diea is based on business logic, so we are hard to refine a good one for composing it. But we are still thankful for your kind suggestion.\r\n\r\n\r\n\r\n\r\nHave a good day\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-07-24T20:26:15.853-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T17:37:33.19-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:53.16-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

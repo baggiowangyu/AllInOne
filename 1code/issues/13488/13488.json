@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I had created a basic project system by following this MSDN [Walkthrough](https://msdn.microsoft.com/en-us/library/vstudio/cc512961.aspx?f=255&MSPPError=-2147217396) Its guiding me to create a new Visual Studio project system, that the project is a simple console project. I want to create a project system which can create web project which can run in a browser. Please provide me a code sample as soon as possible. I had searched the whole web for months and cant find a way. Please help me.",
+    "LastUpdatedDate": "2015-07-19T09:39:13.463-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2015-03-04T21:57:44.373-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "VSIX: Web project system",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 2,
+    "Id": 13488
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

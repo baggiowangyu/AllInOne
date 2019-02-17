@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The newly added sample code \"CSASPNETHighlightCodeInPage\" has a bug.\n \nWhen I run this web application.  I paste the content of the \"CodeManager.cs\" that is located inside this sample project into textbox.  Then I click on the  \"HighLight\" button on this page.   The page will run into a infinite loop.",
+    "LastUpdatedDate": "2013-02-21T18:59:44.71-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-09-04T08:34:50.807-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Bug report: CSASPNETHighlightCodeInPage",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9482
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi,\r\nThanks for reply.\r\nIn this sample, we use some intermediate string variables for handling the highlight function, such as replace code comments or single(double) quotes marks, so you can's add these variables in code for highlight, we can call them as \"key words\". In \"CodeManager.cs\" file, we put all key words in it, so the application will run into a infinite loop when you paste the content of CodeManager.cs file. \r\nThe key words was begin with two underline, for example:\r\n\r\n        if (language != \"css\") for (i = 0; i < styleString.Count; i++)\r\n                    codeString = codeString.Replace(\"__StringVariables\" +\r\n                i + \"__\", styleString[i].ToString());\r\n            if (language == \"cs\") for (i = 0; i < xmlnote.Count; i++)\r\n                    codeString = codeString.Replace(\"__XMLComments\" +\r\n                i + \"__\", xmlnote[i].ToString());\r\n            for (i = 0; i < note.Count; i++)\r\n                codeString = codeString.Replace(\"__Comments\"\r\n                + i + \"__\", note[i].ToString());\r\n            if (language != \"css\")\r\n            {\r\n                // Replace the string which contains comments.\r\n                if (codeString.IndexOf(\"__XMLComments\") != -1)\r\n                    for (i = 0; i < styleString.Count; i++)\r\n                        for (i = 0; i < xmlnote.Count; i++)\r\n                            codeString = codeString.Replace(\"__XMLComments\" + i\r\n                                + \"__\",ClearHTMLTag(xmlnote[i].ToString()));\r\n                if (codeString.IndexOf(\"__Comments\") != -1)\r\n                    for (i = 0; i < styleString.Count; i++)\r\n                        for (i = 0; i < note.Count; i++)\r\n                            codeString = codeString.Replace(\"__Comments\" + i\r\n                                + \"__\",ClearHTMLTag(note[i].ToString()));\r\n                if (codeString.IndexOf(\"__StringVariables\") != -1)\r\n                    for (i = 0; i < styleString.Count; i++)\r\n                        codeString = codeString.Replace(\"__StringVariables\" + i\r\n                            + \"__\", ClearHTMLTag(styleString[i].ToString()));\r\n\r\n                if (codeString.IndexOf(\"__XMLComments\") != -1)\r\n                    for (i = 0; i < xmlnote.Count; i++)\r\n                        codeString = codeString.Replace(\"__XMLComments\" + i\r\n                            + \"__\", xmlnote[i].ToString());\r\n                codeString = codeString.Replace(\"__CharactersQuotes__\", \"\\\\\\\"\")\r\n                    .Replace(\"__CharactersSingleQuote__\", \"\\\\'\");\r\n            }\r\n\r\nThe \"__Comments\",\"__XMLComments\",\"__StringVariables\",\"__CharactersQuotes__\",\"__CharactersSingleQuote__\" are key words, if the application find your code, it will add some them with specifical characters, and in the next loop, the application will find them again.. so i suggest you replace them with only one underline marks, such as \"_Comments\",\"_XMLComments\",etc.\r\nHope it can help you.\r\nThanks.",
+      "PostedDate": "2011-09-22T19:26:45.257-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:44.71-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

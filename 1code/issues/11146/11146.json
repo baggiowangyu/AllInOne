@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "when we write code for datagridheaderstyle like this:\n<DataGrid AutoGenerateColumns=\"True\" Name=\"dataGridBook\" ItemsSource=\"{Binding}\" >\n                \n                <DataGrid.ColumnHeaderStyle>\n                    <Style TargetType=\"{x:Type DataGridColumnHeader}\">\n                        <Style.Setters>\n                        <Setter Property=\"Template\">\n                                <Setter.Value>\n                                    <ControlTemplate TargetType=\"{x:Type DataGridColumnHeader}\">\n                                        \n                                            <!--<TextBlock Grid.Column=\"0\" Text=\"{TemplateBinding Content}\"></TextBlock>-->\n                                            <telerik:RadExpander Header=\"{TemplateBinding Content}\">\n                                                <Grid x:Name=\"headerGrid\">\n                                                    <Grid.ColumnDefinitions>\n                                                        <ColumnDefinition Width=\"auto\"></ColumnDefinition>\n                                                        <ColumnDefinition Width=\"*\"></ColumnDefinition>\n                                                    </Grid.ColumnDefinitions>\n                                                    <Button Content=\"{TemplateBinding Content}\" Grid.Column=\"0\" Click=\"GridHeaderButton_Click\"></Button>\n                                                    <TextBox x:Name=\"txt1\" Grid.Column=\"1\" Text=\"{TemplateBinding Content}\"></TextBox>\n                                                </Grid>\n                                            </telerik:RadExpander>\n                                          \n                                        \n                                    </ControlTemplate>\n                                </Setter.Value>\n                        </Setter>\n                        </Style.Setters>\n                    </Style>\n                </DataGrid.ColumnHeaderStyle>\n            </DataGrid>\n \nwe cant access controls\nplease find a way for this problem.\nthankful.",
+    "LastUpdatedDate": "2013-02-21T18:59:09.41-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-09-02T06:27:32.497-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Access Controls in datagridheaderdtyle",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11146
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

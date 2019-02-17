@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi,\n \nTo secure my tiles, i need to implement signature token with my tile path. I am using amazon storage. All my tiles are stored in amazon S3 and cloudFront and they are private. To access them i need to put signature token after the tile's path. I have created a custom tile source which put the signature after tile's path and it is working well with single image i mean with dzi. Now i need it to implement for collection, i mean for dzc. But i can not create a custom tile source for collection image. \n \nCan anyone help me to create a custom tile source for collection base deepzoom image. Please help me to accomplish it. I need it ASAP.\n \n \n \nregards\n \nHabib",
+    "LastUpdatedDate": "2013-02-21T18:59:32.22-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-12-23T01:08:02.023-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Custom tile source for collection image in deepzoom",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 10034
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

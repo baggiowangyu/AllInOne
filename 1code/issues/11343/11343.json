@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "There does not seem to be a lot of content on coding against the Microsoft.Office.Interop.Visio 14.0 .NET library.\nWhat is required. (using VB.Net, but can be C#)\n'Create Visio instance in code\n'Create new blank document using visio instance\n'Get reference to the current page \n    Public vApp As Visio.Application = New Visio.Application()\n    Public vDoc As Visio.Document = vApp.Documents.Add(\"\")\n    Public vPg As Visio.Page = vApp.ActivePage\n\n'Create a reference to the CrossFunctional master to get access to the swimlane objects\nDim cffStencil As Visio.Document =  vApp.Documents.OpenEx(Application.StartupPath & \"\\XFUNC_M.VSS\", 4)\n\n'Create a vertical swimlane object and place it on the page\nDim lane1 As Visio.Master = cffStencil.Masters(\"Swimlane (Vertical)\")\nvPg.Drop(lane1, 1.25, 7.25) 'HMiddel of lane should be at inch 1.25, VMiddel should be at inch 7.25\n\n\nNow from here I am stumped.\nI need to:\n1. Change the text in the title bar to \"Front Office\"\n2. Change the text in the lane description from function to \"Admin\"\n3. Add additional lanes to the pool (pool = \"Front Office\", Lane = \"Admin\")\n4. Add additional pools\n5. Add shapes (ie process) to a lane, specified by its Pool and lane description (ie \"Front Office\" + \"Admin\"), at a point within the lane, centered horz within the lane and at increasing Y coords\n6. The shapes must be connected eventually with angle connecters\n\nThe attachment is a visio doc manually created from within visio. I have a dataset of data that needs to be iterated over and according to the information within the dataset, pools, lanes, shapes must be added to the document.\n\nI have not been able to find sufficient documentation or help, none of the API methods have intelisense to explain the paramaters required or what the methods are used for.\n\nPlease help with a solution or point me in the direction of resource specifically regarding Cross Functional Flowcharts automation from within .NET\n\nThank you",
+    "LastUpdatedDate": "2013-02-21T18:59:05.317-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-11-07T00:38:12.743-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Visio Cross Functional Flowchart API usage",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11343
+  },
+  "FileAttachments": [
+    {
+      "FileId": 4302,
+      "FileName": "Example Diagram and dataset.zip",
+      "DownloadUrl": ".\\4302"
+    }
+  ],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "i'm currently working on an Outlook 2007 add-in (C#), to which I'm looking to add a federated search capability. \nI would like to know if it is possible ? and if so how i can retrieve searchtext (AQS) typed in by  user in the instant search box, by hooking  Outlook.ExplorerEvents_10_Event.\ni'm sorry to raise a basic question, but i'm not able to find any concret example.   \nBest\nJean",
+    "LastUpdatedDate": "2013-02-21T19:00:05.35-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-05-03T15:25:52.23-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Looking on howto retrieve searchtext from outlook 2007 instantsearch",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8742
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

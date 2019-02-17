@@ -1,0 +1,125 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi All,\n \nReferring to my discussion entry (http://1code.codeplex.com/Thread/View.aspx?ThreadId=233347) I'd like to officially request a ICopyHook ShellExtension example written in C# (CLR 4.0). According to Jialiang this will be the next sample he will attack :). Looking forward to seeing a managed CopyHook extension!\n \nPurpose: I'll need it for my application in order to provide better drag and drop support, i.e. to be able to get the drop target in Windows Explorer. See http://winscp.net/eng/docs/dragext for more details why one need it.\n \nRegards,\nYves",
+    "LastUpdatedDate": "2014-08-14T07:33:59.78-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-08T23:49:59.997-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "C# ICopyHook implementation based on CSShellExt*",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 7617
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello\r\n\r\nThanks for submitting the code sample request! \r\n\r\nYes, I will look into this sample request and write it after I finish another shell extension sample. ",
+      "PostedDate": "2010-11-09T23:00:12.077-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Just curious if this request is one the mentioned 5 which are already in development (http://blogs.msdn.com/b/codefx/archive/2010/11/08/please-join-us-to-vote-for-code-samples-topics-and-become-a-star-of-the-month-episode-1.aspx)? \r\n\r\nGreat initiative btw!\r\n\r\nYves",
+      "PostedDate": "2010-11-15T00:44:14.343-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Any chance to give me an idea when this sample will be finished? Should know it if I need to make another attempt to implement it. Thanks!",
+      "PostedDate": "2010-11-23T14:18:39.977-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-03T08:28:18.263-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "is there any progress on this? i would really love to have something to work on over the holidays.",
+      "PostedDate": "2010-12-14T03:20:59.143-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "hello \r\n\r\nI finally finished the preview handler sample requested by another customer on Monday, and I'm now full-time working on ICopyHook one. I will try my best to finish and publish the C# version before Christmas. ",
+      "PostedDate": "2010-12-15T06:10:42.293-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "thats great news. really thankfull that you take some time out of your day to help",
+      "PostedDate": "2010-12-15T06:29:02.527-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks Jialiang, your effort is very much appreciated! Yves",
+      "PostedDate": "2010-12-15T06:30:07.223-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello\r\n\r\nI have finished the copy hook handler code samples. You can download them from:\r\n\r\nCSShellExtCopyHookHandler (the .NET 4 C# version) http://1code.codeplex.com/releases/view/57436#DownloadId=189054\r\nVBShellExtCopyHookHandler (the .NET 4 VB version) http://1code.codeplex.com/releases/view/57436#DownloadId=189055\r\nCppShellExtCopyHookHandler (the C++ version) http://1code.codeplex.com/releases/view/57436#DownloadId=189053\r\n\r\nThe example copy hook handlers hook the renaming operation of folders in Windows Explorer. When you are renaming a folder whose name contains \"Test\" in the Shell, the copy hook handler pops up a message box, asking if the user really wants to rename the folder. If the user clicks \"Yes\", the operation will proceed. If the user clicks \"No\" or \"Cancel\", the renaming operation is cancelled. \r\n\r\nIn readme.txt of the samples, you can find the detailed demo steps, and implementation. \r\n\r\nNOTE: You must restart Windows Explorer (explorer.exe) process after you install the copy hook handler. The reason is that the shell builds and caches a list of registered copy hook handlers the first time copy hook handlers are called in a process. Once the list is created, there is no mechanism for updating or flushing the cache other than terminating the process. The best option that we can offer at this point is to restart the explorer.exe process or reboot the system after the copy hook handler is registered.\r\n\r\nPlease try these samples and let me know if they work for you.  \r\n\r\nI'm working on the other code sample requests now...\r\n\r\nAs we are in the beginning of providing the code sample request service, your feedback is really important to us, so that I can prove to my managers that it's a valuable service for customers, and it's a right thing for my managers to invest. Our feedback alias is: onecode@microsoft.com.\r\n\r\nThanks\r\nJialiang Ge",
+      "PostedDate": "2010-12-20T01:24:25.93-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks Jialiang, just read through the README. A short question: Is the .NET 4 Client Profile sufficient on a target machine to run the shell extension?",
+      "PostedDate": "2010-12-20T01:46:15.47-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "looks great. thank you very much Jialiang",
+      "PostedDate": "2010-12-20T02:31:45.273-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi, unfortunately this approach only works for folders. Does someone have any idea how to do the same for files? more precisely, how to detect when the user tries to move a file with Explorer (e.g. by choosing \"paste\" or by pressing CTRL+v) ? after detecting it, how to bypass the standard Explorer move file progress dialog and use your own file move dialog instead? Thank you very much for any hint.",
+      "PostedDate": "2011-02-07T02:59:33.707-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi, Jialiang,\r\nI have downloaded the ICopyhook sample and registered it, it gets registered with appropriate entries, but no matter how I try, the CopyCallback never gets called, What could be the issue ?\r\nRegards,\r\nHaris",
+      "PostedDate": "2011-02-26T01:11:13.833-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello Jialiang,\r\nI have tried the ICopyHook code, the dll gets registered but no matter how I try the CopyCallback never gets called. What could be the issue?, the registry entry for Directory>shellex>CopyHandlers is there. Really stucked in there.\r\n\r\nRegards,\r\nHaris",
+      "PostedDate": "2011-02-26T03:56:30.53-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:41.437-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello,\nCan someone send me the C# and C++ code, the links posted above are not working, i really appreciated, my email address is: marcelagraz@gmail.com",
+      "PostedDate": "2014-08-14T07:27:03.917-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-08-14T07:33:59.78-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

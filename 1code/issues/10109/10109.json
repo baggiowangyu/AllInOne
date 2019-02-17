@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "How to retrieve a Complex Type when executing a ESql command using EntityCommand and EntityDataReader. I defined in the Entity Model (Northwind database) a complex type containing the postal code and the city field of the customer entity. In the code below how can I convert the object objPostalcodeCity of type DbDataRecord to the Edm defined type \"PostalcodeCity\" ?\n \nUsing conn As New EntityConnection(\"name=NorthwindEntities\")\n\tDim strESQL As String = \"SELECT VALUE cust FROM NorthwindEntities.Customers as cust WHERE cust.CustomerID = 'ALFKI'\"\n\tconn.Open()\n\tDim cmd As EntityCommand = conn.CreateCommand()\n\tcmd.CommandType = CommandType.Text\n\tcmd.CommandText = strESQL\n\tUsing drd As EntityDataReader = cmd.ExecuteReader(System.Data.CommandBehavior.SequentialAccess)\n\t\tWhile drd.Read()\n\t\t\tDim custID As String = drd.GetString(0)\n\t\t\tDim objPostalcodeCity As DbDataRecord = drd.GetValue(9)\n\t\tEnd While\n\tEnd Using\nEnd Using",
+    "LastUpdatedDate": "2013-02-21T18:59:31.367-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-01-07T04:56:16.597-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Returns Complex Type object when using EntityDataReader",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10109
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

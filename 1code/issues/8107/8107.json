@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Need a Thread that checks a tcp port every 100 miliseconds looking for a certain string but  If it finds the string during this time(maybe in the milisecond 12) it  starts a second thread and  pass the string to it to do the job. Once the job is finished this thread pass the data to  form1 thread to display the calculation in a control and has to be stopped to start again when started by the first thread.\nNote.- I do the job in only one thread, I mean only in a single form with several subs and functions inside a timer with an interval of 100 miliseconds but I cannot implement it with threads even reading the existing examples. Thanks\nI am talking about doing it in Visual Basic(8-10) Net",
+    "LastUpdatedDate": "2013-02-21T19:00:32.737-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-09T01:34:21.207-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "TIMER THREADING",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 8107
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello emari2\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\nThere will be two or threads (depending on what timer would you like to you. Windows.Forms.Timer? or Threading.Timer?) involved in this code sample. If you use Threading.Timer, it is three threads:\r\n\r\nThread 1: the timer thread for Threading.Timer\r\nThread 2: the thread that \"does the job\" for the passed string\r\nThread 3: the UI thread\r\n\r\nThe timer thread (thread 1) checks a tcp port every 100ms. When the timer thread finds the wanted string, it wakes the thread 2 to do the job upon the string. When thread 2 finishes the job, it asks the UI thread (thread 3) to update the UI, and then goes asleep, until next time, thread 1 finds another string, and wakes it up to do the job.\r\n\r\nIs my understanding correct? Please let me know if I misunderstood your needs.\r\n\r\nThis looks a request of a multi-threading code sample. The wake and sleep logic of thread 2 can be implmeneted using a ManulResetEvent (http://msdn.microsoft.com/en-us/library/system.threading.manualresetevent.aspx).\r\n\r\nLet's see how many people will vote for it. \r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com \r\n\r\n",
+      "PostedDate": "2011-01-10T01:49:20.633-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks a lot Jialiang. You understood perfectly well my request. I have been programing since 1981 and will all the visual basic updates but never took the threading line of programming and now for my simulations (I get my retirement the next 28th- 65 and still learning) it is a a departure issue that I want to learn. I read a lot about threading but I gave up at this one as I do not know how to imprement: first the first thread, second the passing parameters etc. even when yerterday I have been studing a bit about delegates. But any help will be appreciated and I am quite sure it would be good for the general programming comunity.\r\nAgain, many thanks.",
+      "PostedDate": "2011-01-10T08:55:08.157-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-01-20T17:54:32.287-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T18:50:33.72-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-02-15T23:39:24.367-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:32.737-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

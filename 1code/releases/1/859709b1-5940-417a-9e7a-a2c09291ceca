@@ -1,0 +1,143 @@
+﻿  <data name="ActivityTypeArticlesText" xml:space="preserve">
+    <value>記事</value>
+  </data>
+  <data name="ActivityTypeBlogSitePostsText" xml:space="preserve">
+    <value>ブログへの投稿</value>
+  </data>
+  <data name="ActivityTypeBookAuthorText" xml:space="preserve">
+    <value>出版（書籍）</value>
+  </data>
+  <data name="ActivityTypeBookCoAuthorText" xml:space="preserve">
+    <value>出版（共著・寄稿・技術監修）</value>
+  </data>
+  <data name="ActivityTypeCodeProjectToolsText" xml:space="preserve">
+    <value>サンプル プロジェクト/ツール</value>
+  </data>
+  <data name="ActivityTypeCodeSamplesText" xml:space="preserve">
+    <value>サンプル コード</value>
+  </data>
+  <data name="ActivityTypeConferenceBoothPresenterText" xml:space="preserve">
+    <value>カンファレンス（ブースでの発表）</value>
+  </data>
+  <data name="ActivityTypeConferenceOrganizerText" xml:space="preserve">
+    <value>カンファレンス（主催）</value>
+  </data>
+  <data name="ActivityTypeForumModeratorText" xml:space="preserve">
+    <value>フォーラム モデレーター</value>
+  </data>
+  <data name="ActivityTypeForumParticipation3rdPartyForumsText" xml:space="preserve">
+    <value>その他のフォーラム</value>
+  </data>
+  <data name="ActivityTypeForumParticipationMicrosoftForumsText" xml:space="preserve">
+    <value>マイクロソフト フォーラム（MSDN/TechNet/Answers）</value>
+  </data>
+  <data name="ActivityTypeOtherText" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="ActivityTypeProductFeedbacks" xml:space="preserve">
+    <value>製品フィードバック（Connect）</value>
+  </data>
+  <data name="ActivityTypeSpeakingConferenceText" xml:space="preserve">
+    <value>登壇（大規模イベント）</value>
+  </data>
+  <data name="ActivityTypeSpeakingLocalText" xml:space="preserve">
+    <value>登壇（小規模イベント/トレーニング）</value>
+  </data>
+  <data name="ActivityTypeSpeakingUserGroupText" xml:space="preserve">
+    <value>登壇（勉強会）</value>
+  </data>
+  <data name="ActivityTypeTechnicalSocialMediaText" xml:space="preserve">
+    <value>ソーシャル メディア（Twitter、Facebook、LinkedIn...）</value>
+  </data>
+  <data name="ActivityTypeVideosText" xml:space="preserve">
+    <value>ビデオ</value>
+  </data>
+  <data name="ActivityTypeWebSitePostsText" xml:space="preserve">
+    <value>Web サイトへの投稿</value>
+  </data>
+
+
+  <data name="AnnualQuantityText" xml:space="preserve">
+    <value>年間総数</value>
+  </data>
+  <data name="AnnualReachText" xml:space="preserve">
+    <value>年間表示数</value>
+  </data>
+  <data name="AnnualUniqueVistorsText" xml:space="preserve">
+    <value>ユニーク ビジター数（年間）</value>
+  </data>
+  <data name="AnswersText" xml:space="preserve">
+    <value>回答数</value>
+  </data>
+  <data name="ArticlesText" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="AttendeesOfTalksText" xml:space="preserve">
+    <value>参加者数</value>
+  </data>
+  <data name="AttendeesText" xml:space="preserve">
+    <value>参加者数</value>
+  </data>
+  <data name="BooksText" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="ConferencesText" xml:space="preserve">
+    <value>回数</value>
+  </data>
+  <data name="ContributionTechnologyText" xml:space="preserve">
+    <value>製品/テクノロジー</value>
+  </data>
+  <data name="ContributionTypeText" xml:space="preserve">
+    <value>活動内容</value>
+  </data>
+  <data name="CopiesSoldText" xml:space="preserve">
+    <value>販売部数</value>
+  </data>
+  <data name="DownloadsText" xml:space="preserve">
+    <value>ダウンロード数</value>
+  </data>
+  <data name="FixedBugsText" xml:space="preserve">
+    <value>修正済みバグ数Fixed bugs</value>
+  </data>
+  <data name="OnlinePropertyNameText" xml:space="preserve">
+    <value>表示名</value>
+  </data>
+  <data name="PostsText" xml:space="preserve">
+    <value>投稿数</value>
+  </data>
+  <data name="ProjectsText" xml:space="preserve">
+    <value>投稿数</value>
+  </data>
+  <data name="SamplesText" xml:space="preserve">
+    <value>投稿数</value>
+  </data>
+  <data name="StartDateText" xml:space="preserve">
+    <value>開始日</value>
+  </data>
+  <data name="SubscribersText" xml:space="preserve">
+    <value>購読者数</value>
+  </data>
+  <data name="TalksText" xml:space="preserve">
+    <value>登壇数</value>
+  </data>
+  <data name="ThreadsModeratedText" xml:space="preserve">
+    <value>モデレートしたスレッド数</value>
+  </data>
+  <data name="VideosText" xml:space="preserve">
+    <value>投稿数</value>
+  </data>
+  <data name="ViewsOfAnswersText" xml:space="preserve">
+    <value>回答閲覧数</value>
+  </data>
+  <data name="ViewsText" xml:space="preserve">
+    <value>閲覧数</value>
+  </data>
+  <data name="VisitorsText" xml:space="preserve">
+    <value>参加者数</value>
+  </data>
+  <data name="VotesText" xml:space="preserve">
+    <value>獲得投票数</value>
+  </data>
+  <data name="FollowersText" xml:space="preserve">
+    <value>フォロワー/ファン/会員数</value>
+  </data>

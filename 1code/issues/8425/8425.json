@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Can i add antivirus details to Security center or action center through code alone? Or should i registry to  Microsoft Virus Initiative etc to do so.\nAnd if i need do it with code,could any one provide me with c#code to add antivirus details to security center and action center.",
+    "LastUpdatedDate": "2013-02-21T19:00:21.283-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-02-27T19:36:35.257-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "How to add Antivirus Details to Security Center and Action center",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8425
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

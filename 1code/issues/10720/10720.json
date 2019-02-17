@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "A C# code sample that shows you how to use the Windows Update Agent (WUA) to scan, download, and install Windows Updates\n \nThe sample should demonstrate searching for Windows updates, downloading the updates, and then installing the updates.  It should also demonstrate how to use progress change and completed callbacks for both download and install operations.\n \nhttp://msdn.microsoft.com/en-us/library/windows/desktop/aa385820(v=vs.85).aspx",
+    "LastUpdatedDate": "2013-02-21T18:59:19.24-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-05-01T18:38:11.017-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Asynchronous Windows Update Agent Operations",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10720
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

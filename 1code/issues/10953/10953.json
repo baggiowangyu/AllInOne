@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Error in EventManager:\n \nName der fehlerhaften Anwendung: SampleBrowser.exe, Version: 1.0.0.0, Zeitstempel: 0x4fe84b64\nName des fehlerhaften Moduls: KERNELBASE.dll, Version: 6.1.7601.17651, Zeitstempel: 0x4e21213c\nAusnahmecode: 0xe0434352\nFehleroffset: 0x000000000000cacd\nID des fehlerhaften Prozesses: 0x1550\nStartzeit der fehlerhaften Anwendung: 0x01cd576e850885f9\nPfad der fehlerhaften Anwendung: C:\\Users\\Guido\\AppData\\Local\\Apps\\2.0\\Y37EGDMV.LGV\\HQ0RNK10.LK0\\samp..tion_c3bce3770c238a49_0005.0002_c69a9d8cae29d8e9\\SampleBrowser.exe\nPfad des fehlerhaften Moduls: C:\\Windows\\system32\\KERNELBASE.dll\nBerichtskennung: c2c6acf4-c361-11e1-9c51-20cf30704699\n \n- Windows 7/64Bit",
+    "LastUpdatedDate": "2013-02-21T18:59:13.383-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-07-01T02:52:33.097-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "After Installing Alli-In-One Code Framework nothing happend",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 10953
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I am getting the exact same error only i get it in norwegian.\r\nI also found another message popping up with the first one in event manager:\r\n\r\nApplication: SampleBrowser.exe\r\nFramework Version: v4.0.30319\r\nDescription: The process was terminated due to an unhandled exception.\r\nException Info: System.Windows.Markup.XamlParseException\r\nStack:\r\n   at System.Windows.Markup.WpfXamlLoader.Load(System.Xaml.XamlReader, System.Xaml.IXamlObjectWriterFactory, Boolean, System.Object, System.Xaml.XamlObjectWriterSettings, System.Uri)\r\n   at System.Windows.Markup.WpfXamlLoader.LoadBaml(System.Xaml.XamlReader, Boolean, System.Object, System.Xaml.Permissions.XamlAccessLevel, System.Uri)\r\n   at System.Windows.Markup.XamlReader.LoadBaml(System.IO.Stream, System.Windows.Markup.ParserContext, System.Object, Boolean)\r\n   at System.Windows.Application.LoadBamlStreamWithSyncInfo(System.IO.Stream, System.Windows.Markup.ParserContext)\r\n   at System.Windows.Application.LoadComponent(System.Uri, Boolean)\r\n   at System.Windows.Application.DoStartup()\r\n   at System.Windows.Application.<.ctor>b__1(System.Object)\r\n   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(System.Delegate, System.Object, Int32)\r\n   at MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(System.Object, System.Delegate, System.Object, Int32, System.Delegate)\r\n   at System.Windows.Threading.Dispatcher.WrappedInvoke(System.Delegate, System.Object, Int32, System.Delegate)\r\n   at System.Windows.Threading.DispatcherOperation.InvokeImpl()\r\n   at System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)\r\n   at System.Threading.ExecutionContext.Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)\r\n   at System.Threading.ExecutionContext.Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)\r\n   at System.Windows.Threading.DispatcherOperation.Invoke()\r\n   at System.Windows.Threading.Dispatcher.ProcessQueue()\r\n   at System.Windows.Threading.Dispatcher.WndProcHook(IntPtr, Int32, IntPtr, IntPtr, Boolean ByRef)\r\n   at MS.Win32.HwndWrapper.WndProc(IntPtr, Int32, IntPtr, IntPtr, Boolean ByRef)\r\n   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(System.Object)\r\n   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(System.Delegate, System.Object, Int32)\r\n   at MS.Internal.Threading.ExceptionFilterHelper.TryCatchWhen(System.Object, System.Delegate, System.Object, Int32, System.Delegate)\r\n   at System.Windows.Threading.Dispatcher.WrappedInvoke(System.Delegate, System.Object, Int32, System.Delegate)\r\n   at System.Windows.Threading.DispatcherOperation.InvokeImpl()\r\n   at System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)\r\n   at System.Threading.ExecutionContext.Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)\r\n   at System.Threading.ExecutionContext.Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)\r\n   at System.Windows.Threading.DispatcherOperation.Invoke()\r\n   at System.Windows.Threading.Dispatcher.InvokeImpl(System.Windows.Threading.DispatcherOperation, System.Threading.CancellationToken, System.TimeSpan)\r\n   at System.Windows.Threading.Dispatcher.LegacyInvokeImpl(System.Windows.Threading.DispatcherPriority, System.TimeSpan, System.Delegate, System.Object, Int32)\r\n   at MS.Win32.HwndSubclass.SubclassWndProc(IntPtr, Int32, IntPtr, IntPtr)\r\n   at MS.Win32.UnsafeNativeMethods.DispatchMessage(System.Windows.Interop.MSG ByRef)\r\n   at MS.Win32.UnsafeNativeMethods.DispatchMessage(System.Windows.Interop.MSG ByRef)\r\n   at System.Windows.Threading.Dispatcher.PushFrameImpl(System.Windows.Threading.DispatcherFrame)\r\n   at System.Windows.Application.RunInternal(System.Windows.Window)\r\n   at System.Windows.Application.Run()\r\n   at SampleBrowser.App.Main()\r\n",
+      "PostedDate": "2012-07-01T06:10:43.003-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello\r\n\r\nThanks for reporting the problem.  We are testing the application in Norwegian.  As soon as we reproduce the issue, I will update you again about the progress of fix.  \r\n\r\nhi roadrunner64 \r\nWould you mind telling me the language of your OS?\r\n\r\nThanks\r\nJialiang Ge",
+      "PostedDate": "2012-07-01T19:23:00.26-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi Jialiang,\r\n\r\nmy OS Language is German.\r\n\r\nBest regards\r\nroadrunner64",
+      "PostedDate": "2012-07-02T21:16:09.31-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello\r\n\r\nThe problem is fixed.  We have just released the fix.  Could you please reopen the sample browser to get the auto-update, and let me know if it works for you now?\r\n\r\nThanks\r\nJialiang Ge",
+      "PostedDate": "2012-07-02T22:09:00.243-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello,\r\n\r\ni have tested it and it work's great\r\nThank's\r\n",
+      "PostedDate": "2012-07-11T11:04:22.957-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:13.383-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

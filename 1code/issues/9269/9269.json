@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am new to VB2010, I have been looking hard everywhere for a working sample of a webbrowser that can successfully capture events for elements in a webpage other than mouse clicks or keyboard events. Specifically, I have elements on webpages that display on their inner text property values that change. \n \nI would like to do this exclusively in Winforms and if possible avoid adding unnecessary webpages to the project (do everything from the winforms project, no launching additional asp html pages->everything should work from the main form that has the webbrowser1 control on it).\n \nIn Javascript (Firefox) I can use element1.childNodes[2].addEventListener(\"DOMAttrModified\", functiontobenotified,true) to\nmonitor an element's change of inner text in the DOM then act on it using the function \"functiontobenotified\" to do something.\nNow, I have a WebBrowser1 control on my form1 in VB, I need to attach an eventListener to let's say the same element.\nI can get the element in the DOM with this: \nPublic element as HTMLDocument\nThen in a subroutine in the WebBrowser1.DocumentCompleted event:\nelement = WebBrowser1.Document.GetElementById(\"testid\"). When I check the element.InnerText property it gets the correct text from my DOM element. I am having a terrible time attaching an eventhandler that would notify me of a change in the element.InnerText.\nI tried: element.AttachEventHandler(\"onchange\", AddressOf element_onchange)-never fires the event. I tried also element.AttachEventHandler(\"change\", AddressOf element_change) and all sorts of variations-same result. \nWhen I check in a    \nSub element_onchange()\n   Text1.Text = element.InnerText\n  End Sub\nI am getting the correct element.InnerText that is displayed in the Text1 control and is identical to my webbrowser's page element. \n \nAfter looking hard it seems that there is either no possibility for the webbrowser managed code to trigger such events or it is not available anywhere (I do not mean by that mouse clicks/keyboard events). Plenty of confusing code for c sharp/visual c but none for visual basic 2010.\nFound out that the webbrowser control DHTML elements can become visible with something like: \n            Dim doc4 As mshtml.IHTMLDocument2 = CType(WebBrowser1.Document.DomDocument, mshtml.IHTMLDocument2)\n            If (doc4 Is Nothing) Then\n                Return\n            End If\n            Dim iEvent As mshtml.HTMLDocumentEvents2_Event\n            iEvent = CType(doc4, mshtml.HTMLDocumentEvents2_Event)\n            Dim allElements As IHTMLElementCollection = doc4.body.all\n            Dim element As IHTMLElement2\n            For Each element In allElements\n \n                If element.id = myelementsid Then\n                    MsgBox(\"found my element \" & element.innerText)\n                End If\n                'AddHandler element.onpropertychange, Me.ClickEventHandler (commented out b/c it is not working)\n                ' AddHandler element.ondatasetchanged , Me.ClickEventHandler (commented out b/c it is not working) \n            Next\nbut then I cannot put together everything to get a procedure called when my element's property change.\nCan anyone spend some time to put everything together in a working sample of code? \nThank you,\nGeorge",
+    "LastUpdatedDate": "2013-02-21T18:59:49.617-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-08-02T21:22:31.99-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Visual Basic 2010 event capture for element on webbrowser control",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9269
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

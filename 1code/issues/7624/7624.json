@@ -1,0 +1,90 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Code samples tend to be simple and attempt to do one thing. That is mostly good. However, there are times when the whole 9 yards are needed. Here we go.\nIn seprate projects that DO NOT depend on any other frameworks or custom controls. Look: Tekrik's great, but the point is to learn something with all the parts visible and plain for all to see.\n1. A simple DataModel in Entity 4.0 that has navagation objects. Maybe throw in an SP function complex type for a \"cannot be seen on the designer function\"\n2. An MVC project that does the whole CRUD thing including list\n2.1 using Strongly typed views\n2.1.1 with a view model\n2.1.2 with a plain entity\n2.2 CRUD using JSON to JQuery\n2.3 how to track sessions\nfollow each operation down to the end user, and then back up to the server",
+    "LastUpdatedDate": "2013-02-21T19:00:41.233-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-09T10:19:45.18-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "ENTITY to MVC to JSON and Back again",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 9,
+    "Id": 7624
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "why must MVC?have more version there maybe more choice~~~thanks",
+      "PostedDate": "2010-11-15T05:46:00.9-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-15T17:05:25.203-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-07T05:23:50.853-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello YankeeImperialist \r\n\r\nThank you for using our code sample request service. \r\n Based on my understanding, your request should be running at visual studio 2008 via service pack 1 and MVC 1.1.Then these code sample maybe more than 1 thousand lines, we will evaluate and review the code. If your requested scenario is typical and commonly wanted, we will provide the code sample. \r\n\r\nI hope that you have a wonderful day! \r\nThanks\r\n\r\n\r\nMicrosoft All-In-One Code Framework\r\nhttp://1code.codeplex.com\r\n",
+      "PostedDate": "2011-01-09T20:05:20.263-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-06T12:39:31.013-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-07-20T14:58:00.307-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-09-24T19:44:30.067-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-08T08:04:35.677-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-15T14:46:37.843-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:41.233-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

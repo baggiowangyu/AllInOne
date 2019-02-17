@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Property handler shell extension in .net.",
+    "LastUpdatedDate": "2013-02-21T19:00:12.51-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-03-28T08:53:19.163-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Property handler shell extension",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8572
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello mladjenovic,\r\n\r\nThank you for using our code sample request service. And thank you always constantly support of our project's sample idea, I often  see your enthusiasm of questions at this section.\r\nThis topic is coved by our project team leader, So all later you can see in our homepage on fresh baked the sample about shell extension in .net.  Coming soon.\r\n\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-03-28T18:21:21.19-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "hi,\r\nThe part four of shell extension is announced yesterday,please access the website below:\r\n\r\nhttp://blogs.msdn.com/b/codefx/archive/2011/03/27/writing-windows-shell-extension-with-net-framework-4-c-vb-net-part-4-context-menu-handler-with-menu-item-bitmaps.aspx\r\n\r\nI think it would be use for your project. Thank again for using our sample reqest service. ",
+      "PostedDate": "2011-03-28T20:01:28.82-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-14T23:04:17.543-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "the sample has been covered by onecode sample library\r\n\r\n\n\n** Closed by orichisonic 4/14/2011 11:04 PM",
+      "PostedDate": "2011-04-15T00:35:47.713-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-15T00:35:48.32-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:12.51-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

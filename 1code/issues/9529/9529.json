@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello,  I would like to see an example using the AdventureWorks database, tables Product, ProductSubCategory, ProductCategory to create a treeview.  I can do two levels (ProductCategory, ProductSubCategory) but I can not figure out how to get the third level of Product.  I've added [Include] into the metadata, and have changed the description of Product.SubCatagory to a EntityCollection.  I have tried to use two Includes in the query - but this is where it falls over with the error of specified Include path is not valid.\n \n public IQueryable<ProductSubcategory> GetProductSubcategory()\n        {\n            return this.ObjectContext.ProductSubcategory.Include(\"Product\").Include(\"ProductCategory\");\n        }\n \n[MetadataTypeAttribute(typeof(Product.ProductMetadata))]\n    public partial class Product\n    {\n          \n            [Include]\n            public EntityCollection<ProductSubcategory> ProductSubcategory { get; set; }\n \n            public Nullable<int> ProductSubcategoryID { get; set; }",
+    "LastUpdatedDate": "2013-02-21T18:59:43.453-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-09-21T06:45:16.57-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Silverlight WCF-FIA Business Appllication Treeview with AdventureWorks database",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9529
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

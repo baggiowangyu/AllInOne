@@ -1,0 +1,76 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "We want to rewrite an existing application suite which uses DCOM objects to a state of art .NET equivalent using the Windows Communication Foundation framework. This should lead to a more robust, manageable inter-program connectivity. By using threads on the data collection part we want to have the ability to (re)start/stop certain failing processes without effecting the other communications. To increase program module interoperability, we want to easily reconfigure the modules in use. We would like to achieve this without having to rebuild or even restart our main application and therefore think about using System.Composition (Managed Extensibility Framework) for the public interface layer(s).\nData telegrams between participants contain (depending on the running logic) from a few floats to over 500 floats and strings, crossing the 1MB barrier and should be pushed a few times every second from data provider server to client(s) (WCF).\nIs this the right topology? How to accomplish the infrastructure layout as in addendum?",
+    "LastUpdatedDate": "2013-02-21T19:00:01.553-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-05-18T05:57:22.207-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "WCF data collection application using multi-threading and MEF interface definitions.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 5,
+    "Id": 8850
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3345,
+      "FileName": "AllInOne.pdf",
+      "DownloadUrl": ".\\3345"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Sorry, \r\nI hit the entry key twice.\r\nPlease all comment on the most recent issue number 8851 I guess...\r\n\r\nThx\r\nbrraalgr.",
+      "PostedDate": "2011-05-18T06:22:32.533-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-05-18T22:43:29.937-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-05-23T04:59:22.11-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-06-17T06:56:49.14-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-06-25T04:43:58.227-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:01.553-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

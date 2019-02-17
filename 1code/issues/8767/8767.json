@@ -1,0 +1,85 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I want a code sample to run a Win32 Exe application in side a WPF window.  Not to run an external Exe from my WPF application, but to run the application inside a WPF window.  If this is possible to be achieved then please help.\n \nRegards",
+    "LastUpdatedDate": "2013-02-21T19:00:03.633-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-05-10T01:52:32.643-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Hosting Exe inside WPF",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 8767
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello ONiehus,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\n As far as I know, WPF application can invoke win32 excute file and vice versa. I think your sample idea has feature but it is hard to composed because of no scenario.  if it is possible,please give us a  integrated scenario such as which environment and which way these win32 functions is\r\nexistence in. According to above summary, we can arrange for submitting it to our sample idea system.\r\n\r\nIs my understanding right? Please feel free to let me know. \r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-05-10T18:41:38.75-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi thanks for the reply.\r\n\r\nI's like to confirm my understanding to your reply, that i could call an exe from my WPF application.  The thing is I don't want to just invoke a executable file from my application using:\r\nPeocess.Start(pInfo) and the exe just runs as if I clicked on a shortcut on the desktop.  What i want to do is invoke the application and let it run inside maybe a panel or a new WPF child window to my application.  Maybe this scenario would clarify what my goal is:\r\nI want to write a simple WPF windows shell.  The mainwindow will have a button \"Notepad\" for example, when I click this button, a new WPF windows (created from my application) is shown and \"notepad.exe\" is running inside that newly shown window.\r\n\r\nIs this possible?\r\n\r\nThanks,",
+      "PostedDate": "2011-05-14T16:30:11.49-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi,\r\n  I have understood your idea which  applies  HwndHost namespace such as http://msdn.microsoft.com/en-us/library/system.windows.interop.hwndhost.aspx. And it should simulate keystroke when customer hit the command according to keyboard. Certainly, it refers to the window style because of embing in the XAML file. Finally, It should capture window handle and send message to the actual win32 program which looks like messsage loop. Your idea mixes c++ technology and it has high enough to make it. I submit it to our system and wait for its agreement.\r\n\r\nThank you for your sample idea.\r\nAll-In-One Code Framewokr\r\nhttp://1code.codeplex.com",
+      "PostedDate": "2011-05-15T19:26:08.403-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-05-15T19:26:33.133-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks a lot for the information.  I'll look into it, and i'll wait hopefully it gets approved and see a sample from your team.\r\n\r\nThanks again really appreciate your help",
+      "PostedDate": "2011-05-15T22:45:56.533-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "hi,\r\n\r\n   Your sample idea is so nice that I have to submit it. Thank you for more suggestion.\r\n\r\n\r\nSincerely\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com \r\n",
+      "PostedDate": "2011-05-16T21:53:59.787-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I have a client who is still using VB6 !!!, I want to take them into C# WPF or to VB dot net WPF. To scrap their existing VB6 application and COM DLLs is not practical or desirable. It occurs to me that a migration path might be to use a host WPF application that calls into parts of the VB6 infrastructure. It would be useful to explore the technical challenges of running VB6 screens inside a WPF window. This would open up a number of choices if this is a viable path. ",
+      "PostedDate": "2011-07-12T08:26:36.95-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-07-12T08:28:17.58-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:03.633-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

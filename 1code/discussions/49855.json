@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "166858",
+    "ThreadId": "49855",
+    "Html": "I am learning C++ but I don't have any project,can I ?...<br>\r\nI am using: Qt creator and Dev-Cpp<br>\r\n",
+    "PostedDate": "2009-03-11T04:58:43.89-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "167223",
+    "ThreadId": "49855",
+    "Html": "<p>Hello laik. Welcome to CodeFx!</p>\r\n<p>The C++ examples in this project are built upon Visual C++ in Visual Studio.</p>\r\n<p>What do you want to add? If you have any requests of examples, please feel free to post the description here. As long as it is a frequently asked and tested scenario (e.g. Use ADO in C++, or write shell extension), we will add the example within one week.</p>\r\n<p>Thanks!</p>\r\n",
+    "PostedDate": "2009-03-12T00:09:15.617-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "167349",
+    "ThreadId": "49855",
+    "Html": "\r\n<br>\r\n     Okay,I write anything....<br>\r\n<div style=\"border-left:1px solid blue;margin-left:18px;margin-bottom:10px;padding-left:8px\">\r\n<br>\r\n-----Povodna sprava-----<br>\r\nOd: Jialiang &lt;notifications@codeplex.com&gt;<br>\r\nPrijata: 12.03.2009 08:09<br>\r\nPre: xpeterbx@azet.sk &lt;xpeterbx@azet.sk&gt;<br>\r\nPredmet: Re: Can I add?... [cfx:49855]<br>\r\n<br>\r\n\r\n  <div>\r\n <p>\r\nFrom: Jialiang</p>\r\n <div id=ThreadNotificationPostBody>\r\n<p>\r\nHello laik. Welcome to CodeFx!</p>\r\n  <p>\r\nThe C++ examples in this project are built upon Visual C++ in Visual Studio.</p>\r\n  <p>\r\nWhat do you want to add? If you have any requests of examples, please feel free to post the description here. As long as it is a frequently asked and tested scenario (e.g. Use ADO in C++, or write shell extension), we will add the example within one week.</p>\r\n  <p>\r\nThanks!</p>\r\n  </div>\r\n \r\n ",
+    "PostedDate": "2009-03-12T06:27:47.63-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

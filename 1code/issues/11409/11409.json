@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have a requirement of fetching of test cases (manual) , which are created in VSTS along with their execution result status. For ex. the number of test cases passed, failed or Blocked. \nAlso I need to show the consolidated aggregate list of test cases based on their priority and their status. All this I need with a button click from Excel using VBScript. Could any one help me achieving this.",
+    "LastUpdatedDate": "2013-02-21T18:59:03.487-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-12-10T02:13:33.847-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Fetching Test Result data from TFS to Excel using VBScript",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11409
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

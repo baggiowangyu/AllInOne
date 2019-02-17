@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I would like to know what's the best practice to store the Users' passwords in the DB.\nI assume that it should be stored hashed and then compared each time with the function's result, however I would like to know the best practice for this security and efficiency wise.\nOf course, preferably using cryptography libraries already included in the .net framework.\n \nThanks!",
+    "LastUpdatedDate": "2013-02-21T18:59:37.537-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-11-12T20:18:05.073-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Best Practice to store user password in SQL DB",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 9814
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Try to invent your code to Dec/Enc,to avoid vulnerability. Tore them encrypted and decrypt them on the client side",
+      "PostedDate": "2011-11-17T02:54:34.133-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Yes I understand that, I think this is a good code example to include in the All-In-One Code Framework.\r\nEspecially if it'll be a full end-to-end example, including the DB aspect.",
+      "PostedDate": "2011-11-17T16:12:06.853-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-01-17T09:40:04.56-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-11-19T12:22:45.773-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "It would be nice to have an example that uses whatever the latest greatest Crypto Algorithm is, (AES) I think? Along with say the interaction of Entity Framework, showing clean separation of concern between the Cryptography and the User class.  ",
+      "PostedDate": "2012-11-19T12:28:22.197-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:37.537-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

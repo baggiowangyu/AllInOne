@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "Shell",
+      "DisplayName": "Shell"
+    },
+    "ClosedComment": "finished",
+    "ClosedDate": "2010-10-19T22:25:54.81-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "http://social.msdn.microsoft.com/Forums/en-US/netfxbcl/thread/3bcd38da-6d6c-4ea9-b63a-ff17f0c71137",
+    "LastUpdatedDate": "2013-05-16T05:33:26.52-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-12-28T23:00:29.023-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Sample: Customize Open File Dialog",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 5005
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "Console",
+      "DisplayName": "Console"
+    },
+    "ClosedComment": "closed by the changeset: 22231",
+    "ClosedDate": "2009-04-17T05:48:43.44-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Redirect console output and input from a native C++ applicaiton.",
+    "LastUpdatedDate": "2013-05-16T05:33:37.467-07:00",
+    "PlannedForRelease": "All-In-One Code Framework 2009-4-11",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-04-09T18:33:05.487-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Example: CppRedirectConsole",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 2694
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

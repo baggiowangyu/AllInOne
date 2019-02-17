@@ -1,0 +1,61 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi! \nI can't get the second item that i added to the context menu to work!\nWhen i click on it, it causes an error and restarts the explorer.\n \nError location is marked in the code.\nThe rest of the code is unchanged from the VBShellExtContextMenuHandler example!\n \nPlease help!\n \nThanks",
+    "LastUpdatedDate": "2013-02-21T19:00:31.793-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-11T16:14:03.133-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Adding two items to explorer context menu(SOLVED)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8136
+  },
+  "FileAttachments": [
+    {
+      "FileId": 2890,
+      "FileName": "FileContextMenuExt.zip",
+      "DownloadUrl": ".\\2890"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Here is the solution!\r\n\r\nIn the module ShellExtLib.vb change the definition of the verb variable of structure CMINVOKECOMMANDINFOEX from:\r\n\r\n<StructLayout(LayoutKind.Sequential, CharSet:=CharSet.Unicode)> _\r\nFriend Structure CMINVOKECOMMANDINFOEX\r\n    Public cbSize As UInt32\r\n    Public fMask As CMIC\r\n    Public hwnd As IntPtr\r\n    <MarshalAs(UnmanagedType.LPStr)> _    \r\n    Public verb As String                               \r\n    <MarshalAs(UnmanagedType.LPStr)> _\r\n    Public parameters As String\r\n    <MarshalAs(UnmanagedType.LPStr)> _\r\n    Public directory As String\r\n    Public nShow As Integer\r\n    Public dwHotKey As UInt32\r\n    Public hIcon As IntPtr\r\n    <MarshalAs(UnmanagedType.LPStr)> _\r\n    Public title As String\r\n    Public lpVerbW As IntPtr\r\n    Public parametersW As String\r\n    Public directoryW As String\r\n    Public titleW As String\r\n    Private ptInvoke As POINT\r\nEnd Structure\r\n\r\nChange it to:\r\n\r\n<StructLayout(LayoutKind.Sequential, CharSet:=CharSet.Unicode)> _\r\nFriend Structure CMINVOKECOMMANDINFOEX\r\n    Public cbSize As UInt32\r\n    Public fMask As CMIC\r\n    Public hwnd As IntPtr\r\n    Public verb As IntPtr       'This is changed \r\n    <MarshalAs(UnmanagedType.LPStr)> _\r\n    Public parameters As String\r\n    <MarshalAs(UnmanagedType.LPStr)> _\r\n    Public directory As String\r\n    Public nShow As Integer\r\n    Public dwHotKey As UInt32\r\n    Public hIcon As IntPtr\r\n    <MarshalAs(UnmanagedType.LPStr)> _\r\n    Public title As String\r\n    Public lpVerbW As IntPtr\r\n    Public parametersW As String\r\n    Public directoryW As String\r\n    Public titleW As String\r\n    Private ptInvoke As POINT\r\nEnd Structure",
+      "PostedDate": "2011-01-18T08:55:54.03-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-01-18T09:18:50.353-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:31.793-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

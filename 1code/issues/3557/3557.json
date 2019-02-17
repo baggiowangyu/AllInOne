@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "ASP.NET",
+      "DisplayName": "ASP.NET"
+    },
+    "ClosedComment": "All the ASP.NET samples in Month1&#40;2009-7&#41; have been finished.",
+    "ClosedDate": "2009-08-09T20:36:14.42-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "This sample demonstrate how to use ASP.NET dropdownlist control to present user input interface with several selection lists. And these lists will change in hierarchy depend on the user's input. For example:\n \nCountry List --> Region List--> City List-->",
+    "LastUpdatedDate": "2013-05-16T05:33:31.76-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-07-19T21:10:45.28-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "ASP.NET Dropdownlist cascading Demo",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 3557
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Sample name:\" CSASPNETCascadingDropDown\"",
+      "PostedDate": "2009-07-23T05:12:01.257-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-08-09T20:35:42.033-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-08-09T20:36:14.42-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:01:02.973-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T05:33:31.76-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

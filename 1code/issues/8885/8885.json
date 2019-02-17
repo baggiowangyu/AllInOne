@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I'm looking for Windows Phone 7 to consume a 3rd party web service; the problem I'm having is that the service uses the ADO.NET DataSet classes as parameters and returns;\ncan Windows Phone 7 serialize/deserialize the XML stream into a compatable object? and has this been done?",
+    "LastUpdatedDate": "2013-04-22T01:08:21.7-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-05-25T02:34:18.463-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Windows Phone 7 - DataSet",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8885
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "have you got this issue resolved ?\nI do face the same issue for my App.\ncould you pls help me out with this ....\nharisankar.cs@hotmail.com",
+      "PostedDate": "2013-04-22T01:08:21.7-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

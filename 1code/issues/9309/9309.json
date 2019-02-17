@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi, I'm new to MVC (using MVC3).\nI'm not able to write code for a drop down list using DropDownListFor.\nMy requirement is:\nI've a list of branches of type Branch.\nBranch class is with properties: int ID, string Name, string Parent (ideally Parent should be of type Branch again. But avoided here to reduce complexity).\n \nNow I want a drop down list box with list of Branch names.\n \nI'm not able to find suitable example.\n \nPlease help me provide code for my requirement!\n \nThanks,\nSuresh.",
+    "LastUpdatedDate": "2013-02-21T18:59:47.65-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-08-13T08:03:35.48-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Using DropDownListFor in MVC3",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 9309
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

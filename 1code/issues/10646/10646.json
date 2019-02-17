@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am new to programing and I am using VB.  The first issue that I have problems with, is being able to pass a datafield into an array.\n \nThe example I need to work on is, I have a data table with event and date fields.  I want to pass the events into a array so that I can use the upcoming event in the header of my form.  This needs to be updated automatically using formulars whenever someone opens the form.  I am certain that I can get the formulars to work, but what I have trouble with is getting the datafields into variables so that the formulars can sort out which of the events is the next event.  I have created the form with gridview that shows all the events, but I need to advertise the upcoming event.\n \nI also want to use this function to create random situations, like creating a photo database and showing random photos from that in a form.\n \nThanks in advance to anyone who can help.",
+    "LastUpdatedDate": "2013-02-21T18:59:22.437-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-04-12T04:31:05.01-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Passing fields from data table into array variables",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10646
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

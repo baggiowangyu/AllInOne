@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "Data Access",
+      "DisplayName": "Data Access"
+    },
+    "ClosedComment": "VBADONETDataService is accomplished by the ChangeSet 26813.",
+    "ClosedDate": "2009-08-12T05:22:34.857-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Demo the ADO.NET Data Service via VB.NET on relational database (ADO.NET Entity Data Model & LINQ to SQL Classes) and non-relational data (In-memory objects).",
+    "LastUpdatedDate": "2013-05-16T05:33:30.803-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-08-09T10:03:48.673-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create example of VBADONETDataService",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 3735
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

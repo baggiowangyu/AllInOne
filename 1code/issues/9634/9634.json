@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "It would be nice to see a reasonably-sized sample of how to use speech recognition in Windows 7. Perhaps some simple commands to cut, copy, and paste? How to configure for new commands, how to distribute, and how to customize the recognition engine.",
+    "LastUpdatedDate": "2013-02-21T18:59:41.287-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-10-12T11:58:49.243-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Speech recognition",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 5,
+    "Id": 9634
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi all,\r\n Thank you for support our project. I will dive into this topic that you mentioned. If you have another useful information about how to apply this technology,please feel free to let me know. With your help, our project in quality and quantity is more big have to improve. \r\n\r\nSincerely,\r\nAll-In-Onecode-Framework\r\n",
+      "PostedDate": "2011-11-07T19:15:47.037-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-01-23T21:10:12.937-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-01-31T19:09:41.65-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "It also would be nice to see some TTS (Microsoft.Speech.Synthesis) samples with the Speech Platform 11. It's really hard to find a entry into this topic. The MSDN-Documentation is good, but it contains no full example for TTS :).",
+      "PostedDate": "2012-02-09T12:46:07.14-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-02-16T16:19:37.717-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:41.287-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

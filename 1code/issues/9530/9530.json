@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Please provide an sample on how to access remote registry key using the IP of the machine and not the name. Also it need to be able to pass in authentication information.\n \nThanks,\n \nPablo.",
+    "LastUpdatedDate": "2013-02-21T18:59:43.3-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-09-21T07:23:04.113-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Access Remote Registry by IP address on .Net",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9530
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi all,\r\n Thank you for supporting our project. If you have another information about this topic applied scenario,please feel free to let me know.\r\n\r\nSincerely,\r\nAll-In-Onecode-Framework",
+      "PostedDate": "2011-11-07T19:21:20.573-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:43.3-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

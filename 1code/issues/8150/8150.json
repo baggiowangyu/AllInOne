@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I wasn't able to find a proper sample which explains how to programmatically protect an XPS file by applying a RMS template on it.\nThe only method I know of is using the ad rms bulk protection tool (rmsbulk.exe), which is cool for small XPS files, but takes a long time for relatively large XPS files (> 50 MB).\n \nThanks.",
+    "LastUpdatedDate": "2013-02-21T19:00:31.307-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-14T01:48:46.71-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Programmatically apply RMS template to XPS file (C#)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 8150
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

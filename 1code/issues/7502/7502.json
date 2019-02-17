@@ -1,0 +1,85 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "We wanna show a gif image in silverlight plugin, so, we created a custom control to do it, but the control is very worse. I think, lots of silverlight developers need to show gif, so, please create a sample code and share it. I am so sorry because my English is not good.\nThanks! To every silverlight developers.",
+    "LastUpdatedDate": "2014-06-16T18:11:51.83-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-10-27T22:28:10.99-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "GIF Image in Silverlight",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 7502
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I was the first.",
+      "PostedDate": "2010-10-27T22:35:27.81-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello tiscs \r\n\r\nThank you for using our sample request service (http://1code.codeplex.com/wikipage?title=NEW%2c%20FREE%20Code%20Sample%20Request%20Service%20from%20Microsoft%20All-In-One%20Code%20Framework) !\r\n\r\nYour English is good. \r\n\r\nYou can consider using the .NET Image Tools library for Silverlight. This library is free to use and available on Codeplex. It implements different image file formats, including the ability to load GIF files and even animated GIF files.\r\nhttp://imagetools.codeplex.com/\r\nPlease let me know if this library is helpful to you.\r\n\r\nIt is a 3rd party open-source project, so code samples about how to use it are provided by the project owner. ",
+      "PostedDate": "2010-10-27T22:42:34.43-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-10-28T00:48:24.42-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks, but that project is not stable.\r\nI will share some souce code, Thanks again, and I will learn English hardly.",
+      "PostedDate": "2010-10-28T03:05:07.07-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello tiscs\r\n\r\nI will also continue to research other alternative solutions.",
+      "PostedDate": "2010-10-28T18:17:27.91-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-18T08:22:05.737-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-14T18:50:56.617-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:45.31-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I've finally create Gif Control for Silverlight using GifDecoder 3d Library wich was design for windows forms application in C#, orginal was in java\nand i've make modification to it so it can work with silverlight. And then i create a custom Usercontrol.\r\n\r\nhttps://gifsilverlight.codeplex.com/",
+      "PostedDate": "2014-06-16T18:11:51.83-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "We need to broadcost Servers time using NTP. Can u please help us with code",
+    "LastUpdatedDate": "2013-02-21T18:59:12.32-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-07-26T05:34:12.98-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "NTP Server in C#",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 11030
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "We are creating our own server application in C# which need to either pick up our own winodws server time or the the time defined by the user and then boradcost it on UDP port 123. can u help to get code for this?",
+      "PostedDate": "2012-07-26T05:36:12.01-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-07-27T03:39:11.267-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:12.32-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

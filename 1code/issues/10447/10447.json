@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi,\n \nI have been trying out to have a progress bar column in silverlight datagrid, how can i achieve this, embedding a progress bar in data grid cell.\nI would be grateful if anyone provides a sample on this. Thanks beforehand.\n \n-syyad",
+    "LastUpdatedDate": "2013-02-21T18:59:26.233-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-02-28T03:05:41.973-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Progress Bar column under DataGrid cell in silverlight 5",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10447
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

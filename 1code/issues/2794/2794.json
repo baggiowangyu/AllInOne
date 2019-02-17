@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "COM and ActiveX",
+      "DisplayName": "COM and ActiveX"
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Add the example of accessing javascript variables or call javascript functions from c++. \n \n*** Problem Description ***\nIf you have a script object in HTML, sometimes it's useful to be able to access the \nvariables or call the functions from C++.\n \nMFC solution:\n \n#include <afxconv.h>\n#include \"mshtml.h\"\n \n// Get JScript variable and call JScript function\nvoid CGenhtmlviewView::OnActionGetx() \n{\nUSES_CONVERSION;\nHRESULT hr;\n \nIDispatch* pDispDocument = NULL;\nIHTMLDocument* pHtmlDocument = NULL;\nIDispatch* pDispScript = NULL;\n \nDISPID dispid;\nOLECHAR* pName = NULL;\nCString myName;\n \nCOleDispatchDriver oddScript;\n \n// Get IHTMLDocument disp interface\nhr = m_pBrowserApp->get_Document(&pDispDocument);\nif (FAILED(hr)) goto cleanup;\n \n// QI for IHTMLDocument interface\nhr = pDispDocument->QueryInterface(IID_IHTMLDocument, (void**)&pHtmlDocument);\nif (FAILED(hr)) goto cleanup;\n \n// get the script object (this returns the script object, NOT the\n// script element(s) that the get_scripts method does)\nhr = pHtmlDocument->get_Script(&pDispScript);\nif (FAILED(hr)) goto cleanup;\noddScript.AttachDispatch(pDispScript);\n \n// get the MyName javascript global variable value and display it\npName = T2OLE(\"MyName\");\nhr = pDispScript->GetIDsOfNames(IID_NULL, &pName, 1, LOCALE_SYSTEM_DEFAULT, \n&dispid);\nif (FAILED(hr)) goto cleanup;\noddScript.InvokeHelper(dispid, DISPATCH_PROPERTYGET, VT_BSTR, &myName, NULL);\nAfxMessageBox(myName);\n \n// call the ShowName javascript function\npName = T2OLE(\"ShowName\");\nhr = pDispScript->GetIDsOfNames(IID_NULL, &pName, 1, LOCALE_SYSTEM_DEFAULT, \n&dispid);\nif (FAILED(hr)) goto cleanup;\noddScript.InvokeHelper(dispid, DISPATCH_METHOD, VT_EMPTY, NULL, NULL);\n \ncleanup:\n \nif (pDispScript)\npDispScript->Release();\nif (pHtmlDocument)\npHtmlDocument->Release();\nif (pDispDocument)\npDispDocument->Release();\noddScript.DetachDispatch();\n}\n \nHTML code:\n<html>\n<body>\n<script language=\"javascript\">\nvar MyName = \"Bill Gates\";\nfunction ShowName()\n{\nalert(\"MyName = \" + MyName);\n}\n</script>\nHello there.<br>\n</body>\n</html>",
+    "LastUpdatedDate": "2017-11-27T10:33:39.527-08:00",
+    "PlannedForRelease": "All-In-One Code Framework 2009-4-27",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-04-19T20:59:34.527-07:00",
+    "Status": {
+      "Name": "Active",
+      "Id": 2
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Improve Example: MFCSafeActiveX",
+    "Type": {
+      "Name": "Feature",
+      "Id": 1
+    },
+    "VoteCount": 2,
+    "Id": 2794
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

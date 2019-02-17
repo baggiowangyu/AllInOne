@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Microsoft has made its Office UI avialable for ISV's to use it in their own products to get the Office Ribbon look and feel. Is there a way to get some samples of how to embed the 2010 Office UI Ribbon in web applications.\nThe license site does not work as it errors out when I try to get a license.",
+    "LastUpdatedDate": "2013-02-21T18:59:40.773-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-10-18T16:15:55.19-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Using Office UI License for developing Ribbon in asp.net",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9668
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

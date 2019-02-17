@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "412471",
+    "ThreadId": "203349",
+    "Html": "<p>Hi</p>\r\n<p>Many2many EF VS2008</p>\r\n<p>Remove()?</p>",
+    "PostedDate": "2010-02-28T11:03:26.2-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "412597",
+    "ThreadId": "203349",
+    "Html": "<p>HI stuhin,</p>\r\n<p>Thank you for your posting!</p>\r\n<p>Could you please be more specific on the question?&nbsp;&nbsp; Do you mean the Many2Many relationship that we demostrated in the sampel CSEFEntityDataModel and VBEFEntityDataModel?&nbsp; If so, I don't think we delete it in the new release.&nbsp;&nbsp; You can find it in our latest release on Feb. 28th, <a href=\"http://cfx.codeplex.com/releases/\">http://cfx.codeplex.com/releases/</a>.&nbsp;</p>\r\n<p>If you have any questions, please feel free to let me know.</p>\r\n<p>Have a nice day!</p>\r\n<p>Best Regards,<br>Michael</p>",
+    "PostedDate": "2010-03-01T00:22:51.46-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "412733",
+    "ThreadId": "203349",
+    "Html": "<p>Hi Michael</p>\r\n<p>The method of removal from the intermediate table through Linq2entity interests</p>\r\n<p>Method Remove () works in EF4</p>\r\n<p>Does not work in EF1</p>\r\n<p>In your example many2many 2008 it are not present</p>",
+    "PostedDate": "2010-03-01T08:03:28.573-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "412954",
+    "ThreadId": "203349",
+    "Html": "<p>Hi stuhin</p>\r\n<p>Thank you so much!&nbsp; For all the VS2008 samples, we will translate them into VS2010 version after VS2010 RTM is released.&nbsp; If the features are changed in EF4, we will modify or improve our samples.&nbsp; Thanks again for your posting.&nbsp; If you are instered in EF4 new features, you will find several great samples in VS2010 folder of our release.&nbsp;</p>\r\n<p>If you have any questions or feedbacks, please feel free to tell us.&nbsp;</p>\r\n<p>Have a great day!</p>\r\n<p>Best Regards,<br>Michael</p>",
+    "PostedDate": "2010-03-01T18:02:39.073-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "229122",
+    "ThreadId": "67408",
+    "Html": "<p>When I try to open most of the projects I get an error. I am using Visual Studio 2008 express edition.</p>\r\n<p><strong><em>The following error has occurred during XML parsing:<br><br>File: C:\\Users\\Administrator\\Documents\\Programming\\CodeFx\\Visual Studio 2008\\CppBasics\\CppBasics.vcproj<br>Line: 1<br>Column: 39<br>Error Message:<br>A document must contain exactly one root element.<br><br>The file 'C:\\Users\\Administrator\\Documents\\Programming\\CodeFx\\Visual Studio 2008\\CppBasics\\CppBasics.vcproj' has failed to load.</em></strong></p>",
+    "PostedDate": "2009-08-30T10:27:16.723-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

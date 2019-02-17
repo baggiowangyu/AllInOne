@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Visual Studio 2010 team Foundation Server (TFS) question:\n \nI'm using ISubscriber.ProcessEvent to process quality change events.\nThis method is defined as follows:\n \npublic EventNotificationStatus ProcessEvent(TeamFoundationRequestContext requestContext,\n   NotificationType notificationType, object notificationEventArgs,\n   out int statusCode,\n   out string statusMessage,\n   out ExceptionPropertyCollection properties)\n \nThere is no info or samples on the three OUT parameters statusCode, statusMessage and properties.\nWhat are their purposes and what values should I put into them? \nA sample would be very helpful.",
+    "LastUpdatedDate": "2013-02-21T18:59:41.607-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-10-11T05:10:34.393-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "VS 2010 TFS: Sample required for method ProcessEvent",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9623
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi,\r\n\r\nThere are 2 ways to call the Subscribers:\r\n1. Before TFS decides to do something, i.e. check-out, update workitem.\r\n2. Publish Notification. (Email or Event service)\r\n\r\nThese 3 parameters are used for the first scenarios.\r\nIf your plugin deny the operation, then you can set these paramters.\r\n    status = // The error code you defines. \r\n    StatusMessage = //Why you deny the operation\r\n    properties = new ExceptionPropertyCollection();\r\n    Properties.Set (\"Otherdetailed error inforamtion1 \", ... );\r\n    Properties.Set (\"Otherdetailed error inforamtion2 \", ... );\r\n....\r\n\r\nIf you allow the operation, please use following code \r\n\r\n    statusCode = 0;\r\n    properties = null;\r\n    statusMessage = string.Empty;\r\n",
+      "PostedDate": "2011-12-22T19:44:53.643-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:41.607-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

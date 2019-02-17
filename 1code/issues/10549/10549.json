@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have a solution with 2 projects, Windows Phone application and Windows Phone XNA game. Windows Phone App is startup project. How can I call and play XNA game on button click?\nMy project is attached (button event handler is in Sestevanje.xaml.cs)",
+    "LastUpdatedDate": "2013-02-21T18:59:23.47-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-03-22T23:40:38.73-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Call XNA Phone game from Windows Phone appliaction",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10549
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3961,
+      "FileName": "WP7App.7z",
+      "DownloadUrl": ".\\3961"
+    }
+  ],
+  "Comments": []
+}

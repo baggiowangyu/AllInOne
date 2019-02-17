@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I need to display information from SQL in Excel quite often.  I opened Excel and imported data from Excel while the Excel macro function was enabled.  I put this macro in a VB.NET project.  The macro is attached.\n\nI keep getting an error on the first line.\n\nWould you give me sample code that imports data from SQL to Excel using .NET Interop?\n\nThank you",
+    "LastUpdatedDate": "2013-12-23T06:31:10.01-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2013-12-23T06:31:08.937-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Excel import from SQL using .NET interop",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 12613
+  },
+  "FileAttachments": [
+    {
+      "FileId": 4818,
+      "FileName": "Excel importing SQL.txt",
+      "DownloadUrl": ".\\4818"
+    }
+  ],
+  "Comments": []
+}

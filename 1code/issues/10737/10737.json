@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I was hoping that there would be a possibility of a code sample on how one can hook into a D3D game (be it DX9, 10, or 11), and capture the video output. Either as a single frame, or a stream, with the ability to capture while full screen, hidden behind another window, or even to capture only a rectangle section of the stream specifically. All of this, without causing a huge amount of latency (I'd like to be able to present the stream at a watchable frame rate, on a GDI, -or- WPF form, as well as not lag out the target game)\n \nThanks in advanced!",
+    "LastUpdatedDate": "2013-02-21T18:59:18.607-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-05-05T15:19:27.6-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Capture D3D9/10/11 frames with C#",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 10737
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Yes managed code too that isnt very laggy in directx code.",
+      "PostedDate": "2012-05-16T05:51:45.98-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:18.607-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2010-11-11T22:53:52.203-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Just a Quick Idea For the Sample Browser. auto updating and downloading of new samples sound like a good thing to me\njust a idea.",
+    "LastUpdatedDate": "2013-05-16T05:33:21.733-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-07T01:55:46.427-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "An idea For the Sample Browser",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 7597
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Great idea! This is in our plan.",
+      "PostedDate": "2010-11-07T06:09:32.867-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "sweet :) ",
+      "PostedDate": "2010-11-07T09:20:48.02-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Alternatively you can check out and update the samples via TFS or Subversion. That's the way I keep my samples up-to-date.",
+      "PostedDate": "2010-11-07T10:16:50.02-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "the subversion url is: https://1code.svn.codeplex.com/svn",
+      "PostedDate": "2010-11-07T22:39:52.103-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-11T22:53:52.203-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:42.257-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T05:33:21.733-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

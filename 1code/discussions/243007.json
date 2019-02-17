@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "554219",
+    "ThreadId": "243007",
+    "Html": "\r\n<p>hey folks, I've got a question, related to the unregistration of the contextmenuhandler dll!</p>\r\n<p>I'm using InnoSetup to register and unregister the contextmenuhandler dll via regasm.<br>\r\nDuring the uninstallation process, the unregister of the shell-extension runs (regasm.exe stuff) nicely but the explorer holds a feed to the corresponding dll which causes an &quot;file is in use&quot; error.\r\n<br>\r\nso it can not be deletet by the uninstaller.</p>\r\n<p>how to tell the explorer to relelease the dll? maybe there is a way to tell the explorer to unload the extensions dll from the inside of the dll?<br>\r\nrestarting exeplorer.exe is no option. <br>\r\nany thoughts?</p>\r\n",
+    "PostedDate": "2011-01-24T01:00:20.867-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "556714",
+    "ThreadId": "243007",
+    "Html": "\r\n<p>nobody had a similar problem?&nbsp;</p>\r\n<p>My research showed that this problem (i don't think it's a bug) just happens when you try to uninstall the tool right after installing it! When there's a break e.g. the user logs out or reboots the machine, the uninstall process runs fine and everything\r\n is cleaned.</p>\r\n<p>Is there a way to fix this behaviour?</p>\r\n",
+    "PostedDate": "2011-01-28T00:13:12.033-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

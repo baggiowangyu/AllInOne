@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "在 WPF 中并没有对光晕效果的比较好的支持，如果在透明或半透明、开启了毛玻璃效果的 WPF 窗口上使用和桌面背景颜色相近的文字，将很难看清这样的文字——\n对于非 WPF 的窗体来说，比较常见的手段是使用 DrawThemeTextEx，这个手段同样也可以在 WPF 窗口上使用，但却很难应用在如 Label 这样的用于呈现文字的 WPF 控件上。",
+    "LastUpdatedDate": "2013-02-21T19:00:41.873-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-08T00:16:38.827-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "在透明、半透明或启用了毛玻璃效果的 WPF 窗口上使用光晕效果",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 7609
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "你好\r\n\r\n在WPF里面，你可以使用Effect属性：http://msdn.microsoft.com/en-us/library/system.windows.uielement.effect.aspx 来应用ShaderEffect，BlurEffect效果。BitmapEffect 在WPF 4里被移掉了，所以需要一个自定义的pixel shader来产生光晕效果。\r\n\r\n在MSDN上有详细介绍Pixel Shader的文章。同事在Windows SDK 7里面也有一个对应的示例：EffectsGallery。Nanalich，你能否看一下，然后告诉我这是否满足你的需求？",
+      "PostedDate": "2010-11-09T22:58:07.367-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "我会找时间去看一下，如果不能满足、或者不能理解，可能还需要一个相应的实例。\r\n感谢回应",
+      "PostedDate": "2010-11-13T23:20:34.07-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Nanalich,  不知你研究下来是否有进展？上面提到的文档对你是否有帮助？",
+      "PostedDate": "2010-11-30T23:00:34.54-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:41.873-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

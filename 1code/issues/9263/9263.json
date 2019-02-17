@@ -1,0 +1,80 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "It's a quite usefull topic.\nRegards,\ncpg",
+    "LastUpdatedDate": "2013-02-21T18:59:49.967-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-08-02T09:01:47.82-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Workflow Fondation Samples",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 9263
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "WPF, Windows Forms, ASP.Net implementations...",
+      "PostedDate": "2011-08-02T09:03:16.237-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-06T13:47:30.183-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "would be interesting on a state machine sample with sql data persistence",
+      "PostedDate": "2011-08-06T13:51:07.85-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-06T13:51:43.617-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi guys,\r\n\r\n  Thanks for using our service support.\r\n\r\n   I watch your work item has reached three point. It seems that it is worth composing by our engineer. But I am not familiar with this technological point. Can you describe it more clearly? Furthmore you can give me some informations about its relationed Blog article. Thanks for kindly suggestion.\r\n\r\nSincerely,\r\nAll-In-One-Code Framework",
+      "PostedDate": "2011-08-22T18:27:39.73-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Here a real world use for that:\r\nPast year, while working for the IT services of European Community @ Brussels (Belgium), I made the IT support to their Financial Oracle Workflow application. The client (in java), had different UI shown to the user according to the state of the work item and their \"role\" in the organization, where he/she does his/her thing and click on \"task completed\". Furthermore, according to their tasks, they can refute, and the work item goes back to the previous officer. Their workflow is not that simple as this outline but you can guess that as a governmental institution, their \"spaghetti\" workflow was beautiful and graciously organized. (Sorry, I experienced this in Oracle and Java)\r\n\r\nThis technological piece is masterful in business where process and procedural work should be done by different services at different time in an orderly manner. A Business Logic Layer between the Data Layer and UI is a perfect place for this to be.\r\n\r\nMy intended use, (as I'm opening my own company very soon) is to have a workflow for new clients: Client signs in a asp.net website ->workflow on server send to the \"Sales\" that updates how visit client and then entry the contract and mark \"task completed\" -> workflow send to Service Manager  who organize the job and mark \"Task completed\" -> workflow send employee his new duties -> workflow send to Billing -> Workflow sends a form in email to user to rate the service ->Workflow updates the Marketing Campaign and send related offers to client...\r\n\r\nThough that I already have the skill, in C# as a MCT, I really think it could be a very nice topic for you to have more materials about the Microsoft products in this domain.\r\n\r\nRegards,\r\nChristian P. Gyssels\r\nMCT\r\n(Some Ideas:\r\nSQL Serve state persistence.\r\nMultiplatform integration examples as a must:\r\n-ASP.net (WebForms/MVVM)\r\n-WPF\r\n-Windows Services\r\n-WCF.",
+      "PostedDate": "2011-08-28T17:01:48.737-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-29T21:34:07.243-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:49.967-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

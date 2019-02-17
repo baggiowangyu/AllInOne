@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Dear Sir：\nThank you for providing such a great product. When I try to apply, there is an error, please help me, thank you! \n\n Main problems are as follows:\n\nnamespace：\nxmlns:Controls=\"clr-namespace:Microsoft.Cui.Controls;assembly=Microsoft.Cui.Controls\" \nxmlns:local=\"clr-namespace:Nhs.Cui.Futures.Demonstrator.Controls;assembly=Nhs.Cui.Futures.Demonstrator.Controls\"\nxmlns:controls=\"clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls\" \nxmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\"\nxmlns:x=\"http://schemas.microsoft.com/winfx/2006/xaml\"\nxmlns:d=\"http://schemas.microsoft.com/expression/blend/2008\"\nxmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\"\n\nXAML Code:\n <Grid x:Name=\"LayoutRoot\" >\n    <local:DockPanelContainer x:Name=\"dockPanelContainer1\"  Margin=\"0, 5, 0, 5\">\n        <local:DockPanel x:Name=\"adminDockPanel1\" Height=\"813\" IsTabStop=\"False\" Margin=\"5, 5, 5, 5\" MinHeight=\"50\" MinWidth=\"100\" Width=\"275\">\n            <local:DockPanel.HeaderTemplate>\n                ......\n            </local:DockPanel.HeaderTemplate>\n            <StackPanel>\n                <TextBox x:Name=\"txtTest\"></TextBox>\n                <Button x:Name=\"btnTest\" Click=\"BtnTest_Click\"></Button>\n            </StackPanel>\n        </local:DockPanel>\n       </local:DockPanelContainer>\n</Grid>\n\nBack code:\n void BtnTest_Click(object sender, RoutedEventArgs e)\n    {\n        this.txtTest.Text = \"Hello!\";\n    }\n\nWhen F5,Then click button \"BtnTest\",Error occurred:\n NullReferenceException，means TextBox must be instantiated.but textbox named txtTest Is dragged from the Toolbox to the interface。",
+    "LastUpdatedDate": "2014-02-02T08:58:33.623-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2014-02-02T08:58:33.623-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "CUI interface",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 12715
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

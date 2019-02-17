@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "需求是有一台中央服务器A(服务器A上有一个存放文件的目录D:\\Project\\),另外有两台分站服务器B和C。B和C的D:盘下各有一个项目文件夹Project（D:\\Project\\）该文件夹下存放着不同项目的图片（比如项目XXX，则是D:\\Project\\XXX\\INV2010111600001.jpg），现在要在每天一个固定的时间，用Scoket方式将B和C服务器上每个不同项目文件夹下新增加的图片上传到中央服务器A上的D:\\Project\\各个对应的项目目录下。我想这个应该涉及到Scoket、异步、多线程和Window服务这几个方面的知识，希望能提供这方面的示例代码，谢谢",
+    "LastUpdatedDate": "2013-02-21T19:00:40.44-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-15T07:57:34.077-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "使用Scoket实现主服务器与各分支服务器的文件同步",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 7668
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

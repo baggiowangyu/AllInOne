@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Looking for a generic Hadoop client to store and retrieve data.\n\nThe sample should be workable with SQL skills, and act as a client to perform traditional CRUD operations.",
+    "LastUpdatedDate": "2013-02-21T18:59:03.14-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-12-11T20:55:33.07-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "HADOOP client, to perform CRUD like operations, 1) submit job, 2) retrieve data  3) group 4) Map-Reduce sample",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11416
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

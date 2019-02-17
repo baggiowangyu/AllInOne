@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "286770",
+    "ThreadId": "83404",
+    "Html": "<p>I have some MFC applications which are all EXEs. Every application is either a Dialog based or a MDI applications.<br> MFC code that each of these applications carries is huge.<br> <br> I would like to make one thing clear that, I do not want to include some WPF controls in my MFC applications, instead I want to create a complete WPF GUI and then re-direct all the events generated from WPF controls to my MFC code.<br> <br> Now, I am planning to change only the GUI or front-end of all of these applications. For this I thought, WPF provides best GUI design features and hence I decided to create GUIs for my applications using XAML.<br> <br> Please help me how do I make use of these GUIs for my respective applications. If available, please point me to some example.</p>\r\n<p>&nbsp;</p>\r\n<p>regards,</p>\r\n<p>viji</p>",
+    "PostedDate": "2010-02-07T05:25:35.263-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

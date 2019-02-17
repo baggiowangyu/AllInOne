@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "444031",
+    "ThreadId": "212955",
+    "Html": "<p>I got following error when compile the codes. Would you let me know how to correct it?</p>\r\n<p>&nbsp;</p>\r\n<p>D:\\WINDOWS\\Microsoft.NET\\Framework\\v3.5\\Microsoft.Common.targets(3300,9): error MSB3491: Could not write lines to file &quot;obj\\Debug\\CSASPNETCustomHttpHandlerandModule.csproj.FileListAbsolute.txt&quot;. The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.Done building project &quot;CSASPNETCustomHttpHandlerandModule.csproj&quot; -- FAILED.----</p>\r\n<p>&nbsp;</p>\r\n<p>Thank you,</p>",
+    "PostedDate": "2010-05-17T16:01:36.35-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "444149",
+    "ThreadId": "212955",
+    "Html": "<p>Hi,</p>\r\n<p>From the error message you put the project in a deep path and the entire path length exceed 260 characters. You can put the project files into a path like &quot;C:\\\\T&quot; to avoid this error. Please let me know whether it works for you.</p>",
+    "PostedDate": "2010-05-18T00:15:40.863-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "444260",
+    "ThreadId": "212955",
+    "Html": "<p>I am using the CodePlex &quot;All-In-One Code Framework&quot; solution.&nbsp; How am I going to change it????</p>\r\n<p>Does the project &quot;All-In-One Code Framework&quot; should compilde on visual studio 2008?&nbsp; What are the dependencies for this project?</p>",
+    "PostedDate": "2010-05-18T05:03:02.373-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "445324",
+    "ThreadId": "212955",
+    "Html": "<p>Hi,</p>\r\n<p>Do you mean Visual Studio 2010/All-In-One Code Framework.sln? You need to open it in VS2010. As to dependencies please refer to the ReadMe file of each specific project.</p>",
+    "PostedDate": "2010-05-20T02:43:17.733-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

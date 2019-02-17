@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I need an example of how to create an unmanaged C++ WCF named pipe channel that communicates with a managed C# WCF named pipe channel. Many different ways have been proposed on numerous forums, but there is a great lack of examples.",
+    "LastUpdatedDate": "2015-10-22T18:33:49.36-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2015-10-22T18:33:49.36-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Managed C# and unmanaged C++ applications with Named pipe WCF channel between them.",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 13755
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,106 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I spent at least several hours researching how I could do my particular task but found no efficient way of doing it. Here is my request...I populate a DataGridView with a dataset from a SQL server database. That works well but i would like to autosize the columns by default to present to the user. Then if the user wants they can resize the columns. It seems like you can do either one or the other with the built in autosize methods but not both. I can autosize the columns but then they become locked and the user cannot resize. \n \nAGP",
+    "LastUpdatedDate": "2013-02-21T19:00:19.627-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-03-03T15:48:20.96-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Autosize Columns in DataGridView and then let user resize",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 8463
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3361,
+      "FileName": "Module1.vb",
+      "DownloadUrl": ".\\3361"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Hello AGP,\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\nYou describute a scenario,which use the property of DataGridView like AutoResizeRowHeadersWidth. This time, It is a wonderful idea that you want to make them all resizing by yourself according to taking the mouse cursor into boundary of column.I think it should make a trick at event delegate.\r\n\r\nIs my understanding correct? Please let me know if I misunderstood your needs.\r\nThis looks a request of a DataGridView code sample.  Let's see how many people will vote for it. \r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com \r\n",
+      "PostedDate": "2011-03-09T19:22:53.657-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Im not sure what you mean. All i want is for the columns to be autosized to the largest cell in the column. After i do that then i also want the user to be able to resize if they wouold like to do so. Right now if I autosize the columns they become frozen and the user cannot inyteract with the column width.",
+      "PostedDate": "2011-03-10T19:11:01.76-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Maybe something lkike this\r\nspecifiy properties in the DataGridView and in the DataGridViewColumns, so as to allow the user to resize the columns.\r\n...\r\nin program code after populating the datadridview do this\r\n   .DataGridView1.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCells)\r\n...\r\n",
+      "PostedDate": "2011-05-25T07:21:35.99-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi CodeTwo,\r\n   Thanks for your concern on this sample idea. The properties which you give me is sure to do this function. Because of  little line number,I am hard to submit it. You can richen the content of this sample idea if you have enough time in order to arrange  integrated sample idea for me. \r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com",
+      "PostedDate": "2011-05-26T22:39:19.497-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-05-27T21:21:30.757-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "See attached file.  Create a VS2010 Solution with a VB project that is otherwise empty.  Plop in the attached file.  Set the startup for the project as \"Sub Main\"; then build and run.\r\n\r\n    ''' <summary>\r\n    ''' Make all the column widths accomodate the data \r\n    ''' </summary>\r\n    ''' <remarks>the key concept of this sample is to\r\n    ''' tell the DataGridView to let the user resize column widths\r\n    ''' and then make width for each columns accomodate the data\r\n    ''' </remarks>\r\n    <Extension()>\r\n    Public Sub OneResizeDataGridViewColumns(ByVal AnyDataGridView As System.Windows.Forms.DataGridView)\r\n        Select Case AnyDataGridView.AutoSizeColumnsMode\r\n            Case DataGridViewAutoSizeColumnsMode.None\r\n            Case Else\r\n                AnyDataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None\r\n        End Select\r\n        Select Case AnyDataGridView.ColumnHeadersHeightSizeMode\r\n            Case DataGridViewColumnHeadersHeightSizeMode.AutoSize\r\n            Case Else\r\n                AnyDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize\r\n        End Select\r\n        AnyDataGridView.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCellsExceptHeader)\r\n    End Sub\r\n",
+      "PostedDate": "2011-05-27T21:21:33.01-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-06-05T04:28:05.83-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi All-In-One code team,\r\nYou guys are doing nice job... thank you very much..\r\n\r\nHere is my request along with the above original request... In gridview please provide column filter option like excel sheet. I found this very usefull when the grid is showing large number of data.. Many of my project shows large data in gridview.\r\n\r\n\r\nThank you,\r\nSridhar",
+      "PostedDate": "2011-06-05T04:32:55.85-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Bing Search for these terms\r\ndatagridview filter by column values\r\n\r\nvery first returned result\r\n\r\nBuilding a Drop-Down Filter List for a DataGridView Column Header Cell Karl Erickson ... all other columns remain in effect even though the column's own filter value is ...\r\n\r\nhttp://msdn.microsoft.com/en-us/library/aa480727.aspx\r\n",
+      "PostedDate": "2011-06-06T07:18:50.54-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "CodeTwo...that i think is going to work. I translated to VB2005 and in a sample project it does what its supposed to. let me use it in my main project and see how that pans out but looks like the answer i was looking for. learnsridhar...instead of adding to this topic please create a new one for your request.\r\n\r\nAGP",
+      "PostedDate": "2011-06-25T08:52:05.867-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Seems odd. I used the code snippet and it works for resizing to contents of cells. if i change to include the header it stops working.",
+      "PostedDate": "2011-06-28T12:38:03.413-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:19.627-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

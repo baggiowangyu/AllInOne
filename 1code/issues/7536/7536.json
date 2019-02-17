@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "许多人想写属于自己的控件，例如自定义一个属于自己的button。如果他们不选择继承button，那么如何一步一步的实现按钮的逻辑功能呢。希望能够提供一个比如button的逻辑树代码。供大家参考。",
+    "LastUpdatedDate": "2013-02-21T19:00:43.563-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-02T00:09:52.35-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "希望提供一个控件（如Button）的C#代码 Button control code behind with logic tree In Silverlight",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 7536
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "你好 41460555 \r\n\r\n很高兴你再次使用示例代码请求服务（http://1code.codeplex.com/wikipage?title=Sample%20Request%20Service%20%28CHS%29）。\r\n\r\n我们的Silverlight 工程师们正在分析你的这个sample请求，并会给你进一步的更新。\r\n\r\n谢谢\r\nJialiang Ge\r\nProgram Manager of Microsoft All-In-One Code Framework",
+      "PostedDate": "2010-11-02T08:38:59.223-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "你好。\r\n\r\n让你久等了。你能否看一下这篇文章是否满足你的要求？\r\nCreating a Silverlight Custom Control - The Basics\r\nhttp://www.silverlightshow.net/items/Creating-a-Silverlight-Custom-Control-The-Basics.aspx\r\n\r\n谢谢\r\nJialiang Ge\r\n",
+      "PostedDate": "2010-11-12T00:35:34.183-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "你好，我看了您推荐的链接，这是个很不错的demo，既简单又典型，感谢您对我提出的问题做的工作。",
+      "PostedDate": "2010-11-21T20:39:17.037-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:43.563-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

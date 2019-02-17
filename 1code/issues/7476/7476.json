@@ -1,0 +1,75 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello. I would like to see sample code for a vb.net UserControl which can preview Thumnails and Previews just like the Explorer do in Win 7. Is that possible?\n \n \nWould this also work in Win XP?",
+    "LastUpdatedDate": "2014-07-30T23:44:16.487-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-10-25T03:55:10.707-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Combined Thumbnail and Preview UserControl",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 7476
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello\r\n\r\nThank you for trying our newly release code sample request service!\r\n(http://1code.codeplex.com/wikipage?title=NEW%2c%20FREE%20Code%20Sample%20Request%20Service%20from%20Microsoft%20All-In-One%20Code%20Framework)\r\n\r\nSuch a code sample already exists in Microsoft Windows API Code Pack http://code.msdn.microsoft.com/WindowsAPICodePack. See WindowsAPICodePack\\Samples\\Shell\\ShellThumbnailBrowserDemo. So my team will probably not duplicate the sample in All-In-One Code Framework. Please let me know whether ShellThumbnailBrowserDemo is helpful to you. If you have any additional requirement, please let me know. \r\n",
+      "PostedDate": "2010-10-27T23:25:16.75-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks. This will work for thumbnail and icon. But som file type does not have thumbnail, like word, excel, outlook .msg files etc. These are possible to preview in the new preview pane in win 7 explorer. Do you know if there are any samples for this kind of preview? Frode",
+      "PostedDate": "2010-10-28T05:45:32.837-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks. \r\nI see. There's no sample for \"preview\". Let's see how many developers would vote for this sample request. In the meantime, my team will dig into this sample idea, and update you again. ",
+      "PostedDate": "2010-10-28T23:45:02.34-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-05-23T23:30:50.47-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "The problem with the WindowsAPICodePack sample is that a preview of Outlook *.msg files is not possible. Also, it would be nice to see how a 64 bit application can preview *.msg files on a system that has 32bit Office installed. 64 bit Windows Explorer seems to use a 32 bit 'prevhost.exe' process but it's unclear how you would do that in your own application.",
+      "PostedDate": "2012-05-23T23:34:00.613-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:45.69-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-07-30T23:44:16.487-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Windows, starting at WinXP SP<something>, blocks write access to sectors of any mass storage media (HDD, FDD, USB-Stick) it gets under its control, as soon as  the Root Sector contains something which seems to be valid to Windows.\n \nThat means an application cannot write to the sectors of this media. All tries using un-mount like things (even cmd-line tools) failed. The only way for a disk sector editor, or a tool like \"dd\", or a disk formatter, seems to write an invalid Root Sector, have the user pull out and re-insert the media, and then do its work.\n \nLinux is much simpler to use: Write is allowed as long as the part (partition, whatever) of media is not mounted. How to un-mount and mount again, is very clear here, and works!\n \nWhat is needed:\nHow to tell Windows to allow write access to sectors? (Windows shall stop treating file systems on this media.)\nHow to tell Windows to re-mount (and, e.g., refresh view in Explorer) after finished writing sectors.\n \nTank you very much!",
+    "LastUpdatedDate": "2013-02-21T18:59:58.1-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-06-04T05:22:55.41-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Sample Code / Documentation request: Write access to sectors",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 8930
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello shenzhongwei,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\n  I have developed with Windows DDK to capture Cylinders,MediaType,TracksPerCylinder,SectorsPerTrack,BytesPerSector and DiskSize. I only watched some technologys about WDF. It is new driver develop technologys. The past one is WDM. Before WDM is DDK. So I can tell you that these technologys can solve your program under Microsoft Operate System. If possibly, You can give me some clues to dig into more depths so that we can compose more appropriate code to you.According it you can solve your issue.\r\nAnd I can give you some SetupDi*** function to stimulate your inspiration such as SetupDiGetClassDevs,DeviceIoControl,SetupDiEnumDeviceInterfaces,SetupDiOpenDeviceInfo,SetupDiGetDeviceInterfaceDetail and SetupDiDestroyDeviceInfoList. \r\n   Certainly, I can tell you I know how to unmount USB device when it is working such as CM_Request_Device_Eject and CM_Request_Device_Eject_NoUi. These function can unmount USB device o other than HDD. These functions all comes from setupapi.dll. If you use PInvoke to invoke it, it is easy to use. If you have other some ideas to help this sample ,please feel free to let me know. I will wait for your reponse. \r\n\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-06-08T18:47:47.997-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thank you very much for your fast response. I will check the pointers you gave later, when my Internet connection is better. My feeling is this may be a way to solve the problem, but it may go too low-level. No question, there is a solution.\r\n\r\nThe current approach for sector access is to use ReadFile and WriteFile after opening a file like \"\\\\?\\Device\\Harddisk0\\DR0\". This is cross-platform with little effort. I would like to keep such a general approach if possible. It shall work on all mass storage media having sector (or linear) structure, that means real old floppy disks, parallel ATA/IDE, SCSI, RAM-disks, SATA, eSATA, USB, HDD, Flash, IEEE1394, ... I do NOT want to eject the device or media. All I want is write access after telling Windows not to manage the filesystem which may be in that area, on that partition or volume. After writing, Windows shall re-read the structures (like partition table, or boot sectors) and take control over file system again.\r\n",
+      "PostedDate": "2011-06-09T08:08:47.34-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T17:21:33.137-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:58.1-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

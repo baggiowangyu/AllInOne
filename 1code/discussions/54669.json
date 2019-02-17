@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "184347",
+    "ThreadId": "54669",
+    "Html": "能不能增加一个中文说明？<br>\r\n<br>\r\n中文的相关资料太少了。。<br>\r\n另外，这里应该支持中文的～<br>\r\n<br>\r\n<br>\r\n还有，在问一下，有没有 VB.NET 的代码？ 看到有写 C# ， 所以先问一下\r\n",
+    "PostedDate": "2009-04-27T22:35:46.797-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "212004",
+    "ThreadId": "54669",
+    "Html": "<p>你好 Gyc</p>\r\n<p>我们最近新增了CodeFx的中文说明：</p>\r\n<p><a href=\"http://cfxchs.codeplex.com\">http://cfxchs.codeplex.com</a></p>\r\n<p>但我们仍在计划如何将CodeFx中的sample本地化到中文。</p>\r\n<p>谢谢<br>Jialiang</p>",
+    "PostedDate": "2009-07-15T00:55:27.623-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "212013",
+    "ThreadId": "54669",
+    "Html": "<p>哦～， 看到了</p>\r\n<p>支持一下～～</p>",
+    "PostedDate": "2009-07-15T01:02:18.903-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

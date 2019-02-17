@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "http://social.msdn.microsoft.com/Forums/en-US/vbgeneral/thread/d89af73d-3ad7-485a-b6c4-94dadf13659e\nhttp://msdn.microsoft.com/en-us/library/cc144148(VS.85).aspx",
+    "LastUpdatedDate": "2013-02-21T19:00:46.477-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-08-30T21:54:49.647-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "How do I associate a File Extension with my application",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 7045
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

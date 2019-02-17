@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "231805",
+    "ThreadId": "68158",
+    "Html": "<p>In <a href=\"http://blogs.msdn.com/codefx/archive/2009/09/01/work-with-silverlight-deep-zoom.aspx\">http://blogs.msdn.com/codefx/archive/2009/09/01/work-with-silverlight-deep-zoom.aspx</a>&nbsp;is introduction to DeepZoom example.</p>\r\n<p>When will this example be&nbsp;in All-In-One Code Framework?</p>\r\n<p>Is it possible to see this example and source somwhere,&nbsp;temporary, during waiting to release?</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-09-07T05:07:34.543-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "232542",
+    "ThreadId": "68158",
+    "Html": "<p>Hi, you can click the &quot;Source Code&quot; tab, and download a recent change set. Any change sets&nbsp;later than 27790 contains the Deep Zoom&nbsp;sample.</p>",
+    "PostedDate": "2009-09-08T22:58:56.3-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "465310",
+    "ThreadId": "68158",
+    "Html": "<p>thanks man super article&nbsp; <a href=\"http://www.duvarkagidim.com\">dekorasyon</a></p>",
+    "PostedDate": "2010-07-09T03:34:43.277-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "662012",
+    "ThreadId": "270065",
+    "Html": "\r\n<p>Hello,</p>\r\n<p>I would love to see a sample for creating a Virtual Joystick HID driver in C&#43;&#43;, using IOCTL calls to set the axis or buttons, just a small sample which provides control to a single axis would be enough.</p>\r\n<p>Thankyou,</p>\r\n<p>Aaron Murgatroyd</p>\r\n",
+    "PostedDate": "2011-08-23T04:11:44.79-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "664613",
+    "ThreadId": "270065",
+    "Html": "<p>Me too</p>",
+    "PostedDate": "2011-08-28T16:21:58.753-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

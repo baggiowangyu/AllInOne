@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "290803",
+    "ThreadId": "85376",
+    "Html": "<p>I've downloaded this project multiple times and have yet to get a version that will properly extract from the .zip format.</p>\r\n<p>An &quot;Error Copying File or Folder&quot; dialog appears with the message &quot;The system cannot find the file specified.&quot; Of course, the copy dialog doesn't display exactly which file/folder this is occurring on, but the extract folder only contains the VS 2008 subfolder with a few C++ files in it.</p>\r\n<p>Anyone else having this problem ?</p>",
+    "PostedDate": "2010-02-15T04:58:45.11-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "291122",
+    "ThreadId": "85376",
+    "Html": "<p>Hello BobS</p>\r\n<p>Could you please let me know the detailed steps to see the problem? From which link &amp; button are you downloading the zip?</p>\r\n<p>Thanks<br>Jialiang Ge</p>",
+    "PostedDate": "2010-02-16T00:09:34.52-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

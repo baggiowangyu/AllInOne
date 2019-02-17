@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "We are looking for an example of a good way to create an image cropping feature in WPF MVVM. The functionality would be:\n1) Select an image\n2) Draw a rectangle on the image, keeping an aspect ratio\n3) show the preview cropped version\n4) press a button to save the cropped image.",
+    "LastUpdatedDate": "2013-02-21T18:59:13.06-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-07-09T18:35:24.15-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "WPF MVVM Image Croper",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10985
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

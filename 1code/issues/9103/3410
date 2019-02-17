@@ -1,0 +1,143 @@
+using System;
+using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
+using System.ComponentModel.DataAnnotations;
+using System.ServiceModel.DomainServices.Hosting;
+using System.ServiceModel.DomainServices.Server;
+using System.ServiceModel.DomainServices.Client;
+using System.Runtime.Serialization;
+
+// 为什么在服务器端 Entity Framework 4.1（EF4.1 CodeFirst） 定义的实体继承的接口在 Silverlight 客户端没有显示继承接口？
+// 在服务器端实现特定接口的多个实体可以在 Silverlight 客户端进行统一处理，以减少编程代码
+
+namespace MiniNWModel
+{
+    // 一.定义数据树接口
+    public interface IDataTree
+    {
+        [Key]
+        string NodeID { get; set; }
+        string NodeName { get; set; }
+        string FatherID { get; set; }
+    }
+
+    // 二.实现数据树接口的实体 
+    public class DataTree : IDataTree
+    {
+        [Key]
+        string NodeID { get; set; }
+        string NodeName { get; set; }
+        string FatherID { get; set; }
+    }
+
+    // 三.数据库访问网关
+    public class MyDbContext : DbContext
+    {
+        public MyDbContext() { }
+        public DbSet<DataTree> DataTrees { get; set; }
+        protected override void OnModelCreating(DbModelBuilder modelBuilder) { }
+    }
+
+    // 四.对 Silverlight 客户端公开查询方法的域服务
+    [EnableClientAccess()]
+    public class DataTreesService : DomainService
+    {
+        public IEnumerable<DataTree> GetDataTrees()
+        {
+            using (MyDbContext context = new MyDbContext())
+            {
+                return context.DataTrees;
+            }
+        }
+    }
+
+    // 五.在 Web.g.cs 文件
+    // 问题就在 Silverlight 客户端为什么没有继承IDataTree接口？？？？？？
+    // 那我要怎样设置才有可能在这也显示继承IDataTree接口？？？？？？
+    [DataContract(Namespace = "http://schemas.datacontract.org/2004/07/EDS.Web")]
+    public sealed partial class DataTree : Entity
+    {
+        private string _nodeID;
+        private string _nodeName;
+        private string _fatherID;
+        partial void OnNodeIDChanging(string value);
+        partial void OnNodeIDChanged();
+        partial void OnNodeNameChanging(string value);
+        partial void OnNodeNameChanged();
+        partial void OnFatherIDChanging(string value);
+        partial void OnFatherIDChanged();
+
+        /// <summary>
+        /// 获取或设置“NodeID”值。
+        /// </summary>
+        [DataMember()]
+        public string NodeID
+        {
+            get
+            {
+                return this._nodeID;
+            }
+            set
+            {
+                if ((this._nodeID != value))
+                {
+                    this.OnNodeIDChanging(value);
+                    this.RaiseDataMemberChanging("NodeID");
+                    this.ValidateProperty("NodeID", value);
+                    this._nodeID = value;
+                    this.RaiseDataMemberChanged("NodeID");
+                    this.OnNodeIDChanged();
+                }
+            }
+        }
+
+        /// <summary>
+        /// 获取或设置“NodeName”值。
+        /// </summary>
+        [DataMember()]
+        public string NodeName
+        {
+            get
+            {
+                return this._nodeName;
+            }
+            set
+            {
+                if ((this._nodeName != value))
+                {
+                    this.OnNodeNameChanging(value);
+                    this.RaiseDataMemberChanging("NodeName");
+                    this.ValidateProperty("NodeName", value);
+                    this._nodeName = value;
+                    this.RaiseDataMemberChanged("NodeName");
+                    this.OnNodeNameChanged();
+                }
+            }
+        }
+
+        /// <summary>
+        /// 获取或设置“FatherID”值。
+        /// </summary>
+        [DataMember()]
+        public string FatherID
+        {
+            get
+            {
+                return this._fatherID;
+            }
+            set
+            {
+                if ((this._fatherID != value))
+                {
+                    this.OnFatherIDChanging(value);
+                    this.RaiseDataMemberChanging("FatherID");
+                    this.ValidateProperty("FatherID", value);
+                    this._fatherID = value;
+                    this.RaiseDataMemberChanged("FatherID");
+                    this.OnFatherIDChanged();
+                }
+            }
+        }
+    }
+
+}

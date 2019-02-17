@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "In Windows Azure, the main hosting process (WaWebHost or WaWorkerHost) is associated with a job object, which imposes certain limitations such as unable to use most features of GDI+. The only workaround is to create a new process using Win32_Process.Create that is not associated with the job object.\n \nWe request a managed code sample which demonstrates the following features:\n \nHow to create a job object that has the JobObjectBasicUIRestrictions limit.\nUse Process.Start to create a new process associated with the job object.\nDemonstrate you can't perform certain tasks, such as obtaining an external window handle, in the process.\nUse Win32_Process.Create to start a new process which is not associated with the job object.\nDemonstrate you can perform certain tasks, such as obtaining an external window handle, in the process.\n \nThe sample should be a web application, rather than a desktop application.",
+    "LastUpdatedDate": "2013-02-21T19:00:46.26-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-09-21T19:27:38.513-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Use WMI's Win32_Process.Create to create a new process not associated with a job object",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 7217
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I need to create a WPF DataGrid that supports some advanced functionality like sorting on multiple columns (that show the sort order) and the ability to filter on certain columns.  I do like the style where the first line is a filter row where if the user enters text the data in that column is filtered to match the text.  Some of grids include columns that use ComboBoxes to show the text associated with the underlying foreign key of the underlying itemsource, I can't find examples of filtering for that situation.  Also, it would be great to see how to filter on a data column, with a begin and/or end date.",
+    "LastUpdatedDate": "2013-02-21T18:59:11.493-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-07-31T13:00:43.013-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Need example of WPF DataGrid with a filter Row that includes columns that have a comboBox and Date",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11041
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

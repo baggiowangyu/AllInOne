@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The Sample Browser shows the progress dialog when downloading, but the sample files are not downloaded and the \"Download\" is not changed to \"Open\" as it did before.\n \nThank you\nTom",
+    "LastUpdatedDate": "2013-02-21T18:59:43.993-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-09-15T06:30:56.433-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Sample Browser does not work the same as it did in the last version",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 9514
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I believe I am seeing the same problem. When I click on \"download\" the download dialog box opens and then quickly closes. Files are not downloaded. When I manually download code samples and unpack to the sample repository the new samples are not recognized.",
+      "PostedDate": "2011-09-21T15:07:40.563-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello \r\n\r\nDoes this happen to certain samples or all samples?  I'm having difficulty to reproduce these problems on my side, however, we will very likely release a new version of Sample Browser next week.  It's completely redesigned, and hopefully, these problems will disappear in it.\r\n\r\nHello tomnicolosi\r\n\r\nThe sample browser stores the download sample info in the Samples.xml file and uses the info to determine whether a sample is downloaded or not.   That's why it's not recognized when you unpack the sample manually.\r\n\r\nJialiang Ge\r\nMicrosoft All-In-One Code Framework",
+      "PostedDate": "2011-09-22T02:55:22.57-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I have exactly the same problem as tomnicolosi has. I only can download one for each visual studio version. \r\n\r\nThis is what I did.\r\n1. created folder \"C:\\AllInOneCodeSample\".\r\n2. download a few sample codes (but only two work. One under Visual Studio 2008 and one under Visual Studio 2010.)\r\nC:\\AllInOneCodeSample\\Visual Studio 2008\\CSASPNETExcelImportExport\r\nC:\\AllInOneCodeSample\\Visual Studio 2010\\CSASPNETGridView\r\n\r\nAfter that i never have any sample code. \r\n\r\n",
+      "PostedDate": "2011-10-12T11:20:55.783-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-10-14T06:16:24.613-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:43.993-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

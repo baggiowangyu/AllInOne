@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The automation that connects the DomainService to the entity framework seems quite useful.  We can add new 'queries' in the DomainService but the syntax while 'linq' like, is different enough that one can spend hours trying to get the syntax for something as simple as a distinct query the returns the distinct values of just one column.  That and some other fairly simple queries like a select that returns a few columns and a basic join should do the trick.",
+    "LastUpdatedDate": "2013-02-21T19:00:35.867-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-12-06T09:28:02.643-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "RIA services DomainService query examples",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 7839
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

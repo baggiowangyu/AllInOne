@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I would really like to see a code sample of implementing OAuth 2.0 security and possible several other security patterns for data services. I see a tremendous amount of potential for data services. However, security is a major concern.\n \nBest.",
+    "LastUpdatedDate": "2013-02-21T19:00:16.713-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-03-18T11:42:12.133-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Code sample request: WCF Data Service implemaneting OAuth 2.0 security",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8539
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

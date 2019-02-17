@@ -1,0 +1,90 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Creating a treeview in Silverlight using the treeview is easy but creating a complete CRUD treeview is a common need with hardly any sample that does it completely.  So a Silverlight example with ability to create new nodes (right click and create node; even right click with ChildWindow to add node is fine), ability to right click and change title of a node, ability to delete node, ability to drag & drop to rearrange the tree view nodes (the most common need that is difficult to do properly).\n \nAppreciate you consideration of this request",
+    "LastUpdatedDate": "2013-02-21T19:00:43.13-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-03T17:15:13.593-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Silverlight Treeview",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 6,
+    "Id": 7564
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello \r\n\r\nThank you for using our sample request service! (http://1code.codeplex.com/wikipage?title=NEW%2c%20FREE%20Code%20Sample%20Request%20Service%20from%20Microsoft%20All-In-One%20Code%20Framework) \r\n\r\nThis looks a great sample topic. Microsoft silverlight engineers will analyze it.\r\n\r\nThanks\r\nJialiang Ge\r\nProgram Manager of Microsoft All-In-One Code Framework",
+      "PostedDate": "2010-11-07T23:29:26.3-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "CRUD to database would be greate.  And with drag & drop changes saved to database.  Multi-user??  Thank you in advance.",
+      "PostedDate": "2010-11-11T22:32:35.01-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-11T22:59:53.26-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-22T05:01:10.817-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-04T11:25:22.233-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "A sample in VB would be nice - and better yet, a treeview that is created from queries to a domain service. (along with the changes needed to the metadata) ",
+      "PostedDate": "2011-09-07T11:34:51.393-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-09-07T11:35:05.347-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-09-13T10:27:10.09-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello Kiwik,\r\n\r\nWe found that the following sample can probably answer your request about how to create a treeview in Silverlight. \r\n\r\nhttp://code.msdn.microsoft.com/CSSLTreeViewCRUDDragDrop-ee92c4fe\r\nThe sample demonstrates a custom TreeView with added functionalities of CRUD and Drag-And-Drop operations.\r\n\r\nPlease let us know if this sample is helpful to you. \r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com\r\n",
+      "PostedDate": "2012-08-21T20:13:41.897-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:43.13-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

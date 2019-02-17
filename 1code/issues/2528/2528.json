@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "closed by the changeset 21023",
+    "ClosedDate": "2009-04-02T22:13:02.64-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Demonstrate how to use Linq to access the data in strongly typed DataSets using Visual C# .NET.\n \nReference:\nhttp://msdn.microsoft.com/en-us/library/bb386977.aspx",
+    "LastUpdatedDate": "2013-05-16T05:33:38.7-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-03-31T03:05:24.033-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Example: CSLinqToDataSets",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2528
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

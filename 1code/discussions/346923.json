@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "804005",
+    "ThreadId": "346923",
+    "Html": "\r\n<p>If I search in the All-in-One Code Framework for &quot;installer&quot; or &quot;Windows installer custom actions&quot; I am swamped by irrelevant entries that apparently mention the installer or use the word &quot;custom&quot; someplace.</p>\r\n<p>Are there Windows Installer samples in the existing repository? What search pattern or criteria would I use to find them?</p>\r\n<p>Specifically I am hunting for a sample that gets or sets installer properties from within a custom action. I have found the lists of installer properties but the code samples I have found are for C&#43;&#43; access via Msi.... functions probably from custom installers&nbsp;rather\r\n than by access using C# from a custom action within the regular Windows Installer.</p>\r\n",
+    "PostedDate": "2012-03-01T13:27:56.24-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

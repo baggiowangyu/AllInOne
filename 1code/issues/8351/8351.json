@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Apparently, WPF provides Page and PageFunction as loose analogues to the MFC PropertySheet and PropertyPage classes. While these are very powerful, it's not clear what the best way is to use them to construct a classic Windows task wizard.\n \nPlease create a sample showing a three-page wizard, using best practices, showing Back, Next, Cancel, and Finish buttons and some simple properties being set on each page of the wizard.\n \nThank you.",
+    "LastUpdatedDate": "2013-02-21T19:00:23.52-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-02-15T10:55:42.78-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Sample of a Wizard in WPF/C#",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 8351
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "This is a very common UI scenario. I would suggest creating a user control which encapsulates the functionality, so we as developers don't have to spend time figuring out how to do it. Our time should be focused on solving the problems of our clients.",
+      "PostedDate": "2011-03-06T08:33:21.47-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-03-06T08:33:59.79-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:23.52-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

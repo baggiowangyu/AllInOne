@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "how can i block copy past in windows mean on desktop right click disable copy pase menu n also ctrl+c etc any idea?? using c#",
+    "LastUpdatedDate": "2013-02-21T19:00:18.36-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-03-10T09:19:51.68-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "copy past block",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 8501
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello,\r\nThank you for using our code sample request service. \r\nI'd like to confirm with you my understanding of the sample request:\r\n    I think that you want to disable mouse right click event for your private purpose. At the same time you make menu and shortcuts disabled concurrently.\r\n    Is my understanding correct? Please let me know if I misunderstood your needs.\r\nAnd I think that your idea mentioned is a wonderful sample. Let's see how many people will vote for it. \r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-03-10T17:37:24.047-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T18:26:19.233-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "1 vote for orichisonic interpretation ;)",
+      "PostedDate": "2011-08-28T18:26:28.587-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:18.36-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

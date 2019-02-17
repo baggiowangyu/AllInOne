@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am looking for a real MVC 3 Razor frame work template to build a roboust web application in MVC 3.\nConfused of different patrens what to use along with MVC like dependency injecction and all.\nPlease give a best MVC 3  real wolrd architectural pattren.",
+    "LastUpdatedDate": "2013-02-21T18:59:20.093-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-04-23T06:42:26.613-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Real MVC 3 Razor framework application",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10677
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1305748",
+    "ThreadId": "567728",
+    "Html": "I downloaded the CSShellExtContextMenuHandler project and tried to register the extension following the instructions. But I don't see any custom context menu item appearing on right-click.<br />\n",
+    "PostedDate": "2014-09-17T15:19:55.19-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1306083",
+    "ThreadId": "567728",
+    "Html": "For this sample to work you need to set Visual Studio as a default opener for .cs files<br />\n",
+    "PostedDate": "2014-09-18T12:46:05.197-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": "2014-09-18T12:46:10.657-07:00"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi! :)\nI am student, I have/had some problems with the Java - Netbeans - JDBC/ODBC connection.\nPlease make a sample application that connects java application with MS-SQL Database. with database query file.\nI don't think that would be a problem java is very similar to C# :)\n\n\nhttp://msdn.microsoft.com/en-us/sqlserver/aa937724.aspx\nYes I know there are a few examples given in these pages but I need 100% working example.",
+    "LastUpdatedDate": "2015-07-19T09:39:18.5-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2014-11-21T15:23:46.247-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "JAVA - NETBEANS JDBC CONNECTION WITH MS-SQL",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 2,
+    "Id": 13327
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

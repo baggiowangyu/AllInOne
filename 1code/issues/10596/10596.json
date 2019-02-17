@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello,\nthere does not seem to be a working sample available allowing developers to host the shell preview handlers in their applications, preferably in a WPF one.\n \nI want to note that the ShellThumbnailBrowserDemo of Windows API Code Pack does not host preview handlers, only thumbnails (so you e.g. cannot preview a Word document). Initialization both from files and streams should be supported.\n \nIt would be very helpful to see how this should be done.\nJan",
+    "LastUpdatedDate": "2013-02-21T18:59:23.11-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-04-01T04:09:59.58-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Hosting a shell preview handler",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10596
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Please consider to vote for the following item http://1code.codeplex.com/workitem/7476",
+      "PostedDate": "2012-05-23T23:36:27.393-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:23.11-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

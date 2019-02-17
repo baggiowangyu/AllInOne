@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello, \n \nI am creating a fax client app using VS2008 C++, XP SP3. The C++ example for sending a fax, http://msdn.microsoft.com/en-us/library/windows/desktop/ms693391(v=vs.85).aspx, compiles and executes perfectly. At this point I would like to be able to track the progress of the fax throughout transmission, i.e., capture line busy, no dialtone, and all other members of FAX_JOB_EXTENDED_STATUS_ENUM.\n \nAfter many searches of MSDN documentation, this site and other developer websites, I have been unable to find a straight-forward solution. I DO see VB examples, but I am having a difficult time translating them to VC++.\n \nIf I can be shown an example in context with the above-mentioned MSDN example, which I am also attaching, I would be greatly indebted. If this solution has already been presented, please refer me to the urls.\n \nBest Regards, \nGerry",
+    "LastUpdatedDate": "2013-02-21T18:59:17.003-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-05-29T14:12:10.1-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Monitoring Extended Status of Outgoing Fax Jobs",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10828
+  },
+  "FileAttachments": [
+    {
+      "FileId": 4081,
+      "FileName": "SendFax.cpp",
+      "DownloadUrl": ".\\4081"
+    }
+  ],
+  "Comments": []
+}

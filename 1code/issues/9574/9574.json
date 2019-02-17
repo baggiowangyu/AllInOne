@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "MSMQ using asynchronous send and receive in Visual Studio 2010 either in VB.net or C#",
+    "LastUpdatedDate": "2013-02-21T18:59:42.57-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-10-03T13:57:56.24-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "MSMQ using Visual Studio 2010",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9574
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi FastTrak,\r\n\r\n I have posted this similiar sample idea in the past several months. Take it easy. I trust it would be approved by our subject matter experts.\r\n\r\nSincerely,\r\nAll-In-Onecode Framework\r\n\r\n\r\n",
+      "PostedDate": "2011-10-17T02:12:53.023-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-06-10T01:31:03.757-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:42.57-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

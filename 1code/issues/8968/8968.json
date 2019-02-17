@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "It would be nice to have a control that would allow column filtering for the DataGridView similar to column filtering provided by Excel.  \n \nThank you",
+    "LastUpdatedDate": "2013-02-21T18:59:56.23-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-06-17T07:10:32.077-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "DataGridView column filtering",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 8968
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "This may be what you want.\r\nBuilding a Drop-Down Filter List for a DataGridView Column Header Cell Karl Erickson ... all other columns remain in effect even though the column's own filter value is ...\r\n\r\nhttp://msdn.microsoft.com/en-us/library/aa480727.aspx\r\n\r\n",
+      "PostedDate": "2011-06-20T06:41:38.347-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "hi CodeTwo and MisterT99,\r\n\r\nThank you for using our code sample request service. \r\n\r\nThanks for your support of our project, and you always submit  significative sample idea for us. The topic of this sample has been covered by msdn support website. It seem that it has a sample code. So I think you should add some features better than this topic or based on this topic. Thanks again for your sample idea. \r\n\r\nSincerely\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com \r\n\r\n",
+      "PostedDate": "2011-06-20T19:18:10.083-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-29T20:15:50.89-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:56.23-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

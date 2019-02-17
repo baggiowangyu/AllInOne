@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello,\n \nI would be interested in a sample of WCF 4 routing which demonstrates the following scenarios:\n \n- fallback (one address is not available, try another)\n- multiple message recipients\n- decision of recipient based on a rule\n \nThanks, and keep up the excellent work!\nRP",
+    "LastUpdatedDate": "2013-02-21T19:00:04.477-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-05-06T04:59:28.42-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "WCF 4 Routing",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 8752
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello rjperes,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\nYour sample idea is similar with another sample idea comes from other work item such as:http://1code.codeplex.com/workitem/8537\r\nAnd I have recommended them to our subject matter expert which  are expert in WCF and silverlight. They would dig into it and submit this sample idea.\r\nThanks for your recommendation.You give our motivation and we will do better than before.\r\n\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com \r\n\r\n",
+      "PostedDate": "2011-05-06T18:54:05.02-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi, thanks for the quick reply!\r\nWell, I wasn't thinking of WIF, just plain WCF routing, but if you decide to combine both requests, it's fine by me.\r\nRegards,\r\nRP",
+      "PostedDate": "2011-05-07T04:10:29.423-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-09-24T19:37:35.51-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:04.477-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

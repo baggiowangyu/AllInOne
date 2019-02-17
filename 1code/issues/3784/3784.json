@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "Silverlight",
+      "DisplayName": "Silverlight"
+    },
+    "ClosedComment": "finished ADONETDataServiceSL3Client",
+    "ClosedDate": "2009-08-26T18:51:24.46-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "CSADONETDataServiceSL3Client, VBADONETDataServiceSL3Client\n \nDemonstrates how to call ADO.NET Data Service in Silverlight. CRUD.",
+    "LastUpdatedDate": "2013-05-16T05:33:30.44-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-08-19T00:31:30.397-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Sample: ADONETDataServiceSL3Client",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 3784
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Can you provide a sample code on how to extract embedded files from PowerPoint PPT document.\nAttached Embedded.ppt file contains 3 attachments XLS, PDF and TIF.",
+    "LastUpdatedDate": "2013-02-21T18:59:44.17-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-09-13T16:13:30.607-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Extract embedded files from PowerPoint PPT document",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9509
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3519,
+      "FileName": "Embedded.ppt",
+      "DownloadUrl": ".\\3519"
+    }
+  ],
+  "Comments": []
+}

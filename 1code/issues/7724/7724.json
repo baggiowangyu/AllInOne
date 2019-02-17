@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "duplicated with http&#58;&#47;&#47;1code.codeplex.com&#47;workitem&#47;7723",
+    "ClosedDate": "2010-11-22T05:41:09.993-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "希望能够提供一个SilverLight在中小企业中的Web应用基础框架。此框架包含基础的权限管理，树状菜单管理，主要展示SilverLight在多用户下权限操作方面的应用。",
+    "LastUpdatedDate": "2013-05-16T05:33:21.33-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-22T05:29:21.3-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "SilverLight在中小企业中的Web应用基础框架",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 7724
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

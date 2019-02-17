@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "closed by the changeset 21519",
+    "ClosedDate": "2009-04-09T23:25:58.48-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "This sample demonstrates how to localize Windows Forms application.",
+    "LastUpdatedDate": "2013-05-16T05:33:37.78-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-04-08T03:59:06.707-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Example: CSWinFormLocalization",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2666
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

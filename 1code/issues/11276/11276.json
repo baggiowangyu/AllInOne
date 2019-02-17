@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Tranfer BusinessObjects from one PC to another. \n\nI thought on:\n1.serialize a BO object\n2.transfer it to another PC\n3.deserialize it with correct type, so that a object.consistencyCheck() method can be called\n4.make a consistency check \n(enhanced: call aditional data from sender which is missing)\n5.save to db\n\nThe thing with the type would make it more interesting. If using WCF i mostly use a method for each BO. But think on an incresing number of BO. So the transfer of the objects shoudl be independend of the type.",
+    "LastUpdatedDate": "2013-02-21T18:59:06.16-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-10-17T01:34:30.987-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Transfer business objects",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 11276
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

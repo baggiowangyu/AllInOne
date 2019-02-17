@@ -1,0 +1,100 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "A downloader with datagridview for showing downloads and their informations.                vb.net",
+    "LastUpdatedDate": "2013-02-21T18:59:37.18-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-11-15T03:07:06.617-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "A Downloader with Datagridview",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 9,
+    "Id": 9827
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi all,\r\n Could you give me detailed scenario about this sample idea? I hope one of you can response to me again. Thank in advanced.\r\n\r\nSincerely,\r\nAll-In-OneCode-Framework",
+      "PostedDate": "2011-11-21T17:52:27.857-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-23T04:33:42.163-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-26T03:14:38.647-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi all,\r\n I have submitted it as a new sample idea,but the reply of this sample idea has a problem that its thread manager is more important than other feature. Because we already have a WebDownloader sample that demonstrate Pause/Resume/Cancel/Stop/Multi-Thread,the sample name is CSMultiThreadedWebDownloader and CSWebDownloader.If we have no additional features about it, I am afraid I can't persuade our experts approve this sample idea,so you'd better providing more scenario about its extend features. Thanks in advanced.\r\n\r\nSincerely,\r\nAll-In-Onecode Framework",
+      "PostedDate": "2011-12-01T01:22:55.18-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Sample application that manages multiple segmented downloads and supports HTTP, FTP  downloads,Auto-Downloads,Internet Explorer Integration and showing download information like: file name,file size,progress,time left,... in dgv",
+      "PostedDate": "2011-12-01T04:53:19.51-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi aaaaa,\r\n  I have got your information. What you provided is useful for me,it seems that I can focus on Multi-Task to design this sample idea. Would you please give me more information about its detailed technologies points such as MVP 's blog articles or other some kb articles. I believe refining from these articles can make more clear the brain to understand its features and describe it more comprehensive,so that the SMEs will approve it immediately when I  complete its contents and submit it to Subject Matter Experts.Thanks in advanced.\r\n\r\nSincerely,\r\nAll-In-Onecode-Framework",
+      "PostedDate": "2011-12-01T18:06:55.553-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "http://www.codeproject.com/KB/IP/MyDownloader.aspx \r\n\r\n",
+      "PostedDate": "2011-12-01T23:10:24.657-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-12-19T02:35:53.77-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-12-20T06:34:36.42-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-12-24T00:08:12.903-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-01-01T06:51:51.28-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:37.18-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

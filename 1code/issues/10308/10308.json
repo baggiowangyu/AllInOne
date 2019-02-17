@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "First, I love the WPF Bing Map. I'm creating a .shp file importer and feel dead in my tracts because WPF does not support multi-polygon shapes natively.  I have a simple DataTable with SQLGeometry type that is from the shape file.   \nThe problem is that there's no clean way to get the SQLGeometry into the map! :-)  Polygons are the easiest and I can figure that out; however, multi-polygons are a different story.\n \nCan a class be created to convert a SQLGeometry class to something that can be consumed by WPF/Bing maps control?",
+    "LastUpdatedDate": "2013-02-21T18:59:29.39-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-02-06T11:20:17.703-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "WPF/Bing Map Control: SQLGeometry Support",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 10308
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "This would be a hugh help in getting my current application to market.  I want to use the bing maps, but I am finding it difficult dealing with the SQL Geometries.",
+      "PostedDate": "2012-02-08T09:30:45.293-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-06-29T12:56:33.703-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:29.39-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

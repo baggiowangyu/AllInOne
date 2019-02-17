@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello Team,\n \nFirst of all a big congrats to the team at \"All-in-One Code Framework\" for such a wonderful project. \n \nQuestion: How do I consume a XML web service from a remote host. I Understand we can use xhr, but not have much luck in getting it work.\n \nWhat I like to achieve: Call a remote xml page and display the text from xml in a tile.",
+    "LastUpdatedDate": "2013-02-21T18:59:13.917-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-06-28T02:03:14.353-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Metro App (Javascript) - Consume XML Webservice",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10942
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello libin85,\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nYour sample request is about how to access Xml Web Service.  If I misunderstood your requirement, please feel free to let me know. \r\n\r\nWe found that the following sample can probably answer your request.\r\n\r\nhttp://code.msdn.microsoft.com/windowsapps/XHR-handling-navigation-50d03a7a\nThe sample demonstrates how to use WinJS.XHR to make a remote XHR call and retrieve the content.\r\n\r\nPlease let us know if this sample is helpful to you. \r\n\r\nThanks and have a great day!\r\n\r\n--------------------\nMicrosoft All-In-One Code Framework \nFeedback address: onecode@microsoft.com \n",
+      "PostedDate": "2012-11-16T00:49:17.927-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:13.917-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

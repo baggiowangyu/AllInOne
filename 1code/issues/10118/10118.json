@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I want use any WinForms application to validate my computer configuration and diagnostics utility that can be ran by an end user or by technical support personnel to determine whether a user's machine is configured correctly for a given application. \n \nI would like found references inspired by day-to-day regarding how to troubleshoot a workstation for a given application. Although checklists and guidelines have proved very useful the manual processes involved are somewhat tedious. Better to expidite the initial troubleshooting and reduce turnaround times.\n \nFor example, how can I determine this [configurations][1], like Sql Server 2008 R2 installer does ?\n \nI use VS 2010, C#, Win7 and WinXP.\n \nI only found [Ndiagnostics][2] in codeplex, but is dead project\n \nany suggestions, code samples, tips, sample applications with open source, etc ?\n \n  [1]: http://msdn.microsoft.com/en-us/library/cc646015.aspx  \n  [2]: http://ndiagnostics.codeplex.com/ \n \n \nFor example,  SQL Server 2008 R2 Setup validates your computer configuration before the Setup operation completes.\n \nChecks OS version, specific version of the .NET Framework,  IIS version, system platform.for the 64-bit platform.\nChecks java version, visual J# runtime version,  visual C++ runtime version  is installed\nChecks if a pending computer restart is required. \nChecks whether the computer meets minimum operating system version requirements.\nChecks whether the account that is running SQL Server Setup has administrative privileges on the computer.\nChecks whether the WMI service is started and running on the computer.\nChecks to see if the computer is connected to the Internet. \nChecks whether the computer is a domain controller. \nChecks whether Windows PowerShell is installed.\nChecks for previous releases of Visual Studio 2008 or if it has already been upgraded to SP1.\nChecks if the existing performance counter registry hive is consistent.\nChecks whether SqlServer version or SQL Server Services is installed.\nChecks for .NET: smtp and proxy configuration, ...\nChecks if a user is an machine Administrator, verify that a user belongs to a specified group/role, etc..\n \ndetermines whether a specific \"URL\" is available (can verify web page or web service).\n \ndetermines whether a specific Server is available (can verify any server in intranet).\n \ncustom for:\n \nchecks for the existence of a specific folder,\n \ndetermines whether a specific process is running\n \n test connection sqlserver-oracle-checks for connection to specified database;-, test email smtp connection, etc\n \nand more...\n \nSo most of these pre-requisite checking are based on registry and file system, as I suggested in my previous post.  If some app is installed, it will generally add some registry keys and at least store some files in the system. \n \nAlso, it may need case by case discussion if you have some specific requests. \n \n \nPerhaps in future, Microsoft do open source in codeplex some installer (like SqlServer 2008 R2).\n \n \nReferences:\n \nSuggestion of\nMichael Sun [MSFT]\nMSDN Community Support | Feedback to us\n \nhttp://social.msdn.microsoft.com/Forums/en-US/csharpgeneral/thread/702b3eac-8622-4f8a-a356-04e8a7fc2589/",
+    "LastUpdatedDate": "2015-09-07T19:31:12.473-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-01-09T00:28:04.167-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Best Sample for Dependency Checker and diagnostics utility",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10118
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Any suggestions about it ?",
+      "PostedDate": "2012-07-02T04:03:38.063-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:31.213-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Not suggestions \r\n\r\nMicrosoft SQL Server 2008 (or 2012) Setup is not open source in codeplex. It's a pity.",
+      "PostedDate": "2013-11-19T13:12:46.333-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2015-08-26T19:27:16.033-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2015-09-07T19:31:12.473-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

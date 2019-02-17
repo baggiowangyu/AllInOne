@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am behind a rather strict firewall and cannot download the samples through the samples browser.\n \nI've downloaded the zip file and extracted it to a folder (d:\\Samples). I've configured the browser to store samples locally in that folder.\n \nWhen I am trying to search in the browser, it crashes.",
+    "LastUpdatedDate": "2013-02-21T18:59:48.317-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-08-08T03:57:25.53-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Sample browser crashes when accessing downloaded samples",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9295
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi maximgolov,\r\n\r\n  I inform this message to our project manager. He would arrange some engineer concentrate on this issue. After a while, this issue would be resolve.\r\n\r\n\r\nThanks\r\nAll-In-Onecode-Framework",
+      "PostedDate": "2011-08-08T20:17:14.483-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-29T20:34:13.71-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:48.317-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

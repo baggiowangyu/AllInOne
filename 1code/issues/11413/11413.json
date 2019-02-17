@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am looking to save a image to a file in my Win8 store app.  I have the file Serialize a list of other object and would like the image path that was taken by camera or by selecting the image from picture library.  I would like this to populate a particular part of my ListView with all the other parts of the list.  The list populates three textboxes and I would like to add an image to the ListView.  I just need the code to save the image path.\n\nThanks!",
+    "LastUpdatedDate": "2013-02-21T18:59:03.313-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-12-10T09:37:05.26-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Saving ImagePath into Xml",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11413
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

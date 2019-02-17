@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "603439",
+    "ThreadId": "255404",
+    "Html": "\r\n<p>Hi there, i've been working with your VS2010 PropSheet solution and so far it's GREAT! Nice Work!<br>\r\nNow I'm having this problem: I've added a List Control to the dialog but I can't work with it on the code. the CListBox or the CListCtr need an afxwin or afxcmm to be included.\r\n<br>\r\nSo far so good, but as soon as do that I start to have problems related to WINDOWS.H been already included. This made me change the definition of my project to have the MFC Libraries as a Shared DLL.\r\n<br>\r\n<br>\r\nDoes anyone has an idea for working with those controls using your solution? 'Have been looking around and trying to find an answer but still nothing.<br>\r\n<br>\r\nUsing the SetWindowText Function I've been able to populate the labels and textboxes... so far!<br>\r\n<br>\r\nThanks all!</p>\r\n",
+    "PostedDate": "2011-04-27T02:16:56.48-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

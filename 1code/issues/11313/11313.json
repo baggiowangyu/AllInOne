@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Sample Browser (even updated to 10/25/2012 one) was not able to download some samples because of error ... see attached screenshot Error.jpg\nI have this error for several samples:\nhttp://code.msdn.microsoft.com/Unique-Authentication-f32d2da0\nhttp://code.msdn.microsoft.com/New-control-to-get-rid-of-377ffb5a\nhttp://code.msdn.microsoft.com/MetroSky-A-Complete-4250b80f\nhttp://code.msdn.microsoft.com/HappyNet-Silverlight-251ee1a9",
+    "LastUpdatedDate": "2013-02-21T18:59:05.84-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-10-26T00:49:49.967-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Unable to download some samples (like HappyNet)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11313
+  },
+  "FileAttachments": [
+    {
+      "FileId": 4293,
+      "FileName": "Error.jpg",
+      "DownloadUrl": ".\\4293"
+    }
+  ],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I can't runthe version that is installed on my Win 7 machine. I installed on a windows 10 box, that works\nI could use the one on Windows 10, but I have lost my favorites from the Win 7 machine. Is there a way to get them or better yet fix the one on the Windows 7 machine",
+    "LastUpdatedDate": "2016-03-23T07:32:38.717-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2016-03-23T07:32:38.717-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Won't work on windows 7",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 13873
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

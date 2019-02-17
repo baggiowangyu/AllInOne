@@ -1,0 +1,96 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "We've been using Visual Studio for a long time and have found the app.config files are very unfriendly to update at runtime once the application has been compiled. One of the alternative ways is to use the UI application to change configuration settings. We would like to be shown how to manipulate a .config file or any XML document to update its node/attribute values.We would like to see on CodePlex a tool sample that can read any App.config or exe.config file and display it to the user in a GridView, when the user updates the Grid the app.config file should be updated with the new changes and saved.CodePlex developers could easily generate a Generic exe.config parser and editor. There are currently no examples of this functionality on CodePlex, thousands of developers would find this functionality useful in their projects because Visual Studio uses the app.config as standard to store all application and user settings yet it provides no tools for the user once the application has been compiled for when they need to edit it. It's like every developer has to re-invent the wheel for no reason.Currently the end users have to manually edit the exe.config settings by opening it up in notepad, that is not user-friendly for end-users or developers.I have attached an example of an OpenSource Project that was done in Visual Studio 2003 nearly 10 years ago.http://www.codeproject.com/Articles/6160/Application-Configuration-Editor-using-the-PropertIt would be very useful to see an example on how to do it on  .NET 3.5 or .NET 4, there is currently no such example of this on CodePlex",
+    "LastUpdatedDate": "2014-12-01T09:54:15.083-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-11-15T16:20:12.503-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Application Configuration Editor for .NET (exe.config editor sample request)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 13,
+    "Id": 11370
+  },
+  "FileAttachments": [
+    {
+      "FileId": 4316,
+      "FileName": "configeditor_src.zip",
+      "DownloadUrl": ".\\4316"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Yeah I've been having the same problem, I've been looking for an example in the All-in-One Code Framework and couldn't find anything on it either.\r\n\r\nDisplaying as you suggested would be very useful, Microsoft should include that functionality into Visual Studio as a standard template like they do with the Blank forms.\r\n\r\nIf the user could point to any exe.config file and then it is displayed the result in the grid, that would simplify editing settings and would make it easier to maintain applications built in .NET.",
+      "PostedDate": "2012-11-16T04:28:28.783-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-19T03:17:30.49-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "We've had a feature request in our list for nearly 5 years for providing UI editing of our config files.  One of the reasons we haven't done it is that it sounds too much like something that ought to exist already - it's such an obvious and general requirement.\r\n\r\nWe use a mixture of .settings files and custom ConfigurationSection/ConfigurationElements, so we'd love a solution which addressed both. (We also use good old appSettings in our web applications because IIS does provide a user interface for editing these.)",
+      "PostedDate": "2013-02-19T03:25:39.273-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:04.49-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-02-17T12:26:43.387-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "No new updates for this?  I third this request.  For us, the issue is App-level settings.  It is trivial to throw __Properties.Settings.Default__ into a PropertyGrid and go from there, but we would like to be able to edit application-level items as well.  \r\n\r\nThis would become brainlessly easy if we had a way to dynamically generate a Settings (System.Configuration.ApplicationSettingsBase-derived) class that would generate both setters and getters for application-level items and be able to round-trip them.  Then we could drop that object into the Property Grid and just serialize it back out when done.\n",
+      "PostedDate": "2014-02-17T12:30:36.65-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-05-27T02:40:10.677-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-07-30T17:03:06.23-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-11-03T11:45:14.17-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-12-01T09:54:15.083-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

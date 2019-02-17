@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "277310",
+    "ThreadId": "80879",
+    "Html": "<p>Hi, I can change the Properties in the VBActiveX at Design time, but not at Run-time!</p>\r\n<p>Something like &quot;Me.VBActiveX0.xxxxx&quot; they are not avaiable, why? and how can&nbsp;they be?</p>\r\n<p>Thanks</p>\r\n<p>joao</p>",
+    "PostedDate": "2010-01-14T13:18:03.833-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "277589",
+    "ThreadId": "80879",
+    "Html": "<p>Hello joao</p>\r\n<p>Could you please provide a step list for me to reproduce the problem? What is your host application?</p>\r\n<p>Thanks</p>\r\n<p>Jialiang Ge</p>",
+    "PostedDate": "2010-01-15T07:26:22.953-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "277599",
+    "ThreadId": "80879",
+    "Html": "<p><span style=\"font-size:10pt\">&nbsp; </span></p>\r\n<p style=\"margin:0cm 0cm 10pt\"><span style=\"line-height:115%;font-family:'Tahoma','sans-serif';font-size:10pt\">Hi Jialiang!</span></p>\r\n<p style=\"margin:0cm 0cm 10pt\"><span style=\"line-height:115%;font-family:'Tahoma','sans-serif';font-size:10pt\">&nbsp;</span><span style=\"line-height:115%;font-family:'Tahoma','sans-serif';font-size:10pt\">I am trying to make some extended controls to use in a Microsoft Access Application. I intend to develop these controls in .NET to COM.</span></p>\r\n<p style=\"margin:0cm 0cm 10pt\"><span style=\"line-height:115%;font-family:'Tahoma','sans-serif';font-size:10pt\"><strong>Goal:</strong></span></p>\r\n<p style=\"margin:0cm 0cm 0pt 36pt\"><span style=\"line-height:115%;font-family:'Tahoma','sans-serif';font-size:10pt\"><span>1.<span style=\"font:7pt 'Times New Roman'\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"line-height:115%;font-family:'Tahoma','sans-serif';font-size:10pt\">Expose my Properties and Methods at Design and Runtime ('AutoDual') in order to Intellisense in the Host Application.</span></span></p>\r\n<p style=\"margin:0cm 0cm 10pt 36pt\"><span style=\"line-height:115%;font-family:'Tahoma','sans-serif';font-size:10pt\"><span>2.<span style=\"font:7pt 'Times New Roman'\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"line-height:115%;font-family:'Tahoma','sans-serif';font-size:10pt\">This UserControl can use some .NET Controls, eg. A UserControl with a TextBox, I want to expose some TextBox Properties</span></span></p>\r\n<p style=\"margin:0cm 0cm 10pt\"><span style=\"line-height:115%;font-family:'Tahoma','sans-serif';font-size:10pt\">I started a thread in <a href=\"http://social.msdn.microsoft.com/Forums/en/vbinterop/thread/7cf3d83e-b4ae-4b78-8f66-8707907b8b22\">http://social.msdn.microsoft.com/Forums/en/vbinterop/thread/7cf3d83e-b4ae-4b78-8f66-8707907b8b22</a>, and I was able to connect as 'AutoDual', but this caused some problems like:</span></p>\r\n<p style=\"margin:0cm 0cm 10pt\"><strong><span style=\"line-height:115%;font-family:'Tahoma','sans-serif';font-size:10pt\">In Access i get the <span style=\"text-decoration:underline\">ERROR</span></span></strong></p>\r\n<p style=\"margin:0cm 0cm 10pt\"><span style=\"line-height:115%;font-family:'Tahoma','sans-serif';font-size:10pt\"><br>&quot;A problem occurred while Microsoft Office Access was communicating with the OLE server or ActiveX Control. Close the OLE Server and restart it outside of Microsoft Office Access&quot;</span></p>\r\n<p style=\"margin:0cm 0cm 10pt\"><span style=\"line-height:115%;font-family:'Tahoma','sans-serif';font-size:10pt\">This problem only happen when is in AutoDual</span></p>\r\n<p style=\"margin:0cm 0cm 10pt\"><span style=\"line-height:115%;font-family:'Tahoma','sans-serif';font-size:10pt\"><strong>REPRO</strong></span></p>\r\n<p style=\"margin:0cm 0cm 10pt\"><span style=\"line-height:115%;font-family:'Tahoma','sans-serif';font-size:10pt\">1 - Open the CSActiveX Project and change to&nbsp;<span style=\"font-size:x-small\">[</span><span style=\"color:#2b91af;font-size:x-small\"><span style=\"color:#2b91af;font-size:x-small\">ClassInterface</span></span><span style=\"font-size:x-small\">(</span><span style=\"color:#2b91af;font-size:x-small\"><span style=\"color:#2b91af;font-size:x-small\">ClassInterfaceType</span></span><span style=\"font-size:x-small\">.AutoDual)]</span></span>\r\n<p style=\"margin:0cm 0cm 10pt\"><span style=\"line-height:115%;font-family:'Tahoma','sans-serif';font-size:10pt\">2 - Add to Microsoft Access and navigate thrue control properties at Design</span></p>\r\n<p style=\"margin:0cm 0cm 10pt\"><span style=\"line-height:115%;font-family:'Tahoma','sans-serif';font-size:10pt\">Thanks</span></p>\r\n</p>",
+    "PostedDate": "2010-01-15T08:13:23.537-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "278416",
+    "ThreadId": "80879",
+    "Html": "<p>Thank you. I can reproduce this problem. The type info of the activex control is wrong according to my observation in Object Browser. Riquel Dong (in the above msdn thread) and I are investigating it. We will update you as soon as possible.</p>",
+    "PostedDate": "2010-01-18T01:23:53.903-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "278421",
+    "ThreadId": "80879",
+    "Html": "<p>Hi!</p>\r\n<p>Ok, thank you</p>\r\n<p>Joao</p>",
+    "PostedDate": "2010-01-18T01:35:14.55-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "279803",
+    "ThreadId": "80879",
+    "Html": "<p>Hello Joao</p>\r\n<p>My colleague, Riquel Dong, has updated you about his finding in <a href=\"http://social.msdn.microsoft.com/Forums/en/vbinterop/thread/7cf3d83e-b4ae-4b78-8f66-8707907b8b22\">http://social.msdn.microsoft.com/Forums/en/vbinterop/thread/7cf3d83e-b4ae-4b78-8f66-8707907b8b22</a>. Please check it out.</p>\r\n<p>Thanks</p>\r\n<p>Jialiang Ge</p>",
+    "PostedDate": "2010-01-20T18:18:03.527-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

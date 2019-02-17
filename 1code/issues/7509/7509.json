@@ -1,0 +1,95 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "WCF RIA Services is a great tool, but there aren't any \"best practices\" examples with WinForms for desktop applications.  Something along the lines of an application that allowed you to edit parent/child relationships (Orders/OrderLineItems?), batch the changes all together and save them at once.",
+    "LastUpdatedDate": "2013-02-21T19:00:44.857-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-10-28T05:47:23.647-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Sample Request:  WCF RIA Services with WinForms",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 10,
+    "Id": 7509
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello drmcclelland \r\n\r\nThank you for using our sample request service! (http://1code.codeplex.com/wikipage?title=NEW%2c%20FREE%20Code%20Sample%20Request%20Service%20from%20Microsoft%20All-In-One%20Code%20Framework) \r\n\r\nAs you may already know, the most common scenario of using WCF RIA is Silverlight + WCF RIA Services, because Visual Studio has strong tooling support. But since it is actually WCF, you can also use the service from any clients. However, remember the main point of RIA Services is to reduce efforts for those who don’t want to adopt SOA, and prefer a traditional N-tier architecture. In Silverlight, you can’t work with a backend server without a web service. But in Windows Forms/WPF, there’re already a lot of guidelines to build N-tier solutions, so RIA Services does not provide too much value.\r\n\r\nAnyway, to use WCF RIA Services on non-Silverlight clients, you generally have the following options:\r\n\r\n• Expose an OData endpoint, and invoke the service just like invoking WCF Data Services (recommended for Windows Forms/WPF applications). All best practices of WCF Data Services apply here\r\n• Expose a SOAP endpoint, and add a service reference just like referencing a normal WCF SOAP service\r\n• Expose a JSON endpoint, and access the service just like accessing a normal WCF REST service (recommended for AJAX applications)\r\n\r\nLet's see how many community members would vote for this sample request.",
+      "PostedDate": "2010-10-28T23:16:02.937-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-01T23:08:05.58-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-10T14:26:43.84-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-05T14:52:18.613-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-07-28T00:34:52.057-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-10-22T08:41:29.167-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-03-24T03:41:32.28-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-04-18T05:44:53.81-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-06-01T11:36:40.887-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-01-09T07:26:46.253-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:44.857-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

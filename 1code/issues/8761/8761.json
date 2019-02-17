@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi,\n \nI need to programmatically (c++ or c#) control/check the microphone boost value.\nCan someone provide a sample?\n \nTIA\nOliver",
+    "LastUpdatedDate": "2013-02-21T19:00:04.023-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-05-09T07:53:24.83-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Control/Check Microphone Boost per code (c++ or c#)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8761
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello ONiehus,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\n According to go over your sample idea which is submitted in this work item, It seems that you want to Bar Code Scanner such as:http://msdn.microsoft.com/en-us/library/aa446489.aspx. I think it would become new target about windows phone development. So I would \r\nconcern on your sample idea until it reaches the two votes or above. \r\n  Is my understanding right? Please feel free to let me know. \r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-05-09T18:39:45.843-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:04.023-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am working on a metro style application at Windows 8 release preview and visual studio 12. \n \nI need to move and rotate an image using mouse after clicking (selecting) it. I want to rotate this image at any angle, not just 90, 180 and /or 270 degree. \n \nAny samples code for it? Thanks.",
+    "LastUpdatedDate": "2013-02-21T18:59:12.88-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-07-20T09:13:00.257-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "How to move and rotate an image using Javascript and html5 at metro style apps?",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11011
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

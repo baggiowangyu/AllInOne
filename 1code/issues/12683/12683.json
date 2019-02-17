@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi , I was trying to write a VS2013 Extension in c# where I want to show some Notifications in the IDE Notifications window... It will be great if someone can point me to sample code for adding notifications in VS IDE Notification window from c# extentions.",
+    "LastUpdatedDate": "2014-01-21T23:45:15.947-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2014-01-21T23:33:58.653-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Sample Request (How to show notifications in VS2013 Notification window)",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 12683
+  },
+  "FileAttachments": [
+    {
+      "FileId": 4864,
+      "FileName": "Capture.PNG",
+      "DownloadUrl": ".\\4864"
+    },
+    {
+      "FileId": 4865,
+      "FileName": "Capture.PNG",
+      "DownloadUrl": ".\\4865"
+    }
+  ],
+  "Comments": []
+}

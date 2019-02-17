@@ -1,0 +1,128 @@
+﻿#Region "Directives"
+Option Infer On
+Option Explicit On
+Option Strict On
+Option Compare Binary
+Imports System.Windows.Forms
+Imports System.Drawing
+Imports System.Data
+Imports Microsoft.VisualBasic.Strings
+Imports System.Runtime.CompilerServices
+#End Region
+
+REM '// In a DataGridView, allow user to resize column widths at will
+REM '// but the column widths startout sized to the data width
+Module Module1
+    Public Sub Main()
+        Using ThisSampleForm = New OneForm
+            ThisSampleForm.Size = New Size(400, 300)
+            System.Windows.Forms.Application.Run(ThisSampleForm)
+        End Using
+    End Sub
+    ''' <summary>
+    ''' Make all the column widths accomodate the data 
+    ''' </summary>
+    ''' <remarks>the key concept of this sample is to
+    ''' tell the DataGridView to let the user resize column widths
+    ''' and then make width for each columns accomodate the data
+    ''' </remarks>
+    <Extension()>
+    Public Sub OneResizeDataGridViewColumns(ByVal AnyDataGridView As System.Windows.Forms.DataGridView)
+        Select Case AnyDataGridView.AutoSizeColumnsMode
+            Case DataGridViewAutoSizeColumnsMode.None
+            Case Else
+                AnyDataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None
+        End Select
+        Select Case AnyDataGridView.ColumnHeadersHeightSizeMode
+            Case DataGridViewColumnHeadersHeightSizeMode.AutoSize
+            Case Else
+                AnyDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        End Select
+        AnyDataGridView.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.AllCellsExceptHeader)
+    End Sub
+End Module
+
+#Region "Make Form with a DataGridView and some Data"
+Public Class OneForm
+    Inherits System.Windows.Forms.Form
+    Private WithEvents OneDataSet As System.Data.DataSet
+    Private WithEvents OneBindingSource As System.Windows.Forms.BindingSource
+    Private WithEvents OneDataGridView As System.Windows.Forms.DataGridView
+    Private WithEvents OneDataTable As System.Data.DataTable
+    Private WithEvents OneButtonRetrieveData As System.Windows.Forms.Button
+    Public Sub New()
+        MyBase.New()
+        Call Me.MakeControls()
+    End Sub
+    Private Sub OneFormClosing() Handles Me.FormClosing
+        Call Me.DestroyControlsAndObjects()
+    End Sub
+    Private Sub OneFormLoad() Handles Me.Load
+        Call Me.OneRetrieveData()
+        Me.OneDataGridView.OneResizeDataGridViewColumns()
+    End Sub
+    Private OneRandom As New System.Random
+    Private OneSeed As New System.Text.StringBuilder("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+    Private Function OneArbutraryString(ByVal minlength As Integer, ByVal maxlength As Integer) As System.String
+        Dim OneLength As Integer = Me.OneRandom.Next(minlength, maxlength)
+        Dim OneText As New System.Text.StringBuilder(capacity:=OneLength)
+        For OneIndex As Integer = 1 To OneLength
+            OneText.Append(OneSeed(Me.OneRandom.Next(0, Me.OneSeed.Length - 1)))
+        Next
+        Return OneText.ToString
+    End Function
+    Private Sub OneRetrieveData()
+        Me.OneDataTable.Clear()
+        For aIndex As Integer = 1 To 5
+            Me.OneDataTable.LoadDataRow(
+                {
+                    Me.OneArbutraryString(15, 25),
+                    Me.OneArbutraryString(7, 12),
+                    Me.OneArbutraryString(4, 9)
+                },
+                True
+                )
+        Next
+    End Sub
+    Private Sub OneButtonRetrieveData_Click() Handles OneButtonRetrieveData.Click
+        Call Me.OneRetrieveData()
+        Me.OneDataGridView.OneResizeDataGridViewColumns()
+    End Sub
+    Private Sub MakeControls()
+        Me.OneButtonRetrieveData = New System.Windows.Forms.Button
+        Me.OneButtonRetrieveData.Text = "Retrieve data and resize column widths to match the data."
+        Me.OneButtonRetrieveData.TextAlign = ContentAlignment.MiddleCenter
+        Me.OneButtonRetrieveData.Dock = DockStyle.Bottom
+        Me.Controls.Add(Me.OneButtonRetrieveData)
+        Me.OneDataGridView = New DataGridView
+        Me.OneDataGridView.Dock = DockStyle.Fill
+        Me.OneDataGridView.AllowUserToOrderColumns = True
+        Me.OneDataGridView.Location = New Point(0, 0)
+        Me.Controls.Add(OneDataGridView)
+        Me.OneDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.OneDataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None
+        Me.OneDataSet = New DataSet("OneDataSet")
+        Me.OneDataTable = OneDataSet.Tables.Add("OneDataTable")
+        OneDataTable.Columns.Add("Column1 is often long")
+        OneDataTable.Columns.Add("Column2 usually short to modest length")
+        OneDataTable.Columns.Add("Column3 is short")
+        Me.OneBindingSource = New BindingSource(OneDataSet, OneDataTable.TableName)
+        Me.OneDataGridView.DataSource = OneBindingSource
+    End Sub
+    Private Sub DestroyControlsAndObjects()
+        Me.OneDataGridView.DataSource = Nothing
+        Me.OneDataGridView.Columns.Clear()
+        Me.OneDataGridView.Rows.Clear()
+        Me.OneBindingSource.Dispose()
+        Me.OneBindingSource = Nothing
+        Me.OneDataTable = Nothing
+        Me.OneDataSet.Clear()
+        Me.OneDataSet.Dispose()
+        Me.OneDataSet = Nothing
+    End Sub
+End Class
+#End Region
+
+
+
+

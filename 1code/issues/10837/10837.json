@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I want to derive the BackgroundWorker class in my control class to report progress to a form where i use the control.\n \nFor Example :\n \nIf I raise a Method in my control, the Progress will be Reported to the form by the ProgressChanged Event of my Control class.\n \nThanks!",
+    "LastUpdatedDate": "2013-02-21T18:59:16.713-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-05-31T01:38:15.747-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "C# BackgroundWorker - Derive new class to handle ProgressEvent from control.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10837
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi,\nI am working on WPF/C#  application and Application is on USB drive. I would like to remove all the logs /traces of the USB drive from the PC. So that any other program/utility would  not able to trace it.\nI am looking for sample code or guide line to achive desired result.\n\nThanks,\nManthan",
+    "LastUpdatedDate": "2014-01-28T09:31:48.367-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2014-01-28T09:31:48.367-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Code Request : Remove USB Device traces/Logs.",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 12701
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

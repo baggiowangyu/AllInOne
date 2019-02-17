@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "For sometime, I haven't got any good reference document, blog, example or source code to show how to add child objects to a parent model a in single view and support validation using Data Annotation.\n \nso lets say we have a Parent Model as Booking and Passenger as a child. Booking holds a property, which is of type ICollection<Passenger>. So Both these classes have validation rules marked by data annotation. \n \nIn the view (UI), an Add button will add the Passenger Names. Although the model binding is not that difficult to achieve , it is validation which is so confusing and doesn;t seems to work.\n \nSample on this might help lot of developers understanding how to achive model binding when using collections and at same time using validations with them",
+    "LastUpdatedDate": "2013-02-21T18:59:18.457-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-05-09T13:11:29.51-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "MVC 2.0 Model Binding Sample for Showcasing how to add multiple child in a Parent view with validation",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10748
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

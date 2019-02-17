@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "No examples are currently available.",
+    "LastUpdatedDate": "2013-02-21T18:59:38.17-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-11-02T19:28:21.433-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "SSO(Single Sign On) between subdomains by ASP.NET",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9738
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi all,\r\n\r\n Thank you for sample request! I have dispatched this sample idea to our web developement engineer,he would evaluate its valuable and collect its related threads for submitting a new sample idea.\r\n\r\n\r\nSincerely,\r\nAll-In-Onecode-Framework",
+      "PostedDate": "2011-12-05T18:11:49.76-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi all,\r\n  Thank you for sample request! After I have discussed with our web development engineer, there is ASPNETCurrentOnlineUserList has mentioned your topic. You can use Sample Browser v5 to download its detailed codes.\r\n\r\nSincerely,\r\nAll-In-Onecode-Framework\r\n",
+      "PostedDate": "2011-12-05T18:22:08.967-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:38.17-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

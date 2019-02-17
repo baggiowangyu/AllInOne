@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "During the startup of a WinForm with a DataGridView, there is a delay while loading the DGV from the SQL server.   It would be nice to do that on a separate thread so the UI could be displayed while loading.\n \nThank you",
+    "LastUpdatedDate": "2013-02-21T19:00:00.647-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-05-20T11:23:23.587-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "DataGridView loading from BackgroundWorker or Thread",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 8868
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello ONiehus,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\nAs far as I know,You want to run a thread while loading the MainWinform windows individually. It seems that bottleneck isn't main thread because of your connecting your SQL Server should have time via different network environment. If you use remote database, you should take up more time to connect database. So I think if this is a good sample idea, we should concern with access layer not thread.\r\n\r\nIs my understanding right? Please feel free to let me know. \r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com",
+      "PostedDate": "2011-05-21T18:19:25.71-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello - I would like to suggest a similar sample.  Create a sample that loads DGV (maybe using background worker) from SQL, and displays a spinning wheel like we see on ASP.NET programs.\r\n\r\nThank you\r\n",
+      "PostedDate": "2011-06-12T10:07:13.583-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-08-03T05:55:45.077-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:00.647-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

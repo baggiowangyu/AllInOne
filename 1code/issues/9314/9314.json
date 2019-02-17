@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "It would be really nice to have mature example for Integration WPF controls to WinForms project.\nThank you.",
+    "LastUpdatedDate": "2013-02-21T18:59:47.483-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-08-15T03:35:28.183-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "FinForms Element host",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9314
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi Molastudio,\r\n\r\n   Thanks for using our project service.\r\n\r\n   The issue that you provided has been mentioned by MSDN forum thread. You can refer to the follow link to get more additional information about it.\r\n\r\nhttp://social.msdn.microsoft.com/Forums/en-US/wpf/thread/bf2bd138-7f8c-4355-ab4e-544551d20c32\r\n\r\n  Is it your wanted problem? If you have the additional information about how to embed the winform control into WPF program. Please feel free to let me know.\r\n\r\nThanks\r\nAll-In-Onecode Framework\r\n\r\n    ",
+      "PostedDate": "2011-08-15T04:04:43.367-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi Molastudio,\r\n   I get the result about how to do these similarity work. You can follow the instruction as follows:\r\n   http://msdn.microsoft.com/en-us/library/ms751797.aspx\r\n\r\nSincerely,\r\nAll-In-OneCode-Framework",
+      "PostedDate": "2011-08-15T20:29:46.297-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-29T20:33:20.6-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:47.483-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

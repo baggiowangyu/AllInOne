@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I would like to see a code sample that utilizes and leverages Active Directory Web Services (ADWS).  This article reviews the capabilities but provides absolutely no guidance or direction as to how to begin utilizing ADWS in your C#/.Net applications: http://technet.microsoft.com/en-us/library/dd391908(WS.10).aspx\n \nHaving such examples in place would be of tremendous values to developers needing to use this functionality.",
+    "LastUpdatedDate": "2013-02-21T18:59:15.52-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-06-06T14:20:15.793-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Using Active Directory Web Services",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 10856
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

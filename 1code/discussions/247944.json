@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "573651",
+    "ThreadId": "247944",
+    "Html": "<p>Hi<br /> I have used C++/CLI wrapper as told in CppCallNETAssemblyWrapper sample code to create a wrapper dll for a C# dll. I followed all the steps given in the readme files. It is working fine but for one problem. I have finally a CSdll.dll, CPPWrapperdll.dll and  CConsoleApp.exe. I placed the CSdll.dll and CPPWrapperdll.dll in system32 directory. <br /> <br /> When i run the CConsoleApp.exe it is unable to find CSdll.dll. If I place the CConsoleApp.exe and CSdll.dll in the same folder and CPPWrapperdll.dll in system32 it works. I need to place all the dlls in system32. Am I missing something????</p>",
+    "PostedDate": "2011-02-28T20:32:32.977-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

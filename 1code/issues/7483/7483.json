@@ -1,0 +1,80 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "There exists a project at    http://onom.codeplex.com/   which is the OneNote Object Model  (OM) - wrapper classes over the COM API.  It is supposed to make coding much easier using this abstration wrapper.  The original \"guide\" documenting this Object model is (confirmed) lost and its link replaced to an msdn article on OneNote 2010, which discusses the COM API and briefly touches on the OM, just not detailed enough  I would like to see some coding  examples which use this OneNote Object Model - wrapper classes. included in the All-In-One Framework.",
+    "LastUpdatedDate": "2013-02-21T19:00:45.487-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-10-25T17:55:52.44-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "OneNote Object Model Wrapper classes",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 7483
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello \r\n\r\nThank you for trying our newly release code sample request service!\r\n(http://1code.codeplex.com/wikipage?title=NEW%2c%20FREE%20Code%20Sample%20Request%20Service%20from%20Microsoft%20All-In-One%20Code%20Framework)\r\n\r\nThis is a good sample idea! My team is in progress of writing a OneNote add-in code sample for OneNote 2010. I will update you when it is finished.",
+      "PostedDate": "2010-10-27T22:45:42.363-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Waiting for this to be up & downloadable....",
+      "PostedDate": "2010-11-21T00:51:40.4-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello \r\n\r\nThe first code sample about OneNote has just been finished:\r\nCSOneNoteRibbonAddIn http://1code.codeplex.com/releases/view/57436#DownloadId=185322 \r\nVBOneNoteRibbonAddIn http://1code.codeplex.com/releases/view/57436#DownloadId=185405\r\n\r\nThey are the \"skeleton\" OneNote addin code samples. \r\n\r\nPlease review them, and let me know your feedback. More OneNote code samples can be added in future. \r\n\r\nHave a nice day!\r\n\r\nThanks\r\nJialiang Ge",
+      "PostedDate": "2010-12-13T08:06:24.813-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-13T21:29:33.31-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-15T21:13:18.06-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-16T11:50:20.857-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I'm interested in being able to add content to a OneNote page after creating it, similar to what Outlook does when using the link Contact to Onenote feature.",
+      "PostedDate": "2010-12-16T11:53:04.217-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:45.487-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

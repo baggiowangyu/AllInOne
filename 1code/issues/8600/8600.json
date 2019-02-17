@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Read a few things about saving binary files into the database vs the file system and found out that sql server's Filestream is the best of both worlds. The second piece is creating a one to one mapping so the files are stored in a separate table to not have to load the file every time.\n \nCan you provide a sample that uses the latest code first approach to get this going?",
+    "LastUpdatedDate": "2013-02-21T19:00:10.163-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-04-05T07:51:24.147-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Saving Files using EF 4.1 Code First",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 8600
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello gsogol,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\nYour sample idea is talking about Entity Framework,which is according to your describution. We have a technology lecture about the topic mention above. So I think your sample idea is a wonderful idea. We can integrate it into MVC 3.0 to implement Create, Edit and Delete. So EF speeds up our developing process.I would clear up it and provide a idea description to our term member to check. If it was not covered from other SDK sample , it will be approved and composed by us.\r\n\r\n\r\nIs my understanding correct? Please let me know if I misunderstood your needs.\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-04-06T19:02:16.167-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I guess it doesn't matter what the sample would include in terms of your particular scenario as long as it covers how someone would use EF code first (specifically code first) and saving files. What is the correct approach? Sql server has a new type called Filestream. Can it be used? Should binary files be stored in the database or the file system? Or using Filestream as the hybrid approach? The sample should contain the right way of doing saving binary files and the code first approach.",
+      "PostedDate": "2011-04-06T20:41:02.793-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello gsogol,\r\n\r\nI have discussed with other MSDN forum member about this topic. And I searched its topic with Bing using key word that looks like \"Entity Framework+Filestream\". I find out a lot of customers concerning with it.Please access websites as follows:\r\nhttp://social.msdn.microsoft.com/Forums/en-US/adodotnetentityframework/thread/f31ee8c0-f205-499f-aef7-64e18f396fff\r\nhttp://social.msdn.microsoft.com/Forums/en/adodotnetentityframework/thread/059fa712-5bab-4d3d-8081-b32d9a08a340\r\n\r\nI think that a lot of answers disagree with it using Filestream. It is because that performance isn't worth with doing it. So I suggest that you can use BLOB to do the same order.Thank again for offering so detailed sample idea.\r\n\r\nSincerely\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-04-06T23:36:07.45-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-03-30T14:56:28.697-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:10.163-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "HOW TO MAKE A WEB APPLICATION THAT ACCEPTS COMMENTS FROM REGISTERED AND NON-REGISTERED USERS?????\n \nI HAVE BEEN LOOKING FOR THIS ONLINE FOR DAYS. DID NOT FIND ANY EXAMPLES.\n \nEXAMPLE WOULD BE : ONE I AM CURRENTLY DOING ON IT. HOW DO I MAKE ONE?????????????????\nEXAMPLE : http://1code.codeplex.com/WorkItem/Create",
+    "LastUpdatedDate": "2013-02-21T18:59:35.747-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-11-23T18:02:05.867-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "POSTING COMMENTS FORM? HOW TO MAKE ONE??? (C#)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9880
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Sample Request:",
+      "PostedDate": "2011-11-24T06:17:27.79-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-24T06:38:48.263-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:35.747-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

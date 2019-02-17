@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "Silverlight",
+      "DisplayName": "Silverlight"
+    },
+    "ClosedComment": "Finished CSSL3DataBinding, VBSL3DataBinding",
+    "ClosedDate": "2009-11-27T00:11:28.28-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "CSSL3DataBinding, VBSL3DataBinding\n \nHow to use onetime/oneway/twoway Data Binding.\nWhat is IValueConverter and how to use it.\nHow to handle data validation in Data Binding.\nHow to use Element Data Binding to bind to the property of other controls.\nWhat is ObservableCollection.\nGeneral problems you may encounter with when using Data Binding.",
+    "LastUpdatedDate": "2013-05-16T05:33:26.843-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-11-26T19:54:09.083-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Sample: SL3DataBinding",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 4759
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

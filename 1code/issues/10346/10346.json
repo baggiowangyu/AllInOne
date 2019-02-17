@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am visual studio 2008 user, and i write MFC program. i used use mfc 4.2 old version, i know in visual studio 2008 , mfc souce code change a lot. and  CMFCToolBar* classes , i don't know how to use these classes.\n \nCMFCToolBar\nCMFCToolBarButton\nCMFCToolBarEditBoxButton\nCMFCToolBarFontComboBox\n \ni search these classes name in All-In-One code framework, it said , \n \n\" We do not find any relevant code samples for your qurey \"CMFCToolBarColorButton MFC C++\". \nYou consider requesting the code sample from Microsoft  All - In - One Code Framework\n \ni know in Visual Studio 2010 sample have these demoes application.  \n \nWhy visual Studio 2008 haven't these demoes application.\n \nDoes it means All-In-On code framework is sort of deceptious tools ?",
+    "LastUpdatedDate": "2013-12-02T11:08:29.903-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-02-09T19:57:42.197-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "All-In-One Code Framework can't help me find useful sample code.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 10346
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Does anyone have an example?",
+      "PostedDate": "2013-12-02T11:08:29.903-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

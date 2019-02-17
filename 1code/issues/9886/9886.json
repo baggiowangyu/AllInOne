@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "FOR LIVE CHAT???\n \nVIDEO CALLING TOO IF POSSIBLE (+) VOICE MESSAGING.\nWHAT ABOUT WINDOWS LIVE MESSENGER ON WEBSITES > ???????? \n \nALLOWING ACCESS ONCE OR ALWAYS TO REGISTERED USERS, SO THEY CAN ALLOW ACCESS TO THERE CONTACTS.",
+    "LastUpdatedDate": "2013-02-21T18:59:34.913-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-11-23T19:19:24.51-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "HOW TO USE WINDOWS LIVE MESSENGER ON A WEBSITE ??? (C#)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9886
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Sample Request:",
+      "PostedDate": "2011-11-24T06:18:03.947-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-24T06:39:50.28-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:34.913-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "516355",
+    "ThreadId": "233293",
+    "Html": "\r\n<p>I need to use an unmanaged code library file (.lib) in a C# project.&nbsp; From what I have read this should be done by creating a wrapper class using C&#43;&#43;/CLR.&nbsp; The problem I have is that the examples I have found to do this do not explain how to handle\r\n virtual functions in the library.&nbsp; Are there any samples in the All-In-One Code Framework that demonstrate how to handle this?</p>\r\n<p>Thanks.</p>\r\n",
+    "PostedDate": "2010-11-03T03:34:37.41-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "516417",
+    "ThreadId": "233293",
+    "Html": "\r\n<p>I have been trying to get this going with the wrapper class and I am running into linker issues caused by the use of Lockit in the .lib file.&nbsp; Someone I work with suggested that I create a COM object instead of the Wrapper class.&nbsp; What is the best\r\n solution?</p>\r\n<p>Thanks again.</p>\r\n",
+    "PostedDate": "2010-11-03T05:43:23.96-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "本人想实现类似winform中combox，可实现下拉多选内容，下拉内容为checkbox，可多行多列的排列，就像windows自带的计划任务中添加触发器时每月可下拉选择多天一样。\n目前网上的实现都不是太理想，也不太完美，希望能给出示例方案！\n谢谢！",
+    "LastUpdatedDate": "2013-07-18T22:35:36.933-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2013-07-18T22:35:36.933-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "winform的下拉自定义控件",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 11953
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

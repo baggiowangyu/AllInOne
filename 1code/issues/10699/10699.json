@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I don't don't find the ClaimsExample-UsingCustomMembershipandRoleProvider code sample when do the  Claims Walkthrough: Creating Forms-Based Authentication for Claims-Based SharePoint 2010 Web Applications Using Custom Membership and Role Providers.",
+    "LastUpdatedDate": "2013-02-21T18:59:19.767-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-04-25T03:16:14.917-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "don't find the ClaimsExample-UsingCustomMembershipandRoleProvider code sample",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 10699
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

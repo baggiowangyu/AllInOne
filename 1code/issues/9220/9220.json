@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The Add Reference dialog in Visual Studio (2010 at least) embeds in a tab an OpenFileDialog/Explorer control.\nI'd love to have a C# code sample for this that will work with Windows XP, Vista and 7.\nI'd also prefer the \"full\" Explorer, not the old look as in Visual Studio. But this is optional.",
+    "LastUpdatedDate": "2013-02-21T18:59:51.203-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-07-29T09:23:06.38-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Host Windows Explorer/OpenFileDialog inside a WPF control?",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9220
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

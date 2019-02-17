@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "try {\n                        xmlDoc = new ActiveXObject(\"Microsoft.XMLDOM\");\n                    }\n                    catch (e) {\n                        window.alert(\"CreateXMLDocument failed due to the following problem:  \" + e.description);\n                    }\nthe above code gets this error\nmessage = \"Automation server can't create object\"",
+    "LastUpdatedDate": "2013-02-21T18:59:30.223-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-01-21T11:47:44.763-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "can't execute ActiveXObject(\"Microsoft.XMLDOM\") in IE9",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10202
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

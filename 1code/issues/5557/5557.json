@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "http://www.eggheadcafe.com/articles/20051106.asp\nhttp://www.eggheadcafe.com/software/aspnet/35807632/what-permissions-are-nece.aspx\n \n AdDirectorySearcher.GetUserInfo(\"jialge\", \"LDAP://fareast.corp.microsoft.com\");",
+    "LastUpdatedDate": "2013-02-21T19:00:54.067-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-02-28T17:42:38.387-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Searching Active Directory for Users and Groups",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 5557
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

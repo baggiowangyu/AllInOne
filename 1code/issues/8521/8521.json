@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I want to program a winform application by C# which is the same as desktop background. It's prevented to minimize by show desktop or press keys \"Windows + D\". It's the same as this picture: http://dl.dropbox.com/u/2675651/3-15-2011%208-57-50%20PM.png. I tried many ways but I still don't find a solution. Please, help me. Thanks in advance.",
+    "LastUpdatedDate": "2013-02-21T19:00:17.52-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-03-15T06:59:49.34-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Make a winform as desktop background by C#",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 8521
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\nYour idea is that you want a irregular window to display on the desktop. and it support shortcuts to switch on or off, those looks like website above. I have completed your part of function in my sample. It could implement triangle Windows,round Windows,ellipse Windows,and so on.  Based on this, I think you would watch my sample named as CS/VBIrregularShapeWindow in the future. The idea that you have posted above don't relate to irregular Windows but it is more like using Webbrowse control to display on desktop. Let's see how many people will vote for it. \r\n\r\n\r\nIs my understanding correct? Please let me know if I misunderstood your needs.\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-03-15T18:55:00-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks for your help. I'll try your sample.",
+      "PostedDate": "2011-03-16T02:04:22.317-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "\"CS/VBIrregularShapeWindow in the future\" sorry didn't find it. Any Adptation to WPF?\r\n\r\nI'm looknig for something that we had in Windows 98 (long time ago) when we can put a dynamic (If I remember a webpage (perhaps?)) on the windows background. Could it be a valid interpretation of the request?",
+      "PostedDate": "2011-08-28T18:57:22.94-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T18:57:32.34-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:17.52-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

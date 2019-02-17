@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Implementation of different design patterns in C# 4.0 would be helpful.",
+    "LastUpdatedDate": "2013-02-21T18:59:56.407-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-06-16T02:04:12.103-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Design Patterns in C# 4.0",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 5,
+    "Id": 8966
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "hi ShahramJam and GARTFEO,\r\n\r\nThank you for using our code sample request service. \r\n\r\n I do know 23 design patterns when I start studying csharp 1.0 programing. But I don't know what is about the Design Patterns of csharp 4.0. If possilbly, you can tell us which one has been added into csharp 4.0. It is because that csharp has a little of changes but not all concepts. So if saying it clearly, I can submit it to our system in detail.\r\n\r\n\r\nSincerely\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com \r\n\r\n",
+      "PostedDate": "2011-06-20T23:45:23.34-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-07-18T15:48:58.727-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T17:53:31.523-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-29T20:15:46.523-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:56.407-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

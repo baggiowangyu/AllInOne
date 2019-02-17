@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I would like to request a sample for performing raw I/O on USB devices in C#.(preferably using streams)\n \nUSB devices are ubiquitous and it would be great if I/O can be performed as easy as with the COM serial port.(without using USB to serial converters)",
+    "LastUpdatedDate": "2014-10-31T04:53:26.33-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-18T14:51:19.33-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "USB I/O using C#",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 8,
+    "Id": 8186
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello oviPana,\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nYour sample request is about how to perform raw I/O on USB devices in C#. If I misunderstood your requirement, please feel free to let me know. \r\n\r\nMicrosoft All-In-One Code Framework Team is triaging the sample topic.  I will keep you updated about the progress every week.  Please also understand that the free Sample Request Service is not for urgent sample requests.   If your request is urgent, please use Microsoft Professional Advisory Services.\r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com \r\n",
+      "PostedDate": "2012-08-21T19:46:00.237-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:29.73-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-10-31T04:48:40.12-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "This feature could be very useful for portable device (i'm developing software for car engine test, using serial port in C).",
+      "PostedDate": "2014-10-31T04:53:26.33-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

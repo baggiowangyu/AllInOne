@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "611685",
+    "ThreadId": "257368",
+    "Html": "\r\n<p>Hello,</p>\r\n<p>Custom build Shell Extension don't load on the <span id=\"ctl00_ctl00_Content_TabContentPanel_Content_wikiSourceLabel\">\r\n<strong>Windows&reg; API Code Pack for Microsoft&reg; .NET Framework</strong> </span>\r\n<span id=\"ctl00_ctl00_Content_TabContentPanel_Content_wikiSourceLabel\">Explorer Browser Control.</span></p>\r\n<p><span>Just checked the registry and these extensions are registered similar to dropbox's, but still don't appear on my Explorer Browser Control inside my WPF.</span></p>\r\n<p>&nbsp;</p>\r\n<p><span>Any idea anyone?</span></p>\r\n<p>Thanks!</p>\r\n",
+    "PostedDate": "2011-05-12T07:12:00.59-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "612735",
+    "ThreadId": "257368",
+    "Html": "<p>mark..</p>\r\n<p>wait the answer</p>",
+    "PostedDate": "2011-05-14T07:04:46.683-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

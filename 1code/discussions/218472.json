@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "463810",
+    "ThreadId": "218472",
+    "Html": "<p>We have a legacy VC++ app that hosts ActiveX controls.</p>\r\n<p>This seems fine with &quot;real&quot; ActiveX controls created with VB6.</p>\r\n<p>However, when I try to use the sample CSActiveX the control appears ok, but the whole application hangs if I click on the button or textBox.</p>\r\n<p>Any bright ideas?</p>\r\n<p>I don't know a lot about COM, or the legacy app, but can dig around the code if someone tells me what to look for.</p>",
+    "PostedDate": "2010-07-06T08:35:55.917-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "464696",
+    "ThreadId": "218472",
+    "Html": "<p>I have since discovered the following sequence:</p>\r\n<p>1) User clicks on the C# user control</p>\r\n<p>2) The WndProc method is called on the C# user control</p>\r\n<p>3) The method finishes ok, and execution returns to the legacy C++ app</p>\r\n<p>4) This hangs in the main message loop, on the next call to IsDialogMessage, which gets stuck in an infinite loop (CPU goes to max)</p>\r\n<p>Please help! This is a key part of my future design, and I can't go further until I know it works.</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2010-07-08T00:59:32.113-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

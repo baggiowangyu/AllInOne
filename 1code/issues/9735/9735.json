@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have a Details View and a DataGridView that gets its data from a DataSet, BindingSource and TableAdapter in my main form. I have a second form which shares the same DataSet across the multiple forms in my application and makes a bunch of changes to the database programatically through OleDbCommands. \n \nI need a way to refresh my Details View and DataGridView in my main form to reflect the changes in the database. However, it keeps repopulating with the original data and not my new data (even though I can see the changes reflected in my database (Microsoft Access 2007).\n \nI have a Select button on my Main form, which selects Customers from a particular area (location) from the database and lists them in a ListBox. When a user selects the Customer from the ListBox, the details of the Customer like name, address, phone, email etc appear in the TextBoxes below, while details of the Products appear in a DataGridView below the TextBoxes.\n \nI have searched and found many places on the internet but found no tutorial, sample or code which shows how to do this.\n \nThanks.",
+    "LastUpdatedDate": "2013-02-21T18:59:38.71-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-11-02T07:26:56.963-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Refresh Database Connection in Visual Basic.NET",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9735
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

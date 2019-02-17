@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "424006",
+    "ThreadId": "207398",
+    "Html": "<p>HI,</p>\r\n<p>&nbsp;</p>\r\n<p>I stuck up with one issue. I will be Explaining my scenario and the issue.</p>\r\n<p>Scenario:</p>\r\n<p>We have a portal where we download the files to user profile directory in the local machine. VISTA and Windows7 having UAC issue we can't able to download the files directly into user profile directories from IE(while protected mode on). So we are using this CSExeCOMServer to create a different out-proc process in that we are download the files. We are able to run the CSExeCOMServer as different server after successful registration thru Regasm(with command prompt in ADMIN mode). Now we are able to download the files to user profile directory.</p>\r\n<p>&nbsp;</p>\r\n<p>Issue:</p>\r\n<p>We need to register this exe(we are creating exe out of CSExeCOMServer) when we install our MSI application. I tried adding custom action to do this, i added the proper commands in .bat file to register it after installation. But the Commandprompt should open with admin previlizes it doesnt worked out for me. Thru code we cant able to run this bat file directly in admin mode, we could open the command prompt in admin mode but cant able to add the inputs (using standardinput.writeline()) as we used useShellscript= true make run the command prompt in admin mode. So we couldnt able to work this out.</p>\r\n<p>I need a way how to register this dll, if we cant register it in admin mode the exe is showing inproc behaviour but we need outproc behaviour.</p>\r\n<p>&nbsp;</p>\r\n<p>I saw some functions like register and unregister, i thought of calling them somehow to register it as outproc component. How to call these functions directly thru code after registering or..give me some idea how to make it work as outproc component.</p>\r\n<p>&nbsp;</p>\r\n<p>i really fedup with this issue..</p>\r\n<p>&nbsp;</p>\r\n<p>Thanks,</p>\r\n<p>Chandra</p>",
+    "PostedDate": "2010-03-26T04:00:26.197-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "451133",
+    "ThreadId": "207398",
+    "Html": "<p>Hi,</p>\r\n<p>Try to set type flag NoImpersonation for your CustomAction to be run with  elevated permissions.</p>\r\n<p>Regards,</p>",
+    "PostedDate": "2010-06-03T04:31:35.87-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

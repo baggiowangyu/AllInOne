@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Using .NET Code to Set a Windows Service to Automatically Restart on Failure \nhttp://blogs.msdn.com/anlynes/archive/2006/07/30/683192.aspx\n \nhttp://www.codeproject.com/KB/vb/WindowsServiceInstall.aspx?fid=25399&df=90&mpp=25&noise=3&sort=Position&view=Quick&fr=26\n \nhttp://social.msdn.microsoft.com/Forums/en-US/Vsexpressvcs/thread/217f4163-45a8-4352-aed8-d6581ff13ce8\n \nhttp://social.msdn.microsoft.com/Forums/en/csharpgeneral/thread/93b084d7-f7e9-49b9-8f88-b8f8e3c49aa5/",
+    "LastUpdatedDate": "2017-11-27T10:34:57.127-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-06-10T20:31:04.68-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Example: CSSetWindowsServiceProperties",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 3241
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

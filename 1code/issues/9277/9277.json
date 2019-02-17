@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Actually I´m creating an Ground Control for UAVs but I´m having hard time to find some sample code for OSD. What I really need it´s have the webcam and antoher transparent image overlay with a good frame rate. I´m using vb.net but c# it´s acceptable as well.",
+    "LastUpdatedDate": "2013-02-21T18:59:48.813-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-08-03T18:04:33.103-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "WEBCAM OSD On Screen Display",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 9277
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I'm also in a project that requires a transparent image overlay. C# (VB will be acceptable as well)",
+      "PostedDate": "2011-08-28T18:02:52.28-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T18:03:02.55-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-29T20:34:18.243-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi all,\r\n Thank you for supporting our project. I am sorry I have a delay response due to my unffamiliarity with this technology.Currently, Now I can tell you I have found some of its solution when I crawl our MSDN forum ,there are serial solutions for it as follows:\r\nhttp://www.codeproject.com/KB/audio-video/VFWWebcam.aspx\r\n\r\nBased on my past experience, WIC has enough official document support this topic,and DirectShow will be replaced by Media Founation API,so it is not make sense. As far as I know VFW is a good solution for it,and you can easy find out its related explanation about its API such as:\r\nhttp://msdn.microsoft.com/en-us/library/windows/desktop/dd318186(v=VS.85).aspx\r\nhttp://msdn.microsoft.com/en-us/library/ms713481.aspx\r\n\r\nI will try my best submitting it as a new sample idea, hope it approval by subject matter experts .\r\n\r\nSincerely,\r\nAll-In-Onecode Framework",
+      "PostedDate": "2011-11-08T22:19:52.457-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:48.813-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

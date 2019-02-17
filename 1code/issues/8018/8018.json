@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Im looking for help on creating a property sheet shell extension, and i have come across those excellent examples the team has made but unfortunately, none of them does implement the Property sheet, well, im wrong, there is one, in C++, and i believe thats even unmanaged code, im not sure, since basically, i dont know anything about c++\n \nI would like to request an example on how to create a basic property sheet in VB.net.",
+    "LastUpdatedDate": "2013-02-21T19:00:33.71-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-01T22:02:03.773-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "VBShellPropSheetHandler - Its missing",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 8018
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "CSShellPropSheetHandler doesnt appear in the later releases either, and the 9/10 release was empty...",
+      "PostedDate": "2011-05-27T14:59:41.59-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-05-27T14:59:46.917-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello\r\n\r\nWriting Windows Shell extension in managed code is still not supported, so we removed all .NET 4 managed shell extension samples written in the past. \r\nhttp://blogs.msdn.com/b/codefx/archive/2011/01/04/is-it-officially-supported-to-write-windows-shell-extension-using-net-4-today.aspx\r\n\r\nI will update this blog and our team will provide the code samples when it becomes officially supported in future. \r\n\r\nThanks for your understanding\r\n\r\nMicrosoft All-In-One Code Framework",
+      "PostedDate": "2011-05-30T18:16:44.363-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Ok.  So, 'find' in dsa.msc is shell based, so attribute editor and managed code prop pages dont show up when viewing a user that way.  Perhaps you could point me in the direction of the documentation to extending Active Directory Administrative Center since it is the new 'hot thing' ?\r\n",
+      "PostedDate": "2011-05-30T18:36:07.99-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:33.71-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

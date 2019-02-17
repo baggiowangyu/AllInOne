@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have implemented a SNMP agent by windows snmp api with reference to an article How to develop a SNMP extension agent DLL. Several oids must be organized to be a SNMP table. \n\nDetiels are avaiable at http://www.codeproject.com/Questions/483591/HowplustoplusimplementplusSNMPplustablesplusbyplus\n\nHow it happens, How to implement an agent width Windows SNMP API for a MIB containing SNMP tables?",
+    "LastUpdatedDate": "2013-02-21T18:59:06.01-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-10-25T19:27:34.707-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "How to develop an agent width Windows SNMP API for a MIB containing SNMP tables",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11311
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have Bluetooth devices, all have SPP Service.\n \nScenario: \nWhenever I pair device using DevicePairingWizard.exe I am able to get both Incoming COM Port and Outgoing COM Port.\nI want to write a program to create Incoming COM Port for the same device which is paired. \nCOM Port created should be visible in Bluetooth Properties -> COM Ports and also in Device Manager like Windows Bluetooth Wizard does.\nHow to create and register COM Port to Bluetooth stack? How to set its direction?\nCan I use WinCE APIs for my Application?\n \nI have tried CreateFile\nhComm = CreateFile(\".\\\\COM\" + PortNum, GENERIC_READ | GENERIC_WRITE, 0, 0, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, 0);\nI am unable to create COM Port and register it to existing bluetooth stack.\n \nIf I have a com port created using some 3rd party application then how to register it to bluetooth stack?\n \nPlatform I am using:\nOperating System: Win Vista 32bit\nBluetooth Stack: Widcomm",
+    "LastUpdatedDate": "2013-02-21T19:00:20.233-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-03-03T07:47:30.113-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Bluetooth Incoming com port in Desktop Application",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 6,
+    "Id": 8461
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\nI am sorry that I could not pay more attention to your sample idea. Your  votes has already reached five votes,And your idea metioned a lot of win32 functions could be demostrated. I am very interested in your sample. It is because that I could attempt to some functions associated with winsock . I would post your idea to my sample collection system. Let me wait and see what time our specialists could approve this sample request.\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-03-15T21:48:10.283-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T18:21:05.21-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:20.233-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

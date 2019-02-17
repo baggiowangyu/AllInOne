@@ -1,0 +1,95 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "This sample should include:\nHTML5 using Razor, Jason, Modernizr, Polyfills and shims,  and yepnope for a business line application with a backend database.",
+    "LastUpdatedDate": "2013-02-21T18:59:47.323-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-08-16T13:54:49.123-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "ASP.NET MVC3 Best Practices Example",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 7,
+    "Id": 9323
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi guys,\r\n\r\n Thanks for using our service support.\r\n Can you tell us what is Razor,Jason,Modernizr,Polyfills and shims, and yephope for a business line application? Since the work item, which you have submitted, has reached enough votes.We should pay close more attention to your sample idea. Can you give us more information about your advice? Thanks a lot!\r\n\r\nSicerely,\r\n\r\nAll-In-OneCode Framework",
+      "PostedDate": "2011-08-22T18:42:12.82-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I may be describing more than one implementation, because there are not now, but I can see a Azure version of this request as well be helpful.\r\n\r\nSimilar to WPF, Silverlight, and WP7 MVVM, ASP-MVC3 is basically the same pattern. The pattern of separating the View (UI) from the Web layer (View Model(wpf,silverlight,wp7), or Controller(html5)), and the database layer (Model). Code should be avoided as much as possible in the View. Keeping the ability to change the View without breaking code. \r\n\r\nThe View and Controller:\r\nIn VS2010 the ASP MVC3 template gives you the option to choose Razor view engine.\r\nRazor is a new view-engine option (in the VS2010 ASP MVC3 template) that is optimized around HTML generation using a code-focused templating approach. Uses C# semantics.\r\nModernizr is now part of the VS2010 template, and is used to determine the features of a browser. http://modernizr.com\r\nPolyfills and shims are used for fallback methods when a browser does not support a feature. https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills\r\nyepnope (Maybe included in the Modernizr in the VS2010 template) is an asynchronous conditional resource loader that's super-fast, and allows you to load only the scripts are needed  http://yepnopejs.com\r\n\r\nModel:\r\nThis can be using one of the Microsoft sample databases such as \"Adventure Works\" as in many other examples. Please Create one sample LINQtoSQL and one with Entity Framework.  The reason for this is the EF is used for quick and dirty, but a lot of shops such as ours use LINQtoSql and there suttle difference between  them. One using Lambda Expressions and one just using LINQ expressions.\r\n\r\nLine of Business Application\r\nAn Internet application it has to show how to support mulitple versions of Browser, legacy such as FireFox, Google Chrome, IE6 and IE9 \r\nFilter data using drop downs, auto complete boxes populated from a database and not memory objects. \r\nThis should show how to UPDATE data as well as just retrieving data. There are so many examples showing how to retrieve data, but the updates have additional Concerns, such as (not limited to) viewing data in a grid and updating data in a child window using the same Data Context or Domain Context. Concurrency issues, \r\nOthers such as using a drop down list populated from a database in a Data Grid to update a cell in a row/column. \r\n",
+      "PostedDate": "2011-08-23T07:34:52.07-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-29T20:33:42.433-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-09-04T05:57:06.11-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-10-20T19:36:25.16-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Really need some sample codes for HTML5",
+      "PostedDate": "2011-10-20T19:37:14.34-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-08T08:03:55.177-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-15T14:45:34.86-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-01-20T05:59:52.613-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "It may be salable to provide an aggregation of projects which demonstrate the above-mentioned technologies rather than trying to stuff all into one solution. Perhaps existing assets can be used for this... a portal for MVC3...\r\nThanks.",
+      "PostedDate": "2012-01-20T06:02:24.387-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:47.323-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

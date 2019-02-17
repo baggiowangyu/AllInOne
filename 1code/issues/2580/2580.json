@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "Diagnostics",
+      "DisplayName": "Diagnostics"
+    },
+    "ClosedComment": "Closed by the changeset 20931",
+    "ClosedDate": "2009-04-02T05:16:07.503-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "CppStackOverflow is designed to show how stack overflow happens.",
+    "LastUpdatedDate": "2013-05-16T05:33:38.253-07:00",
+    "PlannedForRelease": "All-In-One Code Framework 2009-4-11",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-04-02T03:54:26.3-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Example: CppStackOverflow",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 2580
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Looking to build a similar user experience as with a windows mobile for a windows forms tool I am building. I could not find anything closer than http://www.youtube.com/watch?v=ZGkYiX8JB1U, and I can't afford telerik just yet..\n\nPlease feel free to remove my post if it is not appropriate to request this way - This is my first post!\n\nThanks,\nJosh.",
+    "LastUpdatedDate": "2013-02-21T18:59:02.4-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-12-30T08:25:09.397-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "windows mobile like tiles in windows forms app",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11467
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi Joshua_John,\r\n\r\nThank you for using the Sample Request Service provided by Microsoft All-In-One Code Framework. We are investigating your requirement.\r\n\r\nWe have recently upgraded the sample request forum in order to better serve your requests.  Here is our announcement http://aka.ms/requestcodesamples.  Please consider reposting the sample request to the new forum, and we can continue working on this request there.  We appreciate your understanding. \r\n\r\nThanks and have a great day!\r\n\r\n--------------------\nMicrosoft All-In-One Code Framework \nFeedback address: onecode@microsoft.com\n",
+      "PostedDate": "2013-02-21T18:33:34.183-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:02.4-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

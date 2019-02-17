@@ -1,0 +1,100 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "hi i wanted sample which gets stream from fileupload control in asp.net  using fileuploadobject.filecontent and uploads to the ftpserver using stream... please read bytes from source stream and write those bytes into  destination stream using ftp\n \nand \n \nand using stream dowload file from ftp server to asp.net client  download bytes by bytes",
+    "LastUpdatedDate": "2013-02-21T19:00:45.863-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-10-24T22:56:09.937-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "ftp upload and download",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 6,
+    "Id": 7474
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello\r\n\r\nThank you for trying our newly release code sample request service!\r\n(http://1code.codeplex.com/wikipage?title=NEW%2c%20FREE%20Code%20Sample%20Request%20Service%20from%20Microsoft%20All-In-One%20Code%20Framework)\r\n\r\nWe are investigating this sample idea, and will respond to you in a couple of days. ",
+      "PostedDate": "2010-10-27T23:39:31.447-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello \r\n\r\nI just found this code sample on the MSDN page: http://msdn.microsoft.com/en-us/library/ms229715.aspx. It reads source stream in bytes, and writes the bytes to ftp. May I know whether this is close to what you are looking for?",
+      "PostedDate": "2010-10-27T23:52:22.433-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello\r\n\r\nI'm glad to let you know that my team is in progress of writing this code sample now. I will inform you when the sample is finished. \r\n\r\nThanks \r\nJialiang Ge",
+      "PostedDate": "2010-10-29T07:01:13.35-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "that article describes well but i wanted source to be a stream (i.e fileupload.content) and reading bytes by bytes from source stream and writing bytes by bytes in destination stream... destination stream being ftp.requeststream\r\nSo that Files of larger filesize more than 100mb can be transferred\r\n",
+      "PostedDate": "2010-11-02T22:02:27.953-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "and also vice versa code for reading bytes by bytes from ftp stream and writing bytes by bytes into the Response stream of asp.net",
+      "PostedDate": "2010-11-02T22:04:24.327-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-14T22:22:04.99-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-18T08:24:26.807-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-03T17:04:58.45-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-05T14:50:56.813-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-07T05:24:00.98-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello\r\n\r\nThe code sample has just been finished: \r\nCSASPNETRemoteUploadAndDownload: http://1code.codeplex.com/releases/view/57436#DownloadId=185306\r\nVBASPNETRemoteUploadAndDownload http://1code.codeplex.com/releases/view/57436#DownloadId=185354\r\n\r\nPlease review the code samples and let me know your feedback.\r\n\r\nHave a nice day!\r\n\r\nThanks\r\nJialiang Ge",
+      "PostedDate": "2010-12-13T08:08:30.173-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:45.863-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

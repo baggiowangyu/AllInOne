@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When it finished update, my computer becomes blue screen.\nI restart computer,execute all-in-one code framework. It says can't start the app. Detail:\n平台版本信息\n\tWindows \t\t\t: 6.1.7601.65536 (Win32NT)\n\tCommon Language Runtime \t: 4.0.30319.269\n\tSystem.Deployment.dll \t\t: 4.0.30319.1 (RTMRel.030319-0100)\n\tclr.dll \t\t\t: 4.0.30319.269 (RTMGDR.030319-2600)\n\tdfdll.dll \t\t\t: 4.0.30319.1 (RTMRel.030319-0100)\n\tdfshim.dll \t\t\t: 4.0.31106.0 (Main.031106-0000)\n \n源\n\t部署 URL\t\t\t: file:///C:/Users/TrueElement/Downloads/SampleBrowser.application\n\t部署提供方 URL\t\t: http://1code.codeplex.com/releases/clickonce/SampleBrowser.application\n\t\t\t\t\t\t服务器\t\t: Microsoft-IIS/7.5\n\t\t\t\t\t\tX-Powered-By\t: ASP.NET\n\t\t\t\t\t\tX-AspNet-Version: 4.0.30319\n\t应用程序 URL\t\t\t: https://1code.codeplex.com/releases/clickonce/Application%20Files/SampleBrowser_5_3_1_6/SampleBrowser.exe.manifest\n\t\t\t\t\t\t服务器\t\t: Microsoft-IIS/7.5\n\t\t\t\t\t\tX-Powered-By\t: ASP.NET\n\t\t\t\t\t\tX-AspNet-Version: 4.0.30319\n \n标识\n\t部署标识\t\t: SampleBrowser.application, Version=5.3.1.6, Culture=neutral, PublicKeyToken=c3bce3770c238a49, processorArchitecture=msil\n\t应用程序标识\t\t: SampleBrowser.exe, Version=5.3.1.6, Culture=neutral, PublicKeyToken=c3bce3770c238a49, processorArchitecture=msil, type=win32\n \n应用程序摘要\n\t* 可安装的应用程序。\n \n错误摘要\n\t以下是错误摘要，这些错误的详细信息列在该日志的后面。\n\t* 激活 C:\\Users\\TrueElement\\Downloads\\SampleBrowser.application 导致异常。 检测到下列失败消息:\n\t\t+ 应用程序绑定数据格式无效。 (异常来自 HRESULT:0x800736B2)\n \n组件存储事务失败摘要\n\t未检测到任何事务错误。\n \n警告\n\t执行此操作的过程中未出现任何警告。\n \n操作进度状态\n\t* [2012/8/23 15:44:00] : 已启动 C:\\Users\\TrueElement\\Downloads\\SampleBrowser.application 的激活过程。\n\t* [2012/8/23 15:44:00] : 部署清单处理已成功完成。\n\t* [2012/8/23 15:44:00] : 已启动应用程序的安装过程。\n\t* [2012/8/23 15:44:01] : 应用程序清单处理已成功完成。\n\t* [2012/8/23 15:44:03] : 已找到兼容运行时版本 4.0.30319。\n\t* [2012/8/23 15:44:03] : 信任请求和平台检测已完成。\n\t* [2012/8/23 15:44:51] : 预订依赖项下载已完成。\n\t* [2012/8/23 15:44:51] : 已启动下载的应用程序的提交过程。\n \n错误详细信息\n\t执行此操作期间检测到下列错误。\n\t* [2012/8/23 15:44:51] System.Runtime.InteropServices.COMException\n\t\t- 应用程序绑定数据格式无效。 (异常来自 HRESULT:0x800736B2)\n\t\t- 源: System.Deployment\n\t\t- 堆栈跟踪:\n\t\t\t在 System.Deployment.Internal.Isolation.IEnumSTORE_ASSEMBLY.Next(UInt32 celt, STORE_ASSEMBLY[] rgelt)\n\t\t\t在 System.Deployment.Internal.Isolation.StoreAssemblyEnumeration.MoveNext()\n\t\t\t在 System.Deployment.Application.ComponentStore.CollectCrossGroupApplications(Uri codebaseUri, DefinitionIdentity deploymentIdentity, Boolean& identityGroupFound, Boolean& locationGroupFound, String& identityGroupProductName)\n\t\t\t在 System.Deployment.Application.SubscriptionStore.CommitApplication(SubscriptionState& subState, CommitApplicationParams commitParams)\n\t\t\t在 System.Deployment.Application.ApplicationActivator.InstallApplication(SubscriptionState& subState, ActivationDescription actDesc)\n\t\t\t在 System.Deployment.Application.ApplicationActivator.PerformDeploymentActivation(Uri activationUri, Boolean isShortcut, String textualSubId, String deploymentProviderUrlFromExtension, BrowserSettings browserSettings, String& errorPageUrl)\n\t\t\t在 System.Deployment.Application.ApplicationActivator.ActivateDeploymentWorker(Object state)\n \n组件存储事务详细信息\n\t没有可用的事务信息。",
+    "LastUpdatedDate": "2013-02-21T18:59:10.32-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-08-23T00:51:14.09-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Can't start the app",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 11110
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

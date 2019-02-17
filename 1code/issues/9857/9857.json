@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "similar to http://www.codeproject.com/KB/smart/takedataoffline.aspx?msg=2559981#xx2559981xx \n \nhow can we see the progress of a sync operation via VB.NET",
+    "LastUpdatedDate": "2013-02-21T18:59:36.087-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-11-21T09:50:46.77-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "SyncProgress in VB.net",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9857
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi bmlsx,\r\n\r\n Thank you for support our project. You give me a favor due to insufficient sample idea. \r\n\r\n\r\nSincerely,\r\nAll-In-OneCode Framework",
+      "PostedDate": "2011-11-21T17:35:28.717-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:36.087-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

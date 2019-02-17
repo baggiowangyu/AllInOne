@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hey Team,\nHow could we achieve printing PDF, txt, doc files on network printer in a corporate network where printers have fixed IP address assigned to it.\n \nAnd are we able to use IPP internet printing protocol in dotnet framework 4 to print on any printing sevrer on the Internet. \n \nThank you",
+    "LastUpdatedDate": "2013-02-21T19:00:28.54-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-21T13:20:32.617-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Managed Code For Network Printing in windows Service or Form in .Net Framework 4 C#",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8211
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

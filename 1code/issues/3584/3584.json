@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "Silverlight",
+      "DisplayName": "Silverlight"
+    },
+    "ClosedComment": "Finished SL3PixelShader",
+    "ClosedDate": "2009-07-22T20:24:29.76-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Create samples demonstrate how to use pixel shader in Silverlight 3\nCSSL3PixelShader, VBSL3PixelShader",
+    "LastUpdatedDate": "2013-05-16T05:33:31.42-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-07-22T00:46:14.307-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Sample: SL3PixelShader",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 3584
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

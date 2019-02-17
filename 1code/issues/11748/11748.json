@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "System.ServiceModel.Syndication supports composition of RSS or Atom feeds however samples for extending this namespace are scant. The namespace does not apparently provide native support for extending RSS as MediaRSS for example.\n\nA sample of how inheritance and other OOP criteria is used to enable generating MediaRSS enclosures from System.ServiceModel.Syndication would be very useful to those working with XML.",
+    "LastUpdatedDate": "2013-05-06T09:15:45.637-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2013-05-02T18:42:35.843-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "System.ServiceModel.Syndication",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11748
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi virtualCableTV,\r\n\r\nThank you for using the Sample Request Service provided by Microsoft All-In-One Code Framework. We are investigating your requirement.\r\n\r\nWe have recently upgraded the sample request forum in order to better serve your requests.  Here is our announcement http://aka.ms/requestcodesamples.  Please consider reposting the sample request to the new forum, and we can continue working on this request there.  We appreciate your understanding. \r\n\r\nThanks and have a great day!\r\n\r\n--------------------\nMicrosoft All-In-One Code Framework \nFeedback address: onecode@microsoft.com\n",
+      "PostedDate": "2013-05-06T02:27:33.877-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I reposted \"System.ServiceModel.Syndication - Media RSS\" as requested but found it very frustrating to be restricted to 255 text characters.",
+      "PostedDate": "2013-05-06T09:15:45.637-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

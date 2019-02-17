@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I've just made a modification to FTPClientManager.cs ::         bool VerifyDirectoryExist(Uri url)\n \n                switch (response.StatusCode)\n                {\n                    case FtpStatusCode.OpeningData:\n                    case FtpStatusCode.DataAlreadyOpen:\n                        return true;\n \n                    default:\n                        return false;\n                }\n \ninstead of\n                // return response.StatusCode == FtpStatusCode.DataAlreadyOpen;\n \nbecause my FTP server returns FtpStatusCode.OpeningData.",
+    "LastUpdatedDate": "2013-05-27T16:35:45.843-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-05-31T01:29:38.35-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "CS FTP DOWNLOAD",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8916
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello Pierre63,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n    On the basis of your description,You has some questions about our sample code. I have contact with our project engineer. He give me a useful information about this sample is run under IIS FTP7.5, So it has different setting with the different environment.\r\nIf you have enough information about this sample,thank you for contact with us with this code sample request service.\r\n\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-06-01T18:08:14.583-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:58.31-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Whenever I try to log in to my ftp it appends the url to the username and this is not accepted by the host.\nI've tried to find how to correct this but it escapes me.\nCan anyone offer any help?\nThanks\nBob",
+      "PostedDate": "2013-05-27T16:35:45.843-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "458570",
+    "ThreadId": "216894",
+    "Html": "Hi All,\r\ni have successfully created the CSExeCOMServer and registered. i could use the server from multiple MFC application, Only one instance was running in the system so i could able to share the data's between the applications (i have a static member variable in the server).\r\n\r\nBut if i invoke (use) the same server from C# application, it seems the server object (new) is running in the applications address space. And application is communicates with the object running on the same address space, not the original COM Server which is shared by all the MFC applications.\r\n\r\nCan any one sched some light on this.\r\n\r\nMy intention is, i would like to share the data between C# and MFC application.\r\n\r\nThanks in Advance.\r\nAnbhu\r\n",
+    "PostedDate": "2010-06-22T08:52:09.25-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "458588",
+    "ThreadId": "216894",
+    "Html": "<p>using the Type method, i have done it.</p>\r\n<p>Type simpleObjType = Type.GetTypeFromProgID(&quot;CSExeCOMServer.CSSimpleObject&quot;);</p>\r\n<p>simpleObjType.Invoke(..,.., ..);</p>\r\n<p>Do we have any other methods , other than the above mentioned?.</p>\r\n<p>Because in this method, i need to have some wraper kind of functions to invoke every member of the server. Otherwise i need to create the TypeObject and Type in every place?.</p>\r\n<p>&nbsp;</p>\r\n<p>Any helps?</p>\r\n<p>&nbsp;</p>\r\n<p>Regards,</p>\r\n<p>Anbhu</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2010-06-22T09:39:19.047-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

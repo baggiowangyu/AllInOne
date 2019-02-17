@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I've tried it but couldn't resolve the issue relating to consuming secured java web service (CRM On Demand) in .net. Please share some sample relating to the subject so that I can solve the problem.  The WSDL is attached to this thread.\n \nThe documentation says:\nNOTE: For Administrative Services APIs only, the following login option is supported for stateless\nWeb services requests.\n■ UserName and Password provided in SOAP security header (using WSSE Draft Namespace)",
+    "LastUpdatedDate": "2013-02-21T18:59:40.627-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-10-19T00:15:16.013-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Secured Java Web Service Client in .Net",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9669
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3566,
+      "FileName": "CurrentOrganizationService.wsdl",
+      "DownloadUrl": ".\\3566"
+    }
+  ],
+  "Comments": []
+}

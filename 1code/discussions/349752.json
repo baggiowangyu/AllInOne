@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "814535",
+    "ThreadId": "349752",
+    "Html": "\r\n<p>The Remote Server returned an error: 407 Proxy Authentication Required. Please check your nework connection and seetings.</p>\r\n<p><strong>I checked the network settings and selected &quot;Use Internet Explorer proxy&quot;.</strong></p>\r\n",
+    "PostedDate": "2012-03-23T02:50:20.353-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "829680",
+    "ThreadId": "349752",
+    "Html": "<p>check your network connections t control panel</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>________________________________________________</p>\n<p>&nbsp;</p>\n<p><span style=\"color: #454545;\"><span style=\"font-size: 11px;\"><br /></span></span></p>\n<p><span style=\"color: #333333;\"><span style=\"font-size: 12px;\"><br /></span></span></p>\n<p><span style=\"font-size: 8.5pt; color: #454545;\">[url=</span>http://mygreataustralianholidays.info/fun-facts-about-australia/]fun facts about australia<span style=\"font-size: 8.5pt; color: #454545;\"> [/url]</span></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 8.5pt; color: #454545;\">&nbsp;</span></p>\n<p><span style=\"color: #454545;\"><span style=\"font-size: 11px;\"><br /></span></span></p>\n<p><span style=\"color: #454545;\"><span style=\"font-size: 11px;\"><br /></span></span></p>\n<p><span style=\"font-size: 8.5pt; color: #454545;\">&nbsp;</span></p>",
+    "PostedDate": "2012-04-28T07:18:19.99-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1016926",
+    "ThreadId": "349752",
+    "Html": "My network settings are ok, and I can browse with proxy settings in IE.  But sample browser will not work with IE settings<br />\n",
+    "PostedDate": "2013-03-18T02:54:12.493-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "HOW TO MAKE A WALL SIMILAR AS FACEBOOK =)\n \nOR JUST AUTOMATIC LOADING IN THE PAGE END FOR LOADING AUTOMATICALLY.",
+    "LastUpdatedDate": "2013-02-21T18:59:35.417-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-11-23T18:11:38.8-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "ATOMATIC LOADING ON END PAGE, LIKE FACEBOOK WALL??? (C#)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9882
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Sample Request:",
+      "PostedDate": "2011-11-24T06:18:12.67-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-24T06:40:00.77-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "hello Bmuzammil\r\n\r\nThank you for your request of the sample! \r\n\r\nAre you looking for a code sample that automatically load data when you scroll down to the page bottom?  Here are two existing All-In-One Code Framework samples that could probably answer your requirement:\r\n\r\nhttp://code.msdn.microsoft.com/CSASPNETInfiniteLoading-16f5bdb8\r\nhttp://code.msdn.microsoft.com/VBASPNETInfiniteLoading-10c3f379\r\n\r\nPlease let me know if they are helpful to you\r\n\r\nThanks\r\nJialiang Ge\r\nProgram Manager\r\nMicrosoft All-In-One Code Framework",
+      "PostedDate": "2011-11-27T19:14:10.307-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:35.417-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

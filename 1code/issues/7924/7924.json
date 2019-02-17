@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi All,\n \nI tried to search internet and posted in the blogs for the sample on how to create linked collections for Pivot viewer in Silverlight 4. But, I didn't find the solution. I think this Idea of \"All-In-One Code Framework\" from microsoft rocks and I hope, I'll get a solution sample here.\n \nThanks",
+    "LastUpdatedDate": "2013-02-21T19:00:35.03-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-12-15T22:45:26.797-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Linked Collections for Pivot Viewer.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 7924
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

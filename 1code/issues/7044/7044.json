@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Is it possible to drag and drop data from a C#/.NET application to Excel? Can you provide sample code to perform this?\nMore Info:\nThe drop target is Excel (or Word) and the drop source is a C# application. In detail we would like to know how can the DataObject looks like – and if we can only drop strings or numbers or if we can also drop objects like tables or charts. How can this be achieved and would it be possible to have a sample project which demonstrates this?",
+    "LastUpdatedDate": "2013-02-21T19:00:46.743-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-08-30T20:43:30.237-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Drag & Drop from C#/.NET application to Excel",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 7044
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello Jialiang,\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nYour sample request is about how to drag and drop data from C#/.NET application to Excel.  If I misunderstood your requirement, please feel free to let me know. \r\n\r\nMicrosoft All-In-One Code Framework Team is triaging the sample topic.  I will keep you updated about the progress every week.  Please also understand that the free Sample Request Service is not for urgent sample requests.   If your request is urgent, please use Microsoft Professional Advisory Services.\r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com\r\n",
+      "PostedDate": "2012-09-25T03:16:05.183-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello Jialiang,\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nYour sample request is about how to drag and drop data from C#/.NET application to Excel.  If I misunderstood your requirement, please feel free to let me know. \r\n\r\nMicrosoft All-In-One Code Framework Team is triaging the sample topic.  I will keep you updated about the progress every week.  Please also understand that the free Sample Request Service is not for urgent sample requests.   If your request is urgent, please use Microsoft Professional Advisory Services.\r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com\r\n",
+      "PostedDate": "2012-09-25T03:16:27.283-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:46.743-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

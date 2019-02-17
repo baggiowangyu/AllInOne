@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I'm using latest version of Microsoft All-In-One Code Framework - Sample Browser. If you use search feature and among search results, if you have all the searched projects already downloaded and you presses \"Download All\", Sample Browser crashes. Remember this only occurs when you already have all the listed/searched projects downloaded.\n \nI'm using Sample Browser on Windows 7 Ultimate SP1 x64.",
+    "LastUpdatedDate": "2013-02-21T18:59:58.79-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-05-29T01:07:04.203-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Microsoft All-In-One Code Framework - Sample Browser crash",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8906
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello ifitaj,\r\n\r\nThank you for using our code sample request service. And thank you for submitting valuable issue so that we can timely correct them. I will tell you a good news, our engineer has found this issue and corrected them,later on you will use a right sample browse.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-05-29T18:35:06.01-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello ifitaj\r\n\r\nWe have corrected this problem.  The update has been published.  Please restart the Sample Browser application.  You will automatically get the updates.\r\n\r\nThanks\r\nAll-In-One Code Framework",
+      "PostedDate": "2011-05-29T19:54:31.65-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks for publishing the updated version. The problem is solved. But still as a user, I would like to see a more user friendly dialog mentioning that \"You already have all the projects downloaded\" WITHOUT the download window appearing and then disappearing. May be a status bar like thing will do the trick.",
+      "PostedDate": "2011-05-29T22:49:03.453-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:58.79-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

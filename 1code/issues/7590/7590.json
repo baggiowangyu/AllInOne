@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2010-11-07T23:27:48.453-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "我是中国的一个小程序员,对英语十分头疼,每次上来找最新的更新都十分麻烦,而且每次都要下许多多余的示例\n所以我觉得如果有个自动更新程序,可以按照描述自动下载所需的示例的话会很好.\n \nI am not  familiar with English.It is a little hard to find what i need in codeplex. And in CodePlex i need to download a lot of unnecessary examples\nSo i would like to see an AutoUpdate to download any example by the discussion.",
+    "LastUpdatedDate": "2013-05-16T05:33:21.867-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-05T18:07:27.817-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "希望框架能有自动更新功能(I wish the Framework can be auto update )",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 7590
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "你好，我们项目组正有此计划：\r\n我们将提供单个示例的下载，此外，还会在sample browser加上autoupdate的功能。\r\n\r\n",
+      "PostedDate": "2010-11-06T01:28:41.303-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-07T23:27:48.453-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:42.48-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T05:33:21.867-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

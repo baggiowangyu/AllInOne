@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "649606",
+    "ThreadId": "267079",
+    "Html": "<p>You said \"managed shell extensions are untested\".</p>\n<p>But you did provide managed shell extensions a while ago, and they worked flawlessly.</p>\n<p>And by coding and publishing them you actually tested them.</p>\n<p>I still have the codes for the extensions and they work very well no matter what I do inside them, how much code I put in the assembly, etc.</p>\n<p>I understand, tho, the risk of writing new shell extensions.</p>\n<p>But my dilemma is why did you remove the old ones? A lot of people still want them!</p>",
+    "PostedDate": "2011-07-29T09:20:08.513-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

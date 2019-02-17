@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "ASP.NET",
+      "DisplayName": "ASP.NET"
+    },
+    "ClosedComment": "closed",
+    "ClosedDate": "2009-12-28T23:01:02.9-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "CSASPNETDataPager is an ASP.NET sample which demonstrates the use of ASP.NET DataPager control(introduced in .NET framework 3.5 VERSION).",
+    "LastUpdatedDate": "2013-05-16T05:33:28.077-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-09-07T03:54:39.95-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Sample: CSASPNETDataPager",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 3936
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,51 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The remore server returned an error: (407) Proxy Authentication Required.\nPlase check your network connection and settings.",
+    "LastUpdatedDate": "2014-08-30T03:24:05.943-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2014-06-04T08:58:36.157-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Proxy Authentication Required",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 13061
+  },
+  "FileAttachments": [
+    {
+      "FileId": 4996,
+      "FileName": "ProxyAuthenticationError.PNG",
+      "DownloadUrl": ".\\4996"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "You trayed setup Settings \\ NETWORK SETTINGS \\ with Custom proxy setting section?",
+      "PostedDate": "2014-08-30T03:24:05.943-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

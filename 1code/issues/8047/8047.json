@@ -1,0 +1,75 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Normally we hard coding the winform/MFC/WPF's form. But in most situation, we need to modify the form without recompile the code. So we think of using XML to define the form and its content. The form can dynamically load its content based on the XML.",
+    "LastUpdatedDate": "2013-02-21T19:00:33.127-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-04T20:57:07.78-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Dynamically load form based on XML",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 8047
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello Kira\r\n\r\nThank you for using our code sample request service. \r\n\r\nNot like WPF, WinForm controls do not have their XML representatives. Could you please be more specific about what content would you like to load dynamically. For example, is it a survey form, and you want to load survey questions with radio buttons generated dynamically from an XML file?  If your requested scenario is typical and commonly wanted, we will provide the code sample. \r\n\r\nI hope that you have a wonderful day! \r\nThanks\r\n",
+      "PostedDate": "2011-01-07T01:21:02.773-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Microsoft All-In-One Code Framework\r\nhttp://1code.codeplex.com\r\n",
+      "PostedDate": "2011-01-07T01:46:22.573-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": ">For example, is it a survey form, and you want to load survey questions with radio buttons generated dynamically from an XML file?\r\n\r\nYes, this is an example to the idea. When form can be load from XML or config file, the element on the form are not fixed. Most business software doesn't hard code to design the form but use XML to dynamically design the form. ",
+      "PostedDate": "2011-01-10T01:55:17.997-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Maybe something like the DynamicControls in the Visual Studio 2010 Samples ..\\VB Sample\\WinForms Samples\\DynamicControls; but with more controls.",
+      "PostedDate": "2011-05-26T06:40:53.893-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi CodeTwo,\r\n  You are more familar than me with All-In-One-Code sample library,hope to provide more information about it.  Thank you a lot.\r\n\r\nSincerely\r\nMicrosoft All-In-One Code Framework\r\nhttp://1code.codeplex.com",
+      "PostedDate": "2011-05-26T22:41:56.673-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-09-24T19:43:44.553-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:33.127-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

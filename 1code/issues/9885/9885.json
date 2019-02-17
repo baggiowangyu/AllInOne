@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "HOW TO LOAD TWITTER AND FACEBOOK NOTIFICATIONS ON A WEB APPLICATION???\n \nFACEBOOK WALL UPDATES TO BE SHOWN ON MY WEBSITE BY GIVING ACCESS TO USER NAME & PASSWORD.\n \nTWITTER UPDATES IN THE SAME WAY AS ABOVE.",
+    "LastUpdatedDate": "2013-02-21T18:59:35.083-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-11-23T19:09:45.18-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "HOW TO SHOW TWITTER, FACEBOOK, UPDATES??? (C#)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9885
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Sample Request:",
+      "PostedDate": "2011-11-24T06:18:05.907-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-24T06:39:56.387-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-24T21:12:57.35-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello Bmuzammil\r\n\r\nI think that these will require the use of twitter and facebook APIs.  Because these APIs are owned by Twitter and Facebook, you'd better consider asking them in twitter or facebook's forums / support.  Here are some matterials that I found on the internet for your references:\r\n\r\nAbout Facebook:\r\nhttps://developers.facebook.com/docs/sdks/\r\nhttp://developers.facebook.com/docs/reference/javascript/\r\nhttp://fishbowl.codeplex.com/\r\n\r\nAbout Twitter:\r\nhttps://dev.twitter.com/\r\n\r\nHave a nice day! \r\n\r\nThanks\r\nJialiang Ge\r\nProgram Manager \r\nMicrosoft All-In-One Code Framework",
+      "PostedDate": "2011-11-27T19:06:59.17-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:35.083-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

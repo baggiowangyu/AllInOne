@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "609166",
+    "ThreadId": "256793",
+    "Html": "\r\n<p>I downloaded the ASP.NET samples and got &quot;unsupported compression method&quot; errors when trying to open the archive with 7Zip.</p>\r\n<p>Can someone verify the problem isn't just me? :)</p>\r\n",
+    "PostedDate": "2011-05-08T07:43:43.153-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "613811",
+    "ThreadId": "256793",
+    "Html": "<p>Yes, I have the same problem when downloading and extracting the \"<a id=\"fileDownload9\" class=\"FileNameLink\" tabindex=\"9\" href=\"../releases/view/65772#DownloadId=236628\">All-In-One Code Framework (Office)</a>\" and \"<a id=\"fileDownload10\" class=\"FileNameLink\" tabindex=\"9\" href=\"../releases/view/65772#DownloadId=236629\">All-In-One Code Framework (Windows General)</a>\"</p>\r\n<p>samples!</p>\r\n<p>I tried 7zip, Winrar and WinZip and the error persists!</p>\r\n<p>Please help</p>",
+    "PostedDate": "2011-05-17T03:26:12.617-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "623042",
+    "ThreadId": "256793",
+    "Html": "<p>Having the same issue... was there a fix?</p>",
+    "PostedDate": "2011-06-04T18:32:38.9-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "623113",
+    "ThreadId": "256793",
+    "Html": "<p>Nobody seems to have read this thred!</p>\r\n<p>No, I still have the same errors!</p>",
+    "PostedDate": "2011-06-05T04:18:43.387-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "623149",
+    "ThreadId": "256793",
+    "Html": "<p>Report it by going to the People tab - I've already done this last night, but you can lend your voice :-)</p>",
+    "PostedDate": "2011-06-05T07:34:08.717-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "814109",
+    "ThreadId": "256793",
+    "Html": "<p>Hello, is there any solved solution? I get the same problem here.. Kindly inform me..</p>\r\n<p>&nbsp;</p>\r\n<p>Thanks and regards,</p>\r\n<p><a title=\"Best Ant Killer\" href=\"http://antkiller.org/\" target=\"_blank\">Ant Killer</a></p>",
+    "PostedDate": "2012-03-22T08:38:35.907-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

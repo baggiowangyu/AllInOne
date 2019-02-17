@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi All.\n \nI am developing a WPF application with a full screened main window. All the other windows are opened as child windows of above.\n \nNow, I want to create a taskbar (same as the Taskbar in Windows 7) functioning like the Windows 7 Taskbar. Then all opened child windows has there taskbar icon.",
+    "LastUpdatedDate": "2013-02-21T18:59:54.823-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-06-30T12:35:03.603-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Implementing a taskbar inside a WPF window.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9040
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "hi seevali,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI have concerned on your topic for a long time. In silverlight Your topic about how to show the information of currect program is used by OOB technology,But in WPF we recommend the Shell.JumpList technology, It is the object of shell program. You can find out a lot of knowledge about it in codeproject. I am sorry that I want you tell me the more about your scenario about it. If possibly, Can you tell me your child windows is link file or other unique\r\nindicate to show on the taskbar. And would you please tell me about how to integrate your thumbnail of child windows with this windows' name? Thanks a lot for providing more information about this sample idea so that we can submit it more clearly. \r\n\r\nSincerely\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-07-03T22:03:26.48-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi seevali,\r\n\r\n  Your topic is mentioned by MSDN. You can access the link as follows:\r\nhttp://msdn.microsoft.com/library/ff770767.aspx\r\nhttp://msdn.microsoft.com/library/ff699128.aspx\r\nhttp://msdn.microsoft.com/library/ff823754.aspx\r\n\r\n It seems that you can use them to resolve your issue. Thanks for using our code sample request service.\r\n\r\nSincerely\r\nAll-In-OneCode Framework\r\nhttp://1code.codeplex.com",
+      "PostedDate": "2011-07-03T22:09:17.217-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:54.823-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

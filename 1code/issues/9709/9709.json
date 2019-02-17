@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "How can application stream live video of D3D surface to HTML5 or Silverlight client using HTTP Server API from C++ native application (using Media Foundation).\n \nWe have a back end application, that can be controlled from browser. We would like to see what is happening from client on application.",
+    "LastUpdatedDate": "2013-04-01T08:30:22.75-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-10-28T01:59:39.523-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Live video streaming to HTML5 using HTTP Server API",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 9709
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When you implement a drag drop effect for TabControl, it would be better if it shows current dragging tabpage's content along with mouse. The content looks like a thumbnail image go along with your mouse point when dragging.",
+    "LastUpdatedDate": "2013-02-21T19:00:33.323-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-04T20:51:42.867-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Show TabPage content when dragging",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8046
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello Kira\r\n\r\nThank you for using our code sample request service. \r\n\r\nBased on my understanding, your request consists of two technical points:\r\n\r\n1) How to  support drag&drop in TabControl of WinForms\r\n2) How to create a thumbnail image of a tab page, and show the thumbnail image while user is dragging a tab. \r\n\r\nIf I misunderstood your requirement, please let me know. My team is evaluating the requirement. It would take some time. To help you quickly get started, here is a code sample from codeproject that demonstrates the tech point 1 (drag&drop in TabControl). And here is a forum thread talking about how to generate a thumbnail image from a Winform control. \r\n\r\nI hope that you have a wonderful day! \r\nThanks\r\nMicrosoft All-In-One Code Framework\r\nhttp://1code.codeplex.com\r\n",
+      "PostedDate": "2011-01-09T19:18:29.123-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I am sorry to give you above two technical points' website:\r\n1) How to support drag & drop in TabControl of WinForms\r\n http://www.codeproject.com/KB/tabs/draggabletabcontrol.aspx \r\n2) How to create a thumbnail image of a tab page,and show the thumbnail image while user is dragging a tab.\r\nhttp://social.msdn.microsoft.com/Forums/en-US/netfxbcl/thread/c8790118-f86f-48c9-95df-366ab6a71111/ ",
+      "PostedDate": "2011-01-09T19:37:56.07-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:33.323-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "615754",
+    "ThreadId": "258362",
+    "Html": "\r\n<p>Hi all.</p>\r\n<p>I just downloaded the full set of samples and expanded the zip file in the folder I had configured for the sample browser.</p>\r\n<p>I expected to see &quot;Open&quot; available for all the samples that are now available on my hard disk, instead I see &quot;Download&quot; for all of them.</p>\r\n<p>Clicking on download actually executes the download again for that sample...</p>\r\n<p>Is there a way to produce (or get) a full &nbsp;samples.xml &nbsp;file ? I would really like to leverage the search features of the sample browser to select and open a sample solution....</p>\r\n<p>Cheers,</p>\r\n<p>Mark</p>\r\n",
+    "PostedDate": "2011-05-20T01:42:20.553-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

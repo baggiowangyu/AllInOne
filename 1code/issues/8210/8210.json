@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Using MVVM as the design pattern and MEF, create a base Silverlight 4 application applying the Prism framework that uses partitioning to add views as well as functionality.\n \nThis will give developers a reference implementation to experiment with dynamically adding their own views and functionality to the application using the sample provided.\n \nFor example, MEF Preview 9 included a HouseSpacePlanner sample, but this is clouded by some of the complexities of House Space Planner elements.  Keep it simple with the use of basic control elements and commands in the traditional All-In-One Code Framework ways.",
+    "LastUpdatedDate": "2013-02-21T19:00:28.76-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-21T11:42:35.203-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Silverlight 4 Framework Application using Prism",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 8210
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

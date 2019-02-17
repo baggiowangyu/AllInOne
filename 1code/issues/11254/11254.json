@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi, I'm developing an web application by using Lightswitch.  I found the right click menu like copy, cut & paste is missing.  May I know how to run it on?\n\nThanks :)",
+    "LastUpdatedDate": "2013-02-21T18:59:06.463-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-10-09T07:27:10.303-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Turn on Lightswitch right click, copy, cut & paste",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 11254
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I need this feature too!\r\n\r\nAny persona can help us?",
+      "PostedDate": "2012-11-27T16:12:09.69-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:06.463-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

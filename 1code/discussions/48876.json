@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "163187",
+    "ThreadId": "48876",
+    "Html": "The built-in &quot;Clean&quot; function of Visual Studio does not clean up the outputs completely. For example, it does not unregister the COM objects from COM-related projects. It's necessary to create a bat file for each example project to do the complete cleanup.\r\n",
+    "PostedDate": "2009-03-01T08:07:58.18-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

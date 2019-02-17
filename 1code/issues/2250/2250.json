@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "WMI",
+      "DisplayName": "WMI"
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The skeleton of a WMI Provider developed by using ATL wizard.",
+    "LastUpdatedDate": "2017-11-27T10:33:38.6-08:00",
+    "PlannedForRelease": "All-In-One Code Framework 2009-3-27",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-03-18T22:10:53.263-07:00",
+    "Status": {
+      "Name": "Active",
+      "Id": 2
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Example: ATLWMIProvider",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 2250
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

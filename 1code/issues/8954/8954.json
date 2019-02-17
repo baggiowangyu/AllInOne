@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The Code Browser has an excellent UI.  Would you tell us how it was created?\n \nThank you",
+    "LastUpdatedDate": "2013-02-21T18:59:57.08-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-06-12T13:03:14.72-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Code Browser - what technology was used to create the Code Browser?",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8954
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello MisterT99,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\n Thanks for concerning on our Sample Browse. I am grateful for telling you its composed technology. It is used by WPF and some features of UI using Expression Blend. If you digged into the it ,you can find out its performance is improved by our project engineer via constantly changing the version. Now I am glad that I introduce you our  Sample Browse used by some DelayBinding and thread technologies. And Manualresetevent provides how to demonstrate tabcontrol. Thanks for more suggestion about Sample Browse.\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-06-12T19:59:12.73-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:57.08-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have a need to be able to open an excel 2010 macro enabled workbook from a Silverlight application and read data from a number of the sheets. I was able to do this with LiteExcel for Excel 2003 workbooks but it doesn't support the 2010 version.\n \nCan anyone help.",
+    "LastUpdatedDate": "2014-01-07T02:53:43.39-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-09-26T07:38:33.437-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Read a sheet from .xlsm file with Silverlight",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 11225
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi,\n I'm also trying to read data from Excel 2003 macro enabled worksheet in silverlight Application.  Using dll Lite.ExcelLibrary and Lite.Library. I can able to read data Excel 2003  without macro enabled files.\r\n\r\nBut Macro Enabled getting error \"An item with the same key has already been added\".\r\n\r\nPlease help me any one.\r\n\r\n{System.ArgumentException: An item with the same key has already been added.\n   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)\n   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)\n   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)\n   at Lite.ExcelLibrary.CompoundDocumentFormat.DirectoryEntry.AddChild(DirectoryEntry entry)\n   at Lite.ExcelLibrary.CompoundDocumentFormat.CompoundDocument.ReadDirectoryEntry(BinaryReader reader, Int32 DID, DirectoryEntry parent)\n   at Lite.ExcelLibrary.CompoundDocumentFormat.CompoundDocument.ReadDirectoryEntry(BinaryReader reader, Int32 DID, DirectoryEntry parent)\n   at Lite.ExcelLibrary.CompoundDocumentFormat.CompoundDocument.ReadDirectoryEntry(BinaryReader reader, Int32 DID, DirectoryEntry parent)\n   at Lite.ExcelLibrary.CompoundDocumentFormat.CompoundDocument.ReadDirectoryEntry(BinaryReader reader, Int32 DID, DirectoryEntry parent)\n   at Lite.ExcelLibrary.CompoundDocumentFormat.CompoundDocument.ReadDirectoryEntry(BinaryReader reader, Int32 DID, DirectoryEntry parent)\n   at Lite.ExcelLibrary.CompoundDocumentFormat.CompoundDocument.ReadDirectoryEntries()\n   at Lite.ExcelLibrary.CompoundDocumentFormat.CompoundDocument.Open(FileStream stream)\n   at Lite.ExcelLibrary.CompoundDocumentFormat.CompoundDocument.Read(FileStream fs)\n   at Lite.ExcelLibrary.SpreadSheet.Workbook.Open(FileStream stream)\n   at ReadingExcelSample.MainPage.btnSelectFile_Click(Object sender, RoutedEventArgs e)\n   at System.Windows.Controls.Primitives.ButtonBase.OnClick()\n   at System.Windows.Controls.Button.OnClick()\n   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)",
+      "PostedDate": "2014-01-07T02:53:43.39-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

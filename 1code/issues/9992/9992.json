@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "i want to have a similar behaviour in my app like when using skype they give us the ability to change use status if we put the mover over the skype icon so its possible to show there instead of state icons a left arrow amd in midle the actual radio selected and rigth arrow so in midle it shows the actual radio and if user clicks on left or rigth arrow it changes the selectedindex there\n \nso in form1 i have a combobox with a radio selected and when user as the mouse on my app icon it shows in that litle window in a label the radio selected and give left and rigth arrow to user change it\ni want similar to this but instead of changing state a want a arrow on left and label wichh the actual item selected of form1 combobox and rigth arrow then when user change by clicking on the arrow form1 combobox also show the same and if user change on form1 is also change there... see image http://img202.imageshack.us/img202/1421/imgsbx.png instead of states  want the arrows and albel in middle",
+    "LastUpdatedDate": "2013-02-21T18:59:32.74-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-12-13T02:11:15.883-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "show components on mouse over",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9992
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

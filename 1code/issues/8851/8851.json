@@ -1,0 +1,66 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "We want to rewrite an existing application suite which uses DCOM objects to a state of art .NET equivalent using the Windows Communication Foundation framework. This should lead to a more robust, manageable inter-program connectivity. By using threads on the data collection part we want to have the ability to (re)start/stop certain failing processes without effecting the other communications. To increase program module interoperability, we want to easily reconfigure the modules in use. We would like to achieve this without having to rebuild or even restart our main application and therefore think about using System.Composition (Managed Extensibility Framework) for the public interface layer(s).\nData telegrams between participants contain (depending on the running logic) from a few floats to over 500 floats and strings, crossing the 1MB barrier and should be pushed a few times every second from data provider server to client(s) (WCF).\nIs this the right topology? How to accomplish the infrastructure layout as in addendum?",
+    "LastUpdatedDate": "2013-02-21T19:00:01.25-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-05-18T05:57:31.97-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "WCF data collection application using multi-threading and MEF interface definitions.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 5,
+    "Id": 8851
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3346,
+      "FileName": "AllInOne.pdf",
+      "DownloadUrl": ".\\3346"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "This would be a great proof of concept to test!' to show interest",
+      "PostedDate": "2011-06-17T06:58:09.777-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-06-25T04:43:28.45-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello braalgr,\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nYour sample request is about how to use multi-threading and MEF interface definitions in WCF data collection application.  If I misunderstood your requirement, please feel free to let me know. \r\n\r\nI’m not familiar with the MEF. Do you want some sample about it? Or do you want some suggestion about the layout? It will be helpful for the engineers in our team that you can provide more information.\r\nWe’re waiting for your response.\r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com \r\n",
+      "PostedDate": "2012-09-25T23:54:44.84-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:01.25-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

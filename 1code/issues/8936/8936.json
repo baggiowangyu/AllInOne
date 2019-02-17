@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I'm using a combobox column in a datagridview. \nThrough the Datasource , DisplayMember and ValueMember properties, I bind the combobox to a datasource using the Entity Framework.\n \nTo my surprise , when I click the combobox , the response is very slow.\n \nI then use a datable to store the data  used by combobox instead of Entity Framework to decrease the database access times.\nThe performance is somewhat better , but the response of the combobox column in the datagridview is still slow , especially compared with a combobox control on a form.\n \nWould you please provide us with a more efficient solution when using a combobox column in a datagridview?\nThanks a lot.",
+    "LastUpdatedDate": "2013-02-21T18:59:57.547-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-06-06T04:02:34.44-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Slow response when using combobox in winform datagridview",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8936
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello shenzhongwei,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\nIt seems that your program is often happened by lots of database developers. Based on your description, the heart of matter is not entity Framework, it is because after EF is replaced with hard code when using combobox, the performance is better a little.  I want to ask a question, the data source of combobox is dynamical generation or written regularly? And how many lines are your data rows? If your data rows is many enough, it seems that the heart of matter is data bound. If data rows are less enough, it seems that your combobox loading program codes has some issue . You can use property box to improve it. If my solution has some programs, please feel free to fix me so that we can work better for our project and solve your program.\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-06-06T19:01:54.97-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thank you for your quick response.\r\n\r\nThe datasource of the combobox is from a database table.( for example publisherID and PublisherName from a table called Publisher, and I set PulisherID to the ValueMember property of the combobox and  PublisherName to the DisyplayMember property of the combobox)\r\n\r\nIt seems that when each row is added to the datagridview ,  the combobox column will fetch data from the database , thus resulting a slow response.\r\n\r\nMy workaround is create a datatable and populate the datatable from the database when the form is first loaded .Because the datatable is in memory , each time the combobox column asks for data , it will not access the db but from the datatable, thus resulting a quicker response.\r\n\r\nBut the combobox column in the datagridview still has a slower  response than a stand-alone combobox control on a form .\r\n\r\nThe datatable has about 20-30 rows altogether.\r\n\r\n",
+      "PostedDate": "2011-06-06T21:53:31.59-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi shenzhongwei,\r\n\r\n  It seems that your issue is Mainly because that your combobox request from datatable again. So if the column has the same optional item,you should add static object to store the content such as optional item, other than requesting them every time. It seems that Dataadapter has the above function, you can use it to solve your issue.\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-06-06T22:11:50.757-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "1. To clarify the slow response problem, here is a url which describes it in detail:\r\n'The  set up is great and, but for the user the experience is quite bad.'\r\nhttp://forums.cgsociety.org/archive/index.php/t-831438.html\r\n\r\n2. And here is a bug which I encountered and also experienced by other users:\r\n'System.Argument.Exception: DataGridViewComboBoxCell value is not valid'\r\nhttp://www.dotnetmonster.com/Uwe/Forum.aspx/winform-controls/3748/DataGridView-bug-with-ComboBox-column-and-AutoSizeColumnsMode\r\n\r\nMy workaround is doing nothing in the gridview's dataerror event.\r\n\r\nThe second problem was answered by Linda Liu, and I found her name in your All-In-One Code Framework Coding Guideline document.\r\nShe may still remember this problem, and you can ask her for detailed information\r\n\r\nThanks.",
+      "PostedDate": "2011-06-08T04:52:49.927-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:57.547-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi,\n \nCan you please share code for creating button having an image on it? This is to be achieved using Attached Properties.\n \nThe Button can look like the following:\n \n       <!-- Declare button with an attached image -->\n        <Button x:Name=\"btnOk\" Content=\"OK\"\n                local:MyClass.Image=\"theOk.png\"\n                Style=\"{DynamicResource MyImageButton}\" />\n \nNote: I don't have blend and I have restrictions in installing it. So the solution should not be using blend.\nNote: I am using Silverlight 3\nNote: Please ensure that you are posting code for Silverlight 3; not WPF\nNote: Please do NOT provide any reference to any article. I am looking for complete code listed in this post.\nNote: The attached property is to be used by a standard button(<Button>); not inherited custom control.\n \nThanks\nLijo",
+    "LastUpdatedDate": "2013-02-21T18:59:56.923-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-06-14T05:44:52.467-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Silverlight: Button with Image using Attached Property",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8960
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

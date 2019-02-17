@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I would love to get an XNA skeleton. Which includes the Rendertube, animation Classes and such stuff. \n \nOne for simple 2D Games (Only standard Rendertube)\nOne for 2D Games with animated Sprites\nOne for 2D Games with Mashes\n \nOne for simple 3D Games (Only standard Rendertube)\nOne for 3D Games with different Model Classes, Lightning etc.\n \nImporter for Maya, 3D Studio Max, Blender, Cinema 4D Models.",
+    "LastUpdatedDate": "2013-02-21T19:00:37.433-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-26T04:48:13.743-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "XNA skeleton",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 7765
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello sirblacksoul, \r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nYour sample request is about how to develop XNA application.  If I misunderstood your requirement, please feel free to let me know. \r\n\r\nMicrosoft All-In-One Code Framework team doesn’t have enough resources to support this technology. There are some samples I found from the Microsoft All-In-One Code Framework Sample Browser:\r\nhttp://code.msdn.microsoft.com/Xna-Ball-Bouncing-Game-77a44f5d;\r\nhttp://code.msdn.microsoft.com/Xna-Ball-Bouncing-Game-77a44f5d;\r\nhttp://code.msdn.microsoft.com/Tworzenie-aplikacji-RIA-w-2148a0eb.\r\nI hope that these samples will be helpful, and you can get more samples form the sample browser.\r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com\r\n",
+      "PostedDate": "2012-09-26T01:27:29.82-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:37.433-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

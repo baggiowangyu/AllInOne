@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "IPC",
+      "DisplayName": "IPC"
+    },
+    "ClosedComment": "See changeset 14016 and 14192",
+    "ClosedDate": "2009-03-04T03:59:36.713-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Both examples are currently implemented by P/Invoking the native Pipe APIs. \n \n.NET Framework 3.5 adds a new set of classes (NamedPipeServerStream, NamedPipeClientStream, etc) to facilitate the use of Pipes in .NET. CSNamedPipeServer and CSNamedPipeClient need to add the example of NamedPipeServerStream and NamedPipeClientStream.",
+    "LastUpdatedDate": "2013-05-16T05:33:42.207-07:00",
+    "PlannedForRelease": "All-In-One Code Framework 2009-3-8",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-03-03T06:52:13.21-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Improve Example: CSNamedPipeServer, CSNamedPipeClient",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 1898
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "The System.IO.Pipes implementation of the example: CSNamedPipeServer has been checked-in. See changeset: 14016 .",
+      "PostedDate": "2009-03-03T08:04:10.583-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "The System.IO.Pipes implementation of the example: CSNamedPipeClient has been check-in. See changeset: 14192",
+      "PostedDate": "2009-03-04T03:58:47.9-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-03-04T03:59:36.713-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:01:18.63-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T05:33:42.207-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

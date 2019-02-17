@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1263887",
+    "ThreadId": "551004",
+    "Html": "example : \r<br />\n<br />\nclass program\r<br />\n{<br />\n<pre><code>   static void Main(string[] args)\n   {\n          int a = arg[0];\n          int b = arg [1];\n          Sum(a,b);\n\n   }\n   private void Sum(int a, int b)\n   {\n       int sum = a+ b;\n       console.write(&quot;sum = {0}&quot;, sum);\n   }      </code></pre>\n\n}\r<br />\n<br />\nMy question : after build it with visual , I have file .exe. Then I buil this  file. exe with command line , how to pass argument have formmat follow in command line:\r<br />\n---arg1 a ---arg2 b<br />\n",
+    "PostedDate": "2014-07-09T01:24:26.493-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

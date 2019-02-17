@@ -1,0 +1,100 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I get this error when I run this example I have SQL Express 2005 and 2008\n:\\ALL-IN-ONE CODE FRAMEWORK\\VISUAL STUDIO 2010\\CSASPNETIPTOLOCATION\\APP_DATA\\LOCATION.MDF' cannot be opened because it is version 661. This server supports version 612 and earlier. A downgrade path is not supported.\nCould not open new database 'E:\\ALL-IN-ONE CODE FRAMEWORK\\VISUAL STUDIO 2010\\CSASPNETIPTOLOCATION\\APP_DATA\\LOCATION.MDF'. CREATE DATABASE is aborted.",
+    "LastUpdatedDate": "2013-02-21T18:59:46.813-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-08-22T22:51:10.02-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "IP to Location example",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9369
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi,\r\nAccording to your description, you mean you had install SQL server Express 2005 and 2008,right? i have just run the sample on my computer with Sql Server 2008 Express only and works fine. Base on your error message, it seems like the database files(both MDF and LDF files) are new version 655(Sqlserver 2008), the version 612 and earlier is Sqlserver 2005, because there is no downgrade possibility in Sql Server, you will receive this errors when you try to connect database file. You can modify DataBase Connections of Visual Studio try to fix the issue.\r\nRefer to following links:\r\nhttp://forums.asp.net/t/1349092.aspx/1/10\r\nhttp://conceptdev.blogspot.com/2009/04/mdf-cannot-be-opened-because-it-is.html\r\nHope it can help you.",
+      "PostedDate": "2011-08-23T00:00:35.147-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks for getting back to me if I try to attach this data base to SQLEXPRESS08 I get this error\r\nThe database 'E:\\CSASPNETIPT​OLOCATION\\CSASP​NETIPTOLOCATION​\\APP_DATA\\LOCAT​ION.MDF' cannot be opened because it is version 661. This server supports version 612 and earlier. A downgrade path is not supported. Could not open new database 'E:\\CSASPNETIPT​OLOCATION\\CSASP​NETIPTOLOCATION​\\APP_DATA\\LOCAT​ION.MDF'. CREATE DATABASE is aborted. An attempt to attach an auto-named database for file E:\\CSASPNETIPto​Location\\CSASPN​ETIPtoLocation\\​App_Data\\Locati​on.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share. ",
+      "PostedDate": "2011-08-23T01:02:31.007-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi rickj,\r\nDo you have modified the DataBase Connections of VS? Following these steps:\r\nIn Visual Studio, go to Tools -> Options -> Database Tools -> Database Connections, fill the SQL Server Instance Name with the name of SQL Server 2008 Express instance. \r\nYou don't need attach the data base file, because the sample has contained default database file named \"Location.mdf\" in App_Data folder of sample.\r\nIf you still get this errors, please let me know.\r\n\r\nHope it can help you",
+      "PostedDate": "2011-08-23T01:35:42.487-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi Arwind when I change the the DataBase Connections I get Failed to generate a user instance of SQL Server due to a failure in starting the process for the user instance. The connection will be closed teh only way I'v been able to use SQLEXPRESS 2008 with VS 2010 is to attach the data base to SQLEXPRESS08 I tried to delete the files in C:\\Users\\[username]\\AppData\\Local\\Microsoft\\Microsoft SQL Server Data\\SQLEXPRESS08 they reapear when I run the app but I still get failed to generate user instance\r\nI posted the wrong error when I tried to attach the data base thie is what I get with SQLEXPRESS08 \r\nTITLE: Microsoft SQL Server Management Studio\r\n------------------------------\r\n\r\nAttach database failed for Server 'OWNER-PC\\SQLEXPRESS08'.  (Microsoft.SqlServer.Smo)\r\n\r\n\r\n------------------------------\r\nADDITIONAL INFORMATION:\r\n\r\nAn exception occurred while executing a Transact-SQL statement or batch. (Microsoft.SqlServer.ConnectionInfo)\r\n\r\n------------------------------\r\n\r\nThe database 'D:\\PROJECTS\\ONECODE\\VISUAL STUDIO 2010\\CSASPNETIPTOLOCATION\\APP_DATA\\LOCATION.MDF' cannot be opened because it is version 661. This server supports version 662 and earlier. A downgrade path is not supported.\r\nCould not open new database 'D:\\PROJECTS\\ONECODE\\VISUAL STUDIO 2010\\CSASPNETIPTOLOCATION\\APP_DATA\\LOCATION.MDF'. CREATE DATABASE is aborted. (Microsoft SQL Server, Error: 948)\r\n\r\nFor help, click: http://go.microsoft.com/fwlink?ProdName=Microsoft+SQL+Server&EvtSrc=MSSQLServer&EvtID=948&LinkId=20476\r\n\r\n",
+      "PostedDate": "2011-08-23T02:20:17.477-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Ah, i had met the situation before, i just delete Microsoft SQL Server Data\\SQLEXPRESS folder and it works fine. Can you add a new Sql database file in application? I want to know whether you will get the version errors or generate user instance errors.",
+      "PostedDate": "2011-08-23T03:26:28.423-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi Arwind I get both when I try to attach the data base to SQLEXPRESS 08 \r\nThe database 'D:\\PROJECTS\\ONECODE\\VISUAL STUDIO 2010\\CSASPNETIPTOLOCATION\\APP_DATA\\LOCATION.MDF' cannot be opened because it is version 661. This server supports version 662 and earlier. A downgrade path is not supported.\r\n\r\nand when I try to use it in the APP_DATA folder I get \r\nFailed to generate a user instance of SQL Server due to a failure instarting the process for the user instance. The connection will be closed\r\n\r\nI tried to delete C:\\Users\\Owner\\AppData\\Local\\Microsoft\\Microsoft SQL Server Data\\SQLEXPRESS08 it recreates the file \r\nand gives me this error \r\nFailed to generate a user instance of SQL Server due to a failure instarting the process for the user instance. The connection will be closed\r\n\r\nif I try to delete C:\\Users\\Owner\\AppData\\Local\\Microsoft\\Microsoft SQL Server Data\\SQLEXPRESS it wont let me delete this file \r\nonly the EXPRESS08 will delete",
+      "PostedDate": "2011-08-23T10:48:11.357-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi there Arwind I repaired SQLEXPRESS08 Im getting a user instance now Im getting this error \r\nI have Sql Server 2008    Express Edition      10.2.4064.0 installed\r\n\r\nThe database 'E:\\ALL-IN-ONE CODE FRAMEWORK\\VISUAL STUDIO 2010\\CSASPNETIPTOLOCATION\\APP_DATA\\LOCATION.MDF' cannot be opened because it is version 661. This server supports version 662 and earlier. A downgrade path is not supported.\r\nCould not open new database 'E:\\ALL-IN-ONE CODE FRAMEWORK\\VISUAL STUDIO 2010\\CSASPNETIPTOLOCATION\\APP_DATA\\LOCATION.MDF'. CREATE DATABASE is aborted.\r\nAn attempt to attach an auto-named database for file E:\\All-In-One Code FrameWork\\Visual Studio 2010\\CSASPNETIPtoLocation\\App_Data\\Location.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share.",
+      "PostedDate": "2011-08-23T13:11:35.993-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi rickj,\r\nNow your error message is different than before, it says \"E:\\ALL-IN-ONE CODE FRAMEWORK\\VISUAL STUDIO 2010\\CSASPNETIPTOLOCATION\\APP_DATA\\LOCATION.MDF' cannot be opened because it is version 661. This server supports version 662 and earlier. A downgrade path is not supported. \", SQL Server 2008 supports database version 655 and earlier, SQL Server 2008 SP2 enabled for 15000 partitions are upgraded to version 662, This upgraded is necessary to prevent a SQL Server 2008 R2 instance from attaching a database that has more than 1000 partitions in it, since the code in R2 RTM does not understand 15000 partitions and the effects would be unpredictable. So SQL Server 2008 SP2 does support version 662, but not for 661.\r\n\r\nHere is a document for explaining this:\r\nhttp://download.microsoft.com/download/B/E/1/BE1AABB3-6ED8-4C3C-AF91-448AB733B1AF/Support_for_15000_Partitions.docx\r\n\r\nThis errors always happenning when users is trying to attach a SQL Server R2 instance(661) to a SQL Server 2008 SP2 instance, that means the Location.mdf file is created by SQL Server 2008 R2, and you had installed SQL Server 2008 SP2, this is not supported. You can upgrade your SQL Server 2008 SP2 instance to SQL Server R2, if you do not want to upgrade your SQL Server, you need attach the database file in R2 instance and export data, then you can copy the data and import to your SP2 machine.\r\nHope it can help you.",
+      "PostedDate": "2011-08-23T19:23:39.75-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I tried everythig I could to install SQL Server 2008 R2 to run this sample but I have SQL Server 2005 installed on the same machine SQL Server 2008 R2 won't install side by side with 2005 a warning should be put out with this sample you need a clean machine or you have to reconfigure your machine to run this sample ",
+      "PostedDate": "2011-08-29T09:53:52.253-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-29T20:11:38.28-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I suggest you install 2008 R2 Sql Server to run this sample with a clean machine(uninstall 2005 before install R2), R2 will bring many benifits with developing,\r\nIf you do not want uninstall 2005 for some reasons, you can export the data of R2 database files to txt or Excel file, then you can create a 2005 database and import the data of txt or Excel file to 2005 database file. \r\nAfter these steps complete, you can attach the new 2005 data file in your application to run this sample, do not forget modify Visual Studio options \"DataBase Connections\" as Sql Server 2005 instance.\r\nBTW, if you cannot open R2 database file because of version issues, i can send the the data of R2 database file(txt or Excel file) to you.",
+      "PostedDate": "2011-08-29T23:08:45.523-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:46.813-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

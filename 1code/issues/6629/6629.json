@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "http://www.codeproject.com/KB/vb/CustomSettingsProvider.aspx\nhttp://social.msdn.microsoft.com/Forums/en-US/netfxbcl/thread/ffc027ef-2579-450b-927d-9792c7610489",
+    "LastUpdatedDate": "2013-02-21T19:00:51.817-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-07-18T22:13:45.16-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "custom setting provider",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 6629
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

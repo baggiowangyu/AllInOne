@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "http://social.msdn.microsoft.com/Forums/en-US/vcgeneral/thread/4968d31e-e463-4b3a-a27a-1db124033a9c\nhttp://social.msdn.microsoft.com/Forums/en-SG/vcgeneral/thread/1de93fd1-5ec2-4300-a41e-16ab1a2166d6",
+    "LastUpdatedDate": "2017-11-27T10:33:40.567-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-01-13T18:57:37.7-08:00",
+    "Status": {
+      "Name": "Active",
+      "Id": 2
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Saving an image from pointer to HGLOBAL",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 5098
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Right now the documentation on WFD is very slim.  We have some function documentation here:\nhttp://msdn.microsoft.com/en-us/library/windows/desktop/ms706274(v=vs.85).aspx\nbut nothing documenting a workflow of how to use those functions in concert.  The sample that is downloadable from here:\nhttp://code.msdn.microsoft.com/windowsapps/Proximity-Sample-88129731#content\nis unfortunately not very comprehensive and seems directly specifically at using Proximety devices.  While this specificity isn't terrible, it would be more useful to how WFD would be designed in a typical Desktop environment.\n\nWFD appears to be a powerful new standard in its early days of life.  Empowering users to take hold of this technology on Microsoft/Windows systems will help the Windows platform to claim significant presence in what may be a very important new field of development.  Connecting machines simply and exchanging data at any time is going to be a staple of future consumer technology.  Providing these samples will make sure that Windows is a part of that.",
+    "LastUpdatedDate": "2013-07-18T07:13:03.78-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2013-07-18T07:13:03.78-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Wifi Direct, connect and transfer example",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 11951
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

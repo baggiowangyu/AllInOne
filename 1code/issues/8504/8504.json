@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "我做了一个wpf浏览器应用程序，但是运行的时候发现即使窗体被缩小，浏览器窗口也不会像asp.net页面一样出现水平或垂直滚动条，请问该如何实现\n另外无法响应ctrl+f查找，编辑菜单的查找也是灰的，是xbap程序不支持还是需要如何开启这一功能",
+    "LastUpdatedDate": "2013-02-21T19:00:18.07-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-03-11T07:23:05.297-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "请问wpf浏览器应用程序怎么出现滚动条和响应ctrl+f查找",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8504
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello duimou,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\nYou said the topic metioned that It's has Webbrowse control like inside. I understand that this maybe a lot of information to ask for at one time. However, by collecting this information now, it will help us move more quickly toward this sample request. You should describute it in detail. For example, It used which controls and how they coordinate between operation. In these way ,we could understand how to compose the sample metioned below. Still welcome you for us to raise more sample request.\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com \r\n",
+      "PostedDate": "2011-03-13T22:49:26.663-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:18.07-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

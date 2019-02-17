@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I would like to see a sample on how to support both Windows Authentication and Forms Authentication using ASP.NET MVC. The sample should follow the guidelines of Jon Galloway's post \"ASP.NET MVC Authentication - Customizing Authentication and Authorization The Right Way\" (http://weblogs.asp.net/jgalloway/archive/2012/05/04/asp-net-mvc-authentication-customizing-authentication-and-authorization-the-right-way.aspx) but still one should be able to integrate with the membership providers to store user profiles etc.\n \nI like the approach that two old articles from 2004 take: http://msdn.microsoft.com/en-us/library/ms972958.aspx and http://msdn.microsoft.com/en-us/library/ms972971. But these are outdated now that we've got ASP.NET Membership Provider, ASP.NET MVC, WCF services, new versions of IIS and so on.\n \nLike Jon Galloway says in his post, there are many custom solutions taking bad approaches and they don't work. Still mixed authentication and single sign-on is a very common scenario that all enterprise solutions have to solve.",
+    "LastUpdatedDate": "2013-07-17T07:58:02.673-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-07-27T04:58:53.907-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "ASP.NET MVC mixed authentication (Forms and Windows) and single sign-on",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 10,
+    "Id": 11035
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

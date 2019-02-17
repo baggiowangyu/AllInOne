@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi,\nWe need to build dynamic host configuration protocol for ipv6(DHCPv6). I found that there is very less projects are going on IPv6. In this project we can build wrapper using DHCPv6 API's provided by Microsoft. So Administrator really don't care of going to Administrator window and do the job. This project will help Admin as we can do this as configurable and One Click Activity.\nLet me know if anyone likes the idea. For more information about DHCP API's see:: http://msdn.microsoft.com/en-us/library/aa363376%28v=VS.85%29.aspx\n \n \nThanks,\nAjit",
+    "LastUpdatedDate": "2013-02-21T18:59:43.123-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-09-22T04:51:09.723-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Dynamic host configuration protocol for ipv6 in C#",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9535
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

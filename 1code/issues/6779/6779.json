@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "My customer is willing to modify their DLLs to support side-by-side mechanism. Though they found following documents from MSDN, simple steps and easy-to-understand examples are not found.\n \nBuilding C/C++ Isolated Applications and Side-by-side Assemblies\n<http://msdn.microsoft.com/en-us/library/ms235532(VS.90).aspx>\n \nHow To Build and Service Isolated Applications and Side-by-Side Assemblies for Windows XP\n<http://msdn.microsoft.com/en-us/library/ms997620.aspx>\n \nCould you create new documents which describes how to create new side-by-side assemblies or to modify existing assemblies to support side-by-side with step-by-step instructions for beginners?",
+    "LastUpdatedDate": "2013-02-21T19:00:49.367-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-08-01T05:34:11-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "How to create side-by-side assembly step by step",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 6779
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

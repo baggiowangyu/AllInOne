@@ -1,0 +1,75 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Impossible to download this framework",
+    "LastUpdatedDate": "2013-02-21T18:59:17.183-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-05-27T17:03:41.847-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Download impossible",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 10823
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Same thing to me, nothing happened while the page showed \"downloading...\"",
+      "PostedDate": "2012-05-28T15:40:04.103-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello\r\n\r\nThanks for reporting this issue.  It's a known issue of CodePlex that impacts users who use IE to download the clickonce app.  The CodePlex team is trying to fix the problem this week.  The current workaround is to use Chrome or FireFox to install the Sample Browser.  Here is a blog article with more details.  \r\nhttp://blogs.msdn.com/b/codefx/archive/2012/05/27/issue-report-sample-browser-clickonce-installation-is-not-started-in-ie.aspx\r\n\r\nThanks\r\nJialiang Ge\r\nProgram Manager\r\nMicrosoft All-In-One Code Framework",
+      "PostedDate": "2012-05-28T18:12:09.54-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "The workaround did not work with Firefox 12.0 (using Win 7 x64) either. \r\n\r\nBut the download worked fine with Chrome. Thanks for this hint!",
+      "PostedDate": "2012-05-29T04:21:41.023-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I accidentally found a way to update without Web Browser. Yesterday I needed to seach samples. When I launched previous edition of Framework it prompted me about new version. I accepted updating new version and it succeeded. Thanks for your efforts. \r\n\r\nP.S. It is not the official way to ask for samples, but there's already no samples available for VB 2010 and DirectX. More Microsoft's DirectX SDK doesn't provide VB Samples at all.",
+      "PostedDate": "2012-05-29T18:36:10.733-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-05-30T03:08:40.067-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-05-30T12:34:46.127-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:17.183-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

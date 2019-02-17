@@ -1,0 +1,80 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I would like to see a code sample that demonstrates the whole WPF drag & drop process, beginning from the DragDrop.DoDragDrop method and ending in providing the target object with data. I would like to see the following:\n1. Detection of a drag operation - how does the developer detect that a drag operation has started and knows to call the DragDrop.DoDragDrop method\n2. Changing cursors depending on the drop target\n3. Providing data to the drop target",
+    "LastUpdatedDate": "2013-02-21T18:59:50.857-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-07-29T10:01:43.437-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Complete WPF Drag & Drop sample",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 6,
+    "Id": 9222
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi alexshtf,\r\n   Thanks for using our sample idea support services.\r\n    Since your idea is mentioned by some of blog articles, ever though it seems that this article descripes it in detail. It seems that your sample idea is still worth composing by us. This is because that its topic is a  hot spot. It mentions rount event and how to use MeasureOverride and MeasureOverride to implement visual operation.And this sample idea will  cite a lot of knowledge about clipboard operation and how to raise the GiveFeedback event and so on. I will submit this inspiration as our new sample idea. If possibly, it will be approved by our expert. So you can find them  on the banner of Download in this website.\r\n\r\nSincerely,\r\nAll-In-OneCode Framework",
+      "PostedDate": "2011-07-31T20:36:59.007-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-07-31T20:37:09.163-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi alexshtf,\r\n   I am sorry that there are lots of coding and walkthrough about drap&drop in WPF. you can access them such as http://blogs.msdn.com/b/jaimer/archive/2007/07/12/drag-drop-in-wpf-explained-end-to-end.aspx and http://blogs.msdn.com/b/jaimer/archive/2007/07/12/drag-drop-in-wpf-explained-end-to-end.aspx.\r\n   And if you search from codeproject, you would find the more knowledge about how to drag&drop Listview and other some control integrated application.So a simple sample is hard to be approved by our expert. They are familiar with these technology enough. Can you give me additional information about it? And if you want to compose them ,you can give us more information about how to apply this scenrio. Thanks for your support.\r\n\r\nhave a good day,\r\nAll-In-OneCode Framework",
+      "PostedDate": "2011-07-31T20:46:49.64-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-09-13T10:25:59.223-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-09-24T19:34:14.357-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-12-28T01:43:41.69-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-09-26T07:46:52.703-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:50.857-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Out of the box, WCF supports UserName/WindowsAuth/Certificate/etc for client credentials, but sometimes you need to pass more information.  What is the best way to pass a custom credential type to a WIF-based STS using WCF?",
+    "LastUpdatedDate": "2013-02-21T18:59:52.54-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-07-22T09:46:23.35-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Custom Credential Type in Active Claims using WIF",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9150
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "http://claimsid.codeplex.com/\r\n\r\nPerhaps fold in Eugenio Pace's bits:\r\n\r\nhttp://blogs.msdn.com/b/eugeniop/archive/2011/06/13/claims-identity-guide-hands-on-labs.aspx\r\n\r\n",
+      "PostedDate": "2012-01-20T06:20:06.253-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:52.54-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

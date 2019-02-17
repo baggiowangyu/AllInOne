@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "A .NET visual magnifier control, that uses the Magnification API, with two properties, WindowHandle and ZoomFactor.\nThe ZoomFactor magnifies the window specified by WindowHandle in the control.\nThe magnified display area is fully usable accepting all mouse and keyboard activity.\nThe window specified by WinddowHandle need not be otherwise viewable on the display screen.",
+    "LastUpdatedDate": "2013-02-21T18:59:59.497-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-05-23T06:22:59.243-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": ".NET Magnification Windows 7 Magnifier Control",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8878
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello CodeTwo,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\nAs far as I know, the topic which you talk about is ZoomBoxPanel control. It included in the WPF technology. Currently the same \r\neffect has other some technologies to accomplish it. I hope that my thinking what I want is correct. If not, please feel free to let me know. It seems that you don't concern on how to zoom out and zoom in with TranslateTransorm, RotateTransform and ScaleTransform, and you also don't concern on how to add current command with WPF feature.\r\nI think you prefer to how to handle the event message included of adding full mouse suport and keyboard support.\r\nI know a lot of ways to accomplish it using process_PreviewMouseDown,MouseWheel and so on,but your sample ida means you want to handle them using win32 message loop. It is a good way, and I will collect them included of other \r\nMagnification's feature and submit them.\r\n\r\n\r\n\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-05-23T19:01:23.8-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Consider an arbitray windows graphical program, for example notepad.exe;  a sample usage of this visual control might be as follows:\r\n   1.  invoke notepad.exe\r\n   2.  set the ZoomFactor and WindowHandle property of this visual control\r\n   3.  interact with notepad by typing and clicking on this viusal control\r\n\r\n",
+      "PostedDate": "2011-05-24T06:02:01.827-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello CodeTwo,\r\n\r\n   Thanks for your additional information about this topic. I will collect these materials in order to submit it. Certainly I will regard its votes. And I will tell you a good news, our project also has made their homes in the gallery. You can access them to understand our project code sample ,KB and so on. Welcome to concern on our project and give more feedback to us.\r\n    \r\n\r\nThanks \r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com\r\n",
+      "PostedDate": "2011-05-24T18:48:49.083-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:59.497-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

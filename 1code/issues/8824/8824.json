@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "After working with the Shell Extension Handlers Samples, I've run into a problem (sort of)\nEverything works fine on the Windows Shell as it should, but I can't make it work on the WPF BrowserExplorer control. This control can load the dropbox iconoverlay and contextmenu handlers, so the problem should be on the registration right? I'm searching and trying to find what's different on these registrations.\nAny idea of what is done different on the other extension handlers?\nThanks!",
+    "LastUpdatedDate": "2013-02-21T19:00:01.843-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-05-16T05:58:38.25-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Registring the Shell Extension Handlers",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8824
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "http://support.microsoft.com/kb/930128 \n \nThis article gives even more details.\nhttp://www.svrops.com/svrops/articles/jpoints.htm \n \nThis article tells you how to programmatically determine a junction point:\nhttp://www.flexhex.com/docs/articles/hard-links.phtml#junctions",
+    "LastUpdatedDate": "2013-02-21T19:00:48.757-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-08-10T02:55:04.117-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Junction Pointer (File System)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 6841
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

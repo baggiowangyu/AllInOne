@@ -1,0 +1,111 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I want to develop a plug-in for window explorer in such a way that a custom folder named as My repository(as shown in attached image) would appear in left pane of explorer.\nAnd when we click on it we would like to call a web service behind the scene and display its sub directories on RHS pane as well in LHS pane(in form of treeview).\nAs we can't directly map the directory , that's why we will be using web service.\n \nPlease give some suggestion how to customize explorer or extend the window shell in such a manner.\n \nThanks,\nkpant",
+    "LastUpdatedDate": "2014-08-31T02:44:37.9-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-07-05T05:50:03.293-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "plug-in for windows explorer",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 7,
+    "Id": 9043
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3393,
+      "FileName": "win explorer.png",
+      "DownloadUrl": ".\\3393"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "hi kpant,\r\n\r\nThank you for using our code sample request service. \r\n\r\nAs far as I know, your sample idea concentrate on the shell extension program. It seems that our software engineer has composed them. You can access the Downloads part in the middle of our website page brand. Currently, your said has other some informations, Can you give me some clues about how to implement other features? And you can give us some concept explanation about RHS and LHS although I can search the result about it such as http://blogs.msdn.com/b/jolson/archive/tags/lhs+feature+of+the+week/. But I still not understand why you want to use RHS and LHS. Please explain it once more in detail. Thanks for your additional information about \"plug-in for windows explorer\".\r\n\r\n\r\nSincerely\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com",
+      "PostedDate": "2011-07-17T22:58:37.3-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks for the reply.\r\nI want to create namespace extension using dot net framework 4. I did not find any sample code in All-In-One Code Framework examples for writing namespace extension in dotnet framework 4.\r\nI want to add a virtual folder (for ex. My Repsitory) in the explorer treeview and this directory exist in a server. When I click on this folder,  I will call a webservice and get all the subfolderlist from server and then display its subfolders in the treeview as well in folderview(shellview).\r\nI am sorry for using RHS/ LHS terms. By the way by LHS I mean Treeview and by RHS I mean Folderview/Shellview.\r\nFollowing is a link which explains writing namespace extension, but is is using unmanaged code(C++). I want to write plug-in in similar way but using c# and dot net framework 4.\r\nhttp://www.codeproject.com/KB/shell/namespcextguide1.aspx?display=Mobile\r\n\r\nI hope I have explained it well.\r\nPlease let me know if you want more information.\r\n\r\nSo I request you to provide sample code for writing namespace extension using c# and dot net framework 4.0.\r\n\r\nthanks,\r\nkpant",
+      "PostedDate": "2011-07-18T00:43:37.283-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi kpant,\r\n  Thanks for your additional information about how to compose your sample idea. you give us kindly assistance about how to understand the RHS and LHS. I will dive into it for some days. And I will concentrate on your votes about this issue tracker. This is because that only lots of customer encounter this issue, thus we can submit the sample idea. I wiss you get the understanding of our work. \r\n\r\nHave a good day\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com",
+      "PostedDate": "2011-07-21T18:41:59.323-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Dear Orichisonic,\r\nyou missunderstood the problem. Please ignore RHS/LHS.\r\nI just want to create  a namesapce extension in C# using .net framework 4.0, which should work on Windows7/Vista/XP,  just like following ex.\r\n\r\nhttp://www.codeproject.com/KB/shell/namespcextguide1.aspx?display=Mobile\r\n\r\nBut this sample is using c++ and not working on Window7.\r\nThere are some samples in All-In-One Code for extending Window shell(for ex CSShellExtContextMenuHandler) but \r\nthere is no sample exist in All-In-One Code framework for creating Namespace extension.\r\n\r\nSo I request to All-In-One code framework team to provide a sample for writing Namespace extension using C# .net 4.0 and provide\r\nme some useful information for writing Namespace extension using C#.\r\n\r\nRegards,\r\nkpant\r\n\r\n",
+      "PostedDate": "2011-07-21T22:34:47.803-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-07-21T22:56:17.867-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi kpant,\r\n\r\n   Thanks for your support about using our sample codes. But your request is unsupported by Microsft because  Microsoft has not fully tested all of the scenarios involved with managed shell extensions and has not determined whether it will support managed shell extensions for the long term.You can access our project manager's blog for getting more information about it which looks like http://blogs.msdn.com/b/codefx/archive/2011/01/04/is-it-officially-supported-to-write-windows-shell-extension-using-net-4-today.aspx.\r\nAnd some support engineer will reponse to you more information about it such as http://social.msdn.microsoft.com/forums/en-US/netfxbcl/thread/1428326d-7950-42b4-ad94-8e962124043e.But telling you a good news, you can use c++ to resolve the same issue. I believe the c++ language with using namespace extension will give more Incredible extensibility. Thanks for the additonal information,However,that feature have an impaction so that we are hard to achieve it. Thanks for your understand.\r\n\r\nhave a good day\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com",
+      "PostedDate": "2011-07-22T00:59:07.873-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi Orichisonic,\r\nThanks for the reply.\r\nI do agree with your suggestion for writing namespace extension in C++.\r\nI have gone through C++ samples for writing shell extension in All-In-One Code framework, but no example\r\nfor writing namespace extension.\r\nI request you to please provide a sample for writing Namespace Extension using  C++ . I will be really grateful to All-In-one code framework team.\r\n\r\nThanks & Regards,\r\nkpant13",
+      "PostedDate": "2011-07-22T04:40:10.177-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-07-29T08:51:48.507-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T17:38:41-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-09-24T19:35:12.677-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-10-02T03:00:06.163-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:54.497-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-08-31T02:44:37.9-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

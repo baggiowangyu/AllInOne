@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Like shown here (scroll down to Thumbnails (desert pic))\nhttp://msdn.microsoft.com/en-us/library/aa511495.aspx#tooltipsgl\n \nI think  it would be a great feature for many programs, because you could quickly view thumbnails of specific items in 'Details' perspective without switching to 'Large Icon' perspective.",
+    "LastUpdatedDate": "2013-02-21T19:00:35.22-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-12-11T18:51:00.353-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Thumbnail Tips for Explorer",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 7887
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

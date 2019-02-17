@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Code Sample for File Viewer is really needed for all Window Application Developer. I found FreeFileViewer with C++ at www.FreeFileViewer.com but Cannot use in .Net . There is alot of questions i found at Forum ask for Viewer. I only found the specific file Viewer only. Should have generic File Viewer for all file type i.e. all picture files, office files, and pdf....For Web Application can use Response.BinaryWrite. So some window developer is find how to use this sentence in Window Application. Below are the links\nhttp://forums.asp.net/t/1520839.aspx/1\nhttp://www.codeproject.com/Questions/115156/Converting-the-web-application-code-in-windows-for\nhttp://forums.asp.net/t/1520839.aspx/1?+HttpContext+Current+Response+in+windows+application\nhttp://www.vbforums.com/showthread.php?629404-Converting-the-web-application-code-in-windows-form-application-code",
+    "LastUpdatedDate": "2013-02-21T18:59:07.24-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-09-27T01:37:22.43-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "FileViewer For All file Type",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11229
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "answered",
+    "ClosedDate": "2010-11-07T22:38:29.033-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "We plan build the uddi service one the old server farms: Windows Server 2003 + Windows SQL Server 2000\nWhen I study the document of uddi service, \n  http://msdn.microsoft.com/en-us/library/aa286530.aspx\n  It can download the uddi sdk version 2, but it's beta 1 \n  but \n    http://msdn.microsoft.com/en-us/library/aa966179(BTS.10).aspx\n    write :\n      Note: The Microsoft UDDI SDK is not supported by or included in Microsoft Windows versions after Microsoft Windows Server 7. The Microsoft UDDI V3 SDK is included with Microsoft BizTalk Server.\n \nThe good news is UDDK SDKv3 Overview said:\n   UDDI Services 3.0 is fully backward compatible with the UDDI v2 standard. \n \nSo, I plan to code the UDDI SDKv3 sample ,\nbut the big problem is the SDK 3 included with biztalk ?!\nI can't found any information about download UDDI SDKv3 without biztalk server \n \nThanks",
+    "LastUpdatedDate": "2013-05-16T05:33:22.217-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-10-28T01:10:34.91-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Using the UDDI SDK Version 3 without Biztalk",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 7503
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello hectorlee369\r\n\r\nThank you for using our sample request service (http://1code.codeplex.com/wikipage?title=NEW%2c%20FREE%20Code%20Sample%20Request%20Service%20from%20Microsoft%20All-In-One%20Code%20Framework) !\r\n\r\nMay I know if this is a code sample sample request? It seems that you are looking for UDDI SDKv3? \r\n",
+      "PostedDate": "2010-10-28T19:00:29.683-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Steef-Jan Wigger (MVP):\r\n\r\nThere is a standalone installation package (http://www.microsoft.com/downloads/en/details.aspx?FamilyID=e4761835-70f0-4e8d-96c5-64818d54e06e&displaylang=en) of UDDI Services 3.0, which supports setup of UDDI Services 3.0 on Windows Server 2008 R2. It is provided to the Windows Server 2008 R2 customers, who are using UDDI Services 2.0 on Windows Server 2003 or Windows Server 2008 today to enable smooth upgrade to Windows Server 2008 R2. This package only supports Windows 7 or Windows Server 2008 R2, so if you want to use version 3 of UDDI you need to upgrade your OS, .NET Framework and SQL Server. I do not think compatibility accounts for OS or SQL you are using.\r\n",
+      "PostedDate": "2010-10-31T19:15:55.25-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I found the UDDI SDKv3 in the \"UDDI Services 3.0 for Windows Server 2008 R2\" installation package.\r\nand found the sample code in http://www.informit.com/articles/article.aspx?p=101150&seqNum=2\r\n\r\nThanks for your help.",
+      "PostedDate": "2010-11-01T18:26:43.613-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-07T22:38:29.033-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:45.107-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T05:33:22.217-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

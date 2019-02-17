@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "One of the missing controls in VS is the toolbox. Toolbox is a powerful control that would help when talking about GUI space and presentation, it wraps elements (maybe treeview elements or buttons) into a one single control that can be called with just one movement, having the ability to show, hide or switch to static.\n \nI really would like to have a control like that, for me would be very useful in my apps and I still haven't found a sample code to get this control.",
+    "LastUpdatedDate": "2013-02-21T18:59:56.753-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-06-15T10:45:07.067-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "VS 2010-Like Toolbox Control for WinForms",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8964
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3372,
+      "FileName": "imagesCAE5WAJG.jpg",
+      "DownloadUrl": ".\\3372"
+    }
+  ],
+  "Comments": []
+}

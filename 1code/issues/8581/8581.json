@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "VS2010 setup project fail to detect a Windows application is running but in hidden state (not visible and appear as an icon in system tray).\n \nIf Windows application is running and visible then the installation can detect and notify to end-users.\n \nI would like to know what the best way to handle this issue.\nIs this a bug from VS installation?",
+    "LastUpdatedDate": "2013-02-21T19:00:11.09-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-03-30T06:44:32.917-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Detect Windows application running in hidden mode during un-installation",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8581
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

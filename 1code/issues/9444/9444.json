@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "1) Configuration path does not allow copy and paste in textbox. The Select folder button uses the directory dialog rather than a full file dialog. This means you can't paste a path into the dialog to save browsing through the tree.\n2) Configuration dialog has a save button and no Cancel button. If you accidentally change the path you have to browse to the correct path before exiting the dialog.",
+    "LastUpdatedDate": "2013-02-21T18:59:45.453-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-08-29T03:53:20.833-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Two preferences GUI issues",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9444
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Microsoft.Win32.SystemEvents.SessionSwitch += new Microsoft.Win32.SessionSwitchEventHandler(SystemEvents_SessionSwitch); \n \n    void SystemEvents_SessionSwitch(object sender, Microsoft.Win32.SessionSwitchEventArgs e) \n    { \n        if (e.Reason == SessionSwitchReason.SessionLock) \n        {  \n            //I left my desk \n        } \n        else if (e.Reason == SessionSwitchReason.SessionUnlock) \n        {  \n            //I returned to my desk \n        } \n    }\n \n \nThere is no reliable API for detected it from MSDN.\n \nhttp://msdn.microsoft.com/en-us/library/aa376875(VS.85).aspx\n \nThis function has the same result as pressing Ctrl+Alt+Del and clicking Lock Workstation. To unlock the workstation, the user must log in. There is no function you can call to determine whether the workstation is locked. To receive notification when the user logs in, use the WTSRegisterSessionNotification function to receive WM_WTSSESSION_CHANGE messages. You can use session notifications to track the desktop state so you know whether it is possible to interact with the user.\n \n \nIf your process is running under user mode, you may call OpenInputDesktop() to detect secure desktops if it fails. \nNote this may not what you wanted because it fails for UAC popup/Locked desktop. There is no API for differentiate between Locked Desktop and UAC popup.",
+    "LastUpdatedDate": "2014-11-02T02:57:30.74-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-08-29T17:54:11.44-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Check if the desktop is locked...",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 7032
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I think , registering such process as a scheduled task may allow it to run even when user is not logged in and it will also take administrative privileges skipping the UAC popup. Check if it solves your problem. There is also a Logon Trigger in Scheduled Tasks. Give it a try.",
+      "PostedDate": "2014-11-02T02:57:30.74-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

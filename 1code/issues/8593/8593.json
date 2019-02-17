@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "How to Creatre An ASP.NET Webapplication through which we can Do Payments With PayPal..",
+    "LastUpdatedDate": "2013-02-21T19:00:10.76-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-04-03T21:49:12.993-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Paypal Integration",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 8593
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello dLcreations and jrajapandian,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\nYour sample idea is simple solution looks like Alibaba.com. But I think it should contact with bank system and  cooperate with them. So this sample idea can not be composed by ourself. It is because that this project is Microsoft's project. Base on that our team should compose sample using Microsoft's technology. Although Microsoft doesn't provide support for third party software or interface. I can give you to another site that can assist you. Please access to http://www.sourcecodesworld.com/scripts/PayPal-614/. Thank again for your sample idea.\r\n\r\n\r\n\r\nSincerely\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-04-06T20:02:21.663-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-14T22:53:17.98-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "the thread is hard to be composed because of needing other out of resources such as bank interface.\r\n\r\n\n\n** Closed by orichisonic 4/14/2011 10:53 PM",
+      "PostedDate": "2011-04-15T00:36:50.657-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-15T00:36:51.277-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-15T05:04:14.837-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:10.76-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

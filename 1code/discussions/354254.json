@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "831180",
+    "ThreadId": "354254",
+    "Html": "\r\n<p>I thingk there is a flaw in the Code!<br>\r\nThe Code is using:</p>\r\n<p>NativeMethods.OpenProcessToken(Process.GetCurrentProcess.Handle, .....</p>\r\n<p>This returns the Current Process Token.<br>\r\nIf the Code runs under a Impersionated Thread the Code returns the wrong Usertoken!</p>\r\n<p>I think its better to use:<br>\r\n<br>\r\nNativeMethods.OpenThreadToken(Thread.CurrentTread, .....</p>\r\n",
+    "PostedDate": "2012-05-02T08:55:43.31-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

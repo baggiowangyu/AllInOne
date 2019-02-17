@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "616617",
+    "ThreadId": "258601",
+    "Html": "\r\n<p>struct SomeValueType {<br>\r\n&nbsp;public Int32 m_x, m_y;<br>\r\n}</p>\r\n<p>&nbsp;</p>\r\n<p>class SomeRefType {<br>\r\n&nbsp;public SomeValueType m_someValType;</p>\r\n<p>}</p>\r\n<p>class Program {<br>\r\n<span style=\"white-space:pre\"></span></p>\r\n<p><span style=\"white-space:pre\">&nbsp;</span><span style=\"white-space:pre\"> </span>\r\n&nbsp;public static void Main(String[] args) {</p>\r\n<p><span style=\"white-space:pre\"></span>SomeRefType obj = new SomeRefType();</p>\r\n<p><span style=\"white-space:pre\"></span>}</p>\r\n<p>}</p>\r\n<p>&nbsp;</p>\r\n<p>I am not clear as to how &quot;SomeValueType&quot; is laid out in memory.</p>\r\n<p>My take is that &quot;SomeValueType&quot; is allocated on the managed heap and is resides inside the memory allocated for &quot;obj&quot; on the managed heap. Is this assumption correct?</p>\r\n",
+    "PostedDate": "2011-05-23T01:42:31.52-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

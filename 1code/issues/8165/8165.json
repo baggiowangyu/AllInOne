@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi, I have recently started working in VS 2010 ultimate version. I have created the .edmx file inside the data access layer. I can direclty use the .edmx class inside my aspx pages. As I am creating the project as 3 tier architecture, i seperated the business logic layer seperatly. \nCan you give me some sample form OR project developed with good standards with 3 tier architecture. \n \nI dont want anymore to write classess for all the tables in data access layer and business logiv layer. (if there is any tools for creating business logic layer please suggest that)\n \nRergards,\nRichard I.P",
+    "LastUpdatedDate": "2013-02-21T19:00:30.537-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-15T23:38:17.01-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "VS 2010, Writing business logic class with data access logic as .edmx",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 8165
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello richardip,\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service !   \r\n\r\nYour sample request is about how to build 3-tier architecture application.  If I misunderstood your requirement, please feel free to let me know. \r\n\r\nDo you use the Entity Framework? If it is, we found that the following sample can probably answer your request. \r\nhttp://archive.msdn.microsoft.com/mag200911EF4. \r\nThis sample demonstrates how to build N-Tier apps with EF4 and WCF.\r\n\r\nPlease let us know if this sample is helpful to you. \r\n\r\nAnd you also want the tools for creating the business logic layer, I need more research.\r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com\r\n",
+      "PostedDate": "2012-08-30T21:10:50.07-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:30.537-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

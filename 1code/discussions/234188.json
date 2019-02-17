@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "520070",
+    "ThreadId": "234188",
+    "Html": "\r\n<p>Hi,</p>\r\n<p>I know I must ship .net framework if I use C#, how about CPP code? Can I use some static compile method to get an application without &nbsp;the need of .net framework?</p>\r\n",
+    "PostedDate": "2010-11-10T09:26:49.053-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "521946",
+    "ThreadId": "234188",
+    "Html": "\r\n<p>Hello dead_lee</p>\r\n<p>If it's native C&#43;&#43; (not C&#43;&#43;/CLI), you do not need to ship .NET Framework with your application. However, you need to pay attention to deploying CRT:</p>\r\n<p><a href=\"http://msdn.microsoft.com/en-us/library/ms235299(VS.80).aspx\">http://msdn.microsoft.com/en-us/library/ms235299(VS.80).aspx</a></p>\r\n<p>Jialiang Ge</p>\r\n",
+    "PostedDate": "2010-11-14T21:45:26.337-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "522135",
+    "ThreadId": "234188",
+    "Html": "\r\n<p>I see, so I can not use c# to build a prototype, then use c&#43;&#43; to build release version, because I will use c&#43;&#43;/cli, and cause me must ship .net framework with me.</p>\r\n",
+    "PostedDate": "2010-11-15T06:56:52.01-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

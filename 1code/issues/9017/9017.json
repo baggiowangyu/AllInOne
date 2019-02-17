@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I want to Lock the Win7 workstation from Windows service.\ni m creating using c#.\nthrough win app i m able to call the LockWorkStation, and its working fine.\nbut when i m calling it through windows service, its not working.\nany body will help me regarding this.",
+    "LastUpdatedDate": "2014-02-19T07:01:45.127-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-06-27T01:44:57.6-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Lock the Win7 workstation from Windows service.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9017
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi mdheerajgupta ,\r\n\r\nThank you for using our code sample request service. \r\n\r\n It seems that you use ServiceBase baseclass to run the windows service such as \"ServiceBase.Run(new WindowsService());\". Are you sure you set the CanHandlePowerEvent ,CanHandleSessionChangeEvent,CanPauseAndContinue,CanShutdown and CanStop into true.\r\nI think these property is critical program about how to resolve running the Lockworstation win32 function. If possibly, you can attach your program code to this thread,From that we can locate at the key of error point in order to resolve it.Currently, it seems that it is a good sample idea to submitted. Thanks for your additional information.\r\n\r\n\r\n\r\n\r\nSincerely\r\nAll-In-OneCode Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-07-03T22:26:20.86-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-03T05:06:11.47-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Its getting Solved Thanks for your time.",
+      "PostedDate": "2011-08-03T05:06:45.547-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T17:52:57.56-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:55.39-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi, how you solved your problem, I currently hava this problem.",
+      "PostedDate": "2014-02-19T07:01:45.127-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

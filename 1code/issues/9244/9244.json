@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "We've been working for a POS application with .NET and we would want our application to communicate with POS devices(Barcode scanner, Receipt Printer, etc.). We've found out that there are 2 ways to do this. either by UPOS or by Microsoft PointofService. We've searched everywhere and there was no sample application to be found. It would help guys or other companies making POS system in the country. We are currently using visual studio 2010 for our development. I think it would help if there's a sample application on this.\n \nIt should at least:\n - Detect current devices.\n - Read from a Barcode Scanner.\n - Print to a receipt printer from a text file.\n - Open Cashier's drawer\n \nthanks a lot.",
+    "LastUpdatedDate": "2013-02-21T18:59:50.49-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-07-31T07:39:09.09-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Microsoft PointofService Sample Application",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9244
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I'd like to see this demo too.\r\nI have found some nice blog posts by yort (?) @ http://www.yortondotnet.com/search/label/Pos%20.Net who is currently the reason I can make any sense of POS.Net at all.\r\n\r\nsince service objects aren't normally readily available I'd like to see a custom Service object implementation too.",
+      "PostedDate": "2011-10-14T07:31:00.813-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "thanks. =]",
+      "PostedDate": "2011-10-14T07:31:19.01-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:50.49-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "It would be nice to have a sample of rendering PerformancePoint scorecard indicator (at least correct picture of the indicator, e.g. red/green/yellow). I've found \n\nBIMonitoringServiceApplicationProxy.RenderScorecard() method\n\nthat returns HTML markup and JavaScript code, from which I could extract needed indicator's data, but it's not clear how to prepare parameters for the method. Especially, parameter WebPartContext. It has a few complex properties.\n\nThe sample will be very useful! Its code will allow to render PPS indicators in SharePoint custom fields and other places.",
+    "LastUpdatedDate": "2013-10-09T02:27:13.807-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2013-10-09T01:06:10.29-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Render a particular PerformancePoint scorecard indicator",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 12301
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I meant rendering of a calculated indicator picture according to a specific value in a scorecard.",
+      "PostedDate": "2013-10-09T02:27:13.807-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

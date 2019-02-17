@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Rongchun Zhang finished the example.",
+    "ClosedDate": "2009-03-02T03:46:57.937-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Example: CSUseADO\n- to demonstrate using ADO in a C# application\n \nComponent: Data Access",
+    "LastUpdatedDate": "2013-05-16T05:33:42.863-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-03-01T20:39:36.65-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Example: CSUseADO",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 1875
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "solved in changeset 33857",
+    "ClosedDate": "2009-10-29T07:59:16.293-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "CSNamedPipeClient\n \nProgram.cs\n \nLine 281: strMessage = Encoding.Unicode.GetString(bRequest).TrimEnd('\\0');\n \nIt should be: strMessage = Encoding.Unicode.GetString(bReply).TrimEnd('\\0');",
+    "LastUpdatedDate": "2013-05-16T05:33:27.353-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-10-28T14:01:09.073-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "CSNamedPipeClient",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 4526
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Thank you very much, romans01!\r\nI just fixed the problem in the changeset 33857.\r\n\r\nDo you mind if I add you to my \"Special Thanks\" section on the homepage? I'd like to express my special thanks to CodeFx Review Heroes who gave very constructive feedback to the project.\r\n\r\nThanks!\r\nJialiang Ge\r\nCodeFx Project Manager",
+      "PostedDate": "2009-10-29T07:57:04.013-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-10-29T07:59:16.293-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": ">Do you mind if I add you to my \"Special Thanks\" section on the homepage?\r\nSure, np.\r\n\r\nYour project is great!",
+      "PostedDate": "2009-10-29T08:35:15.457-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:58.5-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T05:33:27.353-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

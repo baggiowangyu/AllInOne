@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1431229",
+    "ThreadId": "640252",
+    "Html": "hi, in Windows Store Apps I've made a ListView but the problem is I don't know what's the best way to show the titles for each list items in that list. I have searched online mostly everyone is trying to use Columns and Rows. Can you tell me what's the appropriate method for showing the Title for each items in the list &quot;ID&quot;, &quot;NAME&quot;, &quot;Father Name&quot;, &quot;Caste&quot;,&quot;Address&quot;.<br />\n<hr />\n&lt;ListView Name=&quot;EmployeeList&quot; ItemsSource=&quot;{Binding}&quot; &gt;<br />\n<pre><code>        &lt;ListView.ItemTemplate&gt;\n            &lt;DataTemplate&gt;\n                &lt;StackPanel Orientation=&quot;Horizontal&quot;&gt;\n                    &lt;StackPanel.Resources&gt;\n                        &lt;Style TargetType=&quot;TextBlock&quot;&gt;\n                            &lt;Setter Property=&quot;TextAlignment&quot; Value=&quot;Left&quot;/&gt;\n                            &lt;Setter Property=&quot;FontSize&quot; Value=&quot;20&quot;&gt;&lt;/Setter&gt;\n                        &lt;Setter Property=&quot;FontFamily&quot; Value=&quot;Comic Sans MS&quot;&gt;&lt;/Setter&gt;\n                            &lt;Setter Property=&quot;FontWeight&quot; Value=&quot;Bold&quot;&gt;&lt;/Setter&gt;\n                        &lt;/Style&gt;\n                    &lt;/StackPanel.Resources&gt;\n                    &lt;TextBlock Text=&quot;{ Binding Id }&quot;/&gt;\n                    &lt;TextBlock Text=&quot;{ Binding Name }&quot;/&gt;\n                    &lt;TextBlock Text=&quot;{ Binding FatherName }&quot;/&gt;\n                    &lt;TextBlock Text=&quot;{ Binding Caste }&quot;/&gt;\n                    &lt;TextBlock Text=&quot;{ Binding Address }&quot;/&gt;\n                &lt;/StackPanel&gt;\n            &lt;/DataTemplate&gt;\n        &lt;/ListView.ItemTemplate&gt;\n    &lt;/ListView&gt;</code></pre>\n\n",
+    "PostedDate": "2015-06-20T22:42:51.937-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I've tried to use VSTO to host WPF data grid in a Word task pane, however, I couldn't get the data to show up in the WPF control in the task pane.\n\nThe data would preview OK, but it wouldn't show up when I ran the project.\n\nI created WPF libraries, and put one in the user control, host element in the startup project. \n\nCan't get it to work.",
+    "LastUpdatedDate": "2013-02-21T18:59:04.67-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-11-13T18:48:35.493-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "WPF Data grid in a Word Task Pane",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11366
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

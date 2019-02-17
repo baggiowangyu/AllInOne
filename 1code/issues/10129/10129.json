@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Create an example of how to extract data from Google APIs Client Library for .NET v3.0 using the Google Analytics API\n \nThe Google APIs Client Library for .NET is generic .NET runtime client for Google Services. The library supports OAuth1.0a and OAuth2.0 authentication, and is able to generate strongly typed client libraries for Discovery-based services. This client library can be used with all these APIs:\n \nLink:\nhttp://code.google.com/p/google-api-dotnet-client/",
+    "LastUpdatedDate": "2014-03-18T08:56:14.45-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-01-10T21:35:17.547-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "C# Example Using Google Analytics API",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 10129
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Any kind of C# ASP.NET example extracting and displaying data from Google Analytics would be appreciated.",
+      "PostedDate": "2014-02-11T06:47:09.657-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-03-18T08:56:14.45-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

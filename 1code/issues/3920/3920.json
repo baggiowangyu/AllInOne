@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "Shell",
+      "DisplayName": "Shell"
+    },
+    "ClosedComment": "finished",
+    "ClosedDate": "2010-10-19T22:11:23.323-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "CSSL3Animation, VBSL3Animation",
+    "LastUpdatedDate": "2013-05-16T05:33:28.383-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-09-03T22:32:16.393-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Sample: SL3Animation",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 3920
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

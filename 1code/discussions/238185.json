@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "534997",
+    "ThreadId": "238185",
+    "Html": "\r\n<p>Hi</p>\r\n<p>I find that like a number of developers i can more easily learn a language or framework by example.</p>\r\n<p>Are there any samples for illustrating specific points and areas of WPF (2010)?</p>\r\n<p>For example areas could include:</p>\r\n<ul>\r\n<li>Simple XAML </li><li>Databinding / element binding </li><li>Dependency properties </li><li>Routed events </li><li>etc </li></ul>\r\n<p>Thanks</p>\r\n<p>Les</p>\r\n",
+    "PostedDate": "2010-12-13T06:38:00.36-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "549927",
+    "ThreadId": "238185",
+    "Html": "\r\n<p>Have you tried these code samples ?</p>\r\n<p>http://windowsclient.net/downloads/folders/wpfsamples/default.aspx</p>\r\n<p>There are a number of videos too on WPF which might help you <br>\r\nhttp://windowsclient.net/learn/</p>\r\n<p>&nbsp;</p>\r\n",
+    "PostedDate": "2011-01-15T13:07:27.817-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

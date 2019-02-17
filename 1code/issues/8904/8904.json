@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am looking for very simple example for using  WebCam from WPF.  (EasyWebCam library example does not work - just crush on my PC)\nFor me very important use only WPF-library (NO third party library)\nThanks.",
+    "LastUpdatedDate": "2013-02-21T18:59:59.09-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-05-28T05:49:35.763-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "WPF WEBCAM",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 8904
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello CodeTwo,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\nThe topic  which you posted is about directshow. It should use c++ language to compose it, so it is hard to compose only by csharp language.I can tell you a good news,sourceforge has directshow.net package used to do this one. And you can use WPF MediaKit such as http://wpfmediakit.codeplex.com/. We recommend the lastest one because of its my brother project. I will dig into it with researching. If it is escalated by other one, I will post it. Thanks for your supporting. \r\n\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-06-01T02:46:23.327-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-07-24T17:16:26.293-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:59.09-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

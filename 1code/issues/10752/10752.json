@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Please provide comprehensive code sample in C# demonstrating the use of IronPython in simple case to more complex cases. I seen too many old code and method using IronPython before VS2010, which is confusing.\n \nI have successfully use simple code sample, but remains open for many improvement in code sample and demo use, the current documentation (in context of how/demo) looks very limited. It need to be clear the code is written for .NET4 and VS2010 (not VS2008 or earlier method which seem to use process library).",
+    "LastUpdatedDate": "2013-02-21T18:59:18.28-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-05-13T21:55:05.297-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "IronPython",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10752
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

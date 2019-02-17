@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi Guys\n \nPlease could I have a sample of VB.NET code to take a snapshot of  a panel and its contents so I can use a SaveFileDialog to save the image as jpeg.\n \nsaleemrashid1",
+    "LastUpdatedDate": "2013-02-21T18:59:45.273-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-09-03T06:37:28.08-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Snapshot of control VB.NET",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9478
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "    Sub SnapShot(ByVal this As System.Windows.Forms.Form)\r\n        Using dialogSaveFile As New SaveFileDialog\r\n            dialogSaveFile.SupportMultiDottedExtensions = True\r\n            dialogSaveFile.Filter = \"JPEG|*.jpeg\"\r\n            dialogSaveFile.Title = \"Save Screen Capture of UserControl as a JPEG\"\r\n            Dim aResult = dialogSaveFile.ShowDialog\r\n            Select Case aResult\r\n                Case Windows.Forms.DialogResult.OK\r\n                    Using fileOpenedForJpeg = dialogSaveFile.OpenFile\r\n                        Using tmpBitMap As New System.Drawing.Bitmap(Width:=this.Bounds.Width, Height:=this.Bounds.Height)\r\n                            Dim theRectangle As New System.Drawing.Rectangle(0, 0, this.Width, this.Height)\r\n                            this.DrawToBitmap(tmpBitMap, theRectangle)\r\n                            tmpBitMap.Save(fileOpenedForJpeg, System.Drawing.Imaging.ImageFormat.Jpeg)\r\n                        End Using\r\n                    End Using\r\n            End Select\r\n        End Using\r\n    End Sub",
+      "PostedDate": "2011-09-06T09:15:07.807-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Just worked out \r\n\r\nDim bmp As Bitmap = New Bitmap(Panel1.Width, Panel1.Height\"\r\nPanel1.DrawToBitmap(bmp, Panel1.Bounds)\r\n\r\nBut thanks anyway",
+      "PostedDate": "2011-09-26T08:59:41.853-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-01-31T19:12:10.083-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:45.273-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

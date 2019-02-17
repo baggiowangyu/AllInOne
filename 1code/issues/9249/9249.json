@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Could you provide me an example how to sync Sql Server Express with Sql CE 4.0 through WCF Data Services. Thanks in advance!",
+    "LastUpdatedDate": "2013-02-21T18:59:50.303-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-08-01T02:38:22.65-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Sync framework",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 14,
+    "Id": 9249
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello in-v1rt\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service !   \r\n\r\nYour sample request is about how to sync Sql Server Express with Sql CE 4.0 through WCF Data Services.  If I misunderstood your requirement, please feel free to let me know. \r\n\r\nWe found the Sql CE 4.0 doesn't support the Sync framework. If you want use the Sync Framework, you can use the Sql CE 3.5. You can refer this link: http://technet.microsoft.com/en-us/library/gg592946%28v=SQL.110%29.aspx.\r\nIf you want the Sql CE 3.5 sample, you can refer this link: http://code.msdn.microsoft.com/Database-Sync-SQL-Server-7e88adab.\r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com\r\n",
+      "PostedDate": "2012-08-21T18:53:29.707-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-01-19T22:46:59.89-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:50.303-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

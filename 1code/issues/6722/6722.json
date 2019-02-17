@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "http://social.msdn.microsoft.com/Forums/en-US/csharplanguage/thread/c3f3355f-b134-41fa-b93f-bb2b7f9c5855",
+    "LastUpdatedDate": "2013-02-21T19:00:51.08-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-07-27T00:02:42.01-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "make a distinction between Ethernet Adapter, virtual Adapter and wireless Adapter",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 6722
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "make a distinction between Ethernet Adapter, virtual Adapter and wireless Adapter",
+      "PostedDate": "2010-07-27T00:04:22.23-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-10T18:00:38.29-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-07T05:24:38.47-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello telnet_mike,\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nI’m sorry that I didn’t understand the request. Do you need one sample? And what is the sample that you need? What do you want to implement?\r\n\r\nI’m waiting for your reponse.\r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com\r\n",
+      "PostedDate": "2012-09-25T01:54:32.267-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello telnet_mike,\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nI’m sorry that I didn’t understand the request. Do you need one sample? And what is the sample that you need? What do you want to implement?\r\n\r\nI’m waiting for your reponse.\r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com\r\n",
+      "PostedDate": "2012-09-25T01:57:34.777-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:51.08-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

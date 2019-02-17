@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Code Samples are required to read & write data to a SOAP XML file using Linq - VB.NET 2008 WinForms\n \nThere are no Linq to SOAP XML code samples here for a WinForms application, this is surprising considering SOAP XML is widely used for secure transmission of stock ordering systems within Businesses across the country in the UK.\n \nThank you",
+    "LastUpdatedDate": "2013-02-21T18:59:32.947-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-12-07T01:23:56.19-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Linq to SOAP XML VB.NET 2008 WinForms Samples Please",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 5,
+    "Id": 9970
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi all,\r\n\r\n Thank you for sample request! your idea has been composed by our engineer for some time,so you can access Sample Browser v4 and search its keyword named Linq to XML, you would get the more information about that ,and we have covered Linq to object , Linq to SQL and so on. If you have additional advice about it. You can reply this work item about its extended feature. we all appreciate your advice concerning sample ideas.\r\n\r\n\r\n  Sincerely,\r\nAll-In-Onecode-Framework",
+      "PostedDate": "2011-12-07T23:24:31.083-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-12-08T06:07:56.07-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:32.947-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

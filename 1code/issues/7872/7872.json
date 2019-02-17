@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I need help to make a progress bar display the web browsers progress- i have tried many things, but it has an out of range exception/\n \n \nCan i have help with it??\n \n \nI run C# 2010 + .NET 4",
+    "LastUpdatedDate": "2013-02-21T19:00:35.413-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-12-09T09:19:41.76-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Progress Bar",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 7872
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello Hughe,\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service !   \r\n\r\nDo you need a progress bar control in the web application or use a progress bar in the web browser? If you can provide more information, it will be helpful for us to write the sample idea or provide the sample.\r\n\r\nIf you need a progress bar control in the web application, you can refer the following link:\r\nhttp://www.nuget.org/packages/jQuery.UI.Widgets.Progressbar.\r\n\r\nPlease let us know if this sample is helpful to you.\r\n\r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com\r\n",
+      "PostedDate": "2012-08-30T20:05:55.333-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:35.413-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

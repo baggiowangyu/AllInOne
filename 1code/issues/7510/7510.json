@@ -1,0 +1,165 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "WCF RIA Services is a great tool, but there aren't any \"best practices\" examples with WPF for desktop applications.  Something along the lines of an application that allowed you to edit parent/child relationships (Orders/OrderLineItems?), batch the changes all together and save them at once.",
+    "LastUpdatedDate": "2014-11-12T05:10:46.61-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-10-28T05:48:18.68-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Sample Request: WCF RIA Services with WPF",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 21,
+    "Id": 7510
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello drmcclelland \r\n\r\nThank you for using our sample request service! (http://1code.codeplex.com/wikipage?title=NEW%2c%20FREE%20Code%20Sample%20Request%20Service%20from%20Microsoft%20All-In-One%20Code%20Framework) \r\n\r\nAs you may already know, the most common scenario of using WCF RIA is Silverlight + WCF RIA Services, because Visual Studio has strong tooling support. But since it is actually WCF, you can also use the service from any clients. However, remember the main point of RIA Services is to reduce efforts for those who don’t want to adopt SOA, and prefer a traditional N-tier architecture. In Silverlight, you can’t work with a backend server without a web service. But in Windows Forms/WPF, there’re already a lot of guidelines to build N-tier solutions, so RIA Services does not provide too much value.\r\n\r\nAnyway, to use WCF RIA Services on non-Silverlight clients, you generally have the following options:\r\n\r\n• Expose an OData endpoint, and invoke the service just like invoking WCF Data Services (recommended for Windows Forms/WPF applications). All best practices of WCF Data Services apply here\r\n• Expose a SOAP endpoint, and add a service reference just like referencing a normal WCF SOAP service\r\n• Expose a JSON endpoint, and access the service just like accessing a normal WCF REST service (recommended for AJAX applications)\r\n\r\nLet's see how many community members would vote for this sample request.",
+      "PostedDate": "2010-10-28T23:16:16.47-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-01T23:53:27.47-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-08T23:17:40.137-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-14T23:46:06.063-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-17T08:36:01.437-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-24T10:04:58.087-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-30T09:42:43.353-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-05T14:51:51.287-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-23T04:57:39.11-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-03-06T08:37:00.37-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-14T04:48:46.343-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi everyone,\r\nSo can anyone upload a sample showing how to get data from a model(edmx) into a datagrid in a WPF Application with or without RIA Services ?\r\n\r\nThank You\r\n--\r\nMihai",
+      "PostedDate": "2011-04-14T04:52:36.137-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "hi,\r\nthis example is from channel 9 hope this helps \r\n\r\nhttp://channel9.msdn.com/Shows/SilverlightTV/Silverlight-TV-26-Exposing-SOAP-OData-and-JSON-Endpoints-for-RIA-Services\r\n\r\nThanks,\r\nksnavinkumar@live.com",
+      "PostedDate": "2011-04-14T22:11:19.197-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-05-04T20:14:10.55-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-07-28T00:33:03.413-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-10-22T08:40:45.05-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-04-13T09:49:18.113-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-06-12T05:07:48.067-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-06-15T00:25:16.12-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-06-23T00:01:48.183-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-01-29T15:16:07.057-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Yeah, but what I'm expecting is that the proxy classes generated in the client should include the validation attributes, and implement a common Entity class/interface, and there should be a client-side context used as a repository/UoW just like in Silverlight.\nSo the XAML controls automatically validate data according to what's in the client-side generated model.\r\n\r\nI think this feature is compelling and as always MSFT is concentrating in stupid things instead of advancing the existing technologies the start to rock.",
+      "PostedDate": "2013-01-29T15:22:20.893-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:44.64-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-04-16T16:00:31.583-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-11-12T05:10:46.61-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

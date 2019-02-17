@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Web Application that can check Bandwidth. and Show to the user that is currently online Watching Video or Refreshing the page.\n \nthis would help online users, why there web pages aren't loading or what fast they are downloading the content.\nAjax enabled page is requesting for updates so those downloads will also be checked.",
+    "LastUpdatedDate": "2013-02-21T18:59:35.247-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-11-23T18:48:36.62-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Speed Test | Bandwidth Checking??? (C#)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9883
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Sample Request:",
+      "PostedDate": "2011-11-24T06:18:08.217-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-24T06:40:06.253-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi Bmuzammil,\r\n\r\n Thank you for your sample request! I have noticed your sample idea is work around web develop environment. As far as I know, it relates to concurrent threads control.It relates to lots of technologies,so please provide more additional information how to give feedback to update the download status,and if it relates to other technologies,please feel free to let me know. \r\n\r\n\r\nSincerely,\r\nAll-In-Onecode Framework",
+      "PostedDate": "2011-12-01T01:40:00.88-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I'm talking about a way to tell online users, or registered users to know on how much bandwidth they are consuming on per page reload or while they are downloading content from a website. I windows it might be possible and is possible using tools but online, at least I haven't seen such feature.\r\n\r\nTake facebook as an example, every user that have a profile has a different content on there profile, so there should be a way to detect on how much data they are requesting and is sent to per user. and what type it is, video, html, scripts, or songs, images, etc.. graph that should represent that in MB | GB. No such website I am aware of has such feature. This is useful if you can also manage to display then you can also analyze a lot of information regarding per user based info, what the user finds interested in on a site.",
+      "PostedDate": "2012-01-31T14:58:31.07-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:35.247-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

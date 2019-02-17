@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "519126",
+    "ThreadId": "233981",
+    "Html": "\r\n<p>I want to create 3 different login forms:<br>\r\n1) <a href=\"http://www.abc.com/Users/Login\" target=\"_blank\">www.abc.com/Users/Login</a><br>\r\n2) <a href=\"http://www.abc.com/Backend/Admin/Login\" target=\"_blank\">www.abc.com/Backend/Admin/Login</a><br>\r\n3) <a href=\"http://www.abc.com/Backend/Suppliers/Login\" target=\"_blank\">www.abc.com/Backend/Suppliers/Login</a></p>\r\n<p>The user login &amp; backend login are totally different UI &amp; dealing with differents tables in Database (by&nbsp; using ODBC Database).<br>\r\nThe Form Authentication only allow 1 form 1 URL setting in web config, right?<br>\r\nWhat is the best &amp; <span style=\"color:#ff0000; text-decoration:underline\"><strong>simple&nbsp;</strong></span>solution? Use back the &quot;traditional&quot; way which is -&gt;&nbsp;Compare, then stored in Session??</p>\r\n<p>&nbsp;</p>\r\n<p>Thanks.</p>\r\n<p>Jack</p>\r\n",
+    "PostedDate": "2010-11-08T20:36:17.507-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "521951",
+    "ThreadId": "233981",
+    "Html": "\r\n<p>Hello Jack</p>\r\n<p>Thanks for posting this question here, however, this discussion portal is not the best place for discussing this ASP.NET question. I suggest that you post it to the ASP.NET forum:\r\n<a href=\"http://forums.asp.net/\">http://forums.asp.net/</a>, or if you want a code sample of the topic, please post it to\r\n<a href=\"http://1code.codeplex.com/workitem/list/basic\">http://1code.codeplex.com/workitem/list/basic</a>.</p>\r\n",
+    "PostedDate": "2010-11-14T21:53:21.7-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "551955",
+    "ThreadId": "233981",
+    "Html": "\r\n<p>please reply here what you decide about that jackgoh24...i'm curious</p>\r\n<p><a href=\"http://howtopickwinninglotterynumbers.info/\">how to pick lottery numbers</a></p>\r\n",
+    "PostedDate": "2011-01-19T07:24:40.203-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi,\nI have a database of events that I wish to publish as an iCalendar feed. iCalendar is a web standard for publishing event data so that it can be consumed in clients such as Outlook - read more at http://en.wikipedia.org/wiki/ICalendar\n \nI would love for you guys to publish a code sample that shows how to publish a list of events as an iCalendar feed. Assume that I have some POCO objects that contain all of the requisite info (DTSTAMP, DTSTART, DTEND, ORGANIZER etc..)\n \nThanks\nJamie Thomson",
+    "LastUpdatedDate": "2013-02-21T19:00:18.937-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-03-05T17:09:22.5-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Publish an iCalendar feed using ASP.Net",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 8472
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

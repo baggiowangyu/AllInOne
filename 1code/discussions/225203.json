@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "486093",
+    "ThreadId": "225203",
+    "Html": "<p>Hi,</p>\r\n<p>I want to create an ActiveX control in C# to be used in IE. I tried the CSActiveX sample and embedded the object in a test htm page and could&nbsp;access the properties (FloatProperty and ForeColor) successfully. However, when I invoke the Refresh() or HelloWorld() methods on the object, I get &quot;Object doesn't support this property or method&quot; error. What could be going wrong here? I am running IE8 on windows 7. I am guessing something security related?</p>\r\n<p>Thanks in advance.</p>",
+    "PostedDate": "2010-08-29T04:29:10.327-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "509750",
+    "ThreadId": "225203",
+    "Html": "<p>Me too.</p>\r\n<p>I want to use the activex control on IE but it did not load successfully.</p>\r\n<p>Can someone help?</p>\r\n<p>&nbsp;</p>\r\n<p>This is how the html looks like</p>\r\n<p>&nbsp;</p>\r\n<p>&lt;html&gt;&lt;body&gt;&lt;br&gt;</p>\r\n<p>&lt;OBJECT id=&quot;myControl1&quot; name=&quot;myControl1&quot; classid=&quot;CSActiveX.dll#CSActiveX.CSActiveXCtrl&quot; width=400 height=320&gt;&lt;/OBJECT&gt; &nbsp; &nbsp;&lt;/body&gt;</p>\r\n<p>&lt;/html&gt;</p>\r\n<p>&nbsp;</p>\r\n<p>Thanks.</p>",
+    "PostedDate": "2010-10-19T22:18:47.687-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

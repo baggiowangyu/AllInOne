@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello boss,\ni'm using observable collection and \nI wrote like this ...\nprivate List<DashboardData> AlertsList = null;\nvoid sb_Completed( object sender, EventArgs e )\n        {\n            busyflag = true;\n            oldEventID = newEventID;\n            PopulateDataboard();\n            GetCurrentZone();\n            sb.Begin();\n        }\n protected void PopulateDataboard()\n        {\n            ServiceSoapClient dataBoardData = new ServiceSoapClient();\n            dataBoardData.GetDashboardDataCompleted += new EventHandler<GetDataboardDataCompletedEventArgs>(dataBoardData_GetDataboardDataCompleted);\n                dataBoardData.GetDataboardDataAsync(application.SiteID);\n        }\n void dataBoardData_GetDataboardDataCompleted( object sender, GetDataboardDataCompletedEventArgs e )\n        {\n                 if (e.Result != null)\n                {\n                    AlertsList = new List<DataboardData>(e.Result.OrderByDescending(x => x.timestamp));\n                    newEventID = AlertsList[0].eventID;\n                    DataboardGrid.ItemsSource = null;\n                    DataboardGrid.ItemsSource = GetAlertString(AlertsList);\n                    DataboardGrid.UpdateLayout();\n                    DataboardGrid.ScrollIntoView(AlertsList[AlertsList.Count - 1], DataboardGrid.Columns[0]);}\n}\n ObservableCollection<Alert> GetAlertString(List<DashboardData> AlertList)\n        {\n            ObservableCollection<Alert> AlertSentence = new ObservableCollection<Alert>();\n            for (int i = 0; i < AlertList.Count; i++)\n            {\n                if (AlertList[ i ].ruleID > 0)\n                {\n                    AlertSentence.Add(new Alert\n                    {\n                        AlertSentence = AlertList[ i ].assetName + \" has violated \" + AlertList[ i ].ruleName + \" at \" + AlertList [ i ].timestamp,\n                        eventID = AlertList[ i ].eventID,\n                        ruleID = AlertList[ i ].ruleID,\n                        assetName = AlertList[ i ].assetName,\n                        ruleName = AlertList[ i ].ruleName,\n                        timeStamp = AlertList[ i ].timestamp,\n                    });\n                }\n                else\n                    if ( RulefromReader.Contains( AlertList[ i ].ruleID ))\n                    {\n                        string _assetName = string.Empty;\n                        try\n                        {\n                            _assetName = \"Reader \" + Convert.ToInt64(AlertList.MACAddress).ToString(\"X\");\n                        }\n                        catch (Exception)\n                        {\n                            _assetName = \"Reader\";\n                        }\n                        AlertSentence.Add(new Alert\n                        {\n                            AlertSentence = _assetName + \" has violated \" + AlertList[ i ].ruleName + \" at \" + AlertList[ i ].timestamp,\n                            eventID = AlertList[ i ] .eventID,\n                            ruleID = AlertList[ i ].ruleID,\n                            assetName = _assetName,\n                            ruleName = AlertList[ i ].ruleName,\n                            timeStamp = AlertList[ i ].timestamp,\n                        });\n                    }\n                    else\n                    {\n                        AlertSentence.Add(new Alert\n                        {\n                            AlertSentence = \"System has violated \" + AlertList[ i ].ruleName + \" at \" + AlertList[ i ].timestamp,\n                            eventID = AlertList[ i ].eventID,\n                            ruleID = AlertList[ i ]. ruleID,\n                            assetName = \"System\",\n                            ruleName = AlertList[ i ].ruleName,\n                            timeStamp = AlertList[ i ].timestamp,\n                        });\n                    }\n            }\n            return AlertSentence;\n        }\nBut again it refresh in 10sec the scrollbar gointo top position.\nBoss please tell me what is the mistake in this code.",
+    "LastUpdatedDate": "2013-02-21T19:00:22.637-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-02-22T01:32:47.41-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "DataGridView Refreshing",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8394
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

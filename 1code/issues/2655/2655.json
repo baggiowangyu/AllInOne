@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Close the issue as it has been fixed in the changeset 21519 by Zhi-Xin.",
+    "ClosedDate": "2009-04-09T21:30:36.267-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "You can crash the CSWinFormGeneral - frmTimeConsumingOpr sample by pressing the Start button twice in a row (click again while sample is still running)",
+    "LastUpdatedDate": "2013-05-16T05:33:37.937-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-04-07T10:14:24.523-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "CSWinFormGeneral - Can crash frmTimeConsumingOpr",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2655
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi rhencke, \r\n\r\nthanks for your feedback! I've fix the problem. I forgot to check the IsBusy property before running the BackgroundWorker, below is the new code in the btnStart click event handler:\r\n\r\n         private void btnStart_Click(object sender, EventArgs e)\r\n        {\r\n            // Start the asynchronous operation.\r\n            if (! this.backgroundWorker1.IsBusy)\r\n            {\r\n                this.backgroundWorker1.RunWorkerAsync();\r\n\r\n            }\r\n        }\r\n",
+      "PostedDate": "2009-04-08T04:03:22.59-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-04-09T21:30:36.267-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:01:12.163-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T05:33:37.937-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

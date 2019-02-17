@@ -1,0 +1,100 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When my application crashes, I hope to programmatically creates a crash dump so that the customer can send the dump to us later on. A code sample for this topic is appreciated.",
+    "LastUpdatedDate": "2013-02-21T19:00:40.053-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-16T07:34:08.29-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Request: create dump programmatically on crash",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 10,
+    "Id": 7682
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Check out this one for a managed app: http://exceptionreporter.codeplex.com/.",
+      "PostedDate": "2010-11-16T10:29:44.81-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-16T12:25:28.447-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-17T18:59:39.32-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello Adam Grimes\r\n\r\nThanks for using the code sample request serivce! \r\n\r\nThis is a good code sample topic. I see many people have voted for it. I'm glad to tell you that the topic is being written as a code sample. I will inform you when the sample is finished.\r\n\r\nThanks\r\nJialiang Ge\r\nPM of All-In-One Code Framework",
+      "PostedDate": "2010-11-17T19:00:44.033-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-07T05:24:16.05-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-17T04:16:43.99-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-01-21T04:50:01.687-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-07T08:39:30.58-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-03-21T15:01:00.33-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T19:38:59.01-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-10-02T02:59:55.637-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:40.053-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

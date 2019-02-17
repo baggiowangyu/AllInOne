@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "could not reproduce the problem &#58;&#40;",
+    "ClosedDate": "2010-10-19T22:34:14.063-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi,\n \nWhen running the CSAutomateExcel I can see that the Excel COM object isn't released,\nand it still alive in the Task Manager.\n \nI got the same behaviour in my app, and I have no idea how to fix it.\n \nThe Word COM Object released fine.\n \nAny ideas?\n \nThanks.",
+    "LastUpdatedDate": "2013-05-16T05:33:22.387-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-09-26T01:03:00.277-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Releasing Excel COM Object - CSAutomateExcel",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 7256
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello\r\n\r\nThis is usually caused by RCW object not being released: http://blogs.msdn.com/b/geoffda/archive/2007/09/07/the-designer-process-that-would-not-terminate-part-2.aspx. You can follow this blog to diagnose the problem.\r\n\r\nHowever, in the CSAutomateExcel sample, I provided two solutions to free all RCW objects. You can find the solutions in Solution1.cs and Solution2.cs. Did you see the problem in Solution1 or solution2? \r\n\r\nWhat's your Office version?",
+      "PostedDate": "2010-09-27T19:25:01.597-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi,\r\n\r\nI can see the problem both in solution1.cs & solution2.cs.\r\n\r\nmy office version is 2007.\r\n\r\nAny clue..??",
+      "PostedDate": "2010-09-27T21:34:00.43-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello\r\nI cannot reproduce this problem on my side. abypt, could you please follow this article http://blogs.msdn.com/b/geoffda/archive/2007/09/07/the-designer-process-that-would-not-terminate-part-2.aspx to diagnose the issue? If you have any questions about the article, please feel free to tell me. \r\n\r\nDoes anyone else see the same problem?",
+      "PostedDate": "2010-09-29T00:16:17.91-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-10-19T22:34:14.063-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:46.067-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T05:33:22.387-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

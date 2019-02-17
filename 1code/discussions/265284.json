@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "642860",
+    "ThreadId": "265284",
+    "Html": "\r\n<p>Hi,</p>\r\n<p>The setup project, which is part of the &quot;CSShellExtThumbnailHandler&quot; Example, does not install on my computer. Whenever I run the installer it says:</p>\r\n<p><em>&quot;Error 1001. Unable to get installer types in the C:\\Program Files\\Default Company Name\\CSShellExtThumbnailHandlerSetup(x64)\\CSShellExtThumbnailHandler.dll assembly. --&gt; Unable to load one or more of the requested types. Retrieve the LoaderExceptions\r\n property for more information.&quot;</em></p>\r\n<p>I tried to figure out which assembly couldn't be loaded but fusion log viewer didn't show anything. Is there any other way to figure out what is going wrong?</p>\r\n<p>Building the sample is no problem, just the installer does not work, and I have no idea what the problem might be.</p>\r\n<p>Thx<br>\r\nTom</p>\r\n<p>btw. I'm using Visual Studio 2010 on Windows 7 x64</p>\r\n",
+    "PostedDate": "2011-07-15T03:43:31.68-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "644180",
+    "ThreadId": "265284",
+    "Html": "<p>OK, I figured it out by myself.</p>\r\n<p>The problem is, all external dependencies (which are Microsoft.WindowsAPICodePack.Shell.dll and Microsoft.WindowsAPICodePack.ShellExtensions.dll) need to be copied into the GAC before the ThumbnailHandler is registered (either with regasm or in code). That means, in the installer project the dependencies should be copied to the GAC first and the Custom Actions (which register the dll) should be called second. But I did not figure out a way to do this in a Visual Studio Setup project, so I just created a additional installer that just installs the dependencies. This is not beautiful, but it works.</p>\r\n<p>@1code team: Please update the example accordingly. The current version does not work if you follow the instructions in Readme.txt.</p>",
+    "PostedDate": "2011-07-19T01:42:05.17-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "646012",
+    "ThreadId": "265284",
+    "Html": "<p>Hi Tom,</p>\r\n<p>Can you provide me some help in writing Namespace Extension(C# or C++).</p>\r\n<p>There are samples for extending window shell in all-in-one code framework, but no example for writing namespace extension.</p>\r\n<p>regards,</p>\r\n<p>kpant</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2011-07-22T03:30:48.92-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

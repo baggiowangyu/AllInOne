@@ -1,0 +1,75 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Please add the data Scrambling/Masking code samples because I have not seen any libraries or code samples to cover the data scrambling or masking (not to mix with Obfuscating data which is more about hiding the content) so far any where.\nThis is often required to allow realistic testing off a subset of data from production systems by software testers or developers who do not necessarily have the privilege to see the \"live\" data.",
+    "LastUpdatedDate": "2015-09-03T11:31:20.223-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-02-21T12:40:16.343-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Data Scrambling or Masking",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 10,
+    "Id": 10415
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello arthurz,\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nYour sample request is about how to implement Data Scrambling/Masking.  If I misunderstood your requirement, please feel free to let me know. \r\n\r\nAccording to the different scenarios, there are different restrictions and different scrambling methods, such as use the scripts, custom define the functions, and the SSIS package. If you can provide more information, it will be very helpful for us to design this sample, or we can only brain it. The following links is the sample about how to implement the basic Data Scrambling using the SSIS:\r\nhttp://ssisdatamasker.codeplex.com/.\r\nPlease let us know if this sample is helpful to you. \r\n\r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com \r\n",
+      "PostedDate": "2012-08-22T19:59:41.163-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-09-06T06:46:14.22-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:27.117-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-03-15T05:28:42.703-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-11-25T04:23:11.337-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-08-27T09:32:45.337-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2015-09-03T11:31:20.223-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

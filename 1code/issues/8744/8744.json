@@ -1,0 +1,85 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "have a registry key whose owner is \"Trusted Installer\".\n \n \n \nNow I know I can take ownership of the key manually by using registry editor by doing these steps:\n \n1. Right-click the key - Click Permissions - Click Advanced\n \n2. Click Owner Tab, Click your user name and check the box \"Replace owner on subcontainers and objects\", Click Apply - Click OK.\n \n3. Click Administrators under Group or user name, check Allow Full Control. Then Click Apply - Click OK.\n \n \n \nNow my question is, How can I take ownership of the registry key programmatically?\n \nIf I am able to take ownership of a registry key programmatically, then my problem is solved. Please help.\n \nI've tried doing this:\n \nstring user = Environment.UserDomainName + \"\\\\\" + Environment.UserName;\nRegistrySecurity rs = new RegistrySecurity();\nrs.AddAccessRule(new RegistryAccessRule(user,\n           RegistryRights.ReadKey | RegistryRights.Delete,\n           InheritanceFlags.None,\n           PropagationFlags.None,\n           AccessControlType.Allow));\nrs.AddAccessRule(new RegistryAccessRule(user,\n           RegistryRights.WriteKey | RegistryRights.ChangePermissions,\n           InheritanceFlags.None,\n           PropagationFlags.None,\n           AccessControlType.Allow));\n \nRegistryKey RK = Registry.ClassesRoot.OpenSubKey(\"<somekey>\", true);\nRK.SetAccessControl(rs);\n \n \nbut an error message that says that \"Requested registry access is not allowed\" and it occurs on this line:\n \nRegistryKey RK = Registry.ClassesRoot.OpenSubKey(\"<somekey>\", true);<br/>\n \nI am also running Visual Studio as Administrator.\n \n \n \nAgain, If you know how to programmatically take ownership of a registry key, then you have solved my problem.\n \nI understand you can also use these functions: RegOpenKeyEx and RegSetKeySecurity to Take Ownership of a registry key but I don't know how to use them. Can someone give a sample with an explanation on how to use them.\n \nI have seen these sites before:\nhttp://support.microsoft.com/kb/111546/EN-US/ \nand\nhttp://msdn.microsoft.com/en-us/library/ms724897%28VS.85%29.aspx\n \nBut I still don't understand how I can use them in C#.\n \nThanks in advance.",
+    "LastUpdatedDate": "2014-10-25T17:14:22.637-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-05-05T01:20:39.467-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "How do I take ownership of a Registry Key using C#?",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 8744
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello anarki,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\nYour sample idea is that you want to use RegOpenKeyEx and RegSetKeySecurity to realize how to take ownership of a registry key. It seems that these features can be achieved via AccessControl namespace in VS2010 environment. But I think C++ language has better ability to complete it because of GetTokenInformation is only included in win32 functions.  And I tell you a good news I have completed it in my previous sample. Never mind. It would be published when it is approved by our subject matter experts.\r\n\r\n\r\n\r\nIs my understanding correct? Please let me know if I misunderstood your needs.\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-05-05T02:26:37.85-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "yes your understanding is correct. Can I see this code/sample that you speak of?\r\n\r\nTo make it more clearer, here's what I want to happen:\r\nAfter running the program I want the owner of a specific key to be me. NOT TrustedInstaller.\r\n\r\nFor example, \r\nI have this key:\r\nHKEY_CLASSES_ROOT\\CLSID\\{f81b1b56-7613-4ee4-bc05-1fab5de5c07e}\r\n\r\nwhen I right click on \"{f81b1b56-7613-4ee4-bc05-1fab5de5c07e}\"\r\nthen click on Permissions\r\nthen click on Advanced\r\nthen click on Owner Tab\r\nI would see my username in the Current Owner textbox instead of TrustedInstaller.\r\n\r\nThat's what I want to happen after running the program.\r\n\r\nIs that possible?\r\n\r\nThank you very much.",
+      "PostedDate": "2011-05-09T03:50:40.18-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello iCodeRegistry ,\r\n  I know your meaning at my landscope. I think this sample should get Token Information and impersonate it if you have not the administrator or owner privilege. It seems that it is worth to be composed. I will concern on its vote until it reaches enough point. Thanks for providing valuable suggestion.\r\n\r\n  Welcome you continue to support our project.\r\n\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com \r\n",
+      "PostedDate": "2011-05-10T19:12:17.023-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello iCodeRegistry ,\r\n    I am sorry that I don't make clear your content. You sample idea should use SetOwner function to do that and it should invoke NTAccount class which contains in System.Security.Principal namespace. And if you want to get the group's owner, then you should use GetGroup function.\r\nI am sorry again about my careless. Thanks for providing valuable suggestion.\r\n\r\n\r\n\r\nWelcome you continue to support our project.\r\n\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-05-10T19:36:43.787-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-06-27T23:26:45.18-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I am looking for the same solution to take registry ownership via C# code. Any word when the code is going to be released. \r\n\r\n",
+      "PostedDate": "2012-06-27T23:28:47.233-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:04.837-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-10-25T17:00:08.47-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "WindowsPrincipal principal = new WindowsPrincipal(WindowsIdentity.GetCurrent());\n   if(principal.IsInRole(WindowsBuiltInRole.Administrator) ? \"true\" : \"false\")\n          Console.WriteLine(\"Yes i am an admin\");\n   else\n          Console.WriteLine(\"No i am not an admin\");\n using (RegistryKey regKey = Registry.LocalMachine.OpenSubKey(@\"your_Subkey_ Path\", RegistryKeyPermissionCheck.ReadWriteSubTree, RegistryRights.ChangePermissions))\n{\n    var rSec = new RegistrySecurity();\n    rSec .SetGroup(new NTAccount(\"Administrators\"));\n    rSec .SetOwner(new NTAccount(\"Administrators\"));\n    rSec .SetAccessRuleProtection(false, false);\n    regKey.SetAccessControl(rSec );\n}   \n   Console.ReadLine();\r\n\r\n\ntry this if it works for you",
+      "PostedDate": "2014-10-25T17:14:22.637-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

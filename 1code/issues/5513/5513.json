@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "finshed",
+    "ClosedDate": "2010-10-19T22:25:12.61-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Modifying a resource's integrity level is well-covered in the following post by Kenny Kerr: http://weblogs.asp.net/kennykerr/archive/2006/09/29/Windows-Vista-for-Developers-_1320_-Part-4-_1320_-User-Account-Control.aspx\n \nSee Resource integrity levels and the relevant sample code.\nhttp://social.msdn.microsoft.com/Forums/en-US/windowssecurity/thread/1e700c20-364c-47b4-a6bc-3b5cd5dbda59\n \nhttp://social.msdn.microsoft.com/forums/en-US/clr/thread/22fb23d3-08e5-4c8c-a10e-c0590d164cf3",
+    "LastUpdatedDate": "2013-05-16T05:33:25.907-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-02-26T00:51:26.077-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Resource IL",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 5513
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "http://eternalwindows.jp/security/accesscontrol/accesscontrol14.html",
+      "PostedDate": "2010-03-01T23:39:01.52-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "\r\nBest practice is not to use NULL DACLs at all. If you are developing for Windows 2000 or later and want to give everyone unconditional access to an object, create a DACL with one ACE that grants Everyone full control. In Windows Server 2003, the Everyone group no longer includes Anonymous Logon; therefore you might also want to include a second ACE that grants Anonymous Logon full control.\r\nhttp://technet.microsoft.com/en-us/library/cc781716(WS.10).aspx",
+      "PostedDate": "2010-03-02T07:25:43.457-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "http://msdn.microsoft.com/en-us/library/bb625960.aspx",
+      "PostedDate": "2010-03-15T01:29:21.07-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-10-19T22:25:12.61-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:54.237-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T05:33:25.907-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

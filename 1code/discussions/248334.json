@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "575159",
+    "ThreadId": "248334",
+    "Html": "\r\n<p>Hi,</p>\r\n<p>I have a Bluetooth Device which has SPP. I have Desktop application to discover the device, to pair it and also to activate SPP.</p>\r\n<p>My Application is not intended for mobile it is pure Desktop Application</p>\r\n<p>But i have a query.</p>\r\n<p><strong>Using Microsoft OS Bluetooth Wizard:</strong></p>\r\n<p>whenever we pair any bluetooth device OS creates 2 COM Ports outgoing and incoming.</p>\r\n<p>In Bluetooth Properties, it is separately visible com ports with their direction(outgoing / incoming) .</p>\r\n<p>&nbsp;</p>\r\n<p><strong>Through My Desktop Application:</strong></p>\r\n<p>I am not able to get incoming com port for the device.</p>\r\n<p>I have tried it with CreateFile but failed, I was not able to get proper handle.</p>\r\n<p>I want to show com port created in Bluetooth Properties -&gt; COM Port and also in Device Manager, as OS does it.</p>\r\n<p>can anybody help me in creation of incoming com port? How to register it to Bluetooth Stack?</p>\r\n<p>Thank you.</p>\r\n",
+    "PostedDate": "2011-03-03T09:56:01.653-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

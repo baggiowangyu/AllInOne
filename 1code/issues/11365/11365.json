@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "There was a solution but:\n\n\"The approach described in this article for hosting office documents in WPF is no longer supported.  Microsoft has recently pulled the DSO Framer control from its knowledge base.\"\n\nhttp://drwpf.com/blog/2007/08/24/hosting-office-in-a-wpf-application/\n\nI tried to use VSTO and host WPF in a word task pane, however, I couldn't get the data to show up in the WPF control in the taks pane.",
+    "LastUpdatedDate": "2013-02-21T18:59:04.82-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-11-13T18:42:28.117-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Host Office (object) in WPF",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11365
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "在服务器端实现特定接口的多个实体可以在 Silverlight 客户端进行统一处理，以减少编程代码",
+    "LastUpdatedDate": "2013-02-21T18:59:53.547-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-07-18T03:02:11.003-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "为什么在服务器端 Entity Framework 4.1（EF4.1 CodeFirst） 定义的实体继承了自定接口，在 Silverlight 客户端没有显示继承这个接口？",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9103
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3410,
+      "FileName": "Interface Entity.cs",
+      "DownloadUrl": ".\\3410"
+    }
+  ],
+  "Comments": []
+}

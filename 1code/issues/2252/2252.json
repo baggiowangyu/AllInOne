@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "closed by the changeset 19472",
+    "ClosedDate": "2009-03-26T07:46:30.65-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "CppSendWM_COPYDATA, CppReceiveWM_COPYDATA",
+    "LastUpdatedDate": "2013-05-16T05:33:39.867-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-03-19T00:33:11.123-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Example, CppSendWM_COPYDATA, CppReceiveWM_COPYDATA",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2252
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

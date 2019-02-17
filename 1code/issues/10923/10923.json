@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I'd like to perform my first request ever with something that I think will be of great use for everyone that steps into the WF world.\n \nIt's not dificult to find some example here and there on the web but they all get messy when we try to mix or combine them into somethig \"more real\".\n \nSo I'd like to request a sample with a little more details. Probably something using the AdventureWorks or other sample database but with EntityFramework, combining two great technologies into a better starting point to learn WF.",
+    "LastUpdatedDate": "2013-02-21T18:59:14.61-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-06-20T20:42:16.01-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Good WF + EF example for starters",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 10923
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

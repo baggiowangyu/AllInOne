@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Please add some samples for using Bing. I would specifically like to see a sample that shows a map that is getting address data from a sharepoint Contact list.",
+    "LastUpdatedDate": "2013-02-21T19:00:36.05-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-12-04T13:36:53.283-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Samples for Bing",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 7830
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello dlgross, \r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nYour sample request is about how to use Bing.  If I misunderstood your requirement, please feel free to let me know. \r\n\r\nWe want to know which technology you need to use the Bing in. WPF? SilverLight? Windows Phone?\r\nWe’re waiting for your response. \r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com\r\n",
+      "PostedDate": "2012-09-25T23:16:12.267-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:36.05-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "http://social.msdn.microsoft.com/forums/en-US/netfxbcl/thread/21790b56-21cf-4fdf-bf22-1024ee628346\nhttp://cplus.about.com/od/howtodothingsinc/a/timing.htm\nhttp://cplus.about.com/od/howtodothingsi2/a/timing.htm\nhttp://blogs.msdn.com/b/ericlippert/archive/2010/04/08/precision-and-accuracy-of-datetime.aspx",
+    "LastUpdatedDate": "2013-02-21T19:00:52.26-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-07-01T05:58:58.857-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Timer",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 6389
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

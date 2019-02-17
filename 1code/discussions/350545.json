@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "817369",
+    "ThreadId": "350545",
+    "Html": "\r\n<p>We have thousands of documents size of pdf. documents can be 1mb &ndash; 100mb in size</p>\r\n<p><span>I'm in the process or trying to build an online portal for my clients to place orders , view orders, and download there (documents)/orders&nbsp;easily and would like to see if someone might be&nbsp;interested&nbsp;in talking to me about it&nbsp;</span></p>\r\n<p>We want to have the documents I already have in the database.</p>\r\n<p>1) If a client places an order for a document we have in the database it would be available for download (in the view orders page) with a preliminary status, we check the document to make sure it is complete and up to date. If it is we would go to the ADMIN\r\n side and mark it complete.</p>\r\n<p>2) If it is not in our database it would show pending status we would get the document upload it so they can be available for them to download and make it complete.</p>\r\n<p>Note: Every order would be Pending or Preliminary until we make it complete.</p>\r\n",
+    "PostedDate": "2012-03-29T13:03:24.107-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

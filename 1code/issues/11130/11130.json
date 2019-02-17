@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "this could actually be a small suite of examples showing implementations of: \n \nSource & Destination providers\nSimple & Standard Providers\nSession construction\nvarious participation scenarios\n \nReference: http://msdn.microsoft.com/en-us/library/bb902844.aspx",
+    "LastUpdatedDate": "2013-02-21T18:59:09.813-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-08-29T10:24:05.32-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "C# Sync Framework examples",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 11130
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

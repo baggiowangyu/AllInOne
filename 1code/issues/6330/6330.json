@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2010-09-23T22:07:41.903-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "http://social.msdn.microsoft.com/Forums/en/wcf/thread/f859df54-f5c5-47d6-beae-2519913505e1\n \n        public static IList<AppDomain> GetAppDomains()\n        {\n            var appDomains = new List<AppDomain>();\n \n            var hEnum = IntPtr.Zero;\n \n            var host = new CorRuntimeHost();\n \n            try\n            {\n                host.EnumDomains(out hEnum);\n                while (true)\n                {\n                    object domain;\n                    host.NextDomain(hEnum, out domain);\n                    if (domain == null)\n                        break;\n                    appDomains.Add(domain as AppDomain);\n                }\n            }\n            catch (Exception ex)\n            {\n                Console.WriteLine(ex.ToString());\n            }\n            finally\n            {\n                host.CloseEnum(hEnum);\n                Marshal.ReleaseComObject(host);\n            }\n \n            return appDomains;\n        }",
+    "LastUpdatedDate": "2013-05-16T05:33:24.827-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-06-21T23:19:21.987-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Enumerate appdomain",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 6330
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

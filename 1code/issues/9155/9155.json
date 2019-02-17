@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am interested in a synch framework sample with the following senario:\n \nLets say I have a smart client application with SQL server 2008 R2 edition on the server side and SQL CE edition on the desktop side.\nI would like see a sample with the following concepts:\n \n(1) N-tier synchronization using WCF between the local SQLCE and remote SQL server DB.\n(2) Guideline on the best practices for synch since the application will synch( the subset of data) everytime user saves a case in the local/central database.\n(2) Best practices with provioning the scope and its maintenance\n(3) Sample with Filtered scope:\nLets say the DB contains cases of some sort and each desktop users are assigned to work with certain cases only.\n-Need the ability to sych the user's local SQLCE cases with the central DB and vice versa.\n(4) I would prefer the latest framework (i.e CTP 4.0) or the latest relase version 2.1\n(5) I would also like to see the sample in WPF environment not Silverlight or WP7",
+    "LastUpdatedDate": "2013-02-21T18:59:52.377-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-07-22T17:23:04.217-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "MS Synch Framework N-tier synchronization using WCF with SQL Server and SQLCE",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 9155
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

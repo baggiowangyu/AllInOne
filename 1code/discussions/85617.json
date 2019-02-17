@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "291604",
+    "ThreadId": "85617",
+    "Html": "<p>Hi,</p>\r\n<p>I need some advises in order to interconnect remotely 1 application written in C# / .Net 2.0 with and 1 application written in native C++.<br>A precision: the C++ application is a COTS product (I can't recompile it), and loads a plugin&nbsp;Dll that I create, so I can only integrate the interconnection code in that Dll.<br>Do you have any idea of the best solution ?<br>Of course the socket based solution exists, however it requires to&nbsp;manage the serialization &amp; unserailization for every type that could be exchanged.</p>\r\n<p>Thanks a lot for your help !</p>\r\n<p>Cheers,</p>\r\n<p>Pascal Levier</p>",
+    "PostedDate": "2010-02-17T01:16:36.083-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "292040",
+    "ThreadId": "85617",
+    "Html": "<p>Hello</p>\r\n<p>Are the two applications connected&nbsp;in the intranet or on the internet? If they are in the intrnet environment, you may consider named pipe. See CppNamedPipeClient, CppNamedPipeServer, CSNamedPipeClient, CSNamedPipeServer samples. These C++ C# named pipe client and server can communicate with each other.</p>\r\n<p>If the applications are on the internet env, you need socket. Currently, I do not have a sample to demo socket communication between .NET and C++ app in All-In-One Code Framework. You can try searching it on the internet.</p>\r\n<p>If you have any feedback or suggestions for the All-In-One Code Framework project, please email it to <a href=\"mailto:codefxf@microsoft.com\">codefxf@microsoft.com</a></p>\r\n<p>Regards<br>Jialiang Ge</p>",
+    "PostedDate": "2010-02-18T00:57:41.68-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

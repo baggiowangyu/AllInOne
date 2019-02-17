@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "SampleBrowser shows a little red/white message saying \"Error occurs: string was not recognized as valid DateTime\" then crashes...",
+    "LastUpdatedDate": "2013-02-21T18:59:41.96-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-10-05T04:44:54.55-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "New version crashes with Italian regional settings",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9598
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi \r\n\r\nThank you very much for the issue report!  We have fixed it.  Please reopen the sample browser and you will get the fix automatically. \r\n\r\nHave a great weekend!\r\nThanks\r\nJialiang Ge\r\nMicrosoft All-In-One Code Framework",
+      "PostedDate": "2011-10-07T19:29:57.05-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:41.96-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

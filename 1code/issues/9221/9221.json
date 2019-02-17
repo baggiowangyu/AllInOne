@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "On Vista (32-bit), the handler didn't work until I'd add the extension's GUID to:\nHKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\PreviewHandlers\n \nThe self-registration code had added the entry to the user equivalent location:\nHKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\PreviewHandlers\n \n...but that didn't work.\n \nAlso, the project is set to build using the 'C' run-time DLLs, which means you can't just copy the DLL to another machine and register it. It'd be easier if the project built using the non-DLL version of the 'C' run-time.",
+    "LastUpdatedDate": "2013-02-21T18:59:51.02-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-07-29T09:24:04.43-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Shell Preview Handler doesn't load until a registry key is changed",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9221
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

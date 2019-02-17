@@ -1,0 +1,90 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Code sample how to implement class based on System.Runtime.Caching.ObjectCache especially file based cache. Thanks in advance.",
+    "LastUpdatedDate": "2013-02-21T19:00:08.81-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-04-12T12:46:24.493-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "ObjectCache sample",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 8647
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello mladjenovic,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n    Object cache is a simple module using Drupal's cache API to store and retrieve objects(nodes, comments,users etc) to speed up rendering of pages,to lower the number of requests to the database and so on which benefits both anonymous as authenticated users. I think this namespace feature implement the function that looks like memcache. But i think this sample idea lack of request detail. I used memcache to implement the database cache at the past project.It used by game software system to assist it to add Player point. So this sample idea should contact actual business. Could you describute it more clearly mainly about business relationship?\r\n\r\n\r\nIs my understanding correct? Please feel free to let me know if I misunderstood your needs.\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-04-12T18:32:08.16-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I want to implement custom cache for my desktop app based on http://msdn.microsoft.com/en-us/library/system.runtime.caching.objectcache.aspx ,but I can't find any sample on the net to give me a starting point. I'm mainly interested on how to implement file based cache instead of memcache. ",
+      "PostedDate": "2011-04-13T03:14:29.26-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "hi mladjenovic,\r\n   I have digged into this objectcache namespace. It seems that it surrounds web part. I firstly have heard of it at Net 2.0 environment. It uses to be Webform development application. And I think it can cache the whole object to cache and sometimes release it into control and support ajax technology. However your topic mentioned above is talked about distributed data cache.It applies into scenes having server-client module. It is because that  client terminals have many enough and use access the same data, additionally, the same data always modified by varity client terminal. At my past project, memcache uses to cache distributed data coming from different remote database servers. So I believe that you can use memcache but cann't use object cache because of different purpose produced technology. And Thank you for your enthusiastic replying. Look forward to hearing for you.\r\n\r\n\r\nSincerely,\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com\r\n\r\n\r\n",
+      "PostedDate": "2011-04-13T18:49:49.593-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks for the response.  I'm downloading large set of files over sftp . So to speed up the process I need to store my data on disc, but I need all capabilities of memory cache LRU, Sliding expiration etc. So it would be nice that someone implement barebone caching system that implements Expiration policies and other and exposes interface so we could implement where data are held ,in memory,database,file system. Thanks in advance.",
+      "PostedDate": "2011-04-14T02:41:07.407-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-14T22:51:10.387-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "the technology mentioned by customer isn't worth composing.It is because that the technology don't apply to this scenario.\r\n\r\n\n\n** Closed by orichisonic 4/14/2011 10:51 PM",
+      "PostedDate": "2011-04-15T00:36:32.99-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-15T00:36:33.687-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-09-16T01:26:32.29-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-09-24T19:38:06.157-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:08.81-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

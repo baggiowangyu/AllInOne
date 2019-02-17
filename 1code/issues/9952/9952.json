@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "[Environement]\nWindows 7 SP1 x64\nVisual Studio 2005, 2008, and 2010 installed.\n \nThe All-In-One Code Framework Sample Browser does not recognize existing All-In-One Code Framework projects that are pre-installed using the full download (from http://1code.codeplex.com/releases/view/71395). The local sample repository is correctly set up, and when I attempt to view a sample the Download button is displayed instead of the Open button. If I download the sample it overwrites the existing pre-installed sample.\n \nThanks\n \nMike",
+    "LastUpdatedDate": "2013-02-21T18:59:33.457-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-12-03T15:52:04.41-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "All-In-One Code Framework Sample Browser does not recognize existing All-In-One Code Framework projects",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 9952
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi Mike,\r\n  Thank you for using our tools frequently.What you said is that you need to add your exist sample inside Samples.xml file,the exist sample has been  stored into your local repository. If you have another issue, please feel free to let me know.\r\n\r\nSincerely,\r\nAll-In-Onecode-Framework\r\n\r\n",
+      "PostedDate": "2011-12-04T17:38:57.543-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Ok; looks like the Samples.xml is overwritten if it already exists when using the Sample Browser for the first time (when setting the samples directory). I redownloaded the All-In-One Code Framework and grabbed the Samples.xml from the archive and saved it on top of the existing one; now it is working!\r\n\r\nThanks\r\n\r\nMike",
+      "PostedDate": "2011-12-04T19:32:16.3-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-12-24T14:52:17.217-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-01-07T19:07:37.083-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:33.457-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

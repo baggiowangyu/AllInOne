@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "A follow up to your excellent sample: 'Create IE Explorer Bar in C#', I'd like to get a sample where the control is implemented with WPF (Current sample is using Win Forms).\nTaking a broader view, I cannot find even a single sample of IOleWindow implementation with WPF (Whether it is an ActiveX control, Explorer Bar, etc.). This came to me as a surprise, because I would believe it would be a very basic Interop scenario (Office extension, IE extension, etc.)\n \nI've tried the following strategy (specifically, for IE Explorer Bar):\n1. Have a <Grid> object implemented in XAML.\n2. Have a [ComVisible] object, that implements IObjectWithSite, IOleWindow, etc.\n3. Register everything as required.\n4. Upon SetSite:\n    a) Get the IOleWindow of the site, and get HWND of the parent\n    b) using pInvoke, call GetClientRect to get the parent Window size\n    c) Create a HwndSource, giving the parent Window and appropriate size\n    d) Create the <Grid> Element defined in the XAML\n    e) Set the RootVisual to be the <Grid> element\n5. Upon GetWindow, returns the Handle property of the HwndSource.\n6. Implements ShowDW to show and hide the HwndSource using pInvoke.\n \nIt appears that Windows is created appropriately, but instead of the content of the <Grid> element, I'm seeing a black rectangle. Looks like I'm missing something. There is another hint that suggests a problem: Using Snoop to see the WPF hierarchy, an exception is fired (thread issues) as soon as Snoop attaches the iexplore process",
+    "LastUpdatedDate": "2013-02-21T18:59:32.05-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-12-26T00:46:37.943-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "IOleWindow implemented in WPF",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 10051
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

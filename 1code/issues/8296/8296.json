@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I want to leave behind using the EnterpriseLibrary data blocks and switch to Linq to SQL but I'm struggling to find a good example of a transaction model, especially where I need to use nested transactions.\n \nCan I have a sample please?",
+    "LastUpdatedDate": "2013-02-21T19:00:26.197-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-02-04T01:49:13.967-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Linq to SQL Transactions",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 8296
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello sarfrazna,\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nYour sample request is about how to use the transaction in Linq to SQL.  If I misunderstood your requirement, please feel free to let me know. \r\n\r\nIf you want the information about the transaction in Linq to SQL, you can refer the link:\r\nhttp://msdn.microsoft.com/library/bb425822.aspx.\r\nIt may be a good sample idea, but we need more details about the scenario to write the sample idea. After you provide the details, we will try to write it. \r\nAnd Entity Framework is more power than Linq to SQL, you can refer the link:\r\nhttp://msdn.microsoft.com/en-us/library/bb896325.aspx.\r\n\r\nWe are waiting for the more details.\r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com\r\n",
+      "PostedDate": "2012-09-04T20:19:02.617-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:26.197-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

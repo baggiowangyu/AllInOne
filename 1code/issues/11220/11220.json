@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "1) If i use typelibraries(i meant to say imported), There is no need to call CoGetClassObject ? directly i can call CreateInstance function of ClassFactory . I want to understand the call flow here. How does the client Application get to know the DLL path and load it , if it doesnt call the CoGetClassObject ?",
+    "LastUpdatedDate": "2013-02-21T18:59:07.88-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-09-24T21:01:18.987-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Can i get the explaination for the below ?",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11220
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Please help me in understanding this",
+      "PostedDate": "2012-09-24T21:09:24.527-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:07.88-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

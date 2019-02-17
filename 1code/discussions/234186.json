@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "520066",
+    "ThreadId": "234186",
+    "Html": "\r\n<p>Hi guys,</p>\r\n<p>When I use Delphi, I can create Action Components and assign Icon and Click even code to them. I can link Action Components to menu item or toolbar button. So if anything need to change, like event handle code or icon, I just change the Actions will be OK.\r\n Is there any simulate way in .net platform?</p>\r\n",
+    "PostedDate": "2010-11-10T09:22:23.333-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "521948",
+    "ThreadId": "234186",
+    "Html": "\r\n<p>Hello dead_lee</p>\r\n<p>I'm not familiar with Delphi, however, in .NET you can store all icons in Resources</p>\r\n<p><a href=\"http://msdn.microsoft.com/en-us/library/7k989cfy(VS.80).aspx\">http://msdn.microsoft.com/en-us/library/7k989cfy(VS.80).aspx</a></p>\r\n<p>and share code in a class library to be used by multiple projects.</p>\r\n",
+    "PostedDate": "2010-11-14T21:47:46.253-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "522131",
+    "ThreadId": "234186",
+    "Html": "\r\n<p>Thank you very much.</p>\r\n",
+    "PostedDate": "2010-11-15T06:51:34.64-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

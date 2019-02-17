@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-05-27T18:08:58.17-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Download gets stuck, right before the ads. MVPS hosts-file is on the machine, can't be removed or edited. Seems that there's no alternative link.\n \n--never mind, downloaded the source, will be building in a few moments.",
+    "LastUpdatedDate": "2013-05-16T05:33:20.263-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-05-24T05:21:10.05-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Download not working",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10797
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

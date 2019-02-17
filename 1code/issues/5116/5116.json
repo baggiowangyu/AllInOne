@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "http://social.msdn.microsoft.com/Forums/en-US/windowssdk/thread/f3b31d0c-5261-4353-b70d-8ec3fbd787ac\n \nhttp://code.msdn.microsoft.com/WindowsAPICodePack\n \npublic void SetRating(uint rating)\n            {\n                ShellPropertyWriter w = shellObjectParent.Properties.GetPropertyWriter();\n                w.WriteProperty(SystemProperties.System.Rating, rating);\n                w.Close();\n            }\n \nThe properties of a file are stored in a type-specific way.  File types have property handlers (IPropertyStore implementations) associated with them that have the knowledge of how to extract the properties. Some additional documentation: http://msdn.microsoft.com/en-gb/library/bb776909(VS.85).aspx\n \nSample in C++ that access a specific field (the title field):\n \n \n// Summary Information\nenum SUMMARY_INFORMATION\n{\n    SI_TITLE        = 2,\n    SI_SUBJECT      = 3,\n    SI_AUTHOR       = 4,\n    SI_KEYWORDS     = 5,\n    SI_COMMENTS     = 6,\n    SI_TEMPLATE     = 7,\n    SI_LASTAUTHOR   = 8,\n    SI_REVNUMBER    = 9,\n    SI_EDITTIME     = 10,\n    SI_LASTPRINTED  = 11,\n    SI_CREATE_DTM   = 12,\n    SI_LASTSAVE_DTM = 13,\n    SI_PAGECOUNT    = 14,\n    SI_WORDCOUNT    = 15,\n    SI_CHARCOUNT    = 16,\n    SI_THUMBNAIL    = 17,\n    SI_APPNAME      = 18,\n    SI_SECURITY     = 19\n};\n \n// Document Summary Information\nenum DOC_SUMMARY_INFORMATION\n{\n    DSI_CATEGORY     = 2, \n    DSI_PRESFORMAT   = 3,\n    DSI_BYTECOUNT    = 4,\n    DSI_LINECOUNT    = 5,\n    DSI_PARCOUNT     = 6,\n    DSI_SLIDECOUNT   = 7,\n    DSI_NOTECOUNT    = 8,\n    DSI_HIDDENCOUNT  = 9,\n    DSI_MMCLIPCOUNT  = 10,\n    DSI_SCALE        = 11,\n    DSI_HEADINGPAIR  = 12,\n    DSI_DOCPARTS     = 13,\n    DSI_MANAGER      = 14,\n    DSI_COMPANY      = 15,\n    DSI_LINKSDIRTY   = 16,\n    DSI_CHARCOUNT2   = 17\n};\n \nvoid PrintGUID(GUID guid)\n{\n    wprintf(\n        L\"{%.8x-%.4x-%.4x-%.2x%.2x-%.2x%.2x%.2x%.2x%.2x%.2x}\"\n        , guid.Data1\n        , guid.Data2\n        , guid.Data3\n        , guid.Data4[0]\n        , guid.Data4[1]\n        , guid.Data4[2]\n        , guid.Data4[3]\n        , guid.Data4[4]\n        , guid.Data4[5]\n        , guid.Data4[6]\n        , guid.Data4[7]\n    );\n}\n \nconst IID IID_SummaryInformation    = {0xF29F85E0, 0x4FF9, 0x1068, {0xAB, 0x91, 0x08, 0x00, 0x2B, 0x27, 0xB3, 0xD9}}; \nconst IID IID_DocSummaryInformation = {0xD5CDD502, 0x2E9C, 0x101B, {0x93, 0x97, 0x08, 0x00, 0x2B, 0x2C, 0xF9, 0xAE}}; \nconst IID IID_UserDefinedProperties = {0xD5CDD505, 0x2E9C, 0x101B, {0x93, 0x97, 0x08, 0x00, 0x2B, 0x2C, 0xF9, 0xAE}};\n \n#define STGM__MODE (STGM_READWRITE | STGM_SHARE_EXCLUSIVE)\n \nint wmain(int argc, LPWSTR argv[])\n{\n    HRESULT hr = E_FAIL;\n \n    if (argc >= 2 && argc <= 4)\n    {\n        LPWSTR pwszFileName = argv[1];\n        //LPWSTR pwszProperty = (argc == 3) ? argv[2] : NULL;\n        LPWSTR pwszNewValue = (argc == 3) ? argv[2] : NULL;\n \n        wprintf(L\"Opening File: %s\\n\", pwszFileName);\n \n        IPropertySetStorage *pIPSStorage;\n        hr = StgOpenStorageEx(\n            pwszFileName                // File Name\n          , STGM__MODE                  // Access Mode (read/write,direct,prevent write)\n          , STGFMT_FILE                 // Any Format (NTFS Streams)\n          , 0                           // Determines how the file is handled (do nothing special)\n          , 0                           // Storage Format\n          , 0                           // Reserved\n          , IID_IPropertySetStorage     // RIID of Interface to retrieve\n          , (void **)&pIPSStorage       // Storage for Interface\n        );\n \n        if (SUCCEEDED(hr))\n        {\n            // Access the Summary Information\n            IPropertyStorage *pIPS;\n            hr = pIPSStorage->Open(IID_SummaryInformation, STGM__MODE, &pIPS);\n            if (SUCCEEDED(hr)) \n            {\n                PROPVARIANT var;\n \n                PROPSPEC propspec;\n                propspec.ulKind = PRSPEC_PROPID;\n                propspec.propid = SI_TITLE;\n \n                if (NULL != pwszNewValue)\n                {\n                    PropVariantInit(&var);\n                    var.vt = VT_LPWSTR;\n                    var.pwszVal = pwszNewValue;\n \n                    hr = pIPS->WriteMultiple(1, &propspec, &var, 0);\n                    if (SUCCEEDED(hr))\n                    {\n                        wprintf(L\"New title written...\\n\");\n                    }\n                    else\n                    {\n                        wprintf(L\"Error writing new title... (0x%.8X)\\n\", hr);\n                    }\n                }\n                \n                hr = pIPS->ReadMultiple(1, &propspec, &var);\n                if (SUCCEEDED(hr))\n                {\n                    if (var.vt == VT_LPSTR)\n                    {\n                        wprintf(L\"Title: %S\\n\", var.pszVal);\n                    }\n                    else if (var.vt == VT_LPWSTR)\n                    {\n                        wprintf(L\"Title(w): %s\\n\", var.pwszVal);\n                    }\n \n                    hr = PropVariantClear(&var);\n                }\n \n                pIPS->Release();\n            }\n            else\n            {\n                wprintf(L\"Failed to load summary info.\\n\");\n            }\n \n            pIPSStorage->Release();\n        }\n        else\n        {\n            wprintf(L\"Failed to open.\\n\");\n        }\n    }\n \n    wprintf(L\"hr = 0x%.8X\\n\", hr);\n \n return 0;\n}",
+    "LastUpdatedDate": "2017-11-27T10:33:40.69-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-01-18T00:30:40.797-08:00",
+    "Status": {
+      "Name": "Active",
+      "Id": 2
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Shell Property Writer and Reader",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 5116
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

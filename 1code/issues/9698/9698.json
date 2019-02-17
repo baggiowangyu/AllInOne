@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi, I'm choosing a deployment strategy for some Web Applications our team is building right now. \n \nBackground:\n \n* Old projects in VS2008: We used Web Deployment Projects, but for tasks like parameter and section replacement in config files, file encryption, DB connection testing, etc. we relied on custom installers built with Web Setup Projects on C#. We even built a library to refactor these common tasks, so on web setup projects we only reference the library. \n* Current projects on VS2010: I've learned that Web Setup Projects won't be available in future versions of VS2010. But I've learned about Web Deploy, and found that this technology is able to do parameter and section replacement. However, in order to replace VS2008 custom installers with Web Deploy packages I need to customize the process for tasks like file encryption and DB connection testing. Also, I need to perform Web Application precompilation in the package, so Web Deployment Projects are not thrown in the mix.\n \nProblem: There's no official samples for custom providers for Web Deploy. I hope this can be done, because here (http://msdn.microsoft.com/en-us/library/dd394698.aspx) the \"Extending the Web Publishing Pipeline\" section tells there are tasks that can be made by modifying MSBuild files and other tasks that can be made by creating new providers. But there are no links to samples or further info for either task! And searching in Google I can find some samples posted in forums, based on \"reverse engineering\" the Web Deploy API, but I know this is not a safe way to work. Furthermore, I need a solid foundation for custom providers, because I want to build a new common library with the tasks we're doing right now, so I can build new tasks in the future and add them to the library.\n \nRequest: Publish two samples: one for extending Web Deploy by editing MSBuild files, and another for coding a custom WPP provider. If the samples deal with things like precompiling the web application or encrypting config files, that would be great.\n \nThanks!",
+    "LastUpdatedDate": "2013-02-21T18:59:40.123-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-10-24T08:38:16.713-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Web Deployment custom providers",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9698
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

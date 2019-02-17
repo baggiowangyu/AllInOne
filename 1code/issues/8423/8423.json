@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello,\n \nI would be interested what is the best way to\n \no Call multiple web services in an asynchronous way\no from windows.forms or WPF \no and wait untill all of them are completed and returned their result\no show the results on a Windows.Forms or WFC controls\n \nThis is a request which concerns nearly all SmartClient applications as the would like to call the webservices asynchrounously in order to limit the execution tim eto the longest of all services and not the sum of the execution time of all web services\n \nThank you in advance\n \nP. S. One problem I encountered is that Windows.Forms or WPF use Single Threaded Appartment Model and that the WaitHandle.WaitAll does not work in STA.",
+    "LastUpdatedDate": "2013-02-21T19:00:21.543-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-02-27T03:06:20.067-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "[Code Sample request] Call multiple web/wcf services in an asynchronous way",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 8423
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Also the simplest example of how to make an async call from a WPF to a web service, waiting for callback and processing the result (for us newbies)",
+      "PostedDate": "2012-04-19T20:53:31.12-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello giuf,\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nYour sample request is about how to call multiple web/wcf services in an asynchronous way.  If I misunderstood your requirement, please feel free to let me know. \r\n\r\nMicrosoft All-In-One Code Framework Team is triaging the sample topic.  I will keep you updated about the progress every week.  Please also understand that the free Sample Request Service is not for urgent sample requests.   If your request is urgent, please use Microsoft Professional Advisory Services.\r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com\r\n",
+      "PostedDate": "2012-09-25T00:27:40.037-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:21.543-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

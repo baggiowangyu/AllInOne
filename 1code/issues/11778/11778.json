@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Dear Developers \nI need a code sample related windows services . \nI want  widows service code which triggers twice a day at set time say at 0800HRS and 2200 HRS daily. \nI have sleep and other methods but they are not consistent for my needs , I wish to run the certain functions in my service twice a day at said time.",
+    "LastUpdatedDate": "2013-07-31T08:35:53.517-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2013-05-14T23:29:25.14-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Request of widows service code which triggers twice a day",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11778
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Schedule the Windows service using Windows scheduler at specific timings.",
+      "PostedDate": "2013-07-31T08:35:53.517-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

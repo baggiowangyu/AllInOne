@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "838858",
+    "ThreadId": "356530",
+    "Html": "\r\n<p>Hi everyone!</p>\r\n<p>Could you please provide a sample for using EntityFramework Code first approach in a Modular applications like Prism or MEF? There are some design issue for sharing database between multiple contexts.</p>\r\n<p>Thanks and best regards :)</p>\r\n",
+    "PostedDate": "2012-05-21T04:54:48.003-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

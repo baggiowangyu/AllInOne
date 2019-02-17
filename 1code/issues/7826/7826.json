@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have a scenario where I want to use the script loader functionality in the Start.js file to load some 3rd party scripts, but I also want to use the script manager for the ajax control toolkit on the same page(s). This is to be included on a master page for use by the entire site I'm making. Is there a good way to do this or do I have to choose one way or the other?",
+    "LastUpdatedDate": "2013-02-21T19:00:36.24-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-12-03T20:53:31.693-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "How to use AJAX Loader and ScriptManager on same page?",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 7826
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

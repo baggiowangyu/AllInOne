@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "211655",
+    "ThreadId": "62350",
+    "Html": "<p>我有个项目，也在CodePlex上面，是线呈处理的示例：</p>\r\n<p><a href=\"http://oneinstance.codeplex.com/\">http://oneinstance.codeplex.com/</a></p>\r\n<p>纯dotNet代码实现单实例启动，并且可激活已有实例窗口。<br>所有的功能有已经封装入 OneInstance 静态类中，使用所需功能，只要调用此类的三条语句即可。</p>\r\n<p>我有了新版本功能更好的版本（可以自定义激活窗口，比如，重复实例启动的时候，自定义操作激活登录窗口，而不是程序主窗口等。）还没有更新，如果你们愿意，我愿意将我的项目合并到你们的代码示例之中。</p>",
+    "PostedDate": "2009-07-14T03:16:15.26-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "212002",
+    "ThreadId": "62350",
+    "Html": "<p>你好 jiuyong</p>\r\n<p>欢迎你能将你的sample加入到CodeFx中！</p>\r\n<p>你在主页上提到&ldquo;我正在整理代码，完美的代价太大。&rdquo;。等整理完代码，希望你能通知我们。另请你添加一个ReadMe.txt文件以介绍这个sample。格式可以参见CodeFx中已有的sample。我们的程序员会review你的代码，确保其演示的是best practice，同时还会对sample中的coding style进行调整，以符合CodeFx。最后在双方同意的前提下，将你的sample加入到CodeFx。</p>\r\n<p>谢谢<br>Jialiang</p>",
+    "PostedDate": "2009-07-15T00:52:58.387-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

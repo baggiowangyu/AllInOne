@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I would very much like a simple example of the above. Preferably with entitties created using the POCO Entity generator (or equivalent).",
+    "LastUpdatedDate": "2013-02-21T18:59:39.333-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-11-01T07:27:04.707-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "3 tier web forms application using the entity framework",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9723
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Sorry, I just realised that something very simmilar has already been requested with the title:\r\n\"N-tier Entity Framework 4 end to end sample app\" ",
+      "PostedDate": "2011-11-01T07:31:49.413-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:39.333-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

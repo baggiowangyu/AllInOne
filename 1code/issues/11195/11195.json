@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "OS - Windows 7 x64\nSteps to repeat:\n1. Моve taskbar to top of scereen\n2. Launch Sample Browser\n3. Maximize Sample Browser window\n \nscreen attached: Taskbar overlaps the window title",
+    "LastUpdatedDate": "2013-02-21T18:59:08.56-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-09-17T21:10:56.003-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "bug in Samle Browser, when taskbar moved to top of screen",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11195
+  },
+  "FileAttachments": [
+    {
+      "FileId": 4233,
+      "FileName": "ms_bug.png",
+      "DownloadUrl": ".\\4233"
+    }
+  ],
+  "Comments": []
+}

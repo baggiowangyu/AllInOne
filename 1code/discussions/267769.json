@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "652507",
+    "ThreadId": "267769",
+    "Html": "\r\n<p>Hi, I want to serialize an image array and few strings which are contain in the my object class. What i want is create a object from this class and serialize(not xml serilization) it and save it in my hard disk using silverlight 4 version. Still i was unable\r\n to find a clear answer for this. Thanks very much</p>\r\n",
+    "PostedDate": "2011-08-04T09:47:20.57-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

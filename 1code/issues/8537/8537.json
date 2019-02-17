@@ -1,0 +1,106 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi,\nI have attached  one file with the project items of one prototype I have been doing to reproduce the scenario:\n* WIF STS\n* WCF claims-aware service\n* RoutingService\n* Client\nAfter so many workarounds,  I couldn't make it work, and unfortunately, there are not samples on the web.\nCould you please take a look and see what is wrong in the RoutingService configuration? It was working before I added the RoutingService\nThanks in advance",
+    "LastUpdatedDate": "2013-02-21T19:00:17.133-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-03-18T00:35:49.653-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "RoutingService routing WIF STS& claims-aware WCF Service",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 10,
+    "Id": 8537
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3209,
+      "FileName": "Prototype.zip",
+      "DownloadUrl": ".\\3209"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "+1",
+      "PostedDate": "2011-04-08T02:47:44.83-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-08T02:53:49.283-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-08T02:56:09.053-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-08T03:01:55.173-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-08T03:04:28.387-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-08T03:08:21.1-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-12-13T10:01:48.327-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-02-22T04:34:48.323-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "+more. It will be a very useful sample. waiting...",
+      "PostedDate": "2012-02-22T04:36:11.657-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-10-14T17:38:37.987-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Desperately need this.",
+      "PostedDate": "2012-10-14T17:39:41.8-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:17.133-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

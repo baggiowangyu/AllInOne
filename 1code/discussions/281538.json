@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "706110",
+    "ThreadId": "281538",
+    "Html": "\r\n<p>Hi,</p>\r\n<p>Not sure if I should try rather suggest this directly to your T4 team, but to provide completely reusable &quot;best-practice&quot; code-samples you could use this way of using standard T4 referred in the T4 blog:</p>\r\n<p><a href=\"http://blogs.msdn.com/b/t4/archive/2011/11/30/some-nice-new-getting-started-with-t4-videos.aspx\">http://blogs.msdn.com/b/t4/archive/2011/11/30/some-nice-new-getting-started-with-t4-videos.aspx</a></p>\r\n<p>I am the person behind that methodology, but I wanted to refer you through the T4 team's blog, because it's really just basic T4 usage in a certain way.</p>\r\n<p>This way any code sample you currently produce could be turned an independent automation filling up that certain role. Some blocks of course fit in this role better than others (and some not at all), but most of the &quot;reference implementation &#43; guidance&quot;\r\n comes crystal clear and reusable when abstract-automated.</p>\r\n<p>Let me know, if you're interested to hear more. I'll be happy to explain.</p>\r\n<p>Kalle Launiala</p>\r\n",
+    "PostedDate": "2011-12-01T14:06:55.94-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

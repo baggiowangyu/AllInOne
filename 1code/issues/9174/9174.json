@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "How do i save and display  image to and from sql Server 2008 using C#?",
+    "LastUpdatedDate": "2013-02-21T18:59:52.07-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-07-23T18:11:40.767-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Save and Retrieve Image",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 9174
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "hi doorscomputers,\r\n\r\nThank you for using our code sample request service. \r\n  You always gives us valuable sample idea. we are all thankful for your enthusiasm. But this sample is simply enough. If possibly,You can give us other inspirits around with this sample idea. Thanks for the additional information.\r\n\r\n\r\n\r\nHave a good day\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-07-24T18:53:43.79-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T17:36:16.083-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "What interest me is that feature in SQL Server (Sorry I forgot it's name, but remember that I enabled it on the SQLServer installation) that save the achive into the file system with a very specific folder with a specific file name... It will be greate to have something exemples inside os SQL server exemples as I'm about to use in application storage for large binary files.\r\n\r\nps: I knowledge that Doorscomputers are requesting something about data access in c# side.",
+      "PostedDate": "2011-08-28T18:09:38.35-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Sorry, me again, the name of the feature is FileStream in SQL Server. Sample with this kind of access will be nice!",
+      "PostedDate": "2011-08-28T18:15:14.42-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-01-31T19:14:02.853-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:52.07-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

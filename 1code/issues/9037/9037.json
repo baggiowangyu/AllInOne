@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi everyone!\n \nI'm trying to develop something like this...\n \nI have WPF application with user logging enabled. And when creating a user for the system; the Admin have to choose what are the departments that the new user could work for. So there is a ListView that showing available departments to choose (by checking the relevant checkboxes of departments). And the selection of departments should be easy (when selecting a row, its CheckBox should be checked. And it's now OK.)\n \nMy problems are;\n \n01. How to get IsChecked or IsSelected items (CheckBoxes) in the ListView through a loop.\n02. When an existing user is selected; I want to display all the departments on the ListView with previously selected departments are already selected.\n \nPlease help me at this. This is the ListView.\n \n \n<ListView ItemsSource=\"{Binding}\" Name=\"lvDepartments\" SelectionMode=\"Multiple\">\n <ListView.View>\n <GridView AllowsColumnReorder=\"False\">\n  <GridViewColumn>\n  <GridViewColumn.CellTemplate>\n  <DataTemplate>\n  <CheckBox VerticalAlignment=\"Center\" \nIsChecked=\"{Binding Path=IsSelected, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ListViewItem}}}\">\n  <CheckBox.Content>\n  <TextBlock Text=\"{Binding DepID}\" Width=\"0\"/>\n  </CheckBox.Content>\n  </CheckBox>\n  </DataTemplate>\n  </GridViewColumn.CellTemplate>\n  </GridViewColumn>\n  <GridViewColumn DisplayMemberBinding=\"{Binding DepID}\" Header=\"DepartmentID\" Width=\"0\" >\n  </GridViewColumn>\n  <GridViewColumn DisplayMemberBinding=\"{Binding Name}\" Header=\"Department\" Width=\"340\" />\n </GridView>\n </ListView.View> \n </ListView>",
+    "LastUpdatedDate": "2013-02-21T18:59:54.983-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-06-30T09:34:33.307-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Databound ListView with CheckBoxes and handling IsChecked property in WPF.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9037
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

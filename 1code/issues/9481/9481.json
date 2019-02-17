@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "There are many code samples that are not able to Opened within Sample Browser.\n \nHere is the procedure to reproduce this problem:\n \n1. Download \"All-In-One Code Framework Sample Browser\" without downloading any source\n \n2. Open \"All-In-One Code Framework Sample Browser\" and specify a path for sample code repository\n \n3. Search  \"HighlightCodeInPage\"\n \n4. Click on \"Download\" link\n \nhttp://content.screencast.com/users/DoggyEpaper/folders/Snagit/media/1e0f2302-3468-4f6b-9c3a-48947be65b09/09.04.2011-23.18.52.png\n \n5. Click on \"Open\" link\n \nhttp://content.screencast.com/users/DoggyEpaper/folders/Snagit/media/455975b3-13a3-4361-8085-915a6a1af761/09.04.2011-23.21.20.png\n \n6. Then you will see the following error: The code sample has been moved. You need to download the sample again.\n \nhttp://content.screencast.com/users/DoggyEpaper/folders/Snagit/media/c100dcfa-fe17-4b66-8f45-1d7998d1f284/09.04.2011-23.21.46.png\n \n----\n \nN.B. The sample project has been downloaded successfully.   It just can't opened by Sample Browser.",
+    "LastUpdatedDate": "2013-02-21T18:59:44.93-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-09-04T08:23:37.24-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "All-In-One Code Framework Sample Browser Bug Report",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9481
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I am experiencing the same problem.",
+      "PostedDate": "2011-09-06T08:43:41.563-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "My local sample repository is located at C:\\Samples\r\n\r\nThe download package saved to \"C:\\Samples\\Visual Studio 2010\\C#\" so that the xxx.sln located at C:\\Samples\\Visual Studio 2010\\C#\\xxx.sln\r\n\r\nBut the Sample browser open packages from \"C:\\Samples\\Visual Studio 2010\\xxxx.sln\" which doesn't exists.\r\n\r\n",
+      "PostedDate": "2011-09-12T08:56:57.03-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi guys,\r\n\r\n Never mind. I have reported your issue to this tools' author. After a while they will repair them at once. Thank you for your support.\r\n\r\nSincerely,\r\nAll-In-Onecode Framework",
+      "PostedDate": "2011-09-12T18:31:19.367-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello\r\n\r\nThank you for reporting this problem!  We have fixed it in Sample Browser (not in Sample Browser VS extension yet).  Could you please reopen Sample Browser with network connection.  It should be able to automatically detect the new version and upgrade it for you.  If the problem still exists, please let me know. \r\n\r\nThanks\r\nJialiang Ge\r\nMicrosoft All-In-One Code Framework",
+      "PostedDate": "2011-09-12T18:34:33.257-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "error: The code sample has been moved. You need to download the sample again. \r\nbut already downloaded more than 2-3 times\r\n",
+      "PostedDate": "2011-09-23T08:21:28.587-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:44.93-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

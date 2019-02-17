@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "620590",
+    "ThreadId": "259598",
+    "Html": "\r\n<p>Hi,</p>\r\n<p>I've got an inter thread exception in FTPDownloadClient.cs : StartDownloadDirectoriesAndFiles on the 'foreach' keyword with following message: System.invalidOperationException</p>\r\n<p>&quot;Op&eacute;ration inter-threads non valide : le contr&ocirc;le 'lstFileExplorer' a fait l'objet d'un acc&egrave;s &agrave; partir d'un thread autre que celui sur lequel il a &eacute;t&eacute; cr&eacute;&eacute;.&quot;</p>\r\n<p>It works fine in release mode.<br>\r\nI don't understand why : can you help me ?</p>\r\n<p>thanks</p>\r\n",
+    "PostedDate": "2011-05-31T00:43:16.633-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "620609",
+    "ThreadId": "259598",
+    "Html": "<p>a fixed version just arrived: it's pretty good.</p>",
+    "PostedDate": "2011-05-31T01:23:56.883-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "564218",
+    "ThreadId": "245517",
+    "Html": "\r\n<p>I have an application which plugs in activex controls which can then be used as fully functional objects within its environs. My ActiveX control was written in C# based off the example in the All-In-One code framework. In certain cases I observed that my\r\n application is not able to receive the events being fired by the ActiveX control, and as far as I can tell this happens at completely random points. Some runs it works fine, and then others it doesn't. Has anyone encountered similar problems with the C# ActiveX\r\n control? I know that I have mentioned nothing specific about my problem, but I thought to wait and see if this thread gets any responses and then to go into the gory details.</p>\r\n",
+    "PostedDate": "2011-02-10T13:44:36.463-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

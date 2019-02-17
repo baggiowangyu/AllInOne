@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "An example of a WF workflow that sleep for a few seconds (or minutes) and when wake up, do anything like create a XML file, insert a record on a database or anything like this.\n \nwith this example we have an example of a workflow that exists for long time and can wake up and do some work and go back to sleep.\n \nregards\nPaulo Aboim Pinto\nOdivelas - Portugal",
+    "LastUpdatedDate": "2013-02-21T18:59:41.117-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-10-12T20:08:06.223-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Host Workflow on IIS that is delay on time",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9638
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

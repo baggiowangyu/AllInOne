@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "554836",
+    "ThreadId": "243166",
+    "Html": "\r\n<p>I did a very simple demo with the help of the API called &quot;DwmEnableBlurBehindWindow&quot;</p>\r\n<p>&nbsp;</p>\r\n<p></p>\r\n<div style=\"color:black; background-color:white\">\r\n<pre><span style=\"color:blue\">Public</span> <span style=\"color:blue\">Class</span> Form1\r\n    &lt;System.Runtime.InteropServices.DllImport(<span style=\"color:#a31515\">&quot;dwmapi.dll&quot;</span>)&gt; _\r\n    <span style=\"color:blue\">Private</span> <span style=\"color:blue\">Shared</span> <span style=\"color:blue\">Sub</span> DwmEnableBlurBehindWindow(<span style=\"color:blue\">ByVal</span> hwnd <span style=\"color:blue\">As</span> IntPtr, <span style=\"color:blue\">ByRef</span> blurBehind <span style=\"color:blue\">As</span> DWM_BLURBEHIND)\r\n    <span style=\"color:blue\">End</span> <span style=\"color:blue\">Sub</span>\r\n\r\n    &lt;System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)&gt; _\r\n    <span style=\"color:blue\">Public</span> <span style=\"color:blue\">Structure</span> DWM_BLURBEHIND\r\n        <span style=\"color:blue\">Public</span> dwFlags <span style=\"color:blue\">As</span> <span style=\"color:blue\">UInteger</span>\r\n        <span style=\"color:blue\">Public</span> fEnable <span style=\"color:blue\">As</span> <span style=\"color:blue\">Boolean</span>\r\n        <span style=\"color:blue\">Public</span> hRgnBlur <span style=\"color:blue\">As</span> IntPtr\r\n        <span style=\"color:blue\">Public</span> fTransitionOnMaximized <span style=\"color:blue\">As</span> <span style=\"color:blue\">Boolean</span>\r\n    <span style=\"color:blue\">End</span> <span style=\"color:blue\">Structure</span>\r\n\r\n    <span style=\"color:blue\">Private</span> <span style=\"color:blue\">Sub</span> Form1_Load(<span style=\"color:blue\">ByVal</span> sender <span style=\"color:blue\">As</span> <span style=\"color:blue\">Object</span>, <span style=\"color:blue\">ByVal</span> e <span style=\"color:blue\">As</span> System.EventArgs) <span style=\"color:blue\">Handles</span> <span style=\"color:blue\">Me</span>.Load\r\n        <span style=\"color:blue\">Dim</span> sBlur <span style=\"color:blue\">As</span> <span style=\"color:blue\">New</span> DWM_BLURBEHIND\r\n        <span style=\"color:blue\">With</span> sBlur\r\n            .dwFlags = 3\r\n            .fEnable = 1\r\n            .hRgnBlur = 0\r\n        <span style=\"color:blue\">End</span> <span style=\"color:blue\">With</span>\r\n        DwmEnableBlurBehindWindow(<span style=\"color:blue\">Me</span>.Handle, sBlur)\r\n    <span style=\"color:blue\">End</span> <span style=\"color:blue\">Sub</span>\r\n<span style=\"color:blue\">End</span> <span style=\"color:blue\">Class</span>\r\n</pre>\r\n</div>\r\n<p></p>\r\n<p>&nbsp;</p>\r\n<p>However, I found some other controls like Label or TextBox's ForeColor will be also transparent.</p>\r\n<p>What should I do now?</p>\r\n<p>Can you offer me a sample please?</p>\r\n",
+    "PostedDate": "2011-01-24T23:37:04.403-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "555421",
+    "ThreadId": "243166",
+    "Html": "\r\n<p>can anybody help me?</p>\r\n",
+    "PostedDate": "2011-01-26T00:31:26.86-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

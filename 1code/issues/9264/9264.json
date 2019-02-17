@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "VS project, that describes how to create Custom controls with DependencyProperty (inherited from System.Windows.Controls.Control or System.Windows.Controls.UserControl).\nIt should describe difference between control and Templated control\nIt should describe how to set TwoWay TemplateBinding for Templated control and a lot of other tips ({Binding RelativeSource={RelativeSource TemplatedParent}, Path=TAG, Mode=TwoWay})\nIt should describe how to implement validation and coercion of new values (something like this: http://blog.ningzhang.org/2008/11/dependencyproperty-validation-coercion_14.html)\nIt should contain snippets for simple and full implementation of DependencyProperty\n \nCustom controls and DependencyProperty is a very important topic and it should be covered well.",
+    "LastUpdatedDate": "2013-02-21T18:59:49.793-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-08-02T11:41:27.73-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Silverlight: Custom controls and DependencyProperty",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9264
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

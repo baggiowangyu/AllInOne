@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello fellow comunity members,\n \nI'm using VB.NET as well as the \"R\" language for academic reasons.\nR has every mathematical function known to man available with just one command, but lacks a user interface.\nVB.NET is a powerful language, has astonishing user interface but lacks nearly all mathematical functions.\n \nI want to use \"R\" from VB.NET, so as to create freeware programs for my university with a user interface.\nStatconnDCOM is a program doing this very thing, enabling users to use R from any programing language, but its license has too many limitations, and the creator of it told me that it might not always be free.\nI cant create a freeware program, and later on tell the university that, hey, you know.. i never said it's gonna be free for ever.\n \nIs there any other way to connect R with VB.NET ??",
+    "LastUpdatedDate": "2013-02-21T18:59:27.66-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-02-20T04:20:59.073-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "R through VB.NET",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10406
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

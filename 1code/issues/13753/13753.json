@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi experts,\n\nI have biweekly reports in Excel format. These are very large and contain very sparse data across multiple areas of a Workbook. I need to use parts of this worksheet to update charts in a predefined PowerPoint presentation.\n\nI looked up the existing examples and these all refer to adding new charts to an existing/blank presentation. I need to __find__ an existing chart, tap into its data sheet and pour there data from predefined areas in an Excel sheet.\n\nI also need this in __C#__. The goal is to develop a small Windows application that grabs data from Excel and dumps it on PowerPoint. This app should run standalone, not from within any of these applications (Excel or PowerPoint). However, an app running from within the PowerPoint presentation would be considered.\n\nAttempts have been made to find data in the Excel sheet and this is not a big deal. What poses the biggest difficulty here is __finding__ the charts in PowerPoint and dumping the new data on their data series. The difficulty is related to finding and grabbing hold of the existing charts.\n\nThese are native PowerPoint 2013 charts, not OLE objects. They don't seem to have a name or any other property that distinguishes them.\n\nCurrently, I have a very valuable human resource doing this, wasting away one out of every two weeks in this huge, repetitive and highly error prone task.",
+    "LastUpdatedDate": "2015-10-19T02:52:18.7-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2015-10-19T02:52:18.7-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Update PowerPoint Chart from C#",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 13753
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

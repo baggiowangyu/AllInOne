@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "How can one lock and kill an RFID tag using C# on Mobile device from Motorola (was Symbol) MC9090G with OS 05.01.0478. \n \nI'm already having the device up and runnig and communicating via WLAN using simple socket programming. This is needed to get/check confirmation for kill action. In additional, a list of scanned RFIDs is listed where the user can select one of and press a button to kill the scanned and selected tag. This all works nice but once the button is pressed and need to perform the kill action on the tag in code but am totaly lost in how to achieve this. I know the tag needs to be locked first (with a provided password, default if need be), than the kill action has to be done with a, as far as I know, a none default password needs to be provided. \n \nMy questions is how to solve this in C# 2.0 (the lock and kill procedures)\n \nThanks in advance,\n \nPeter.",
+    "LastUpdatedDate": "2013-02-21T18:59:52.993-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-07-20T04:53:51.637-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "How to lock and kill an RFID Tag",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9125
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

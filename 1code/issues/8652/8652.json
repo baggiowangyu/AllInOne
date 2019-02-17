@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "How to specify the web proxy settings, implicitly via conf file or explicitly via code? Different situations, of the simplest one basic, to the most complex one, specifying the webproxy, user and password credentials, automatizing the user and password retrieval (for current user), etc.\n \nThis is an example relevant to WSE 3.0:\n \nif (settings.UseProxy)\n            {\n                IWebProxy proxy = new WebProxy(settings.ProxyAddress);\n \n                if (settings.IsCurrentUser)\n                    proxy.Credentials = CredentialCache.DefaultCredentials;\n                else\n                    proxy.Credentials = new NetworkCredential(settings.ProxyUser, settings.ProxyPassword);\n                \n                Service.Proxy = proxy;\n            }\n            else\n            {\n                WebRequest.DefaultWebProxy.Credentials = CredentialCache.DefaultCredentials;\n                Service.Proxy = WebRequest.DefaultWebProxy;\n            }\n \nwhere Service is a class that derives from WebServicesClientProtocol.\n \nCan you make a similar example but using WCF and VS2010?\n \nThanks",
+    "LastUpdatedDate": "2013-02-21T19:00:08.187-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-04-14T04:00:42.627-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "WCF client webproxy settings",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8652
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

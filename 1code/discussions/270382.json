@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "663268",
+    "ThreadId": "270382",
+    "Html": "\r\n<p>I have downloaded the CSActiveX project and successfully built it using VS 2008. &nbsp;The object loads and works in a Visual Studio 2008 MFC application. &nbsp;When I attempt to use the object in a Visual Studio .NET 2003 MFC application, the IDE informs\r\n me that the object is not registered on my machine. &nbsp;What must I do in order for this object to work in Visual Studio .NET 2003?</p>\r\n",
+    "PostedDate": "2011-08-25T07:42:10.383-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "664911",
+    "ThreadId": "270382",
+    "Html": "<p>Can someone please provide some assistance? &nbsp;The CSActiveX project works in a Visual Studio 2008 MFC application but not in a Visual Studio 2003 MFC application. &nbsp;Why is that?</p>",
+    "PostedDate": "2011-08-29T09:04:54.563-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

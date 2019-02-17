@@ -1,0 +1,66 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The webbrowser control currently works out-of-browser, but not in-browser except for trusted applications. This makes it impratical for normal websites. I need to be able to host YouTube videos in-browser as well as out-of-browser. \n \nSee http://www.TimbreLane.com",
+    "LastUpdatedDate": "2013-03-06T08:12:38.313-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-02-25T10:27:57.133-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Host Silverlight WebBrowser control in-browser (for YouTube playback)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 10432
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3924,
+      "FileName": "Koala.jpg",
+      "DownloadUrl": ".\\3924"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "bahman994",
+      "PostedDate": "2012-03-12T12:59:49.61-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-03-24T07:08:59.81-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:26.42-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-03-06T08:12:38.313-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

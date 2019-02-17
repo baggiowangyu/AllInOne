@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Please forgive my mistakes because i m new to programming and still a student. I have tried to search a lot a working\nexample for sending and Receiving SMS using VB2010 Desktop application But could not found a complete piece of \ncode anywhere. I have tried MSDN Forum, Google Search, Bing Search. So i thing very few people has complete \nknowledge about this and expert are too busy to reply with all details that a Newcomer need. That's why i request\nanybody who see this post, Please vote for it. Thanks a lot.",
+    "LastUpdatedDate": "2013-02-21T19:00:20.567-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-03-01T03:42:10.987-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "How to sent and receive sms using VB2010 Application",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 8434
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\nYou describute that  you couldn't find how to send sms message using vb2010. I think that you should be prepare for GSM Modem and SMS Gateway.The first one is a modem device that it could insert into SIM card and SIM card should have money. The next one is a permission that it comes from your local SMS service provider,and they would give you a AT command handbook to develop these function. You could use AT command to send and receive message or store them into your database.It is a good idea that I do like it.\r\n\r\nIs my understanding correct? Please let me know if I misunderstood your needs.\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com \r\n",
+      "PostedDate": "2011-03-11T00:35:49.91-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks a lot for your reply you are right. I you understood my problem exactly. \r\nAfter 2 month of internet browsing and a lot of headache finally with the help of MSDN Forum \r\nI m able to sent sms using Web SMS Gateway.\r\nPlease see : http://social.msdn.microsoft.com/Forums/en-US/vblanguage/thread/1bc3f808-9919-4759-9352-fefd6ba4959c    AND\r\n                  http://social.msdn.microsoft.com/Forums/en-US/vbgeneral/thread/84d6021f-a57a-40d6-985e-e2db0f48ba7d\r\n\r\nI have to read a book :  Network Programming in .NET With C# and Visual Basic : http://www.amazon.com/Network-programming-NET-Visual-Basic/dp/1555583156\r\n\r\nTo buy this book i spent $ 45.67. In Indian currency its around Rupees 2200/- . Here in India this amount is a big amount. this amount is Many\r\nPeople's total monthly income.\r\n\r\nI still don't have any idea how to sent sms using GSM Modem.\r\nThere should be a complete solution for sending sms through GSM Modem and WEB SMS Gateway specially for people like me\r\nwho are still learning programming.\r\n\r\nIf you can help me in any way about sending sms please help me \r\nI will be very thankful to you.\r\n\r\nAs i don't have any idea about GSM Modems and how to sent sms using GSM Modems\r\nSo, Please send me if have any code samples or Links to articles or any other help resource \r\nabout sending sms using GSM Modem and also Let me know What should i know before buying a GSM Modems.\r\n  \r\n                                  ",
+      "PostedDate": "2011-03-11T20:16:21.32-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI have accessed your website address,which is metioned above. I could find out associated website that it looks like http://www.codeproject.com/KB/database/SMS_message_from_SQL.aspx, But it isn't only using vs2008 or vs2010 . It is because that it based on local service provider of different countries.Based on the above reasons, I couldn't post a complete sample request only using microsoft product. Despite this, we still welcome you to our project and post it.\r\n\r\n\r\n\r\n\r\n\r\nBest Regards\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com \r\n",
+      "PostedDate": "2011-03-13T23:16:47.093-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I have gone through The URL (http://www.codeproject.com/KB/database/SMS_message_from_SQL.aspx) given by you but the tutorial use a third\r\nParty software. Being a Software Developer its humiliating to use third party software for a simple task like sending SMS. .NET Framework\r\nhas all the tools we just need to learn it. So I think learning is better than buying specially for a software developer.\r\nFor sending sms through Web Gateway its quite easy. anybody can just type 'Bulk Sms' in google and they can find lot of local companies who provide SMS Gateway. They provide API which will different for every service provider. \r\nBut its difficult to sent SMS through GSM Modem. So far I know, to sent sms through GSM Modem  we need a SIM Card and need to\r\nto sent AT COMMANDS to GSM Modem But i don't know how to sent AT COMMANDS to GSM Modem using Visual Basic 2010.\r\nCan you please give complete code sample to sent AT COMMANDS to GSM Modem.\r\n\r\nTo learn more about SMS and AT COMMANDS there is a tutorial :\r\nhttp://www.developershome.com/sms/\r\n\r\n",
+      "PostedDate": "2011-03-15T02:50:28.423-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T18:21:15.213-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:20.567-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

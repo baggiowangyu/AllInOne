@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi.\n \nI have spent the last 4 days attempting to perform a  WPF MultiBinding operation in VB.NET code.\n \nI have the following  XAML which I need to produce using vb.NET code.\n \n                    <RectangleGeometry x:Name=\"clipRect\" RadiusX=\"5\" RadiusY=\"5\">\n                        <RectangleGeometry.Rect>\n                            <MultiBinding Converter=\"{StaticResource myRectConverter}\">\n                                <Binding ElementName=\"Canvas1\" Path=\"Width\"/>\n                                <Binding ElementName=\"Canvas1\" Path=\"Height\"/>\n                            </MultiBinding>\n                        </RectangleGeometry.Rect>\n                    </RectangleGeometry>\n \n \nThis is the full XAML context:\n \n            <Canvas Grid.Column=\"0\" Grid.Row=\"0\" Height=\"{Binding ElementName=FeatureOverlay1, Path=ActualHeight}\" HorizontalAlignment=\"Stretch\" Name=\"Canvas1\" VerticalAlignment=\"Stretch\" Width=\"{Binding ElementName=FeatureOverlay1, Path=ActualWidth}\" Background=\"Red\">\n                <Canvas.Clip>\n                    <RectangleGeometry x:Name=\"clipRect\" RadiusX=\"5\" RadiusY=\"5\">\n                        <RectangleGeometry.Rect>\n                            <MultiBinding Converter=\"{StaticResource myRectConverter}\">\n                                <Binding ElementName=\"Canvas1\" Path=\"Width\"/>\n                                <Binding ElementName=\"Canvas1\" Path=\"Height\"/>\n                            </MultiBinding>\n                        </RectangleGeometry.Rect>\n                    </RectangleGeometry>\n                </Canvas.Clip>\n                <Image Canvas.Left=\"0\" Canvas.Top=\"0\"  Name=\"TestImage\" Stretch=\"Fill\"  Source=\"/FluidSize;component/Images/Desert.jpg\" HorizontalAlignment=\"Stretch\" VerticalAlignment=\"Stretch\">\n                </Image>\n            </Canvas>\n \nI have the following vb.NET code but it is not working.\n \n        Dim rectGeometry As RectangleGeometry = New RectangleGeometry\n        Dim myGeometryGroup1 As New GeometryGroup()\n \n        rectGeometry.RadiusX = 5\n        rectGeometry.RadiusY = 5\n \n        Dim multiBinding As MultiBinding = New MultiBinding()\n \n        multiBinding.Converter = New RectConverter\n \n        Dim binding As Binding = New Binding()\n        binding.ElementName = \"Canvas1\"\n        binding.Path = New PropertyPath(\"Width\")\n        multiBinding.Bindings.Add(binding)\n \n        binding = New Binding()\n        binding.ElementName = \"Canvas1\"\n        binding.Path = New PropertyPath(\"Height\")\n        multiBinding.Bindings.Add(binding)\n \n        ' Need to somehow add the multibinding object to the rectGeometry\n        BindingOperations.SetBinding(rectGeometry, RectangleGeometry.RectProperty, multiBinding)\n \n        myGeometryGroup1.Children.Add(rectGeometry)\n \n        ' Add rectanglegeometry as/to Canvas clip\n        CanvasImage.Clip = myGeometryGroup1\n \n \nThe above code is not recreating the Rect structure or bindings.\n \nThe code samples provided on technet (http://msdn.microsoft.com/en-us/library/system.windows.rect.aspx) do not provide any examples or direction for Rect binding.\n \nBen",
+    "LastUpdatedDate": "2013-02-21T19:00:33.917-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-01T16:06:35.94-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "VB.NET WPF RectangleGeometry Rect MultiBinding Code",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8015
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

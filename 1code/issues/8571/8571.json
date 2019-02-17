@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "How to get Information about running on Hyper-V guest?\nHow to subscribe to events such as \"Guest is going into Saved state\" or restore form \"Saved state\"?",
+    "LastUpdatedDate": "2013-02-21T19:00:12.857-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-03-28T07:53:42.92-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Code sample request: Samples for Hyper-v",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 8571
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello i_bespalov and claelw21 ,\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\nThe topic which you are talking about is a wonderful sample idea. This is because that it is mentioned by a lot of webblog articles. and another reason is VM machine technology is migrated to windows 2008 server platform.So we don't seek help to VMWare. based on this technology point we can use it to build experimental environment such as linux or mac os. It seems that our subject matter expert has similar articles such as http://blogs.msdn.com/b/virtual_pc_guy/archive/2010/09/10/deleting-a-saved-state-through-wmi-hyper-v.aspx,and some of articles talk about snapshot.BTW, do you want to compse it using csharp or vbscript? If you have further information,please share with us.\r\n\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com \r\n",
+      "PostedDate": "2011-06-01T23:22:19.823-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T18:18:36.423-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:12.857-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

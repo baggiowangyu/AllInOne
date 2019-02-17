@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "HRESULT SetFolderIcon(LPCWSTR wszPath, LPWSTR wszExpandedIconPath, int iIcon)\n{\n\tHRESULT hr;\n \n\tSHFOLDERCUSTOMSETTINGS fcs = {0};\n\tfcs.dwSize = sizeof(fcs);\n\tfcs.dwMask = FCSM_ICONFILE;\n\tfcs.pszIconFile = wszExpandedIconPath;\n\tfcs.cchIconFile = 0;\n\tfcs.iIconIndex = iIcon;\n \n\t// Set the folder icon\n\thr = SHGetSetFolderCustomSettings(&fcs, wszPath, FCS_FORCEWRITE);\n \n\tif (SUCCEEDED(hr))\n\t{\n\t\t// Update the icon cache\n\t\tSHFILEINFO sfi;\n\t\thr = SHGetFileInfo(wszPath, 0, &sfi, sizeof(sfi), SHGFI_ICONLOCATION);\n\t\tif (SUCCEEDED(hr))\n\t\t{\n\t\t\tint iIconIndex = Shell_GetCachedImageIndex(sfi.szDisplayName, sfi.iIcon, 0);\n\t\t\tSHUpdateImage(PathFindFileName(sfi.szDisplayName), sfi.iIcon, 0, iIconIndex);\n\t\t}\n\t}\n \n\treturn hr;\n}",
+    "LastUpdatedDate": "2013-02-21T19:00:42.687-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-04T09:04:21.687-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Get / set shell folder custom settings",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 7568
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

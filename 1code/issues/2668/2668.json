@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "finished",
+    "ClosedDate": "2010-10-19T21:56:42.273-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Demonstrate how to create some LINQ extension in C# application, such as Dynamic LINQ, recursive query in LINQ, etc.",
+    "LastUpdatedDate": "2013-05-16T05:33:37.617-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-04-08T05:36:10.887-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Example: CSLinqExtension",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 2668
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

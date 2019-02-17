@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Need a good example written in c#  which converts the LINQ anonymous types result to a qualified JSON string/JSON object using DataContractJsonSerializer. for .net framework 2.0 and 3.5\n \nWe are preventing the use of JavaScriptSerializer.",
+    "LastUpdatedDate": "2013-02-21T18:59:15.13-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-06-10T21:27:44.92-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Return JSON for LINQ Anonymous types",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10877
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "593993",
+    "ThreadId": "253071",
+    "Html": "\r\n<div>\r\n<div>\r\n<div>\r\n<div id=\"x_MainContent\">\r\n<div id=\"x_container\">\r\n<div id=\"x_bodyContainer\">\r\n<div id=\"x_projectPage\">\r\n<div id=\"x_projectBody\">\r\n<div id=\"x_projectContent\">\r\n<div>\r\n<div id=\"x_Discussions_Content\">\r\n<div id=\"x_DiscussionsTabPane\">\r\n<ul>\r\n<li>\r\n<ul>\r\n<li>\r\n<div id=\"x_discussionListItem\">\r\n<div>\r\n<div>I try to see work of IconOverlayHandlerIdentifier. (ATLShellExtIconOverlayHandler)</div>\r\n</div>\r\n</div>\r\n</li></ul>\r\n<ul>\r\n<li>\r\n<div id=\"x_discussionListItem\">\r\n<div>\r\n<div>So, I download example. Build project. Register dll - dll registered succesfully. Kill process of explorer. Restart explorer. Create file Sample.bmp - no any overlay on icon file. Where did I mistake? (I work on Windows XP)</div>\r\n</div>\r\n</div>\r\n</li></ul>\r\n</li></ul>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n",
+    "PostedDate": "2011-04-08T01:24:38.723-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "607711",
+    "ThreadId": "253071",
+    "Html": "<p>Did you find the solution, I'm having the same problem working with VS 2010 and Win7 X64.</p>\r\n<p>I'm starting to find it related to the way the registry is made...</p>\r\n<p>I've followed this guide and still the same problem.</p>\r\n<p>http://www.codeproject.com/KB/shell/overlayicon.aspx</p>",
+    "PostedDate": "2011-05-05T04:28:12.85-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "611015",
+    "ThreadId": "253071",
+    "Html": "<p>Try to disable the Groove Explorer Icon Overlay 3 (GFS Folder ) with ShellExView, in case you've got Office Groove or Sharepoint installed on your machine.</p>",
+    "PostedDate": "2011-05-11T08:47:47.043-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "802861",
+    "ThreadId": "253071",
+    "Html": "<p>Did you find solution ?</p>\r\n<p>same problem for me vs2010 win7 x64&nbsp;</p>\r\n<p>the dll was build and&nbsp;registered&nbsp;correctly (with Admin rights )&nbsp;with the right registry entries, and steel not working !</p>",
+    "PostedDate": "2012-02-28T14:02:30.357-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

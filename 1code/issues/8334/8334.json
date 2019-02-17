@@ -1,0 +1,145 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Now that the Orchard project http://orchard.codeplex.com/ has reached 1.0 status, this open source CMS is generating a lot of interest.\n \nCode samples showing how to integrate and extend this CMS would be greatly appreciated.",
+    "LastUpdatedDate": "2013-02-21T19:00:24.29-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-02-13T11:34:23.713-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Code samples for Orchard Project please.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 24,
+    "Id": 8334
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "+1. Would be great to have something like this. I'd be happy to contribute some bits.",
+      "PostedDate": "2011-02-13T16:58:48.057-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-13T17:10:21.903-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-13T17:57:30.707-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-13T17:59:01.523-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-13T18:04:44.523-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-14T10:17:17.423-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-14T10:17:32.313-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-14T10:55:27.873-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-14T10:59:45.78-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-14T15:33:23.723-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-14T16:24:27.81-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-14T20:42:53.53-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-15T00:21:53.993-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-15T06:07:25.253-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-21T19:59:20.85-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-03-29T15:55:45.087-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Lookin 4 a code samples to contribute in the development and progress of ORCHARD CMS.",
+      "PostedDate": "2011-06-27T02:41:19.597-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-09-24T19:42:29.84-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello JonnyBoats,\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nAfter researching the Orchard Project, we found these sentences in its site(http://docs.orchardproject.net/Documentation/frequently-asked-questions): “Although Microsoft is sponsoring this project by providing full-time development resources to the effort, the Orchard CMS is not officially supported through Microsoft. Orchard is supported primarily by the project team through community forums and email.” And thus it might not be appropriate for Microsoft All-In-One Code Framework to create the samples about the project. If you want the samples about the project, the project team may support it through the community forums and email.\r\n\r\nPlease feel free to let us know if you have any concerns or any follow up questions. \r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com\r\n",
+      "PostedDate": "2012-08-15T20:18:12.927-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-10-02T02:58:36.477-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:24.29-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

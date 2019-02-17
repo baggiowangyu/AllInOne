@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Can someone give me the code in C# of using this method to list labels of a particular path in TFS? I am using VS2010 connecting to TFS2010.  I am struggling with a simple example as my code doesn't compile.\n \nI just want to query labels on a path and display them.  I know I can do this in SideKicks but I need to know the code because I am going to do something deeper.  I just need help in getting started.  Please help!\n \nThanks in advance!",
+    "LastUpdatedDate": "2013-02-21T18:59:26.933-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-02-23T11:20:07.28-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Simple example using the Querylabels method for TFS2010 API",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10425
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

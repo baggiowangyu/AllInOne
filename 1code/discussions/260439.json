@@ -1,0 +1,98 @@
+[
+  {
+    "Id": "623972",
+    "ThreadId": "260439",
+    "Html": "\r\n<p>Hi,</p>\r\n<p>Even when i check &quot;Use internet explorer proxy setting&quot; in connection settings the sample Browser can't connect to network.\r\n<br>\r\nHas somebody an idea ?</p>\r\n<p>- Mins -</p>\r\n",
+    "PostedDate": "2011-06-07T01:14:55.283-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "629156",
+    "ThreadId": "260439",
+    "Html": "<p>I have the same problem. It seems that when sample browser is behind a corporate proxy it wont work. We use MS Threat management gateway with windows auth. If you run fiddler (as a middleman proxy) you can get the browser to work but it still fails on a proxy 407 unauth when you try and download samples. come on ms, pls fix!</p>",
+    "PostedDate": "2011-06-17T03:04:26.623-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "632349",
+    "ThreadId": "260439",
+    "Html": "<p>Hi Minskaya and alcrab</p>\r\n<p>Thank you for reporting this issue! We are investigating it, and I will update you here.</p>\r\n<p>Thanks<br />Jialiang Ge<br />Microsoft All-In-One Code Framework</p>",
+    "PostedDate": "2011-06-24T01:15:13.347-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "646042",
+    "ThreadId": "260439",
+    "Html": "<p>Hi,</p>\r\n<p>I have installed All-in-one Framework plugin, I am using my system in corporate network with proxy, I am also gettting the same error.</p>\r\n<p>Thank you,</p>\r\n<p>Marimuthu</p>",
+    "PostedDate": "2011-07-22T04:42:48.207-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "657536",
+    "ThreadId": "260439",
+    "Html": "<p>I was also facing this same problem with proxy settings. Later, I realised that I do not have administrative rights to specify \"proxy\" or modify internet explorer settings. <br />Internet explorer uses Windows internet settings and this is one reason why I was facing this issue.</p>\r\n<p>You need to check with network admin to see if there is any firewall or admin rights issue on the proxy settings.</p>\r\n<p>thanks<br />Jim Wilson</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2011-08-12T21:36:55.247-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "666759",
+    "ThreadId": "260439",
+    "Html": "<p>This still does not work! no updates to sample browser since June and it still does not work behind proxy servers, including Microsoft's preferred solution TMG 2010. Please fix this so that dev shops behind firewalls (erm lots of people????) can view the  samples</p>",
+    "PostedDate": "2011-09-02T02:32:14.15-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "798126",
+    "ThreadId": "260439",
+    "Html": "<p>I don't see a resolution to this problem in the previous posts. jialiang states they were investigating the problem. Did I miss the response?</p>\r\n<p>_______________________________________________________<br />Soniashope for <a href=\"http://www.pepperspraysolutions.com/taser_m26c.html\" target=\"_self\">self protection</a> and <a href=\"http://www.plushcomforters.com/feather-bed.html\" target=\"_self\">comfort</a></p>",
+    "PostedDate": "2012-02-23T12:06:57.66-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "823308",
+    "ThreadId": "260439",
+    "Html": "<p>Hello,</p>\r\n<p>I am also facing this bug.<br />Is there any news?</p>\r\n<p>Thanks!</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2012-04-13T01:32:19.76-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "831998",
+    "ThreadId": "260439",
+    "Html": "<p>Hello,</p>\r\n<p>I have the same issue.</p>\r\n<p>Really want to see the solution but cannot:)</p>\r\n<p>Thx</p>",
+    "PostedDate": "2012-05-03T21:34:17.007-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "837615",
+    "ThreadId": "260439",
+    "Html": "<p>I'm pretty sure this this the issue: <a href=\"http://connect.microsoft.com/VisualStudio/feedback/details/115468/click-once-fails-with-proxy-authentication\">http://connect.microsoft.com/VisualStudio/feedback/details/115468/click-once-fails-with-proxy-authentication</a></p>\r\n<p>Looking around I don't believe its ever going to get fixed so would love the ability to download an alternate installer.</p>",
+    "PostedDate": "2012-05-17T03:55:30.737-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "920753",
+    "ThreadId": "260439",
+    "Html": "<p>Hello</p>\r\n<p>We have recently released the Sample Browser Extension for Visual Studio 2012 and 2010.&nbsp; It's a simple VSIX package that you can easily download and install to your visual studio.&nbsp; Please let me know if this helps you use the Sample Browser</p>\r\n<p><a href=\"http://visualstudiogallery.msdn.microsoft.com/4934b087-e6cc-44dd-b992-a71f00a2a6df\">http://visualstudiogallery.msdn.microsoft.com/4934b087-e6cc-44dd-b992-a71f00a2a6df</a></p>\r\n<p>Thanks</p>\r\n<p>Jialiang Ge</p>",
+    "PostedDate": "2012-10-02T10:53:24.177-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1016915",
+    "ThreadId": "260439",
+    "Html": "Still not working.\r<br />\n<br />\nNoticed a few people raise this issue.<br />\n",
+    "PostedDate": "2013-03-18T02:33:19.85-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

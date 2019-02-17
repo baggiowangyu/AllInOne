@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Framework which will allow to migrate from all old languages/technologies to new languages/technologies\n \n1. VB6 2 vb.net/c#.net\n2. PB 2 vb.net/c#.net\n3. VB6 2 ASP.NET\n4. VB6 2 ASP.NET MVC",
+    "LastUpdatedDate": "2013-02-21T19:00:25.76-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-02-07T02:24:27.76-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "framework 4 language migration",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8305
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\nYou said that It's not a sample request. As far as I know,VB6 couldn't convert into NET framework.It is because that VB 6 language isn't Oriented interfaces and it cann't implement  multiple interfaces.So vb6 language and VB.NET are two varity language in fact.You can refactor your logic and implement it in  NET develop tool .\r\n\r\nIs my understanding correct? Please let me know if I misunderstood your needs.\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-03-11T00:55:57.637-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:25.76-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

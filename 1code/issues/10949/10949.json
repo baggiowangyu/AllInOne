@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have a French (Canadian) Windows 7 64 bits computer. When I click om program's icon, I see program's name in Process Viewer, and it suddenly disappears. I suspect it doesn't find directory and stops. In previous versions, it loaded despite this error. Now it stops and there's absolutely no way to correct settings. I've got a disk problem and I have to recreate folders names myself. I suppose Windows no longer knows Special Directory Downloads is Téléchargements in FRench.",
+    "LastUpdatedDate": "2013-02-21T18:59:13.567-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-06-28T15:55:08.687-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Program is not launching probably due to a settings problem",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10949
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello Cmarcotte\r\n\r\nThanks for reporting the problem.  Our engineers are investigating the issue.  I will update you again as soon as we reproduce the error.\r\n\r\nThanks\r\nJialiang Ge\r\n",
+      "PostedDate": "2012-07-01T19:24:57.1-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello\r\n\r\nWe have just released a fix for this problem. Could you please reopen the sample browser to get the auto-update, and let me know if it works for you now?\r\n\r\nThanks\r\nJialiang Ge",
+      "PostedDate": "2012-07-02T22:09:52.237-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "It is working fine now. The program launched, I got an error message about a folder problem. I had no problem to get setting menu and setting my own folder.\r\n\r\nThanks a lot.",
+      "PostedDate": "2012-07-03T09:12:24.96-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:13.567-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

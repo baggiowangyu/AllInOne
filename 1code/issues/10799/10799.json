@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I'd like to see a working example of a WPF desktop application that demonstrates how to switch the current culture (language+number format etc.) _at runtime_ without having to restart the application.\n \nIMHO even in .NET 4.0 / Visual Studio 2010 the tooling support for internationalization / localization is almost non-existent or at least unfinished. I'd love to see some best practice advice on how to internationalize a real-world multi-user business application that uses Entity Framework for storing its data in a SQL database.\n \nJust one challenging example: Imagine a dialog window with a dropdown combobox that offers some predefined values. Let's say these values are the colors 'Red', 'Green', 'Blue'. Users of the application should have the ability to add additional colors. But remember, it's a internationalized app, so German speaking users should see 'Rot', 'Grün', 'Blau' instead of 'Red', 'Green', 'Blue'. How would you support this scenario?",
+    "LastUpdatedDate": "2013-02-21T18:59:17.54-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-05-24T23:19:41.42-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "WPF sample for internationalization (i18n, globalization, localization)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10799
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "A 64 bit dll needs to use a 32 bit dll.\nFrom the 64 bit dll, create a process to load the 32 bit dll.\nUse RPC to call the functions of the 32 bit dll, from the 64 bit, dll.\nIt's the same situation as described in the link below, but using RPC instead of COM.\nhttp://blog.mattmags.com/2007/06/30/accessing-32-bit-dlls-from-64-bit-code/",
+    "LastUpdatedDate": "2014-02-13T15:42:47.77-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2014-02-13T15:42:47.77-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "C++ RPC between 64 bits and 32 bits processes",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 12747
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

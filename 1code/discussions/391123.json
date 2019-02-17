@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "898348",
+    "ThreadId": "391123",
+    "Html": "\r\n<p>I downloaded a sample and tried to convert it to VS 2010, the conversion failed and I didn't choose the option to take a backup.</p>\r\n<p>&nbsp;</p>\r\n<p>I deleted the file, but, when I go back to the sample, I can't see a way to redownload, I only have the &quot;open&quot; button and pressing this causes a popup box to appear that simply says..</p>\r\n<p>&nbsp;</p>\r\n<p>Error Occurs</p>\r\n<p>The code sample entryfile path does not exist, please check in: C:\\xxxx.</p>\r\n<p>Close.</p>\r\n<p>&nbsp;</p>\r\n<p>Is there any easy way to redownload projects?</p>\r\n",
+    "PostedDate": "2012-08-11T07:23:36.547-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

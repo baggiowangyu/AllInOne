@@ -1,0 +1,85 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Coming from VB6 as a development language I have converted most of my apps to VB.NET. The only thing that I have struggled with is how to display an Excel chart inside a WinForm. In VB6 I could use an OLE container to directly link with a chart in Excel. i could then manipulate the chart and then refresh the link and the chart would be displayed within my form. I have yet to fond a good an efficient way to do this in VB.NET. Ive read several blog articles on how to do this but all have failed in my particular case.\n \nAGP",
+    "LastUpdatedDate": "2013-02-21T19:00:19.96-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-03-03T15:43:16.607-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Integrate Excel Charts in a WinForm",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8462
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello AGP,\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\nYou describute a scenario,which embeds excel chart and change data into your form.I know this technology about VSTO that it could help you with this task after your install vs2008 and the future version of development environment.At the pevious version like vs2003 or vs2005,you should use Webbrowse to open the xls file format.It's a wonderful idea that how to apply VSTO package.\r\n\r\nThanks for share your idea for us.\r\n\r\nLet's see how many people will vote for it. \r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-03-09T19:40:26.257-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Sveral things, I develop in VS2005 and have tried the browser method. it does not work in all cases. it depends on how you have IE setup as the chart can sometimes not display due to IT security settings or sometimes it will display in a pop-up window rather than inside the form. I have tested at my company and the result was not favorable. \r\n\r\nFor VS2008 can you post a sample or link on how i can achieve this without the browser component?\r\n\r\nAGP",
+      "PostedDate": "2011-03-10T19:13:55.61-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello sindizzy,\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\n   The previous idea, which you submitted is a good idea. I think there are a lot of developer would encount, so I'd like to post it into our sample reuqest Library. Consequently, the lastest comment, which you submitted  is to let me mess up.I think it's another request that you want to post.Please repost them at a new thread. I'm sorry for any inconvenience.Thanks for share your idea for us.\r\n\r\n\r\n\r\n\r\nHave a good day!\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-03-13T18:57:01.607-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I have no idea what you are saying. Can you explain because i think your message is not coming across.",
+      "PostedDate": "2011-03-14T15:50:58.897-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "hi sindizzy,\r\n   Never mind. I have submitted it to our system. Our project's member would Review its value.If it is approved by our team, it would be composed at once.\r\n\r\nThanks for share your idea for us.\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-03-21T00:12:48.147-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-14T22:59:21.7-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "the sample idea has been submitted\r\n\r\n\n\n** Closed by orichisonic 4/14/2011 10:59 PM",
+      "PostedDate": "2011-04-15T00:37:05.867-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-15T00:37:06.51-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:19.96-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Need a Sample for  Enterprise Service Bus VB sample for WCF",
+    "LastUpdatedDate": "2013-02-21T18:59:16.14-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-06-03T05:09:10.55-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Need a Sample for  Enterprise Service Bus VB sample for WCF",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10848
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Need a Sample for Enterprise Service Bus VB sample for WCF\r\n\r\n",
+      "PostedDate": "2012-06-03T05:09:49.04-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:16.14-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

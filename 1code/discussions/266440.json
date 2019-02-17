@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "647057",
+    "ThreadId": "266440",
+    "Html": "\r\n<p>All the shell extension samples were removed in april, with no explanation I can find except this commit message:</p>\r\n<p><a rel=\"nofollow\" href=\"../SourceControl/changeset/changes/63354\">http://1code.codeplex.com/SourceControl/changeset/changes/63354</a></p>\r\n<p>Does anybody now why were the samples removed, and do the earlier samples available in previous releases work, or is there something wrong with them?</p>\r\n",
+    "PostedDate": "2011-07-25T04:15:04.733-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

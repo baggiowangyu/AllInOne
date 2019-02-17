@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "在Excel中拷贝800*800个单元格（或者更多数据）中的数据到系统剪贴板，在自己的程序中使用剪贴板API函数只能获得部分数据。clipbrd.exe(剪贴簿查看器)也只能够看到部分数据。\n但是我发现有些程序就可以将拷贝的数据全部获得。能够给我一个能够获取所有数据的示例代码吗？谢谢！",
+    "LastUpdatedDate": "2013-02-21T19:00:41.687-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-08T21:55:48.413-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "VC使用剪贴板拷贝大量Excel数据",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 7615
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "你好\r\n\r\n感谢你使用示例代码请求服务。\r\n\r\n我尝试这重现你提到的clipboard丢失数据的问题，但并没有成功。你能否看一下我的以下操作步骤是否和你的情况相匹配\r\n\r\n首先，我在Excel2010里面创建了一个workbook。从A1到EO1460填充了数据。总单元格的数量已远远高于800*800。然后我创建了一个winform的C#项目，添加了一个richtextbox控件，和一个按钮。在按钮的点击事件里面，我加上了这段代码已打印出clipboard中的text数据。\r\n\r\nthis.richTextBox1.Text = Clipboard.GetText();\r\n\r\n然后运行该程序。在Excel里，我选中所有数据，然后ctrl+C。切换到那个winform程序，点击button，结果所有数据都被paste到richtextbox里了。",
+      "PostedDate": "2010-11-09T22:48:22.17-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "你好\r\n\r\n谢谢你的关注。\r\n\r\n我查看了All-In-One Code Framework中MFCClipboard这个示例，将数据拷贝到剪贴板后直接在该示例中单击paste按钮，从编辑框中可以看到数据只是一部分。但是如果我将获得的数据输出到文件中则是全部的数据。因此，我猜测这个可能是CEdit对数据的长度有限制造成的。不知道我的猜测是否准确？怎样才能显示所有的数据呢？\r\n\r\nCSWPFClipboardViewer这个工程中可以看到所有的数据。\r\n\r\n文件：All-In-One Code Framework\\Visual Studio 2008\\MFCClipboard\\MFCClipboardDlg.cpp，253行\r\n增加的代码如下：\r\n#pragma region Save data to a text file\r\n\t\t\tCStdioFile txtfile;\r\n\t\t\tif (txtfile.Open(_T(\"\"), CFile::modeCreate | CFile::modeWrite | CFile::typeText))\r\n\t\t\t{\r\n\t\t\t\ttry\r\n\t\t\t\t{\r\n\t\t\t\t\ttxtfile.WriteString(displayData);\r\n\t\t\t\t\ttxtfile.Flush();\r\n\t\t\t\t}\r\n\t\t\t\tcatch(...)\r\n\t\t\t\t{\r\n\t\t\t\t}\r\n\t\t\t\ttxtfile.Close();\r\n\t\t\t}\r\n#pragma endregion",
+      "PostedDate": "2010-11-11T01:13:37.1-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "你好，没错，这是MFCClipboard本身造成的问题。感谢你能把这个问题给我们指出。我们会对该示例进行更正。谢谢。",
+      "PostedDate": "2010-11-14T22:39:14.977-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:41.687-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

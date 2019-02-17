@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "A custom SecurityTokenCache is needed to leverage WIF's IsSessionMode feature in a web-farm environment.  Several Microsoft employees have either implemented or described implementing such a cache however no samples can be found on the web other than the small snippets that appear in Hervey Wilson's PDC 2009 session.\n \nPlease share Hervey's TableSecurityTokenCache or something similar.\n \nThis request appears in the following forums:\n \nhttp://stackoverflow.com/questions/8015542/azure-web-farm-ready-securitytokencache\nhttp://social.msdn.microsoft.com/Forums/en-US/Geneva/thread/a74117a8-2981-498e-8d2f-b95cd55a0e46\nhttp://social.msdn.microsoft.com/Forums/en-US/windowsazuresecurity/thread/5017a7ba-3526-48ab-b6cc-992068d0770a\nhttp://identityserver.codeplex.com/discussions/278492\n \nThanks!\n \njd",
+    "LastUpdatedDate": "2013-02-21T18:59:37.7-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-11-09T10:39:22.483-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "azure/web-farm ready SecurityTokenCache",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 9783
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi all,\r\n Thank you for support us. What you said is useful for us,and I tell you a good news,our project has taken down this topic about Azure,you can use Sample Browser v5 to get its detailed information,but I am regret your mentioned point has not been included in it,so I will try my best to understand its detailed information for submitting to Subject Matter Experts. I hope that they will approve for it.\r\n\r\nSincerely,\r\nAll-In-OneCode-Framework",
+      "PostedDate": "2011-11-15T17:12:52.81-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "solution here:\r\nhttp://stackoverflow.com/questions/8015542/azure-web-farm-ready-securitytokencache\r\n",
+      "PostedDate": "2011-11-20T14:22:38.227-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi jdanyow,\r\n\r\n Thank you for your sample request. I have dispathed it to our web development engineer for submitting it,and I am glad to tell you he have written it into internal audited system for triage. After a while,if it would be approved by our Subject Matter Experts, it will be composed at once.\r\n\r\n\r\nSincerely,\r\nAll-In-Onecode-Framework",
+      "PostedDate": "2011-12-07T22:11:05.81-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-05-29T10:43:08.697-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-11-12T03:11:03.04-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:37.7-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

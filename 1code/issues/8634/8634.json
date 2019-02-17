@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Silverlight 4 lacks the support to inherit from a Page or UserControl, as an OOP environment does. The descendents should inherit all properties, methods and controls. Visual Studio should render the Ancestor visual components allowing to override/extend the functionality.",
+    "LastUpdatedDate": "2013-02-21T19:00:09.237-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-04-11T20:57:01.18-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Support to Navigation:Page and UserControl inheritance in Silverlight 4",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8634
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

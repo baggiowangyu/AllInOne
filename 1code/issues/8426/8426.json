@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "ManagementClass driveClass = new ManagementClass(\"Win32_DiskDrive\");\n                    ManagementObjectCollection drives = driveClass.GetInstances();\n                    foreach (ManagementObject drive in drives)\n                    {\n                        serial = drive[\"Signature\"].ToString();\n                        break;\n                    }\nI could get the hardisk signature in windows 7 admin account and user account but iam not geting hardisk signature in windows 7 Guest account.\nCan any one could help me with a solution for this?",
+    "LastUpdatedDate": "2013-02-21T19:00:20.883-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-02-27T19:48:45.047-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Access problem when try to get hardisk serial number using wmi in Windows 7 Guest account",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 8426
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello AGP,\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\nYou describute the scenario that you couldn't get hardisk serial number using the way of WMI. I think I have two schemes to solve your program. The first one is  promoting the right and privilege of your program metioned above .the other one is use ddk to acquire your disk information likes serial number,bus information and disk capacity information.The code look likes listing below:\r\n  if (_diskNumbers != null)\r\n                {\r\n                    if (LogicalDrive != null)\r\n                    {\r\n                        IntPtr hFile = DllFunction.CreateFile(@\"\\\\.\\\" + LogicalDrive, DllFunction.GENERIC_READ, DllFunction.FILE_SHARE_READ | DllFunction.FILE_SHARE_WRITE, IntPtr.Zero, DllFunction.OPEN_EXISTING, 0, IntPtr.Zero);\r\n                        if (hFile.ToInt32() == DllFunction.INVALID_HANDLE_VALUE)throw new Win32Exception(Marshal.GetLastWin32Error());\r\n                        DllFunction.GET_MEDIA_TYPES MediaTypes = new DllFunction.GET_MEDIA_TYPES();\r\n                        IntPtr MediaTypesPtr = Marshal.AllocHGlobal(Marshal.SizeOf(typeof(DllFunction.GET_MEDIA_TYPES)));\r\n                        Marshal.StructureToPtr(MediaTypes, MediaTypesPtr, false);\r\n                        int Size = Marshal.SizeOf(typeof(DllFunction.GET_MEDIA_TYPES));\r\n                        int dwOutBytes;\r\n                        bool bResult;\r\n                        MediaTypesPtr = Marshal.AllocHGlobal(Size);\r\n                        try\r\n                        {\r\n                            if (!(bResult = DllFunction.DeviceIoControl(hFile, DllFunction.IOCTL_STORAGE_GET_MEDIA_TYPES_EX, IntPtr.Zero, 0, MediaTypesPtr, Size, out dwOutBytes, IntPtr.Zero)))\r\n                            {\r\n                            }\r\n                        }\r\n                        finally\r\n                        {\r\n                            DllFunction.CloseHandle(hFile);\r\n                        }\r\n                        if (dwOutBytes > 0)\r\n                        {\r\n\r\n                            IntPtr MediaTypesPtrBytes = new IntPtr(MediaTypesPtr.ToInt32() + Marshal.SizeOf(typeof(uint)) + Marshal.SizeOf(typeof(uint)));\r\n                            DllFunction.GET_MEDIA_TYPES extent = (DllFunction.GET_MEDIA_TYPES)Marshal.PtrToStructure(MediaTypesPtr, typeof(DllFunction.GET_MEDIA_TYPES));\r\n                            _RemovableDiskInfo.BytesPerSector = extent.MediaInfo[0].rdi.BytesPerSector;\r\n                            _RemovableDiskInfo .Cylinders = extent.MediaInfo[0].rdi.Cylinders;\r\n                            _RemovableDiskInfo.MediaType=extent.MediaInfo[0].rdi.MediaType;\r\n                            _RemovableDiskInfo.TracksPerCylinder = extent.MediaInfo[0].rdi.TracksPerCylinder;\r\n                            _RemovableDiskInfo.SectorsPerTrack = extent.MediaInfo[0].rdi.SectorsPerTrack;\r\n                            _RemovableDiskInfo.BytesPerSector = extent.MediaInfo[0].rdi.BytesPerSector; \r\n                        }\r\n                        Marshal.FreeHGlobal(MediaTypesPtr);\r\n                    }\r\n\r\n                }\r\n Is my understanding correct? Please let me know if I misunderstood your needs.\r\n And I think that your idea mentioned is a wonderful sample. Let's see how many people will vote for it. \r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-03-09T20:07:13.377-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-03-09T20:07:32.61-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:20.883-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

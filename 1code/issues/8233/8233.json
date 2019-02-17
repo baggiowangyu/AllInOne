@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The Viprava.NET is programming language using sanskrit words. The primary focus is to help the Indian Public to get more attached to the Progamming environment. Initial focus is to build the syntax and symentics using english alphabet, however this to be extended to other Indian languages as we move forward.\n \nThe viprava.net is in initial phase and is in working draft and might undergo changes after due consultation from fellow experts.Please do share materials or ideas and your opinions to  build the below programming language.\n \nHistory: Developer communities have developed programming languages based on indian scripts and are available for indian population providing oppurtunity to many to develop softwares using their native scripts. As of now, most of these languages are in infant stage and communities are dedicating time and energy to improve the languages.\n \nFor Hindi scripts based Programming Language  visit     http://www.localisationlabs.com/Localisation%20Articles.aspx?storyid=060812111441010510\n \nFor Tamil scripts based Programming Language visit    http://html-pdf-converter.com/pdf/programming-languages-in-tamil.html\n \n \nProblems: The above initiative is appreciated for its usefullness and benefits reaching the puplic or end users, however it also lands up to multiple problems due to lack of Unified standards & language difference, further adding complexity as compilers emerge from different groups spread across the nation primarly focusing to satisfy the regional users and ignoring the risks and issues that would trigger in near future . Few Major problems are identified and listed below which could be measured at ease.\n \nPlease visit http://viprava.codeplex.com/ for further details.",
+    "LastUpdatedDate": "2013-02-21T19:00:27.967-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-24T19:57:50.207-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "viprava.net : A Sanskrit based Programming Language for INDIAN Community",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8233
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,81 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "For example, send big file (more than 500MB like PDF file, or big JPG files) by WCF Service to a  ASPNET application and too for WinForms application.\n \n Have this architecture:\n \nWebSite ASP.NET <------> WCF Service <--------> DataBase\n \nor\n \nWinForms application <------> WCF Service <--------> DataBase\n \nDAtabase gathering very big files.\n \nUser request a big file in aspx page, through WCF Service. Service call database, and get the big file.\n \nNow, my entity (datacontract) has those fields:\n \nstring Data1\nstring Data2\nstring Data3\nbyte[] FileBigger\n \nHow to send big file throught WCF Service to Website ? \n \nHow to send big file throught WCF Service to winForms ? \n \nwhich best practices for do it ?\n \nVery good sample is required.",
+    "LastUpdatedDate": "2013-02-21T19:00:29.56-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-18T23:12:04.2-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Sending big files by WCF Service to  ASP.NET or WinForms application",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 5,
+    "Id": 8189
+  },
+  "FileAttachments": [
+    {
+      "FileId": 2996,
+      "FileName": "StreamData.zip",
+      "DownloadUrl": ".\\2996"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Hi There,\r\n\r\nI have create a small applications that uses a webservice that allows you to stream a file to or from the web service.\r\n\r\nStreaming is enabled on the web service. Here is 2 links if you would want read up on it:\r\n\r\nhttp://msdn.microsoft.com/en-us/library/ms731913.aspx\r\nhttp://msdn.microsoft.com/en-us/library/ms733742.aspx\r\n\r\nRegards\r\nMarius van Belkum\r\n\r\n",
+      "PostedDate": "2011-02-07T02:30:33.467-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-07T03:02:36.85-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-06-08T23:51:00.863-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T18:48:58.423-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello alhambraeidos,\r\n \r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nYour sample request is about how to use the WCF Service to send the big Files.  If I misunderstood your requirement, please feel free to let me know. \r\n\r\nYou can refer the MariusVanBelkum’s link, and if you want the sample, you can refer the following link: http://code.msdn.microsoft.com/Streaming-Photo-OData-7feb9239.\r\nThis sample demonstrates how to use WCF Data Services to implement an OData service that uses a streaming provider to store and retrieve image files.\r\n\r\nPlease let us know if this sample is helpful to you. \r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com\r\n",
+      "PostedDate": "2012-08-30T21:20:44.757-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-08-30T23:10:20.68-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:29.56-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

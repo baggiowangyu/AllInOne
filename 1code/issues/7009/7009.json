@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "What’s the right way to programmatically invoke verbs registered in the OpenWithProgIds section of the registry (i.e. emulating clicking “Microsoft Visual Studio 2010” as shown here) ? I can find the appropriate names (e.g. “VisualStudio.xml.11.0”) but I don’t see what API actually consumes those names.\n \n http://blogs.msdn.com/10033224.aspx\nIt uses the ability to create items as a particular type, specifying the ProgID using STR_PARSE_WITH_EXPLICIT_PROGID.",
+    "LastUpdatedDate": "2013-02-21T19:00:47.77-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-08-26T18:29:58.63-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Open As a specific file type",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 7009
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

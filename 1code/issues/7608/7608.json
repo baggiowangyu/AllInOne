@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "尽管 MSDN 文章不建议在 Windows Vista 和 Windows 7 中使用 Deskband，但有些情况下 Deskband 还是很有用处的。\n我从其它开发者社区上找到过在.NET平台上实现 Deskband 的方法，也仿照 SDK 中的范例在 Visual C++ 中尝试过 Deskband 的开发。\n \n但是所有做过的尝试都存在着各种各样的问题，例如：\n通过 UserControl 实现的 Deskband 似乎不支持透明背景；\n非 WPF 的技术想要美化工具条的外观非常有难度；\n通过 DrawThemeText 绘制文本时所产生的光晕要比开启了毛玻璃效果时窗口标题栏的光晕淡、在黑色背景上即使有光晕也很难看清黑色的问题；\n当开启或关闭 DWM 的时候 Deskband 外观会变得异常，而使用 MSDN 上建议的解决办法也不能解决问题。\n \n我在此提出增加这样的范例的请求，希望可以得到解决上述问题的最好的办法。",
+    "LastUpdatedDate": "2013-02-21T19:00:42.053-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-08T00:05:26.12-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "使用WinForm和WPF分别实现任务栏扩展(Deskband)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 7608
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "你好\r\n\r\n欢迎你使用示例代码请求服务。\r\n\r\n如你所说，Windows 7 上推荐使用thumbnail toolbar。http://msdn.microsoft.com/en-us/library/dd378460(VS.85).aspx#thumbbars。但有些情况下 Deskband 还是很有用处的。Windows 7 SDK 里面有个C++的DeskbandSDKSample。我可以尝试着为你提供这个示例的.NET 4版本。你看如何？另外，我找到codeproject上有这样一篇.NET Deskband的文章：http://www.codeproject.com/KB/shell/dotnetbandobjects.aspx。你是否已近尝试过其中的示例？",
+      "PostedDate": "2010-11-09T22:02:49.907-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "感谢你的回应！\r\n\r\ncodeproject上关于 Deskband 的文章和示例我几乎都看过，但由于精力和水平限制并没有全都实践过，我是见过的是这个： http://www.codeproject.com/KB/cs/BandObjects20.aspx\r\n但这些示例大都是在 Windows Vista 发行以前编写的，因此存在这样的问题：\r\n这些文章和示例实现的接口是 IDeskband，而非 IDeskband2，也就是说这些示例在 Windows Vista 和 Windows 7 中不能在任务栏上呈现毛玻璃效果；\r\n这些示例都是基于 Windows Forms 技术的，缺少对应 WPF 技术的相应示例。\r\n\r\n只要可以弥补此类文章和示例的这些缺憾，无论使用哪个版本的 .NET 框架都可以。\r\n\r\nDeskbandSDKSample这个范例并没有很好地解决 DWM 状态切换（在传统和毛玻璃主题间切换、启用或禁止DWM、DWM异常终止并重新启动）的时候外观会变得异常的问题，如果有可能，希望能够示范应对此类情况的办法。",
+      "PostedDate": "2010-11-13T23:47:28.12-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:42.053-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

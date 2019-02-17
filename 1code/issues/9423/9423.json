@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "目前关于Managed Extensibility Framework （MEF）的示例程序不多，并且大部分是Silverlight或者console，关于winform的太少。请提供一个能够基本体现MEF使用的Winform示例（C#语言）。非常感谢。\n比如一个这样的例子：同样的内容，但是可能存储在不同的文件格式中，这些文件的格式可能是自定义的，编写一个winform程序通过选择相应的插件打开相应的文件。用户可以自行编写用于打开自定义格式文件的插件。\n \n谢谢。",
+    "LastUpdatedDate": "2013-02-21T18:59:46.263-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-08-26T01:51:07.37-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "关于MEF的windows Forms示例程序",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 9423
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

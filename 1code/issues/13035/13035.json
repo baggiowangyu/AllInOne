@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When a value is changed or a Event is occurred in Native C++(Win32 Project DLL), how to notice it in CLI/C++(CLR Library Project DLL)? \n(Environment: Visual Studio 2008 or later, CLI/C++ revised V2.\nEvent and Delegate would be used in CLI/C++.)",
+    "LastUpdatedDate": "2014-05-26T17:14:29.267-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2014-05-22T08:34:23.14-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "To post a Event in Native C++ to CLI/C++",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 13035
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I have solved this problem through the below web site:\nhttp://programatealgo.blogspot.kr/2010/04/imagine-we-want-to-trigger-event-from.html\r\n\r\nThanks the blog host, Dario Ramos.\nHave a GOOD day~.\n",
+      "PostedDate": "2014-05-26T17:14:29.267-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

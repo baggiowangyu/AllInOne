@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "IPC",
+      "DisplayName": "IPC"
+    },
+    "ClosedComment": "closed by the changeset 22721",
+    "ClosedDate": "2009-04-27T08:37:24.237-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Demonstrate how to use Windows Socket to implement Inter-Process communication. They are all console applications. One server application listens on the port to receive the client connection.",
+    "LastUpdatedDate": "2013-05-16T05:33:40.337-07:00",
+    "PlannedForRelease": "All-In-One Code Framework 2009-3-27",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-03-17T21:50:12.44-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Example:  CSSocketServer and CSSocketClient",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 2220
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

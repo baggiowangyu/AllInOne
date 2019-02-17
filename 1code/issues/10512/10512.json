@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello Team,\nWe can find hundreds of sample for dragging and droping the Image in drop box using JQuery. But its hard to find sample in ASP.NET MVC where I can use JQuery to perform the same operation along with saving the data to database.\n \nHere is the demo\nhttp://demo.tutorialzine.com/2011/09/html5-file-upload-jquery-php/\n \nI want to have same thing in ASP.NET MVC (JQuery) and when user drops the Image to the drop box, some data should be saved in database so that next time I can load the images in the dropping area.\n \nKindly help me to understand this feature by creating sample.",
+    "LastUpdatedDate": "2013-02-21T18:59:25.447-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-03-14T05:18:37.593-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Saving data in database when Image is dropped to dropbox using JQuery",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10512
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

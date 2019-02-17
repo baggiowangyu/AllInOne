@@ -1,0 +1,81 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Code sample to enable WPF to extend Winform applications through new form services. Most WPF MVVM application assume that it is a single window application but this is not always the case, especially when extending and slowing replacing parts of a Winform application to become a WPF application. This needs to be unit testable.",
+    "LastUpdatedDate": "2013-02-21T19:00:44.177-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-10-31T21:13:17.857-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Request: WPF MVVM Modal Dialog Service Sample",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 7526
+  },
+  "FileAttachments": [
+    {
+      "FileId": 2758,
+      "FileName": "MediatorPatternInWPFMVVM.zip",
+      "DownloadUrl": ".\\2758"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Hello N2Cheval \r\n\r\nThank you for using our sample request service! (http://1code.codeplex.com/wikipage?title=NEW%2c%20FREE%20Code%20Sample%20Request%20Service%20from%20Microsoft%20All-In-One%20Code%20Framework) \r\n\r\nCould you please check my understanding of this code sample request? Are you requesting a sample of creating and showing a WPF window from ViewModel? Similar to these the scenarios in these two forum threads?\r\nhttp://social.msdn.microsoft.com/Forums/en/wpf/thread/384ea9a9-acc0-4e2d-a8a3-3e2f643cfa70 \r\nhttp://social.msdn.microsoft.com/Forums/en/wpf/thread/3b53d588-7fd5-49f0-b158-e3d9dfd0cf77\r\n\r\nCould you please provide more detailed and specific description of the code sample request? \r\n\r\nThanks \r\nJialiang Ge",
+      "PostedDate": "2010-11-01T02:24:06.493-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Yes, but more along the lines of below.\r\nhttp://blog.roboblob.com/2010/01/19/modal-dialogs-with-mvvm-and-silverlight-4/\r\nhttp://caliburnmicro.codeplex.com/Thread/View.aspx?ThreadId=231921\r\nI envision the extension WPF project which exposes read/write APIs that the Winform app calls, which the API's then call Modal Dialog WPF service Views which are allowed call others in the MVVM pattern to enable unit testing. I would guess that you need the mediator pattern to communicate between each ViewModel. I think I've got the \"what\" part concepts but as I'm new to both MVVM and WPF, the \"how\" part is escaping me. Maybe if this too large to put into a sample, then could you please point me to how I can break it down to learn each part separately?",
+      "PostedDate": "2010-11-01T06:08:39.93-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-09T11:10:40.103-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-16T23:09:45.613-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi N2Cheval,\r\n\r\nThanks for sharing this feedback.\r\nBased on my understanding, it requests a \"Window Service\" like the \"form services\" in your post in WPF. This \"Window Service\" should be designed by mediator pattern, and we should register all ViewModels and Views in this service.  \"Window Service\" can help us to communicate other ViewModels or Views form one, can show/close the View by it. \r\n\r\nSince we are not very clear this request, it is too abstract, we coded a DEMO about it and hope you can check it if it meets this request: please download from here (Skydrive space):  http://cid-51b2fdd068799d15.office.live.com/self.aspx/.Public/ValuableSamples/MediatorPatternInWPFMVVM.zip\r\n\r\nor the attached file.\r\n\r\nThanks.\r\n",
+      "PostedDate": "2010-11-16T23:09:48.02-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-07T08:52:08.387-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:44.177-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "In VC8, there was atlperf.h to simplify provisoning of performance counter but it has been removed... please provide us a sample showing how to provide performance counter using both version 1.0 and 2.0\nThanks",
+    "LastUpdatedDate": "2013-02-21T19:00:42.9-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-04T02:00:31.673-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Sample request: providing performance counters in VC10",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 7566
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello \r\n\r\nMost of the ATL Server code base(including performance monitoring classes in atlperf.h) has been released as a shared source project on CodePlex and is not installed as part of Visual Studio 2008.\r\nhttp://atlserver.codeplex.com/\r\n\r\nTo get more information, please see:\r\nhttp://blogs.msdn.com/vcblog/archive/2007/01/19/atl-server-visual-c-shared-source-software.aspx\r\n\r\nPlease let me know if the above information is helpful to you. \r\n\r\n",
+      "PostedDate": "2010-11-07T23:26:35.827-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-14T22:33:24.9-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Yes, I know the ATL server code is available, but it is old (almost 4 years), it has problem with VC10 and/or Vista, especially on the performance part (take a look at issue tracker) and it only covers the version 1 performance counters, so please provide at least a sample of version 2 (even if a sample of both would be great to compare the two methods)",
+      "PostedDate": "2010-11-15T01:54:35.74-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "\r\n\r\n\n\n** Closed by Jialiang 11/14/2010 10:33 PM",
+      "PostedDate": "2010-11-15T01:55:56.11-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-15T01:55:56.75-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-30T23:10:27.923-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-09-24T19:18:49.053-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-10-11T04:14:39.383-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:42.9-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

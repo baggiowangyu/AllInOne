@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "We are looking for the sample code described in MSDN (http://msdn.microsoft.com/en-us/library/windows/hardware/hh464108(v=vs.85).aspx). The MSDN doesn't show any information about where we can get the sample source files.\nCould you provide the sample code for us? Thanks a lot!",
+    "LastUpdatedDate": "2013-02-21T18:59:12.663-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-07-22T19:38:39.013-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Video Post Processing Sample Plug-in",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 11015
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

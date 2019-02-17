@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Call Dynamics NAV Web Services (CSDynamicsNAVWebServices) is available, but I'd like to see similar sample for Dynamics AX.",
+    "LastUpdatedDate": "2013-02-21T18:59:33.633-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-11-28T16:40:50.863-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Call Dynamics AX Web Services",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9907
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "hwerne@live.cn",
+      "PostedDate": "2011-11-29T16:22:09.987-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi helgi,\r\n\r\nThank you for providing this sample idea. Please provide more information about it such as its detailed implementation or its related link that contains some conceptual knowledage.\r\n\r\nSincerely,\r\nAll-In-Onecode Framework",
+      "PostedDate": "2011-12-01T00:27:51.99-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:33.633-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

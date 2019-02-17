@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "504422",
+    "ThreadId": "230194",
+    "Html": "<p>I have created a server using the CSExeCOMServer example which references other .NET projects one of which has references to WPF. I am accessing the registered objects from my client C# application using InvokeMember and Activator.CreateInstance. My client projects are decorated with STAThread attributes and System.Threading.Thread.CurrentThread confirms that it is STA. But on the server side the thread that the object gets created in is in MTA. So I cannot access any of my referenced projects with WPF controls in them. I can of course create another STA thread for the calls to the WPF controls but my application has some rendering code that requires everything to be on a single thread. I have tried a lot of things but cannot figure out why the CLR creates the objects on the server in a MTA. Please Help!!!</p>",
+    "PostedDate": "2010-10-08T10:59:31.373-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

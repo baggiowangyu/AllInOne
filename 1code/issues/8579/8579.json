@@ -1,0 +1,75 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I would like to know how to issue a cancellation during custom action if needed.  \n \nIn VS2010 setup project, a user can click the cancel button at any points during installation to cancel the installation.  \nIf my installation includes a custom action and the user wishes to cancel the installation during this time then I need to know what I need to do in order to perform the cancellation as user performs the cancellation by clicking the cancel button, programmactically.\n \nBy throwing an exception in custom action, the installation will fail and cancel the installation but it does display a non-standard error message to user which I do not want user to see it.\n \nThanks",
+    "LastUpdatedDate": "2013-02-21T19:00:11.513-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-03-30T05:40:26.457-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Cancel installation in custom action",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8579
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello anarki,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\n Firstly I am sorry that I have delayed your case. And I think that your sample idea  concerns with ClickOnce technology. It can wrap other Microsoft product and deploy them. Certainly you can click the cancel button to cacel the manipulation. I searched the topic mentioned above in the website that look like codeproject and MSDN forum. There is the same issue that they encountered and some of them provide serial solutions but not covered all. So I think It is worth to be composed by us. We can cancel deploying about sql server express or deploying about Crystal reports. And the sample idea can include of custom action that is previous State using Clickonce.So I submit the sample idea at once that is overall my understanding and your description.\r\n\r\nIs my understanding correct? Please let me know if I misunderstood your needs.\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com",
+      "PostedDate": "2011-04-07T00:05:35.117-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi hulinning2,\r\n  I have submitted it to system in order to audit it. Thanks for your sample idea.\r\n\r\n\r\nSincerely\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com \r\n\r\n",
+      "PostedDate": "2011-04-07T01:19:02.697-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks for submitting my request to handle this issue for Visual Studio Installer/Setup Project in VS2010",
+      "PostedDate": "2011-04-08T05:00:17.667-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-14T22:46:32.22-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "have submitted\r\n\r\n\n\n** Closed by orichisonic 4/14/2011 10:46 PM",
+      "PostedDate": "2011-04-15T00:32:08.987-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-15T00:32:09.663-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:11.513-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "How to execute the exes from Windows service in win7.\ni m developing using C#.",
+    "LastUpdatedDate": "2013-02-21T18:59:55.223-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-06-27T01:46:48.24-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "How to execute the exes from Windows service in win7.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9018
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi mdheerajgupta ,\r\n\r\nThank you for using our code sample request service. \r\n\r\nYour sample idea appeared very common in our program scenario. You can access the website such as http://msdn.microsoft.com/en-us/library/9k985bc9(v=VS.80).aspx and its related child website. And you can use make an application launch automatically when the PC starts up,Currectly, you can stop/kill Window services and uninstall Windows services. Finally, You can use \"WriteLog\" to write its operation log or Open Server Explorer and access the Event Logs node. For more information, see Working with Event Logs in Server Explorer.  Furthermore, This sample idea can use ClickOnce technology to deploy it. According to it the sample can be easy to  published.\r\nAlthough you sample idea is very common in Microsoft development environment,It seems that it can be written more complete in order to make more programmer can use it. Thanks for your kind suggestion.\r\n\r\nSincerely\r\nAll-In-OneCode Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-07-04T18:37:23.49-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T17:52:46.137-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:55.223-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

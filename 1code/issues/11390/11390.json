@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am looking for a simple sample, with which I can learn how to interact (CRUD) with a MS-SQL-Database, using entity framework as DAL, a c# class library as business layer and a WPF application as GUI. Especially in the gui I want to fill a datta grid. In taht data grid I would like to learn how to present exisitng data in the database, manage updates and deletes. DBContext would be preferred",
+    "LastUpdatedDate": "2015-03-31T05:30:28.933-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-11-28T09:31:48.36-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Entity framework, WPF",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 11390
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

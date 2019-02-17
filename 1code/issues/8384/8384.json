@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi all,\n \nCan you please add a Favorite feature in the next version on Sample Browser Tool and an easy way to add our own samples? In a further version can there by an option to persist the samples on DB?\n \nThanks",
+    "LastUpdatedDate": "2013-02-21T19:00:22.817-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-02-21T01:58:50.657-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Sample Browser feature",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8384
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\n   You said that you want a favorite feature to upload some of your samples. It's a wonderful idea that I would talk with my mentor and discuss put them into my further version. But I understand the next one that you want to use sample likes Nhibernate. Although Microsoft doesn't provide support for third party software.I can send you to a site that can assist you.\r\nPlease access the website likes below:\r\nhttp://sourceforge.net/projects/nhibernate/\r\n  \r\nIs my understanding correct? Please let me know if I misunderstood your needs.\r\n \r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com \r\n",
+      "PostedDate": "2011-03-09T20:45:38.04-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi,\r\n   I'm sorry that I misunderstood your needs that it is mentioned behind.It is a wonderful idea that we would improve our Sample Browse Tool on storing the customer's samples on DB forever. \r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-03-09T21:33:11.313-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi orchisonic,\r\n\r\nthanks for replaying. I expressed my self badly. So let's try to do it again.\r\nFeature n. 1\r\nPossibility to flag some articles as favorites in order to find them quickly (like favorites in ie)\r\nFeature n.2\r\nPossibility to add easily our own articles inside the tool and export them in order to have a bigger database and to share.\r\nFeature n.3 \r\nPossibility to persist the data about articles into the DB. Following at example provider model, so in case you do not support the desired database, to be able to expand the project and create our own specific provider.\r\n\r\nHope I was clear this time, otherwise, just let me know.\r\n\r\nThanks\r\n",
+      "PostedDate": "2011-03-09T23:21:07.393-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi MarioMajcica ,\r\n   Thanks for feedback my answer.You are welcome.\r\n   I have given the information  provided to our group and my leader. We will consider the latest version on using these new features.\r\n\r\n   Thanks \r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-03-10T17:46:05.033-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:22.817-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

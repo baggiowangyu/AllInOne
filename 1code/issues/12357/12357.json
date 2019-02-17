@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The new Identity system incorporated in MVC5 seems to be (at last) truly modular and customizable.\n\nCould you provide samples about implementations using an storage other than the EF/SqlServer, as you done with the infamous \"Implementing a custom Membership/Role/Profile provider\" in the previous membership system?\n\nAnother option is that you expose the code of the EF/SqlServer implementation of the identity system, so we can examine it and reimplement using different storage options (i.e. NoSql)\n\nThanks in advance",
+    "LastUpdatedDate": "2013-10-24T10:50:22.17-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2013-10-24T10:50:22.17-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "MVC 5 new Identity system using different storage than EF/SqlServer",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 12357
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

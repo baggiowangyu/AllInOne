@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I can find very little in the way of help to learn how to do this. I have a program that needs to be able to download and view/use data which is provided in the JSON format. Please give a example in VB.NET showing how to get this data into some .NET classes and become usable to me.",
+    "LastUpdatedDate": "2013-02-21T19:00:25.06-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-02-08T05:51:08.537-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Deserialize JSON data from web service into .NET class structure",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 8312
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "C# example would be nice too",
+      "PostedDate": "2012-04-19T20:55:17.887-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello kingfenix,\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nYour sample request is about how to deserialize JSON data into .NET class structure.  If I misunderstood your requirement, please feel free to let me know. \r\n\r\nWe found some samples about it, and you can refer the following links:\r\nhttp://code.msdn.microsoft.com/VBASPNETSerializeJsonString-826fe266.\r\nThis sample uses the JSON serializer component to perform .NET-JSON data convertion, and implements an auto-completion textbox.\r\nhttp://code.msdn.microsoft.com/Web-API-to-convert-a-JSON-0a13f21b.\r\nThis sample demonstrates how to use the ASP.NET Web API to convert between a JSON document and a class graph.\r\nhttp://code.msdn.microsoft.com/Inferring-schemas-for-JSON-7a00b774.\r\nThis sample demonstrates how to use the JsonValue API to convert the JSON documents into strongly-typed CLR objects.\r\n\r\nPlease let us know if these samples are helpful to you.\r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com\r\n",
+      "PostedDate": "2012-09-05T01:08:15.287-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:25.06-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

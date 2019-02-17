@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I would like to request a sample of how to use the ReactiveUI MVVM framework from inside a Prism 4.0 WPF/Silverlight application;\nto make a async call to an odata and on success populate a grid with the results.",
+    "LastUpdatedDate": "2013-02-21T18:59:25.113-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-03-15T16:02:42.8-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "ReactiveUI and Prism",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 10520
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Check out http://blog.paulbetts.org/index.php/2011/04/04/using-reactiveui-with-mvvm-light-or-any-other-framework/ to get started with this",
+      "PostedDate": "2012-03-26T10:55:56.043-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:25.113-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

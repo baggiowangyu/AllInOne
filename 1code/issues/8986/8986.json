@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "通常网上搜索到的获取客户端ip都是外网的，我希望能获取到内网ip  也就是网卡上面的ip",
+    "LastUpdatedDate": "2013-02-21T18:59:55.893-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-06-21T01:00:08.043-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "我希望找到一种能获取到客户端真实网卡上的ip而不是客户端的外网ip的方法",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8986
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi 190194,\r\n  感谢你使用我们All-In-OneCode-Framework的sample idea收集的服务页面。\r\n 你这个主意蛮好，我之前曾经提过一个类似查看网卡的MAC地址，已经获得微软的专家的认可，通过你这个idea的深入摸索，我发觉也是一个不错的想法，我会尽量提出它，如果它被批准的话，你也能在我们的sample browse查询的时候看到，或者通过这个链接http://1code.codeplex.com/releases找到这个sample.再次感谢你的支持.\r\n\r\n真心祝福你工作顺利\r\nAll-In-Onecode-Framework",
+      "PostedDate": "2011-06-28T19:25:25.05-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:55.893-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

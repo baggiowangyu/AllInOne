@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Enums are really nice to work with, even more nice when your ORM plays nicely with them.  When using NHibernate I can write a type converter to handle this scenario:\n \nusing System;\nusing System.ComponentModel;\nusing System.Data;\nusing System.Linq;\nusing NHibernate.Type;\n \nnamespace App.Core.Persistence\n{\n    public class EnumStringType<T> : EnumStringType\n    {\n        public EnumStringType() : base(typeof(T)) { }\n \n        public override object GetInstance(object code)\n        {\n            var value = code as string;\n            var fields = ReturnedClass.GetFields();\n            if (fields != null && fields.Length > 0)\n            {\n                foreach (var field in fields)\n                {\n                    var attributes = field.GetCustomAttributes(typeof(DescriptionAttribute), false);\n                    if (attributes != null && attributes.Length > 0)\n                    {\n                        var description = attributes.FirstOrDefault(x => x is DescriptionAttribute) as DescriptionAttribute;\n                        if (description != null &&\n                            string.Equals(description.Description, value, StringComparison.OrdinalIgnoreCase))\n                        {\n                            return Enum.Parse(ReturnedClass, field.Name, true);\n                        }\n                    }\n                }\n            }\n            return Enum.Parse(ReturnedClass, value, true);\n        }\n \n        [System.Diagnostics.CodeAnalysis.SuppressMessage(\"Microsoft.Design\", \"CA1062:Validate arguments of public methods\", MessageId = \"0\")]\n        public override void Set(System.Data.IDbCommand cmd, object value, int index)\n        {\n            Check.ForNullValue(cmd, \"cmd\");\n \n            var parameter = cmd.Parameters[index] as IDataParameter;\n            parameter.Value = DBNull.Value;\n            if (value != null)\n            {\n                parameter.Value = Enum.Format(ReturnedClass, value, \"G\");\n                var fields = ReturnedClass.GetFields();\n                if (fields != null && fields.Length > 0)\n                {\n                    foreach (var field in fields)\n                    {\n                        var attributes = field.GetCustomAttributes(typeof(DescriptionAttribute), false);\n                        if (attributes != null && attributes.Length > 0)\n                        {\n                            var description = attributes.FirstOrDefault(x => x is DescriptionAttribute) as DescriptionAttribute;\n                            if (description != null &&\n                                string.Equals(field.Name, value as string, StringComparison.OrdinalIgnoreCase))\n                            {\n                                parameter.Value = description.Description;\n                            }\n                        }\n                    }\n                }\n            }\n            base.Set(cmd, value, index);\n        }\n    }\n}\n \nCan you show us how to do the same with EF?",
+    "LastUpdatedDate": "2013-02-21T19:00:28.96-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-20T17:05:10.5-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Using Enums with Entity Framework 4.0 Code First CTP 5",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 8202
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

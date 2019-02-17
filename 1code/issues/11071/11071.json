@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Greetings,\nI am trying to open an XPS document in a WPF DocumentViewer without success.  I can click on my xps file and view it in xpsViewer, but not in my WPF app.  The only code I could find in my books or on the internet is below.  I can step through the code using the debugger, and it appears to recognize and grasp the information in my xps document, everything that is but the DocumentViewer named docViewer2.  Can anyone tell me what I need to do to open this file?\n \nThe Xps Class, at the bottom, was suggested and developed by the intellisense of the display code.  I’m using VS 2010 Express, and I’m beginning to suspect that the Express version doesn’t have the ability to open a WPF DocumentViewer.  On page 968 of Matthew MacDonald’s book, Pro WPF in VB 2010, he states that there are FlowDocument containers (FlowDocumentReader,  FlowDocumentScrollViewer, and FlowDocumentPageViewer), and for Fixed Documents (DocumentViewer).  But there is neither DocumentReader or DocumentPageViewer in the Express version, only the ScrollViewer and DocumentViewer.  He gives the code to load an XPS file into memory and show it in a DocumentViewer that is similar to the code below, but it doesn’t work either.  What’s the answer?\n \nBob\n \nImports System.IO\nImports System.Windows.Markup\nImports System.IO.Packaging\nImports System.Windows.Xps.Packaging\n \nClass MainWindow\n \n' &&&&&&&&&&&& Display the new XPS document in a viewer &&&&&&&&&&&&\n        Dim docViewer2 As New DocumentViewer()\n        Dim doc As New XpsDocument(\"QueueCode1.xps\", FileAccess.Read)\n        Me.docViewer2.Document = doc.GetFixedDocumentSequence()\n        doc.Close()\n \nImports System.IO\nClass XpsDocument\n    Private _fileAccess As IO.FileAccess\n    Private _p1 As String\n \n    Sub New(p1 As String, fileAccess As IO.FileAccess)\n        ' TODO: Complete member initialization \n        _p1 = p1\n        _fileAccess = fileAccess\n    End Sub\n \n    Property GetFixedDocumentSequence As IDocumentPaginatorSource\n \n    Sub Close()\n        'Throw New NotImplementedException\n    End Sub\nEnd Class",
+    "LastUpdatedDate": "2013-02-21T18:59:11.137-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-08-10T18:55:31.643-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "WPF DocumentViewer load code",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11071
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

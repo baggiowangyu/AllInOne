@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "In wp7 system,the contact list or the application list is showed by a group listbox.\nIn the Windows Phone Toolkit , it has a similary control named LongListSelector,but not all the same.\nThe system group listbox can make a group name in the top always.\nSo,how does the system group listbox work?",
+    "LastUpdatedDate": "2013-02-21T18:59:39.947-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-10-24T10:24:05.953-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "How to make a control like the listbox used in wp7 system?",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9699
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "<dfxg ab",
+      "PostedDate": "2011-10-25T13:02:10.213-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:39.947-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

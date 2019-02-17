@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am considering how to export my data to new SPSS file and save the file for more operations. Since there is no good and fast api to do this I thought it would be a good question to ask.\n\nThanks.",
+    "LastUpdatedDate": "2013-02-21T18:59:01.853-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2013-01-21T04:32:10.813-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Populate data to SPSS from data gridview",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11513
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi amerireza,\r\n\r\nThank you for using the Sample Request Service provided by Microsoft All-In-One Code Framework. We are investigating your requirement.\r\n\r\nWe have recently upgraded the sample request forum in order to better serve your requests.  Here is our announcement http://aka.ms/requestcodesamples.  Please consider reposting the sample request to the new forum, and we can continue working on this request there.  We appreciate your understanding. \r\n\r\nThanks and have a great day!\r\n\r\n--------------------\nMicrosoft All-In-One Code Framework \nFeedback address: onecode@microsoft.com\n",
+      "PostedDate": "2013-02-21T18:31:55.99-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:01.853-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

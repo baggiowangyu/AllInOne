@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When I try to start the download of the ClickOne Installer, it tells me \"Download will start in 3... 2... 1 seconds\", but then nothing happens... No message, no download, nothing.\n \nAny alternative download link?",
+    "LastUpdatedDate": "2013-02-21T18:59:17.33-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-05-25T05:01:33.41-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Download not working",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 10800
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Update: I finally managed to install it.\r\n\r\nThere seems to be a problem with the https download.\r\nAfter I changed the URL to http instead of https, it worked without problems.",
+      "PostedDate": "2012-05-25T14:29:37.28-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I am having the same problem, but with HTTP as well. The error I get is:\r\n\r\nWebpage error details\r\n\r\nUser Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; Zune 4.7)\r\nTimestamp: Sat, 26 May 2012 14:17:20 UTC\r\n\r\n\r\nMessage: Expected identifier\r\nLine: 2\r\nChar: 9\r\nCode: 0\r\nURI: http://1code.codeplex.com/downloads/get/clickOnce/SampleBrowser.application\r\n\r\nAny ideas?",
+      "PostedDate": "2012-05-26T07:19:03.017-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello\r\n\r\nThanks for reporting this issue. It's a known issue of CodePlex that impacts users who use IE to download the clickonce app. The CodePlex team is trying to fix the problem this week. The current workaround is to use Chrome or FireFox to install the Sample Browser. Here is a blog article with more details. \r\nhttp://blogs.msdn.com/b/codefx/archive/2012/05/27/issue-report-sample-browser-clickonce-installation-is-not-started-in-ie.aspx\r\n\r\nThanks\r\nJialiang Ge\r\nProgram Manager\r\nMicrosoft All-In-One Code Framework",
+      "PostedDate": "2012-05-28T18:12:59.143-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-05-30T03:09:02.543-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-05-30T12:34:53.53-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:17.33-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

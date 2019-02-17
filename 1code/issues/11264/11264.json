@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Can we have a full sample implementation of a Custom Data Service Provider using a custom Data Source ?",
+    "LastUpdatedDate": "2013-02-21T18:59:06.317-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-10-13T03:52:48.637-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Custom Data Service Provider",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11264
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "There's samples using WCF on MSDN.  Have you looked there?",
+      "PostedDate": "2012-10-21T10:29:40.91-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:06.317-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

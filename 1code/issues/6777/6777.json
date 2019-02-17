@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "You can do something like this, but it will only copy the inner HTML…\n \n<HTML>\n \n<SCRIPT TYPE=\"Text/Javascript\">\n  function CopyTable()\n  {\n    var table = document.getElementById('tbl');\n    var txt = document.getElementById('txt');\n    txt.value = table.innerHTML;\n \n    Copied = txt.createTextRange();\n    Copied.execCommand(\"RemoveFormat\");\n    Copied.execCommand(\"Copy\");\n \n    alert('table copied to clipboard!');\n  }\n</SCRIPT>\n \n<table id=\"tbl\">\n  <tr>\n    <td>Test</td>\n  </tr>\n</table>\n \n<textarea id=\"txt\"></textarea>\n \n<button onclick=\"CopyTable();\">Copy to clipboard</button>\n \n</HTML>",
+    "LastUpdatedDate": "2013-02-21T19:00:49.73-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-07-31T18:59:53.877-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Javascript copy to clipboard",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 6777
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello JiaLiang\r\n\r\nThank you for using the code sample request service. \r\n\r\nMy team is evaluating the code sample topic. For your reference, here is an alternative way to copy data to clipboard using javascript.\r\n\r\n<html>\r\n<head>\r\n<title>Copy data to clipboard using Javascript</title/>\r\n<script language=\"javascript\"> \r\nfunction copyToClipboard(theField,isalert)\r\n{\r\n  var obj=document.getElementById(theField);\r\n  if(obj!=null)\r\n  {\r\n    var clipBoardContent=obj.value;\r\n    obj.select();\r\n    window.clipboardData.setData(\"Text\",clipBoardContent); \r\n    if(isalert!=false)\r\n      alert(\"Copy Succeeded\");\r\n  }\r\n  else\r\n  {\r\n     alert(\"Error!\");\r\n  }\r\n}\r\n</script>\r\n</head>\r\n<body>\r\n  <span>All-In-One Code Framework</span>\r\n  <input type=\"text\" id=\"link\" style=\"width:215px;\" value=\"http://1code.codeplex.com\" />\r\n  &nbsp; \r\n  <button onclick=\"javascript:copyToClipboard('link',true);\">Copy</button>\r\n</body>\r\n</html>\r\n\r\nI hope that you have a wonderful day! \r\nThanks\r\n\r\nMicrosoft All-In-One Code Framework\r\nhttp://1code.codeplex.com\r\n",
+      "PostedDate": "2011-01-09T19:20:55.763-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:49.73-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "http://topic.csdn.net/u/20091212/21/c9308fac-347f-496a-95dc-636bbb952e90.html\nhttp://social.msdn.microsoft.com/Forums/en-US/vcgeneral/thread/a41d82c7-1e06-4eb0-87f7-33a333447bb4",
+    "LastUpdatedDate": "2017-11-27T10:33:40.31-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-01-04T00:25:30.923-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Sample: CMFCMenuBar",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 5025
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

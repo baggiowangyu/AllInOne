@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I want to get the source file list of  the visual studio 2010 project (such as visual c++ project) which used at process of compiling. Not all files in the project.\nIf the source file list include full path will be better.\nUsing Visual Studio Addins.",
+    "LastUpdatedDate": "2014-03-26T18:24:53.163-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2014-03-26T18:24:06.64-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "How to get the source file list of Visual Studio project",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 12842
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I want to get the source file list of the visual studio 2010 project (such as visual c++ project) which used at process of compiling. Not all files in the project.\n If the source file list include full path will be better.\n Using Visual Studio Addins.",
+      "PostedDate": "2014-03-26T18:24:53.163-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

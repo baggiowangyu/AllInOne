@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "SOCKS5  Connection Between Two Computer\n \nI can not find any example that using pure .net framework to connect two computer using socks5 and socks4,\nI need to send files between two compter using this protocol over TCP connection.",
+    "LastUpdatedDate": "2013-02-21T18:59:31.047-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-01-09T01:04:57.043-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "SOCKS5  Connection Between Two Computer",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 10119
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am using the SQL Server varbinary datatype in ODBC with Visual C++ 6.0 1994-1998. How do you do an INSERT and then a SELECT for a varbinary(8000) with 8000 as the maximum length. When you do the INSERT how does SQL Server know how long the data is? Do you have to convert the data before you insert it? Once it is inserted, how do you select it using ODBC, then if necessary re-convert it? Do you use SQLBindCol() with SQL_VARBINARY as the datatype what do I set the other parameters for SQLBindCol() to?\n \nAs an example let's say I want to insert the hex value 0x010203040506070809 which is a 10-byte raw value.\n \nI need to use the varbinary datatype in an existing ODBC application so I already know how to use ODBC for regular integers and character arrays.\n \nThank you,\n \nTom Kelly.",
+    "LastUpdatedDate": "2013-02-21T18:59:13.743-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-06-28T11:10:22.393-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Using varbinary datatype in ODBC with Visual C++ 6.0 1994-1998.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10948
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

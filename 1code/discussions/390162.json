@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "895160",
+    "ThreadId": "390162",
+    "Html": "\r\n<p>FYI.</p>\r\n<p>I have donwloaded the samples this morning using the Microsoft All-In-One Code Framework Sample Browser. During the donload I got this alert from Microsoft Security Essentials</p>\r\n<p>Microsoft Security Essentials</p>\r\n<p><span id=\"ctl00_ctl00_ctl00_pageContent_pageContent_contentTop_ctl00_contenttop_contentTitleText\">Virus: VBS/Ramnit.B</span></p>\r\n<p>&nbsp;<strong><span style=\"font-size:xx-small\"><strong>Category: Virus</strong></span></strong></p>\r\n<p><strong><span style=\"font-size:xx-small\"><strong></p>\r\n<p><strong></p>\r\n<p>Description:</p>\r\nThis program is dangerous and replicates by infecting other files.<strong>\r\n<p>Recommended action:</p>\r\nRemove this software immediately.<strong> </strong>\r\n<p>&nbsp;</p>\r\n</strong></strong>\r\n<p></p>\r\n<p>Items:</p>\r\n<p>file:E:\\AllInOneCodeFramework\\Visual Studio 2010\\Insert-Update-Delete-in-61a43cd1\\C#\\SilverlightWCFDatagridSample.Web\\SilverlightWCFDatagridSampleTestPage.html</p>\r\n</strong></span></strong>\r\n<p></p>\r\n<p>&nbsp;</p>\r\n",
+    "PostedDate": "2012-08-03T06:40:24.53-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

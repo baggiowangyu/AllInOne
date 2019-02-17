@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The Microsoft Windows Driver Kit (WDK) inlues a N:1 MUX smaple that can be adapted easily to be a 1:1 MUX sample.\n \nHowever, there is no 1:N MUX sample.\n \nIt would be nice, for completeness, to have a 1:N MUX sample.",
+    "LastUpdatedDate": "2013-02-21T19:00:28.327-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-23T18:43:49.607-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "NDIS 1:N MUX Sample",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 8223
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Recently I was research on this.Maybe the startting point is the Notify object(mux.dll)?",
+      "PostedDate": "2011-10-20T06:03:34.637-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:28.327-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

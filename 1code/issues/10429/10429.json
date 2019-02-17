@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have developed a master page for wiki pages using _starter_foundation.master. The requirement is I need to hide the ribbon in display mode and when the page is in edit mode, the ribbon is to be displayed. I have no access to the server, so no code behind. I need to do using javascript or some sharepoint controls. Also I have tried some controls like publishingwebcontrols:authoringcontainer and publishingwebcontrols:editmodepanel. But they didnt work.",
+    "LastUpdatedDate": "2013-02-21T18:59:26.64-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-02-24T22:49:49.4-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Hide SPRibbon when the page is in display mode in wiki page",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10429
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

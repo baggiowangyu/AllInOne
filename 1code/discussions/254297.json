@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "598887",
+    "ThreadId": "254297",
+    "Html": "\r\n<p>Hi All,</p>\r\n<p><span><span>I was trying to use the webbrowser control inside a winforms project but I had a problem with the proxy settings (I have to use a proxy which requires authentication but I do not want my program to ask for the username and password).</span></span></p>\r\n<p><span><span>To slve this problem I've found this project&nbsp;</span></span><span><a href=\"http://bit.ly/CSWebBrowserWithProxy\" target=\"_blank\">CSWebBrowserWithProxy</a>&nbsp;on internet at this address&nbsp;</span><span><span>http://bit.ly/CSWebBrowserWithProxy,</span></span></p>\r\n<p><span style=\"font-family:'Segoe UI',sans-serif\">I tried it but I still have a problem:</span><span style=\"font-family:'Segoe UI',sans-serif\">&nbsp;</span></p>\r\n<p><span style=\"font-family:'Segoe UI',sans-serif\">When I run the project with the http://www.whatsmyip.us/ address it works quite ok.</span></p>\r\n<p><span style=\"font-family:'Segoe UI',sans-serif\">When I try other addresses (like for example www.intel.com or www.oracle.com) an error page is shown.</span></p>\r\n<p><span style=\"font-family:'Segoe UI',sans-serif\">When I try with wwww.ansa.it I can read the page but in text mode only (I mean that I can read the text but it's not formatted, it seems like the css is not working).</span></p>\r\n<p><span style=\"font-family:'Segoe UI',sans-serif\">Note that inside Internet Explorer all the addresses (url) work perfectly (but obviously IE asks for the proxy username and password).</span></p>\r\n<p><span style=\"font-family:'Segoe UI',sans-serif\">Is there a solution?</span></p>\r\n<div><span style=\"font-family:'Segoe UI',sans-serif\">Thank you,</span></div>\r\n<div><span style=\"font-family:'Segoe UI',sans-serif\">Rocco Barbaresco.</span></div>\r\n",
+    "PostedDate": "2011-04-18T00:29:47.217-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

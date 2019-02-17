@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "In the DataTable, the data's columns is auto-changed, I cann't use the RDLC Designer to pull all data's columns , so I need the solution of add the Data field using the C# code. Many thanks! \n \nAnd please contact me freely with my MailBox ting.pan_hp@hotmail.com",
+    "LastUpdatedDate": "2013-02-21T18:59:23.827-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-03-19T01:34:23.82-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "RDLC Reporting using the C# code to add Data field",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10534
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

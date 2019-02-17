@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I want a complete Business Application that demonstrates the power of WPF GUI and how that enriches the accessibility AND data visualisation of my business application.",
+    "LastUpdatedDate": "2013-02-21T18:59:37.02-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-11-17T02:57:37.54-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "WPF Complete Bussines Application Sample",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 9835
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "HI Saffieldinali,\r\n\r\n Thank you for sample request! Would you please provide additional information about what content your business application want to complete? and please feel free to let me know some of your business application achieve targets.\r\n\r\nSincerely,\r\nAll-In-Onecode Framework",
+      "PostedDate": "2011-12-01T01:46:03.383-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-01-31T19:07:43.757-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-11-13T18:38:06.433-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:37.02-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

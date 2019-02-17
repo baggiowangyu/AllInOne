@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "195576",
+    "ThreadId": "57845",
+    "Html": "<p>Hello,</p>\r\n<p>many projects in codefx are very useful for me.&nbsp;I have one question related to the csactivex-subproject&nbsp;: After i used the ActiveX-Control in MS Excel, i&nbsp;was never&nbsp;able to change/add the properties (so, that Excel notify&nbsp;the changes). MS Excel do not update the changes in the Control. I have the same effect in all other Office Products - after i insert the ActiveX-Control in a MS Office Product, i cant ever see modified / added properties for THIS MS Office Product. Unregister und Register (regasm) has no effect. Searching the Property in registry has no results.</p>\r\n<p>Did anyone knows this effect ?</p>",
+    "PostedDate": "2009-05-28T23:40:16.607-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "195940",
+    "ThreadId": "57845",
+    "Html": "<p>Hello swe</p>\r\n<p>First of all, thank you very much for liking the codefx project!</p>\r\n<p>I have tested the scenario in your description and can reproduce the problem. My first reflection was that Excel caches the first load of the ActiveX control. I thus used the sysinternals tool, process explorer, to view the file handles of the Excel process. Process Explorer shew this file which caught my eyes: C:\\Users\\Jialiang Ge\\AppData\\Local\\Temp\\Excel8.0\\CSActiveX.exd. I deleted the file and restarted Excel, new properties were then recognized.</p>\r\n<p>Some relevant KB articles:</p>\r\n<p><a href=\"http://support.microsoft.com/kb/158875\">http://support.microsoft.com/kb/158875</a><br><a href=\"http://support.microsoft.com/kb/199830\">http://support.microsoft.com/kb/199830</a></p>\r\n<p>Regards,<br>Jialiang Ge</p>",
+    "PostedDate": "2009-05-30T03:59:41.997-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "197376",
+    "ThreadId": "57845",
+    "Html": "<p>thank you for&nbsp;answer,</p>\r\n<p>yesterday i found another solution. I have to increase Assembly- and Fileversion, than Office seems to recognize the changes in the properties. But for develpoment, i will delete the .exd files.</p>\r\n<p>Regards<br>SWE</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-06-03T11:59:18.64-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "197698",
+    "ThreadId": "57845",
+    "Html": "<p>Thank you, SWE!</p>\r\n<p>I will document this into the ReadMe.txt file of CSActiveX and VBActiveX.</p>\r\n<p>Thanks<br>Jialiang Ge</p>",
+    "PostedDate": "2009-06-04T05:24:31.373-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

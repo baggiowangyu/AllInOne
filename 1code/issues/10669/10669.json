@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello, \ncan you add some asynchroneous socket programming example? Like the one from msdn:\nhttp://msdn.microsoft.com/en-us/library/bew39x2a.aspx\nI think it'll be nice to have it in the collection of examples.\nThank you for the work.",
+    "LastUpdatedDate": "2013-02-21T18:59:20.42-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-04-19T05:53:49.417-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Async socket programming example",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 10669
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

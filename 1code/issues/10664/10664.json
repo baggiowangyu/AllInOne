@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am looking for a sample to get my load testing task off the ground. One tutorial that was fairly helpful is:\nhttp://geekswithblogs.net/TarunArora/archive/2011/11/27/part-2ndashload-testing-in-the-cloud.aspx \n \nBut I failed to get the domain join to work, so I couldn't connect the test agent to an on premise controller. As a side note, I am not even sure what the connection between the 2 allows.\n \nAnother route I was looking into (but I am not sure it is a very good route) is to package up my test dll, and run the tests as a startup task. However, the only thing I am worried about there is that I don't know if the roles will be able to run mstest from the command line.\n \nIn summary, I have automated UI tests (using Selenium) that exist in Visual Studio and are run using mstest. I want to run them concurrently to effectively load test them using Azure, and have no idea how to do this.",
+    "LastUpdatedDate": "2013-02-21T18:59:21.963-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-04-17T08:27:56.857-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Azure Load Testing",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 10664
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

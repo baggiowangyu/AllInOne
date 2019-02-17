@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "As I tried to execute that \"MvcMusicStore-V3.0\" Tutorial but after that using SQL CE got an error as follow.\nNOTE: instead of Genre class i used that as Gener.ok?\nkeep in mind.\nError:\nOne or more validation errors were detected during model generation:\n \nSystem.Data.Edm.EdmEntityType: : EntityType 'Gener' has no key defined. Define the key for this EntityType.\nSystem.Data.Edm.EdmEntitySet: EntityType: EntitySet �Genres� is based on type �Gener� that has no keys defined.\n \nDescription: An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code. \n \nException Details: System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:\n \nSystem.Data.Edm.EdmEntityType: : EntityType 'Gener' has no key defined. Define the key for this EntityType.\nSystem.Data.Edm.EdmEntitySet: EntityType: EntitySet �Genres� is based on type �Gener� that has no keys defined.\n \n \nSource Error: \n \n \nLine 16:         public ActionResult Index()\nLine 17:         {\nLine 18:             var genres = storeDB.Genres.ToList();\nLine 19:             return View(genres);\nLine 20:         }\n \n \nSource File: D:\\MusicStore\\MusicStore\\Controllers\\StoreController.cs    Line: 18 \n \nStack Trace: \n \n \n[ModelValidationException: One or more validation errors were detected during model generation:\n \n\tSystem.Data.Edm.EdmEntityType: : EntityType 'Gener' has no key defined. Define the key for this EntityType.\n\tSystem.Data.Edm.EdmEntitySet: EntityType: EntitySet �Genres� is based on type �Gener� that has no keys defined.\n]\n   System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateAndSerializeCsdl(EdmModel model, XmlWriter writer) +103\n   System.Data.Entity.ModelConfiguration.Edm.EdmModelExtensions.ValidateCsdl(EdmModel model) +54\n   System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo) +176\n   System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection) +271\n   System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext) +65\n   System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input) +175\n   System.Data.Entity.Internal.LazyInternalContext.InitializeContext() +449\n   System.Data.Entity.Internal.InternalContext.Initialize() +30\n   System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType) +34\n   System.Data.Entity.Internal.Linq.InternalSet`1.Initialize() +148\n   System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator() +33\n   System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator() +91\n   System.Collections.Generic.List`1..ctor(IEnumerable`1 collection) +315\n   System.Linq.Enumerable.ToList(IEnumerable`1 source) +58\n   MusicStore.Controllers.StoreController.Index() in C:\\kapil_M\\MVC\\MusicStore\\MusicStore\\Controllers\\StoreController.cs:18\n   lambda_method(Closure , ControllerBase , Object[] ) +96\n   System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters) +17\n   System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters) +208\n   System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters) +27\n   System.Web.Mvc.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12() +55\n   System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation) +263\n   System.Web.Mvc.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14() +19\n   System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters) +191\n   System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName) +343\n   System.Web.Mvc.Controller.ExecuteCore() +116\n   System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext) +97\n   System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext) +10\n   System.Web.Mvc.<>c__DisplayClassb.<BeginProcessRequest>b__5() +37\n   System.Web.Mvc.Async.<>c__DisplayClass1.<MakeVoidDelegate>b__0() +21\n   System.Web.Mvc.Async.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _) +12\n   System.Web.Mvc.Async.WrappedAsyncResult`1.End() +62\n   System.Web.Mvc.<>c__DisplayClasse.<EndProcessRequest>b__d() +50\n   System.Web.Mvc.SecurityUtil.<GetCallInAppTrustThunk>b__0(Action f) +7\n   System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action) +22\n   System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult) +60\n   System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result) +9\n   System.Web.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute() +8897857\n   System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously) +184\n \n \n \n \n--------------------------------------------------------------------------------\nVersion Information: Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.0.30319.1\n \nMy Album class is as:\n public class Album\n    {\n        public int AlbumId { get; set; } \n        public int GenreId { get; set; } \n        public int ArtistId { get; set; }\n        public string Title { get; set; } \n        public decimal Price { get; set; } \n        public string AlbumArtUrl { get; set; }\n        public Gener Gener { get; set; } \n        public Artist Artist { get; set; }\n    }\n \n \nif possible please help me to solve it.I am looking streight forward for intimation from your side.\nHope you can..",
+    "LastUpdatedDate": "2013-02-21T18:59:34.57-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-11-24T05:31:52.31-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Help me to solve: Server Error in '/' Application.",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9889
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Try to Solve it...",
+      "PostedDate": "2011-11-24T05:56:40.72-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:34.57-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

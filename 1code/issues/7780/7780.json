@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I'm surprised the team hasn't started a All-In-One Code Framework category for Visual Studio LightSwitch projects.\n \nCheers,\n \n--rj",
+    "LastUpdatedDate": "2013-02-21T19:00:37.013-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-29T08:37:53.21-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Add a Visual Studio LightSwitch Category",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 7780
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello rj\r\n\r\nThank you for using our code sample request service.\r\n\r\nLightSwitch is a good category to be added into All-In-One Code Framework. We will start to add LightSwtich code samples when LightSwitch is RTMed. \r\n\r\nIf you have any *specific* code sample topics about LightSwitch, you are welcome to submit them here. \r\n\r\nI hope that you have a wonderful day!\r\n\r\nThanks\r\nJialiang Ge\r\nMicrosoft All-In-One Code Framework.",
+      "PostedDate": "2010-11-30T22:38:32.63-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-05T14:36:23.58-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-07-18T15:52:01.077-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T19:35:53.683-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:37.013-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

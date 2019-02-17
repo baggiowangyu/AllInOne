@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I'm developing native windows application with IPC based on named pipe with overlapped IO. Due to high load (2 applications sending/receiving gigabytes of data simultaneously), sometimes I had strange result codes from GetLastError() like ERROR_OPERATION_ABORTED. How to handle such errors correctly? How to handle errors when client or server suddenly disconnects or stalling while sending/receiving?",
+    "LastUpdatedDate": "2013-02-21T18:59:03.82-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-11-30T22:41:56.463-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Named pipe with overlapped IO error handling",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11395
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

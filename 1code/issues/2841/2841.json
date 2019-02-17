@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "Library",
+      "DisplayName": "Library"
+    },
+    "ClosedComment": "closed by the changeset 22719",
+    "ClosedDate": "2009-04-24T01:14:07.71-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Demonstrates wrapping native C++ classes using C++/CLI to be used in any .NET clients\nhttp://msdn.microsoft.com/en-us/library/ms235281.aspx",
+    "LastUpdatedDate": "2013-05-16T05:33:36.19-07:00",
+    "PlannedForRelease": "All-In-One Code Framework 2009-4-27",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-04-23T22:40:13.933-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Example: CppCLIWrapLib",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 1,
+    "Id": 2841
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

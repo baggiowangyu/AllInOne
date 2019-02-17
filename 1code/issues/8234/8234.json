@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "problem is that i want to stream video ... in the following way\n \n1.. encrypt video and store in some secured ftp location or any location where user access prohibited or video stored in secured location \n2..  when user access clicks play video, then decrypt video in chunks (retrieve data from secured locations in bytes ) and stream this video to the user from asp.net web application....  \n \nMain things to consider here is that i do  not want user to download video at all using any download manager to download this file...\n \nhere user can do only one thing just see video from online asp.net application...",
+    "LastUpdatedDate": "2013-02-21T19:00:27.77-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-24T20:53:10.527-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "video encryption and delivery",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 5,
+    "Id": 8234
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I am trying to do the same thing... based off this MSDN sample.  Please share any progress you make\r\n\r\nhttp://msdn.microsoft.com/en-us/magazine/cc163290.aspx ",
+      "PostedDate": "2011-02-07T08:48:40.793-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-07T08:48:47.667-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I'm having difficulty ensuring that the client can \"seek\" to a particular location in the video. ",
+      "PostedDate": "2011-02-07T08:49:19.037-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T18:49:39.057-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello amrullah,\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nYour sample request is about how to implement video encryption and delivery.  If I misunderstood your requirement, please feel free to let me know. \r\n\r\nMicrosoft All-In-One Code Framework Team is triaging the sample topic.  I will keep you updated about the progress every week.  Please also understand that the free Sample Request Service is not for urgent sample requests.   If your request is urgent, please use Microsoft Professional Advisory Services.\r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com\r\n",
+      "PostedDate": "2012-09-25T21:19:36.1-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:27.77-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

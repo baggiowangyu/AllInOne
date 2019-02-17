@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello, \n \nI'd like a class using stl map for windows registry .reg files reading.\nLet's call it c_file_registry.\n \nThe class would have 4 methods :\n \n- singleton_instanciate :\nCreates a singleton file_registry, read the .reg file given in entry and construct an internal data structure (based on stl container map) with all the values contained in the file.\n \nstatic bool singleton_instanciate(CString file_name);\n \n- get_singleton :\nReturns the singleton created by singleton_instanciate\n \nstatic c_file_registry* get_singleton();\n \n- read_integer\nReturns the integer corresponding to the asked key (identified by its path and its name)\n \nint read_integer(CString path_name, CString value_name);\n \n- read_string\nReturns the string corresponding to the asked key (identified by its path and its name)\n \nCString read_string(CString path_name, CString value_name);\n \nThanks !\n \nTapiou.",
+    "LastUpdatedDate": "2013-02-21T18:59:15.987-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-06-03T07:07:45.127-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Class using container stl map for windows registry .reg files reading",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10849
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

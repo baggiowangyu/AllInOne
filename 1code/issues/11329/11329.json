@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Sample browser Visual studion extension cannot start and generate error on Visual Studio 2012 Premium Edition with Czech Language Pack installed.",
+    "LastUpdatedDate": "2013-02-21T18:59:05.683-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-11-01T04:22:21.94-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Sample browser VS extension error",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11329
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi mdvorak\r\n\r\nWe have reproduced this issue and the team is fixing the problem.  We will update you in this thread as soon as a fix is published.\r\n\r\nThank you for the reporting the problem!\r\n\r\nJialiang Ge\nProgram Manager",
+      "PostedDate": "2012-11-02T09:35:08.837-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:05.683-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Would like either a treeview helper, or control for MVC2/MVC3. Ideally the Tree would have the following features: Search, Export, Sort, Dynamic loading. Also would like integration with a grid view or data table.",
+    "LastUpdatedDate": "2013-02-21T19:00:17.833-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-03-14T19:25:58.613-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "TreeView for ASP.NET MVC",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 8519
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\nThe sample provided by us looks like a custom control when you use it. And you want to use  the function those searchs the tree node from textbox that you input  in this control.Consequently, the control could sort these treenode includes of boths of parent node and child node in alphabetical order. Finally, the control could export xml format  file or another format file and so on. I think this control has provided in Jquery. If you use MVC2/MVC3 model to develop MVC(Model/View/Control) architecture, I introduce JQUERY control likes JGRID and jQuery File Tree to you. Nothing but it is a good idea that using treeview integrates with Gridview or Datatable,Let me see how others vote on this topic.  \r\n\r\n\r\nIs my understanding correct? Please let me know if I misunderstood your needs.\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-03-15T00:48:29.063-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-03-31T15:12:26.747-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-09-24T19:38:31.86-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-15T14:45:43.893-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:17.833-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

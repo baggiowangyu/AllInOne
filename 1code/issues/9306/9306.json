@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "We have three separate Web Server, Application server and DB Server. I am looking for true 3-Tier application based on following architecture which will be deployed on three separate machine for each tier/layer.\n \nWEB Server : ASP.NET Web Pages ( .aspx) ( Presentation Tier)\nAPP Server: WCF  ( Business/ Data Access tier)\nDB Server(SQL Server) : Sample DB table.\n \nI am just looking for very basic functionality to understand and connect all three tier on separate machine.\n \nTechnology preferred at minimum: .NET 3.5 +, SQL Server 2005/2008, C# or VB.NET\n \nThanks\nNilesh Patel",
+    "LastUpdatedDate": "2013-02-21T18:59:47.81-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-08-12T07:26:23.737-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "ASP.NET 3 Tier WCF sample application implementation on separate server",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 9306
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi contact_nilesh and robertwmcdaniel,\r\n  Wow! I see you all pay close attention to this points very much. Web developing has gone through many years, After WCF has taken place for these years,  we can find it can use for Data Access tier which looks as ADO.NET technology. Can you give some implemention about how to integrate it? Or you can give us some inspirit about its detailed procedure, we all feel grateful if we can understand your meaning more accuracy.\r\n\r\nThanks for your kindly provide.\r\n\r\nAll-In-OneCode Framework",
+      "PostedDate": "2011-08-22T18:38:03.373-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-29T20:33:33.74-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:47.81-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

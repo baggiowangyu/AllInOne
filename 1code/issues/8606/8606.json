@@ -1,0 +1,150 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "1. I need help about SILVERLIGHT 4 COM accessing and OOB features.\n2. And local file system accessing as like windows application. In trusted application (OOB)\n3. And XAP signing.\n4. Silverlight Application License validation.\n5. Device accessing using Windows scripting (i.e., device information, device status(Active Inactive) etc..,)..\n6. offline browsing in Silverlight 4.\n7. search and list printers available in local network. using Silverlight (OOB) application.\n8. control system resource like system standby, disable screensaver on application run, \n9. check for available network connection. (i.e., check weather the server is alive or not) \n10. Active Directory login.\n \nNote: all my requests are for Silverlight OOB Applciation\n \nThanks,\nksnavinkumar@live.com",
+    "LastUpdatedDate": "2013-02-21T19:00:09.867-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-04-05T23:42:03.553-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "XAP signing, SILVERLIGHT 4 COM accessing and OOB features List, Device accessing",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 10,
+    "Id": 8606
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello mladjenovic,\r\n\r\nThank you for your time and posting.I am sorry that we didn't reply for a long time. It seems that you want a sample compsed of Out of browser.  It has taken place at siverlight 3 firstly. It's a new technology for us. But I will post it to our audit system because of your votes is beyond 2 points. Never mind.\r\n\r\nThanks \r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com \r\n\r\n\r\n\r\n \r\n\r\nIs my understanding correct? Please feel free to let me know if I misunderstood your needs.",
+      "PostedDate": "2011-04-13T19:00:08.547-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "hi mladjenovic,\r\n\r\n  The sample topic related with your sample idea can find out at http://forums.silverlight.net/forums/p/220337/526856.aspx, It seems that your sample idea is wonderful idea for us. I searched for them at internet result in that plenty of customers have composed them and write in their blog.\r\nSo the sample when it would be composed by our engineer would make sample library even better. Look forward for hearing for you.\r\n\r\nThanks \r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-04-14T01:06:20.993-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi orichisonic,\r\n       Basically i need a solution for Silverlight application that should work like a window application and all the functionalities as like window application  in Out-Of-Browser( thats the above points that \r\ni have noted). hope i have cleared whats my need.. please can you help me. the post in Silverlight blog was not answered correct so am in need of some help from All-In-One code framework. can you please help me .... :) \r\n\r\nThanks,\r\nksnavinkumar@live.com.",
+      "PostedDate": "2011-04-14T03:11:24.57-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "hi mladjenovic,\r\n   I have posted them yesterday. But our team mentor out in redmond have rejected them because of Microsoft's MSDN supporting this issue.You can access the website at http://msdn.microsoft.com/en-us/library/dd550721(VS.95).aspx. And I can list my posting original text as follows:\r\n\r\n----------------------------------------------------------------------------------------------------------------------\r\nWhat specifically does the sample demo?\r\n\r\nThis sample should demo how to demo local file system accessing as like windows application in trust application  and  XAP signed.Currently the sample has application license validation. Consequently it should list device accessing, which looks like device status(active or inactive) and device information. Finally, the sample should demonstrate auto updating feature using OOB.If possible, the readme of sample should describute how to open the OOB feature with visual studio 2010.It is because that the feature opened is prerequistite conditon.\r\n\r\n \r\n\r\nThe sample demos:\r\n\r\n1) How to implement local file system accessing as like windows application in trust application.\r\n\r\n2) How to implement device accessing(device information and status).\r\n\r\n3) How to implement auto updating feature.\r\n\r\n4) How to implement com accessing.\r\n\r\n5)How to implement listing printer and active directory as like local file system \r\n\r\nWhy do we need the content?\r\n\r\nIt is because that our sample issue tracker has this sample idea and its votes beyond 5. It seems that a lot  of customer don't know how to use OOB after silverlight 4 has been promoted.\r\n\r\nhttp://1code.codeplex.com/workitem/8606\r\n----------------------------------------------------------------------------------------------------------------------\r\n\r\nFinally we all appreciate your sample idea because of being useful for our work and promoting our project. \r\n\r\nHave a nice day\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com\r\n\r\n",
+      "PostedDate": "2011-04-14T18:33:27.65-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-14T21:28:37.147-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-14T21:31:10.437-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "hi,\r\nso you wont include this issue in you next release of All-In-One- code framework. right thats cool. Am going to add another one point that struck me this morning.",
+      "PostedDate": "2011-04-14T21:43:07.427-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-14T21:48:30.053-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-14T21:49:44.543-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-14T22:17:33.28-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-14T22:30:44.207-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-14T22:36:47.84-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi,\r\nso you are not interested to answer for my question. Thanks for all of you support.  You are not in the state to answer my question or even try out this. leave all the points reply me for at least 6, 9, 10, points \r\n\r\nThanks,\r\nksnavinkumar@live.com ",
+      "PostedDate": "2011-04-14T23:09:40.91-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "This issue is coved by MSDN website at http://msdn.microsoft.com/en-us/library/dd550721(VS.95).aspx\r\n\r\n\n\n** Closed by orichisonic 4/14/2011 10:36 PM",
+      "PostedDate": "2011-04-15T01:20:34.583-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "requesting solution for some of the above points 6,9,10 ",
+      "PostedDate": "2011-04-15T01:20:35.213-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi,\r\nplease at least check this points \r\n\r\n1. offline browsing in Silverlight 4.\r\n2. check for available network connection. (i.e., check weather the server is alive or not) \r\n3. Active Directory login.",
+      "PostedDate": "2011-04-15T01:22:38.007-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "hi ksnavinkumar,\r\n   Thanks for your additional information about this sample idea. I have search for this one and have some technology points about it. After my urgent sample composing tasks have been completed, I would go on following relational topic about OOB.\r\n\r\nSincerely \r\nAll-In-One Code Framework \r\nhttp://1code.codeplex.com\r\n",
+      "PostedDate": "2011-04-18T20:18:34.223-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello ksnavinkumar\r\n\r\nI am the program manager of All-In-One Code Framework.  Thank you for submitting the code sample request!  Considering the high votes of the sample topic, we are working with the Silverlight experts to triage the sample topic again.  One of the purposes of the triage is to avoid the duplication with existing code samples in MSDN (http://msdn.microsoft.com/en-us/library/dd550721(VS.95).aspx in this case).  Thank you for your understanding :)\r\n\r\nIf you are expecting a quick technical answer (not just a code sample) for the above Silverlight OOB senarios, you may also consider posting the question to the Silverlight forum. http://forums.silverlight.net/. Many MVPs, Microsoft engineers, and community members are actively answering questions in that forum. \r\n\r\nThank you. I hope that you have a wonderful day!\r\n\r\nJialiang Ge\r\nProgram Manager\r\nMicrosoft All-In-One Code Framework",
+      "PostedDate": "2011-04-18T23:14:19.323-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "hi Jialiang,\r\n\r\nFirst of all thank you for you reply. And, Regarding this topic i have already posted in http://forums.silverlight.net/ hope i didn't find any valid answers for my post(http://forums.silverlight.net/forums/t/220337.aspx). so i searched in web and found out All-In-One Code framework and posted this issue.\r\n\r\nThanks,\r\nksnavinkumar@live.com",
+      "PostedDate": "2011-04-19T00:01:56.75-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi ksnavinkumar \r\n\r\nThank you for your support of the All-In-One Code Framework effort. \r\n\r\nHere are our findings after discussing with the Silverlight experts. Could you please let me know if the information is useful, and we can further discuss if a code sample is necessary to be created in All-In-One Code Framework.\r\n\r\n1. Active Directory login. \r\nAs these answered forum thread discuss (http://forums.silverlight.net/forums/p/101803/232304.aspx, http://forums.silverlight.net/forums/p/54590/144184.aspx), there is no support for Active Directory. The workaround is to interact with active directory through a proxy WCF service which can handle direct calls to the AD services.\r\n\r\n2. offline browsing in Silverlight 4.\r\nCould you please clarify \"offline browsing\"? Do you mean offline browsing *webpage* in Silverlight 4?\r\n\r\n3. check for available network connection. (i.e., check weather the server is alive or not) \r\nTo check if network connectivity is available, you can call the NetworkInterface.GetIsNetworkAvailable method.\r\nTo check if a certain HTTP web server is available, you may consider sending an HTTP Web Request to the server, and check the response. \r\nThere is a code example in the MSDN page: http://msdn.microsoft.com/en-us/library/system.net.httpwebrequest(v=vs.95).aspx#Y2539  \r\n(see the Examples section)",
+      "PostedDate": "2011-04-19T06:41:16.737-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T18:12:50.257-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:09.867-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

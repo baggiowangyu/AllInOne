@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello,\nI would like to be able to start a process that does not steal focus from the parent process.  This can be done with ShowWithApplication set to True, but it seems this only works when then 'Enable Application Framework'  is disabled.\n   The Application Framework provides extra features which I also need, so I would like to use both.\n   It would be great to have a WinForms sample with both enabled.\nThanks\nTom",
+    "LastUpdatedDate": "2013-02-21T18:59:17.903-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-05-18T05:27:18.24-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "WinForms ShowWithoutActivation with Application Framework enabled",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10776
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

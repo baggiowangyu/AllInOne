@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "looking for sample that i can build or edit css files in runtime to add or modify existing css classes\nit will help in working in CMS, web portal it will better to have one like visual studio or expression web style builder\ni search over web much and didn't find any sample like that \n \nhope you help me\nmy kind regards for you work and your time \n \nyours \nAHMED KHATAB",
+    "LastUpdatedDate": "2013-02-21T19:00:40.85-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-10T12:23:03.003-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Looking For CSS class file Editor/Bulider",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 7634
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "899042",
+    "ThreadId": "391461",
+    "Html": "\r\n<p>I found that in the changeset&nbsp;<a id=\"ChangeSetLink72\" title=\"View change set 55719\" href=\"http://1code.codeplex.com/SourceControl/changeset/55719\">55719</a>&nbsp;some source code was deleted. This is the changeset comment&nbsp;<span>Delete CSShellExtContextMenuHandler\r\n and VBShellExtPropSheetHandler.</span></p>\r\n<p>Why do you remove some very&nbsp;useful&nbsp;examples?</p>\r\n<p>&nbsp;</p>\r\n<p>Thanks</p>\r\n",
+    "PostedDate": "2012-08-14T01:52:10.453-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "906792",
+    "ThreadId": "391461",
+    "Html": "<p>Yes. I am interested in the same.</p>\r\n<p>Also blogposts \"Windows Shell Extension with .NET Framework 4\" doesn't exist now.</p>",
+    "PostedDate": "2012-08-31T03:59:06.23-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "920736",
+    "ThreadId": "391461",
+    "Html": "<p>Hello</p>\r\n<p>These Windows Shell code samples were removed because writing Windows Shell Extension using .NET 4 is not supported.&nbsp; We posted a blog in <a href=\"http://blogs.msdn.com/b/onecode\">http://blogs.msdn.com/b/onecode</a>:</p>\r\n<p><a href=\"http://blogs.msdn.com/b/codefx/archive/2011/01/04/is-it-officially-supported-to-write-windows-shell-extension-using-net-4-today.aspx\">http://blogs.msdn.com/b/codefx/archive/2011/01/04/is-it-officially-supported-to-write-windows-shell-extension-using-net-4-today.aspx</a></p>\r\n<p>Thanks for your understanding.</p>\r\n<p>Jialiang Ge</p>",
+    "PostedDate": "2012-10-02T10:39:30.093-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "921100",
+    "ThreadId": "391461",
+    "Html": "<blockquote style=\"border: solid .1em #ccc; font-style: italic; margin: .25em 1em 0 1em; padding: 0 .25em 0 .25em;\"><strong>Jialiang wrote:</strong><br />\r\n<p>These Windows Shell code samples were removed because writing Windows Shell Extension using .NET 4 is not supported.&nbsp;</p>\r\n</blockquote>\r\n<p>Dear Jialiang,</p>\r\n<p>maybe it is not officially supported but it is working. I have an implementation based on your code sample in production and it is doing just fine. I consider that a great example, maybe should be there with a note that is not officially supported. It is a shame that a sample like that is not&nbsp;easily&nbsp;downloadable.</p>\r\n<p>Cheers</p>",
+    "PostedDate": "2012-10-03T01:42:17.857-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

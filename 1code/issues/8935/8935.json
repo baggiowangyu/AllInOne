@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I'm using a combobox column in a datagridview. \nThrough the Datasource , DisplayMember and ValueMember, I bind the combobox to a datasource using Entity Framework.\n \nTo my surprise , when I click the combobox , the response is very slow.\n \nI then use a datable to store the data  used by combobox instead of Entity Framework to decrease the database access times.\nThe performance is somewhat better , but the response of the combobox column in the datagridview is still slow , especially compared with a combobox control on a form.\n \nWould you please provide us with a more efficiant solution when using combox column in a datagridview?\nThanks a lot.",
+    "LastUpdatedDate": "2013-02-21T18:59:57.707-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-06-06T04:02:32.463-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Slow response when using combobox in winform datagridview",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8935
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

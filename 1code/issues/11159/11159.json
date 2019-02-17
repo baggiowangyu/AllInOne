@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The stand alone sample browser crashes every time on start up.\nI am sitting behind a firewall.\n \n Newtonsoft.Json.JsonReaderException was unhandled\n HResult=-2146233088\n Message=Unexpected character encountered while parsing value: <. Line 1, position 1.\n Source=Newtonsoft.Json\n LineNumber=1\n LinePosition=1\n StackTrace:\n      at Newtonsoft.Json.JsonTextReader.ParseValue(Char currentChar)\n      at Newtonsoft.Json.JsonTextReader.ReadInternal()\n      at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType)\n      at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)\n      at SampleBrowser.DataAccess.GalleriesAPi.APIRequest.GetResults(SearchParams searchParams)\n      at SampleBrowser.DataAccess.Searcher.<BeginSearch>d__6.MoveNext()\n      at SampleBrowser.MainWindow.BackWorker(Object searchCondition)\n      at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)\n      at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)\n      at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)\n      at System.Threading.ThreadHelper.ThreadStart(Object obj)\n InnerException:",
+    "LastUpdatedDate": "2013-02-21T18:59:09.057-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-09-06T05:03:04.42-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Crash on start (JsonReaderException)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11159
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

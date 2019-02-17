@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "http://msdn.microsoft.com/en-us/library/ms681423(VS.85).aspx\nhttp://social.msdn.microsoft.com/Forums/en-US/netfxtoolsdev/thread/84241af8-3d67-4249-a022-434acade50a8\nhttp://blogs.msdn.com/jmstall/archive/2006/07/05/managed-wrappers-for-native-debug-api.aspx",
+    "LastUpdatedDate": "2017-11-27T10:33:41.157-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-02-01T17:33:01.54-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Create Example: A simple Debugger calling WaitForDebugEvent",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 5208
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

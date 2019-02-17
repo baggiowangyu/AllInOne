@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have an application that a nonadmin should be able to use to launch a program requiring admin elevation as an admin.  I've setup impersonation through an impersonator class and call it when I click a button to launch the specific program.  When the program launches it seems fine but when I click the button I get an error saying the program requires elevation.  I don't mind a UAC prompt asking for elevation I just don't want the nonadmin user to have to put in credentials.  Please look at my code and see what I'm doing wrong.",
+    "LastUpdatedDate": "2013-02-21T18:59:14.277-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-06-26T05:34:03.73-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "problems with impersonating an admin and elevating access priviledges on win7",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 10940
+  },
+  "FileAttachments": [
+    {
+      "FileId": 4105,
+      "FileName": "OpenProgram.zip",
+      "DownloadUrl": ".\\4105"
+    }
+  ],
+  "Comments": []
+}

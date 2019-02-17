@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Reference:  Code Snippet: Create an External Content Type Using the Administration Object Model at this link: http://msdn.microsoft.com/en-us/library/ff464321.aspx\n \n \nReferring to the above code, I am extremely interested in finding an example of the method contactModel.OwnedReferencedLobSystems.Create with \"SystemType.WebService\" instead of Database, and all subsequent code. If that can be for SAP WebService, that will be still better.",
+    "LastUpdatedDate": "2013-02-21T18:59:40.3-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-10-22T15:09:33.887-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Need example code for model.OwnedReferencedLobSystems.Create with SystemType.WebService",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9694
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

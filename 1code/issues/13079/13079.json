@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello, \n\nMm trying to implement this ( [facebook-wall-posts-comments-knockout-aspnet-webapi]( http://techbrij.com/facebook-wall-posts-comments-knockout-aspnet-webapi) ) in asp.NET webforms and not asp.NET MVC.  I have a database table with the following structure but stomped somewhere between the viewModel script and the webmethod the JSON is supposed to call from a codebehind .aspx page.\n\nCan someone assist me with a sample on how to do this (share and comment feature in asp.NET webforms)\n\nTABLE STRUCTURE:\n\nUSE [PersonDB]\n\nCREATE TABLE [dbo].[ForumWallPosts](\n\t[sn] [int] IDENTITY(1,1) NOT NULL,\n\t[postID] [nchar](10) NULL,\n\t[comment] [varchar](max) NULL,\n\t[postDate] [datetime] NULL,\n\t[username] [varchar](50) NULL,\n\t[localeIP] [nvarchar](50) NULL,\n\t[postedBy] [varchar](50) NULL,\n CONSTRAINT [PK_ForumWallPosts] PRIMARY KEY CLUSTERED \n(\n\t[sn] ASC\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\n\nCREATE TABLE [dbo].[ForumUsers](\n\t[UserID] [int] IDENTITY(1,1) NOT NULL,\n\t[UserName] [nvarchar](50) NOT NULL,\n\t[FirstName] [nvarchar](100) NULL,\n\t[LastName] [nvarchar](100) NULL,\n\t[sex] [nchar](10) NULL,\n\t[Email] [nvarchar](50) NOT NULL,\n\t[Password] [nvarchar](max) NOT NULL,\t\n\t[Mobile] [nvarchar](50) NULL,\n\t[DOB] [datetime] NULL CONSTRAINT [DF_ForumUsers_DOB]  DEFAULT (getdate()),\n\n CONSTRAINT [PK__ForumUse__1788CCAC2A4B4B5E] PRIMARY KEY CLUSTERED \n(\n\t[UserID] ASC\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\n\n\nCREATE TABLE [dbo].[ForumWallPostsComments](\n\t[commentId] [int] IDENTITY(1,1) NOT NULL,\n\t[postID] [nchar](10) NULL,\n\t[Message] [varchar](max) NULL,\n\t[CommentedBy] [varchar](50) NULL,\n\t[CommentedDate] [datetime] NULL,\n CONSTRAINT [PK_ForumWallPostsComments] PRIMARY KEY CLUSTERED \n(\n\t[commentId] ASC\n)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\n\nGO\n\nCREATE TABLE [dbo].[ForumProfileImg](\n\t[sn] [int] IDENTITY(1,1) NOT NULL,\t\n\t[imgStatus] [bit] NULL CONSTRAINT [DF_ForumProfileImg_imgStatus]  DEFAULT ((0)),\n\t[userName] [nvarchar](50) NULL,\n\t[fileName] [varchar](max) NULL,\t\n) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]\n\nGO",
+    "LastUpdatedDate": "2015-07-19T09:39:54.117-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2014-06-12T07:18:36.473-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Saving and Reading data in ap.NET 4.5 using knockoutjs",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 2,
+    "Id": 13079
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "554960",
+    "ThreadId": "243198",
+    "Html": "\r\n<p>problem is that i want to stream video ... in the following way<br>\r\n<br>\r\n1.. encrypt video and store in some secured ftp location or any location where user access prohibited or video stored in secured location&nbsp;<br>\r\n2.. when user access clicks play video, then decrypt video in chunks (retrieve data from secured locations in bytes ) and stream this video to the user from asp.net web application....&nbsp;<br>\r\n<br>\r\nMain things to consider here is that i do not want user to download video at all using any download manager to download this file...<br>\r\n<br>\r\nhere user can do only one thing just see video from online asp.net application...</p>\r\n",
+    "PostedDate": "2011-01-25T04:52:44.743-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

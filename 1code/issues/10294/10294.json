@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Please provide a current sample for VS 2008, targeting 3.5 framework for encrypting the app.config Connection Strings settings during project install.  And commandline commands that are needed to ensure a Service Account has access to the encryption key container for decrypting the connection strings.\n \nCurrently deploying an application to be run by the task scheduler, no interface, with all exceptions written to the log, so there is no interface.\n \n \n    [RunInstaller(true)]\n    public partial class AppInstaller : Installer\n    {\n        public AppInstaller()\n        {\n            InitializeComponent();\n        }\n \n        public override void Install(IDictionary stateSaver)\n        {\n            base.Install(stateSaver);\n \n            // Configuration encryption protect section\n \n        }\n    }\n \nI found several articles describing how to accomplish this, but they were written in 2007.\n \nhttp://www.codeproject.com/Articles/18558/Encrypting-windows-application-connection-strings (method currently trying to use)\nhttp://www.codeproject.com/Articles/15392/Implementing-Protected-Configuration-With-Windows",
+    "LastUpdatedDate": "2013-02-21T18:59:29.727-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-02-04T10:58:23.383-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Encrypt windows app.config during install",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10294
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

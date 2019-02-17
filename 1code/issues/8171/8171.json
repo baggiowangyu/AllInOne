@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi there,\n \nI need to show image files that are stored in a remote SharePoint directory in a server located across the world. My solution is being developped in VS 2010 C# .NetFramework 4.\n \nI have no familiarity with SharePoint, so I do not know where to start. I plan to open the images in a browser window inside my app. I do not necessarily want to download the files, once it could be a slow process because some of them are large. If I could just show them inside a web browser window inside my app would be more than enough.\n \nThanks for any support.\n \nEduardo Quintana",
+    "LastUpdatedDate": "2013-02-21T19:00:30.163-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-17T03:59:45.237-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Accessing SharePoint image files from C#",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8171
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "HI,\r\n\r\nI have received no answer for a few days, and it seems no one will be helping me with this issue here.\r\n\r\nIf it is not the proper venue for getting this type of support, how could I get it? Is there any SharePoint blog or site in which I could post this question?\r\n\r\nThanks \r\n\r\nEduardo Quintana",
+      "PostedDate": "2011-01-21T02:20:53.39-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:30.163-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

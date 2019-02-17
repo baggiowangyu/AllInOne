@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "271722",
+    "ThreadId": "79370",
+    "Html": "<p>Please add a sample that shows how to create an <a href=\"http://msdn.microsoft.com/en-us/library/dd672591.aspx\">ADO.NET (WCF) Data Services Custom Provider</a>. &nbsp;Those of us who are attempting to implement a custom provider are <a href=\"http://stackoverflow.com/questions/1702684/where-can-i-find-information-on-creating-a-wcf-data-services-custom-data-service\">desperately seeking out any information</a>, considering the MSDN documentation is, shall we say, &quot;sparse.&quot; &nbsp;Most of the time, my team is left using Reflector, which is a poor substitute for a working sample. &nbsp;Up to this point, creating a custom provider was only possible in .NET 4.0 (although you guys have samples that target <a href=\"http://cfx.codeplex.com/sourcecontrol/changeset/view/37987?projectName=cfx#786364\">other 4.0 technologies</a>), but now with the <a href=\"http://blogs.msdn.com/astoriateam/archive/2009/12/16/data-services-update-for-net-3-5-sp1-now-available-for-download.aspx\">release</a> (well, <a href=\"http://blogs.msdn.com/astoriateam/archive/2009/12/18/update-on-the-data-services-update-for-the-net-3-5-sp1.aspx\">kinda</a>) of the <a href=\"http://support.microsoft.com/kb/976126\">Data Services Update for .NET 3.5 SP1</a>, it's time we had a real sample to look at.</p>\r\n<p>And by the way, thanks for the effort that I know you guys put into these samples!</p>",
+    "PostedDate": "2009-12-30T07:54:19.923-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "272809",
+    "ThreadId": "79370",
+    "Html": "<p>Hello DaCodeBoy,</p>\r\n<p>Thank you very much for your suggestions.&nbsp;&nbsp;Currently,&nbsp;to write such a custom provider would require a detailed background.&nbsp; However, our samples should not include any specific business backgrounds.&nbsp; Meanwhile, a whole custom provider for WCF Data Services may be too large for a single project.&nbsp;&nbsp;</p>\r\n<p>Thanks again for your suggestions, we will surely consider it when we design the future plan for ADO.NET samples.&nbsp;&nbsp; Looking forward to your ideas.&nbsp;</p>\r\n<p>Happy New Year!</p>\r\n<p>Best Regards,<br>Michael Sun</p>",
+    "PostedDate": "2010-01-04T02:00:20.673-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

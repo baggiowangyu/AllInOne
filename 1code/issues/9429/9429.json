@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Would like additional samples using Event Tracing for Windows (ETW) when integrating messaging into applications that are build upon WAS (Windows Process Activation Services), WCF, WF and AppFabric. I found some examples:\nhttp://msdn.microsoft.com/en-us/magazine/cc163437.aspx. I have created my own which represents an End-To-End POC, however haven't found any community samples that I could compare with.",
+    "LastUpdatedDate": "2013-02-21T18:59:46.117-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-08-27T10:31:41.187-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Event Tracing for Windows (ETW) in AppFabric (WAS, WCF, WF, IIS)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 9429
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

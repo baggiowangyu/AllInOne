@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have created a msmq cluster with a clustered DTC service on windows 2008 R2 machine.\nI have created a transactional queue on clustered instance added my id on security tab, however kept the \"Authenticated\" option \"checked\"\nPublished a message with \"durable=true, exactlyOnce=true, useActiveDirectory=false & security mode = \"transport\" & msmqAuthenticationMode = WindowsDomain\" in the binding. \nAfter this I am unable to publish a message from a windows 2008 machine & at client side the message moves to transactional dead letter queue with error as \"the signature is invalid\" error\n \nI tried setting up the \"Authenticated option as unchecked did not help.\nThen i set authenticated unchecked and instead set the \"security mode = None\" and then i could publish message.\n \nCan you please guide me in this?",
+    "LastUpdatedDate": "2013-02-21T19:00:34.107-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-12-30T09:32:54.907-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "I would like to see a video which explains how to configure msmq cross machine and with windows authentication and publish messages across machines",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 8007
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

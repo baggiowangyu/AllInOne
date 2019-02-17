@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The sample should show how to bind data for update (i.e 2-way data binding, for full CRUD operations against a d.b.) to a pair of Windows Forms DataGridView controls (.NET 3.5 or 4)put in a Master-Detail relationship (like Orders->OrderDetails), using LINQ to SQL EntitySets (or Table(Of T)) as data sources, instead of using DataSets or generic memory-resident object lists, like existing samples do.  Many issues come out when trying to synchronize insert/delete operations, requesting them from the details DataGridView, with the underlying LINQ to SQL data classes and eventually, selectively persisting data changes to the underlying SQL tables.   The sample should show how to configure the BindingSource(s), and how to handle the events that drive the insertion/deletion of new details into the EntitySets, by using the DataGridView Add/Delete Row events.    I didn't find such an example in a lot of .NET dev communities, so I wonder this task cannot be really, effectively implemented with LINQ to SQL.  Maybe is it recommendable to switch to more powerful data abstraction classes ? I really hope it's not.  I've lost a LOT of time with LINQ to SQL for this problem !  Thanks in advance.",
+    "LastUpdatedDate": "2013-02-21T19:00:32.937-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-07T18:51:36.37-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "2-way Master-Detail Data Binding of WinForms DataGridView with LINQ to SQL data classes",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8099
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Looking for the following scenario:\n\nPre-requisite: The code should in __WPF + MEF + PRISM__\n\n1. Popup a child window or a user control from within main window\n2. Create region in child windows or user control or a dialog\n3. Manage reigon with reigon in child window or user control or a dialog\n4. Create and manage mutiple shells \n\n\n<Sample Code would help the most, along with explaination>",
+    "LastUpdatedDate": "2013-05-31T00:40:14.26-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2013-05-31T00:30:56.617-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Creating & Managing Reigon with Child window or a dialog",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 11824
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "There are less number of samples when it comes to MEF, WPF & PRISM online",
+      "PostedDate": "2013-05-31T00:40:14.26-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

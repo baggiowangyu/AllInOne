@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Please create a Visual Studio solution for a WPF LOB framework. LOB meaning data management (CRUD) operations. I'm looking for an example that shows a single table entity as well as an example showing the relationship of one-to-many entities. Using the typical scenario of a DataGrid and a detail form. The DataGrid needs to have filtering and the functionality to export the contents to Excel. The detail form needs to have basic validation at the control level (data type, etc.) as well as a validation pattern for reporting database violations (for example a unique constraint).\n \nThank you.",
+    "LastUpdatedDate": "2013-02-21T19:00:18.65-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-03-06T09:22:34.437-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "WPF - LOB Starter Application",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8476
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

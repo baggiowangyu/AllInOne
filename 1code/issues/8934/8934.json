@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The winform datetimepicker doesn't support null value \nWould you please  provide us with a datetimepicker that supports null value? Thanks.\n \nP.S.\nPlease pay attention to the winform coding also.",
+    "LastUpdatedDate": "2013-02-21T18:59:57.91-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-06-06T03:39:49.53-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "request for winform datetimepicker that supports null value",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8934
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello shenzhongwei,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\n  The topic you submitted is talking about how to use datatimepicker. It seems that unconventional data format should be convert to convertional data format and input the Time control. You can use If condition operation to solve this issue. It used by lots of project has same program. \r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com \r\n",
+      "PostedDate": "2011-06-06T19:09:28.987-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks for your quick response.\r\n\r\nIn order to clarify my request, I'm providing some links. Thanks.\r\nhttp://social.msdn.microsoft.com/Forums/en-US/winforms/thread/a84d76e1-f41d-44f9-b44f-aeecb9da8abc\r\nhttp://social.msdn.microsoft.com/forums/en-US/winforms/thread/f1f8cc0a-0ac9-4a3e-9ba4-9af495e8ff58/\r\nhttp://social.msdn.microsoft.com/forums/en-US/winforms/thread/5385f24d-376a-4e27-83ca-b7577e65c825\r\n\r\nAn the datetimepicker seems to have a bug:\r\n\"When a DateTimePicker is data-bound and the backing value is changed to a null reference (Nothing in Visual Basic), the value of the DateTimePicker will not be updated and the previous value will be retained.\"\r\n\r\nYou can refer to the following url (in the first ’Caution‘ section):\r\nhttp://msdn.microsoft.com/en-us/library/system.windows.forms.datetimepicker(VS.85).aspx\r\n\r\nAnd I don't understand the following words:\r\n'\r\nIn situations where this behavior is not desirable (for example, when using a set of data-bound controls to page through a recordset) use the Format event of the Binding class to set the DateTimePicker to a value recognizable as a a null reference (Nothing in Visual Basic).\r\n'\r\nWhat is the Binding class? \r\n\r\nThanks.\r\n \r\n",
+      "PostedDate": "2011-06-06T22:11:32.347-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-06-07T00:35:32.313-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello shenzhongwei,\r\n\r\n    Your description has lots of details in it. I will dig into it and interact with other engineers what wrong it is.\r\n\r\nSincerely\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-06-07T18:05:09.147-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:57.91-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

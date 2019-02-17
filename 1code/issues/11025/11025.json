@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "We are able to load the controls in the place holder using the buttons in aspx page.. but we are not able to create a button click even on the usercontrol1 to replace the placeholder with usercontrol2... Please remeber the button is on usercontrol1. which is suppose to fire a even in main aspx page to replace the control in the placeholder with usercontrol2.. also to bring to your notice that the usercontrols are not loaded in the aspx page by drag and drop.. they are individual controls, and are called only when a button is clicked in aspx page. I would also like to know how we can refer to that controls from aspx page.",
+    "LastUpdatedDate": "2013-02-21T18:59:12.493-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-07-25T11:52:42.977-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Dynamically loaded usercontrol button click event",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 11025
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

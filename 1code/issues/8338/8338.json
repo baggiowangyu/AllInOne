@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Thumbnail shell extension sample for pre-Vista operating systems.",
+    "LastUpdatedDate": "2013-02-21T19:00:24.043-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-02-14T07:48:06.563-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Thumbnail Shell extension for XP",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 8338
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello mladjenovic,\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nYour sample request is about how to develop the Thumbnail Shell extension for XP.  If I misunderstood your requirement, please feel free to let me know. \r\n\r\nMicrosoft All-In-One Code Framework Team supports Windows Vista and later operation system. So XP is out of the range, we hope you can get the samples. And we have some Thumbnail Shell extension samples for Vista and later, you can refer the following link:\r\nhttp://code.msdn.microsoft.com/CppShellExtThumbnailHandler-32399b35.\r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com",
+      "PostedDate": "2012-09-24T02:51:23.537-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:24.043-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "WinForm",
+      "DisplayName": "WinForm"
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Write one Windows Form application sample to demonstrate how to use Role-Based security to implement custom Authentication and Authorization.",
+    "LastUpdatedDate": "2017-11-27T10:36:44.377-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Medium",
+      "Severity": 100,
+      "Id": 2
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2009-05-14T04:44:44.86-07:00",
+    "Status": {
+      "Name": "Active",
+      "Id": 2
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "implement custom Authentication and Authorization for Windows Form application",
+    "Type": {
+      "Name": "Task",
+      "Id": 2
+    },
+    "VoteCount": 4,
+    "Id": 3043
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "OR in WPF",
+      "PostedDate": "2011-07-14T07:26:04.563-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-07-14T07:26:14.263-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello Riquel,\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nYour sample request is about how to implement custom Authentication and Authorization for Windows Form application.  If I misunderstood your requirement, please feel free to let me know. \r\n\r\nWe found that the following sample can probably answer your request.  \r\n\r\nhttp://code.msdn.microsoft.com/CSCustomAuthorization-241c2ff7\r\nThe sample demonstrates how to implement custom authentication and authorization by using classes that derive from IIdentity and IPrincipal.\r\n\r\nPlease let us know if this sample is helpful to you. \r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com\r\n",
+      "PostedDate": "2012-09-25T01:05:19.71-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:01:09.06-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2014-10-31T04:55:20.92-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2017-11-27T10:36:44.377-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Using LongListSelector for Nation selection via A-Z is OK for English but not for other languages such as Chinese Text in a globalised App.\n\nKindly offer a sample in VB code that could take a nation (name) via pick or touching location on the world map on Windows phone 8.\n\nThank You very much indeed!",
+    "LastUpdatedDate": "2014-02-10T17:06:33.04-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2014-02-10T17:06:33.04-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Nation selection via Map",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 12741
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

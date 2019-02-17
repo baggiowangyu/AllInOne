@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "In ASP.NET, I will like to have an audio player on a site to play music from a playlist. The playlist could be from a database or an XML file. Could you do a sample on how to do this please? Thanks! Marvelous work by the way!",
+    "LastUpdatedDate": "2013-02-21T19:00:43.323-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-02T06:35:06.25-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Request: How to embed Media player in music store web site",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 7538
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello tomotayo \r\n\r\nThank you for using our sample request service! (http://1code.codeplex.com/wikipage?title=NEW%2c%20FREE%20Code%20Sample%20Request%20Service%20from%20Microsoft%20All-In-One%20Code%20Framework) \r\n\r\nThe code sample topic seems relevant with this MSDN blog:\r\nBuilding a Web Site with ASP .NET 2.0 to Navigate Your Music Library\r\nhttp://blogs.msdn.com/b/coding4fun/archive/2006/10/31/913360.aspx. \r\n\r\nI will ask ASP.NET engineers to evaluate your sample request today, and then update you.",
+      "PostedDate": "2010-11-02T08:53:16.49-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T19:41:58.513-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:43.323-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

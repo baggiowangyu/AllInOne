@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "A working example that has projects that show the Complete OAuth life cycle (both 1 and 2 would be nice, but 1 at a minimum).\n\nHow to make an OAuth ID Provider,  OAuth Authentication Server and an OAuth client that uses both, an added extra bonus would be a project that implements both OAuth Provider and Server",
+    "LastUpdatedDate": "2013-07-17T07:54:57.483-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-12-03T14:49:27.187-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Complete OAuth life cycle Example",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 11398
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

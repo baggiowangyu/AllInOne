@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello, \nIam Developing Windows 8 app and ran in to Problem. When i Select All items in Gridview(Which is Virtualized and Contain more than 2000+ items) the app scrolling is not smoother and when scroll back and forward the app hangs. I reproduced the app here in attachments. please select first scenario in the app and click select all Button in top which selects all items in the Gridview\nPlease help me....",
+    "LastUpdatedDate": "2013-02-21T18:59:04.317-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-11-22T03:12:22.177-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Selecting All Items In GridView Windows 8 app",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11378
+  },
+  "FileAttachments": [
+    {
+      "FileId": 4320,
+      "FileName": "StorageDataSource and GetVirtualizedFilesVector sample.rar",
+      "DownloadUrl": ".\\4320"
+    }
+  ],
+  "Comments": []
+}

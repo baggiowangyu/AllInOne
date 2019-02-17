@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am looking for a sample like the SilverlightAndIdentity sample in the WIF Training Kit with a twist to make it complete. Instead of the local STS, use ACS and windows live ID, yahoo. and google IPs. Show how to accomplish this using the DevFabric and then how to get it all rtunning in the SB. \n \nAll of the WIF kit samples are great but they are pieces that are difficult to piece together by someone new to WIF, claims, and Silverlight. A small error here or there and nothing works and you're left frustrated beyond belief! Trust me, I'm there now.\n \nRegards,\nRon",
+    "LastUpdatedDate": "2013-02-21T19:00:39.31-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-21T11:09:49.297-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Silverlight OOB hosted in SB, ACS with wlid/google/yahoo IPs, WCF in SB",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 7715
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello gevalia \r\n\r\nThank you for using our new code sample request service. \r\n\r\nThis looks a great code sample topic.  The Azure engineers are evaluating the topic and will update you. \r\n\r\nthanks\r\nJialiang Ge\r\nMicrosoft All-In-One Code Framework",
+      "PostedDate": "2010-11-22T07:54:15.403-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:39.31-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hey guys,\n\nI want to create custom context menu in Windows file explorer. Can you please send some examples for CSShellExtContextMenuHandler? I also want to enable those options based on specific conditions so some examples on that will also be great. Thanks a lot!",
+    "LastUpdatedDate": "2015-07-19T09:39:46.12-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2014-07-27T10:23:19.697-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Need sample code for CSShellExtContextMenuHandler",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 2,
+    "Id": 13164
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

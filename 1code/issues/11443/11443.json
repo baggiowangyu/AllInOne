@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I'd like to see a sample that shows how to bookmark/persist a workflow with one client app and continue the work in another client app. For instance, a vacation request app that multiple employees submit requests via a web application and the manager(s) process the requests in the same or another application. I'd like to see how resuming and signaling work between these apps. Maybe using sql server as the persistence store",
+    "LastUpdatedDate": "2013-02-21T18:59:02.757-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-12-18T13:05:46.443-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Persisting and Reloading Workflows with various clients",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11443
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

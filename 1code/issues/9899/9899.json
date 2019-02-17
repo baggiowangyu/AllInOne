@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am trying to force Code Review at Check-in Process.\nI have managed to implement it in TFS 2010, using StyleCop and the tool \"StyleCop Team Foundation Server check-in policy\".\nRef: http://archive.msdn.microsoft.com/StyleCopPolicy/Release/ProjectReleases.aspx?ReleaseId=4204\n \nNow I am trying to implement the same in SVN & CVS.\nI prefer to stick on with StyleCop for consistency.\n \nKindly suggest an approach to implement StyleCop Code Review at every Check-in from SVN, such that, the check-in only succeeds only if the Code is as per standards defined by the StyleCop rules file (.stylecop).",
+    "LastUpdatedDate": "2013-02-21T18:59:33.837-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-11-27T23:03:58.96-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "SVN - StyleCop Integration",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9899
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

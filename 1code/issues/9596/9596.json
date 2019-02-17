@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi.\nOur current .Net project has speech recognition based on SAPI and System.Speech. It would be nice if the users can backup their speech profile and upload to our server so that he can log in with the application which will automatically prompt for a profile download. On approval, the application downloads the backup file and adds the profile with the current system so that the user gets the same dictation quality in another machine without re-training. I found Microsoft Tools \"Speech Recognition Profile Manager Tool\" and \"WSRProfile Tool\".. But both of them are stand alone apps and do not provide any APIs. Can I get a code sample to perform the backup and restore operations? I hope this would be helpful for developers who work in speech recognition domain. Thanks in Advance",
+    "LastUpdatedDate": "2013-02-21T18:59:42.35-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-10-05T03:22:28.95-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Speech Profile Archive/Restore",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9596
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

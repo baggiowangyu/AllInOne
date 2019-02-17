@@ -1,0 +1,75 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I want to request some sample about media such as DirectShow, Windows media encoder to do the recording, encoding jobs (both audio/video) and can set the input source (file or device) and format of video output easier.",
+    "LastUpdatedDate": "2013-02-21T19:00:41.06-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-09T21:48:42.033-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Sample code framework about media",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 8,
+    "Id": 7627
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello knook\r\n\r\nThank you for sharing this code sample topic! We had a heated discussion on this sample topic inside Microsoft.\r\n\r\nYou mentioned two different technologies: Windows media encoder and DirectShow.\r\n\r\nWindows Media Encoder has been replaced by the Expression Encoder. Microsoft no longer support Windows Media Encoder. We wonder if are interested in having this code sample target the Expression Encoder instead. \r\n\r\nAs for DirectShow, we propose to write the code samples in a phrased approach. In other words a 3 step process. The first step of the process shows how to get DirectShow to load and display media. The second could be how to add code to the first application to allow for basic transcoding. The third could cover three of the most popular codecs and how to add them to the topology. Each example would build on the previous one.   Do these proposed samples look good to you?\r\n\r\nThanks\r\nJialiang Ge",
+      "PostedDate": "2010-12-14T08:34:52.757-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Yes,\r\nbut i think, the expression encoder does not use in a recording or capturing works. I try to use the LiveEncoding, but it is not the same as recording. For example, it cannot pause when it is recording and it cannot preview the audio. \r\n\r\nBig Thanks for reply.",
+      "PostedDate": "2010-12-14T09:22:13.02-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello hnook\r\n\r\nWindows Media Encoder (WME) 9 is a deprecated product, so we will not write code sample for WME. \r\n\r\nYou are right that you cannot pause the recording with the current Expression Encoder. I’m not sure what you mean by preview the audio.  Either way, please understand that we should still use Expression Encoder and not WME.",
+      "PostedDate": "2010-12-15T07:59:15.58-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-15T23:26:08.643-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-12-17T04:17:13.55-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-12-13T10:01:02.913-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:41.06-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

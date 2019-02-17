@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi,\n     We are working on a WPF application and using the DataGrid control to display data. The columns information like column title, column width, column type(1 means Text,2 means Date/Time, 3 means dropdown, 4 means checkbox, etc), column order, editable/readonly, etc for the datagrid is configured in the database. So first, i get the column configuration data into a dataset and form the Datagrid layout dynamically depending upon the data. Then i make another call to get the actual data to be displayed in the grid. The grid control needs to bind to a dataset depending on the above column configuration.\n \nQuestions:\n1) How can i dynamically create a datagrid with the column configuration information i get from a dataset? I think we need to loop through the dataset and create the columns for the Datagrid programmatically. How can we do it?\n \nfor ex, the column configuration has the following data and it is fetched into dataset.\nColumn_Name\t    Column_Width\t\tColumn_Type\t\tColumn_Title\t\tColumn_Type\nSTUDENT_NAME\t    10\t\t\t1\t\t\tFirst Name\t\t\t1-->Text\nSTUDENT_ADM_DATE     6\t\t\t2\t\t\tAdmission Date\t\t2-->Date\nSTUDENT_ENROLLED\t    2\t\t\t4\t\t\tEnrolled\t\t\t4-->Check box to indicate whether enrolled or not \nSTUDENT_SUBJECTS\t  15\t\t\t3\t\t                Subjects\t\t\t3 -->Drop Down Combo box to select subjects \nSTUDENT_AGE\t     5\t\t\t5\t\t\tAge\t\t\t3 -->Drop Down Combo box to select age from 1 to 100 \n \n2) How do i bind the data i fetch from the databse to the datagrid? I know we might use templates here, but need more insight and sample code if possible for the same.\n \n3)Also how do we add Event on each FieldValue cell. Event could be click, double click, Right mouse click, Enter etc which is configured in the database for each column.\n \nAppreciate any help.\n \nThanks,\nBabu.",
+    "LastUpdatedDate": "2013-02-21T18:59:28.91-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-02-14T13:08:37.21-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "WPF Application with DataGrid that supports excel kind of functionality",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10377
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

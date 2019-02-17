@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "993460",
+    "ThreadId": "431214",
+    "Html": "\r\n<p>All-In-One Code Framework Coding Standards.docx</p>\r\n<p>==========================</p>\r\n<p>Original English Edition says:</p>\r\n<p>Nested if is often the worst choice. You quickly run out of <span style=\"color:#ff0000\">\r\nhorizontal space</span>. It is harder to read, harder to maintain.</p>\r\n<p>Translated Chinese:</p>\r\n<p>嵌套 if 法经常是最坏的选择。您会很快耗尽<span style=\"color:#ff0000\">水平空间</span>。代码更难阅读和维护。</p>\r\n<p>==========================</p>\r\n<p>What's Wrong:</p>\r\n<p>The <span style=\"color:#ff0000\">space </span>means whitespace said in section 2.9, so the translation is wrong.</p>\r\n<p>Candicate translation is: 您会很快<span style=\"color:#0000ff\">没有了</span><span style=\"color:#ff0000\">水平方向用于留空白的地方（用于代码缩进）</span>.</p>\r\n<p>The translation is not&nbsp;beautiful, but is correct.</p>\r\n",
+    "PostedDate": "2013-01-29T00:12:59.687-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

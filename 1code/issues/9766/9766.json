@@ -1,0 +1,65 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "There is a lot of confusion/debate found after I've done some research on how to properly receive data with SerialPort in .Net. Because serial ports aren't used as often now, there is a large lack of documentation and code examples that handle data receiving in the proper way. Personally, I'm interested in modem communication because I'm updating legacy systems with .Net code that use serial modems and POTS.",
+    "LastUpdatedDate": "2013-02-21T18:59:37.85-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-11-07T09:03:54.72-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Receive Data with SerialPort class",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 9766
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi jlafay,\r\n   Thank you for submitting sample ideas to us. The topic that you mentioned I have focussed on it for a long time,and lots of customer asks the similar question in our MSDN Forum. But I am regretful that I should tell you the knowledge of this topic has been published in MSDN article such as http://msdn.microsoft.com/en-us/library/7x7cdt5c.aspx. It resolves around how to Dial Modems Attached to Serial Ports in Visual Basic and relates to your mind,and I can provide other 3rd-part website to you as follows:\r\nhttp://www.innovatic.dk/knowledg/SerialCOM/SerialCOM.htm\r\n\r\nBased on those plenty of IT information provided in offcial website, we needn't to provide this similar sample. If you have another some features other than these context provided in these links,please feel free to let me know.\r\n\r\nSincerely,\r\nAll-In-Onecode-Framework",
+      "PostedDate": "2011-11-07T19:09:21.867-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-13T07:39:31.463-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi jlafay,\r\n I have noticed that your topic about how to receive data with serialport class have been submitted to our sample idea assessment, and this sample idea has been approved by Subject Matter Experts. After a while, you can see this sample in Microsoft Gallery and the search result coming from Sample Browser.\r\n\r\n\r\nWe still thank your support.\r\n\r\nSincerely,\r\nAll-In-OneCode Framework",
+      "PostedDate": "2011-11-20T21:37:17.49-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-21T09:52:56.587-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:37.85-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

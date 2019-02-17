@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "1. Kinect SDK Samples\n2. Channel9/coding4fun Kinect Samples http://files.ch9.ms/coding4fun/KinectforWindowsSDKV1.zip \n3. http://paint.codeplex.com/ \n \netc related to Kinect SDK are not available.",
+    "LastUpdatedDate": "2013-02-21T18:59:29.063-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-02-12T04:18:57.077-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Kinect SDK Samples",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10366
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

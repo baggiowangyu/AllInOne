@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><definitions targetNamespace="urn:crmondemand/ws/odesabs/CurrentOrganization/" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="urn:crmondemand/ws/odesabs/CurrentOrganization/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:apData="urn:/crmondemand/xml/CurrentOrganization/Data" xmlns:apQuery="urn:/crmondemand/xml/CurrentOrganization/Query">
+    <types>
+        <xsd:schema elementFormDefault="qualified" attributeFormDefault="unqualified" targetNamespace="urn:crmondemand/ws/odesabs/CurrentOrganization/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <xsd:import namespace="urn:/crmondemand/xml/CurrentOrganization/Query"></xsd:import>
+            <xsd:import namespace="urn:/crmondemand/xml/CurrentOrganization/Data"></xsd:import>
+            <xsd:element name="CurrentOrganizationRead_Input">
+				<xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element ref="apData:CurrentOrganization"></xsd:element>
+                    </xsd:sequence>
+                </xsd:complexType>
+			</xsd:element>
+            <xsd:element name="CurrentOrganizationRead_Output">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element ref="apData:CurrentOrganization"></xsd:element>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:schema>
+        <xsd:schema elementFormDefault="qualified" attributeFormDefault="unqualified" targetNamespace="urn:/crmondemand/xml/CurrentOrganization/Data" xmlns:apData="urn:/crmondemand/xml/CurrentOrganization/Data" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <xsd:element name="CurrentOrganization" type="apData:CurrentOrganizationData"></xsd:element>            
+            <xsd:complexType name="CurrentOrganizationData">
+                <xsd:all>
+                    <xsd:element name="CompanyName" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                    <xsd:element name="DefaultCurrency" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                    <xsd:element name="DefaultLanguage" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                    <xsd:element name="WebSite" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                    <xsd:element name="MainFax" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                    <xsd:element name="MainPhone" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                    <xsd:element name="Location" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                    <xsd:element name="DefaultLocale" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                    <xsd:element name="DefaultTimeZone" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                    <xsd:element name="ThemeName" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                    <xsd:element name="BillingCity" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                    <xsd:element name="BillingCountry" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                    <xsd:element name="BillingPostalCode" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                    <xsd:element name="BillingAddress1" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                    <xsd:element name="BillingAddress2" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                    <xsd:element name="ShippingCity" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                    <xsd:element name="ShippingCountry" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                    <xsd:element name="ShippingPostalCode" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                    <xsd:element name="ShippingAddress1" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                    <xsd:element name="ShippingAddress2" maxOccurs="1" minOccurs="0" type="xsd:string"></xsd:element>
+                </xsd:all>
+            </xsd:complexType>
+        </xsd:schema>
+        <xsd:schema elementFormDefault="qualified" attributeFormDefault="unqualified" targetNamespace="urn:/crmondemand/xml/CurrentOrganization/Query" xmlns:apQuery="urn:/crmondemand/xml/CurrentOrganization/Query" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <xsd:element name="CurrentOrganization" type="apQuery:CurrentOrganizationQuery"></xsd:element>
+            <xsd:complexType name="CurrentOrganizationQuery">
+                <xsd:all>
+                    <xsd:element name="CompanyName" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                    <xsd:element name="DefaultCurrency" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                    <xsd:element name="DefaultLanguage" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                    <xsd:element name="WebSite" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                    <xsd:element name="MainFax" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                    <xsd:element name="MainPhone" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                    <xsd:element name="Location" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                    <xsd:element name="DefaultLocale" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                    <xsd:element name="DefaultTimeZone" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                    <xsd:element name="ThemeName" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                    <xsd:element name="BillingCity" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                    <xsd:element name="BillingCountry" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                    <xsd:element name="BillingPostalCode" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                    <xsd:element name="BillingAddress1" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                    <xsd:element name="BillingAddress2" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                    <xsd:element name="ShippingCity" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                    <xsd:element name="ShippingCountry" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                    <xsd:element name="ShippingPostalCode" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                    <xsd:element name="ShippingAddress1" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                    <xsd:element name="ShippingAddress2" maxOccurs="1" minOccurs="0" type="apQuery:Empty"></xsd:element>
+                </xsd:all>
+            </xsd:complexType>
+            <xsd:complexType name="Empty"></xsd:complexType>
+        </xsd:schema>
+    </types>
+    <message name="CurrentOrganizationRead_Input">
+        <part name="CurrentOrganizationRead_Input" element="tns:CurrentOrganizationRead_Input"></part>
+    </message>
+    <message name="CurrentOrganizationRead_Output">
+        <part name="CurrentOrganizationRead_Output" element="tns:CurrentOrganizationRead_Output"></part>
+    </message>
+    <portType name="CurrentOrganizationService">
+        <operation name="CurrentOrganizationRead">
+            <input message="tns:CurrentOrganizationRead_Input"></input>
+            <output message="tns:CurrentOrganizationRead_Output"></output>
+        </operation>
+    </portType>
+    <binding name="CurrentOrganizationService" type="tns:CurrentOrganizationService">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"></soap:binding>
+        <operation name="CurrentOrganizationRead">
+            <soap:operation soapAction="document/urn:crmondemand/ws/odesabs/CurrentOrganization/:CurrentOrganizationRead"></soap:operation>
+            <input>
+                <soap:body use="literal"></soap:body>
+            </input>
+            <output>
+                <soap:body use="literal"></soap:body>
+            </output>
+        </operation>
+    </binding>
+    <service name="CurrentOrganizationService">
+        <port name="CurrentOrganizationService" binding="tns:CurrentOrganizationService">
+            <soap:address location="https://secure-ausomxdsa.crmondemand.com/Services/cte/CurrentOrganizationService"></soap:address>
+        </port>
+    </service>
+</definitions>

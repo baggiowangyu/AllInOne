@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Under certain circumstances the BackgroundWorker Component's ProgressChanged event and RunWorkerCompleted event will run on the wrong thread. \n \nHere is the information on this bug:\nhttp://connect.microsoft.com/VisualStudio/feedback/details/116930/backgroundworker-components-progresschanged-and-runworkercompleted-event-run-on-wrong-thread\n \nPlease provide sample code that insures the BackgroundWorker is started on the UI thread.\n \nThis is a problem I have been trying to resolve for many months.\n \nThank you !",
+    "LastUpdatedDate": "2013-02-21T18:59:56.57-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-06-15T12:00:52.327-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Backgroundworker - Code sample to insure BackgroundWorker is started on UI thread",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 5,
+    "Id": 8965
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello MisterT99,\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nYour sample request is about how to insure the BackgroundWorker that is started on the UI thread.  If I misunderstood your requirement, please feel free to let me know. \r\n\r\nI can’t open the link about the bug. If you can provide more information about the bug, it will be very helpful for our engineers to write the sample idea.\r\n\r\nThanks and have a great day!\r\n\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\n",
+      "PostedDate": "2012-08-22T02:28:35.23-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Mapeng,\r\n\r\nThank you for your reply.\r\n\r\nI have resolved this problem.  \r\n\r\nThank you for your response.\r\n\r\nTom\r\n",
+      "PostedDate": "2012-08-22T04:54:18.563-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:56.57-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

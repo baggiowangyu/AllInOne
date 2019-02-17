@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "A sample using Silverlight to move from one tabpage (containing a datagridview) to a second tabpage containg a second datagridview.   The two datagridview controls have related data.     Changes in one grid will produce changes in the other.",
+    "LastUpdatedDate": "2013-02-21T19:00:35.643-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-12-08T12:48:17.777-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "silverlight app with a datagridview on each of two tabpages that have related data",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 7865
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

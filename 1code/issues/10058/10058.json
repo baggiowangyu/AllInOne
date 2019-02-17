@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "How can I achieve Facebook as Identity provider and Windows Azure ACS will control the authentication. Now I want to implement the role based authorization in my MVC 4 application which uses Razor view engine.\n \nI didn't found anything anywhere (documentation or sample) for role based authorization with ACS implementation.",
+    "LastUpdatedDate": "2013-02-21T18:59:31.703-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-12-28T04:36:55.827-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Windows Azure ACS authentication with Role Based Authorization",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10058
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

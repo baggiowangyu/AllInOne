@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Having followed :\n http://msdn.microsoft.com/en-us/library/windows/desktop/aa390423(v=vs.85).aspx\n \nI have managed to query the Windows network routing table by querying Win32_IP4RouteTable. The problem comes when I get to the InstallDate field. I have searched a great deal of documentation and web sites looking for how to read the value of this field by using \n  IWbemClassObject::Get() \nto return a variant value for this field but none of the values within the resulting VARIANT type is meaningful.\n \nCan you please provide a sample which makes this date time useful? An additional example of how to set it properly as well would be useful as I'm writing a RIP daemon (yes, I know, it's educational so I'll better understand the protocol)",
+    "LastUpdatedDate": "2013-02-21T18:59:27.457-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-02-21T05:05:38.737-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "WMI CIM_DATETIME from C++",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 10413
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

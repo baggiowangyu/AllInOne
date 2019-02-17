@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I would like to see an example of drag and drop images. I have a flyer and photo gallery that needs the user to D&D images they have onto the pages into my image controls. I've been looking for help with this for a very long time and have noticed others are too. I am using visual studio 2008 C# 3.5. Thank you in advance!\n \n                                                                                    Mokey",
+    "LastUpdatedDate": "2013-02-21T19:00:06.893-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-04-29T04:01:13.453-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "WPF DRAG AND DROP IMAGES",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 8722
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

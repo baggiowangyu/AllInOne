@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The application does not remember the last position, height or width of the application window. IMO this should be a minimum requirement of all Windows application and it get frustrating when you have to resize the windows each time you open the application.  Especially since the default height/width does not work very well on some screens - top of screen is outside screen, and bottom edge is under the taskbar.",
+    "LastUpdatedDate": "2013-02-21T19:00:40.69-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-14T21:44:00.79-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Application Windows",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 7666
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello \r\n\r\nThank you for using the code sample request service.\r\n\r\nMay I know what UI technology are you requesting, Windows Forms / WPF / native Window APIs (e.g. CreateWindow) / MFC?\r\n\r\nI hope that you have a wonderful day!\r\n\r\nJialiang Ge\r\nMicrosoft All-In-One Code Framework.",
+      "PostedDate": "2010-11-30T22:55:01.343-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-02-07T08:52:15.147-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:40.69-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

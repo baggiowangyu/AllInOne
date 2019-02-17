@@ -1,0 +1,75 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "在Gis软件中，经常需要定义大量光标，希望可以提供更简单的方式定义自己的光标，我可以指定任意类型的文件成为光标（如：image 、path 、PathData字符串或UIelement对象)，同时可以简单的还原为默认光标。对动态扩展具有友好的支持。动态扩展组件修改光表时，不会影响主程序。(如动态加载的xap程序中也可以灵活的使用自定义光标）",
+    "LastUpdatedDate": "2013-02-21T19:00:43.76-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-11-02T00:00:25.61-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Custom Cursor in Silverlight(在Silverlight中自定义光标)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 5,
+    "Id": 7535
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "你好 41460555 \r\n\r\n感谢你使用示例代码请求服务（http://1code.codeplex.com/wikipage?title=Sample%20Request%20Service%20%28CHS%29）。\r\n\r\n我个人觉得这是个不错的code sample topic。Silverlight 工程师们正在进一步分析你的这个sample请求，并会给你进一步的更新。\r\n\r\n谢谢\r\nJialiang Ge\r\nProgram Manager of Microsoft All-In-One Code Framework",
+      "PostedDate": "2010-11-02T08:35:04.873-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-10T14:26:01.607-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-21T21:15:12.927-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-11-21T21:16:20.83-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "你好\r\n\r\n经过和silverlight产品组的讨论，他们建议说silverlight本身目前对customize the mouse cursor并没有很好的支持。目前可以想到的的一些相关的解决方案 （如http://blogs.silverlight.net/blogs/msnow/archive/2010/03/16/81607.aspx）都比较tricky，而且或多或少有一些小问题的。Silverlight产品组会在以后的Silverlight版本中考虑加入customize mouse cursor的功能，但不建议在目前的silverlight版本上去customize mouse cursor。\r\n\r\n谢谢\r\nJialiang Ge",
+      "PostedDate": "2010-11-23T08:29:31.403-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-09-21T00:15:49.197-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:43.76-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

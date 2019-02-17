@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "600816",
+    "ThreadId": "254773",
+    "Html": "\r\n<p>Hi,</p>\r\n<p>&nbsp;</p>\r\n<p>I have been find a way to add the pushpins on the image of deepzoom control. I can't find any solution so far. Followings are the detail of my environment and requirement I am trying to achieve:</p>\r\n<p>Environment:</p>\r\n<ol>\r\n<li>Silverlight 4 </li><li>C# </li><li>Visual Studio 2010 </li></ol>\r\n<p>Requirement:</p>\r\n<ol>\r\n<li>Add Image to Deepzoom </li><li>Add Custom Pushpins dynamically and save it </li><li>Reload those pins at the saved location </li><li>Handle pushpin locations at zoom in and out of image. </li></ol>\r\n<p>Hope to hear from you guys soon.</p>\r\n<p>Best regards,</p>\r\n<p>Alex Kent</p>\r\n",
+    "PostedDate": "2011-04-20T23:57:54.44-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

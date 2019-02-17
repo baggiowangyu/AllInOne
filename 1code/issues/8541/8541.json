@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "After creating a new chatroom I try to join it - clicking the join button a jquery exception occurs.\n \n\"WebDev.WebServer40.EXE\" (Verwaltet (v4.0.30319)): \"C:\\Windows\\Microsoft.Net\\assembly\\GAC_MSIL\\System.ServiceModel.Web.resources\\v4.0_4.0.0.0_de_31bf3856ad364e35\\System.ServiceModel.Web.resources.dll\" geladen\nMicrosoft JScript runtime error: 'Object' is undefined\n \nSourcecode: jquery-1.4.1.min.js",
+    "LastUpdatedDate": "2013-02-21T19:00:16.04-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-03-20T02:02:03.81-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Exception joining chat room in AJAXWebChat",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8541
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello Tamlocar,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\n   I'm sorry that I have to tell you this website used to provide sample idea. Your topic metioned above is outside the scope, but what i can do is informing  you to access http://www.microsoft.com/msdn or http://stackoverflow.com/ and  look for your issue answer. And I have used jquery-1.4.1.min.js a few years ago, you may not refer the GAC for System.ServiceModel.Web.resources.dll.There is another possibility.you may not initial object and set value to it. How about if you do this operation? would that work for you? \r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-03-28T19:48:05.413-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello Tamlocar,\r\n    I'm sorry that I have misunderstood your meaning. The topic is  talked about our past sample. Our project Leader have told the sample owner to vertify the sample code again, although It runs cheerfully in my machine.Thanks for posting the issue about our sample code. \r\n",
+      "PostedDate": "2011-03-30T02:25:52.723-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello Tamlocar,\r\nI'm the owner of the sample.\r\nDid you modify the sample codes?\r\nWould you please post the steps to reproduce the issue in details?",
+      "PostedDate": "2011-03-30T02:28:14.127-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:16.04-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

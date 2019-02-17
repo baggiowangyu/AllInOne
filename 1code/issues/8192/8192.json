@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "My DB is sql Server 2000. Some Table Fields data converted to UNICODE. I want to filter a record from a DataSet. Codes are.........\n \n        Try\n            Dim findTheseVals(1) As Object\n            ' Set the values of the keys to find.\n            Dim myDAgn As New SqlDataAdapter\n \n            findTheseVals(0) = pDivisionno ' Parameter Value\n            findTheseVals(1) = pGNe ' Parameter Value\n \n            sqlCon.Open()\n \n            Dim myDSGN As New DataSet\n            myDAgn.SelectCommand = New SqlCommand(\"SELECT * FROM GNDivision\", sqlCon)\n            myDAgn.Fill(myDSGN, \"GNDivision\")\n \n            myPrimaryKey(0) = myDSGN.Tables(\"GNDivision\").Columns(\"DivisionNo\")\n            myPrimaryKey(1) = myDSGN.Tables(\"GNDivision\").Columns(\"GNDEng\") ' Non Unicode Field\n \n            myDSGN.Tables(\"GNDivision\").PrimaryKey = myPrimaryKey\n \n            Dim myRow As DataRow\n            myRow = myDSGN.Tables(\"GNDivision\").Rows.Find(findTheseVals)\n \n            '=====\n \n \n            myPrimaryKey1(0) = myDSGN.Tables(\"GNDivision\").Columns(\"DivisionNo\")\n            myPrimaryKey1(1) = myDSGN.Tables(\"GNDivision\").Columns(\"GNDSin\")  ' Unicode Data Filed\n \n \n            myDSGN.Tables(\"GNDivision\").PrimaryKey = myPrimaryKey1  'This is line has the error\n \n'================\nwhen compiling Following error erissed \"These columns don't currently have unique values\"\nbut \"GNDSin\" field have unique data. Before converted to UNICODE this code work well.\nPl, Help Me. How to search records from a Dataset  when Data is UNICODE\n'================\n            findTheseVals(0) = pDivisionno\n            findTheseVals(1) = pViSIn\n \n            Dim myRow1 As DataRow\n            myRow1 = myDSGN.Tables(\"GNDivision\").Rows.Find(findTheseVals)\n \n \n            If Not (myRow Is Nothing) Then\n                isExists = True\n                GNid = myRow.Item(\"GNID\")\n             ElseIf Not (myRow1 Is Nothing) Then\n                isExists = True\n                GNid = myRow1.Item(\"GNID\")\n            Else\n                isExists = False\n            End If\n            sqlCon.Close()\n        Catch ex As Exception\n            sqlCon.Close()\n            MsgBox(ex.Message)\n        End Try",
+    "LastUpdatedDate": "2013-02-21T19:00:29.177-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-19T10:21:40.99-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "VB.Net Compile Error",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8192
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I am waiting for Instant Reply Pl.\r\n",
+      "PostedDate": "2011-01-20T08:45:41.877-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:29.177-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

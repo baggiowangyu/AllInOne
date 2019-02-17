@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I'd like to see how to write a code editor keyboard macro as a VS2012 plug-in. It should work as follows:\n\nPress an arbitrary key combination to begin recording keystrokes.\nPress a different arbitrary key combination to stop recording keystrokes.\nPress yet another different key combination to play back the recorded keystrokes.",
+    "LastUpdatedDate": "2013-03-12T00:18:46.87-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-10-04T10:04:16.277-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Write a keyboard macro plug-in for VS2012",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 11242
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "If it's just a keyboard-recorder, it has nothing to do with VS2012. Existing tools abound.",
+      "PostedDate": "2013-03-12T00:18:46.87-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

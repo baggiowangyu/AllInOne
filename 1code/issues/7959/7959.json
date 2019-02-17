@@ -1,0 +1,105 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "an end to end n-tier sample app demonstrating using entity framework 4 (using POCO Entities or Self-tracking entities), with or without Repository pattern, UnitofWork pattern, dependency injection, or specification pattern but using WCF 4 and can be used for different user interface archetypes (e.g. asp.net web forms, asp.net mvc, xaml applications(Silverlight or WPF) with clear and succinct documentation or comment in English.",
+    "LastUpdatedDate": "2013-02-21T19:00:34.857-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-12-23T05:05:28.243-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "N-tier Entity Framework 4 end to end sample app",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 21,
+    "Id": 7959
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "yes please. This alone could get thousands interested in AIO!",
+      "PostedDate": "2011-08-03T19:35:25.2-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-04T03:44:16.6-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-09T09:08:19.96-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-16T05:04:06.907-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-09-06T04:37:25.523-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-10-22T08:40:12.29-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "It is very helpful for community to see MS engineers approach in this problem. ",
+      "PostedDate": "2011-10-22T08:49:14.193-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-01T07:28:44.533-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-15T14:46:16.087-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-02-23T08:00:09.247-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello austino123\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service !   \r\nYour sample request is about how to build N-tier Entity Framework 4 application.  If I misunderstood your requirement, please feel free to let me know. \r\n\r\nWe found that the following sample can probably answer your request. \r\nhttp://archive.msdn.microsoft.com/mag200911EF4. \r\nThis sample demonstrates how to build N-Tier apps with EF4 and WCF.\r\n\r\nPlease let us know if this sample is helpful to you. \r\n\r\nThanks and have a great day!\r\n--------------------\r\nMicrosoft All-In-One Code Framework \r\nFeedback address: onecode@microsoft.com\r\n",
+      "PostedDate": "2012-08-21T18:20:17.02-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-09-18T19:31:26.11-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:34.857-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

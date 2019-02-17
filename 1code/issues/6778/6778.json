@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Here is an example of one of my interop declarations:\n \n[DllImport(UnmanagedWTTLogBinary, CharSet = CharSet.Unicode)]\nprivate static extern int WTTLogTrace(IntPtr hDevice, Int32 traceLevel, __arglist);\n \nHere is an example usage of invoking the API using my CoTaskMemString class:\n \nusing (CoTaskMemString arg0 = new CoTaskMemString(args[0]))\nusing (CoTaskMemString arg2 = new CoTaskMemString(args[2]))\n{\nreturn WTTLogTrace(m_loggerHandle, (int)TraceLevel.Assert,\n__arglist(arg0.IntPtr, Utilities.ConvertToInt(args[1]), arg2.IntPtr));\n}\n \nAnd here is my CoTaskMemString class:\n \nusing System;\nusing System.Runtime.InteropServices;\n \nnamespace Utilities\n{\n    public class CoTaskMemString : IDisposable\n    {\n        private static readonly object _padlock = new object();\n        private bool _disposed { get; set; }\n        public IntPtr IntPtr { get; set; }\n \n        public CoTaskMemString(string valueToInitializeFrom)\n        {\n            this.IntPtr = Marshal.StringToCoTaskMemUni(valueToInitializeFrom);\n        }\n        public CoTaskMemString(object valueToInitializeFrom)\n        {\n            this.IntPtr = Marshal.StringToCoTaskMemUni(valueToInitializeFrom.ToString());\n        }\n \n        ~CoTaskMemString()\n        {\n            this.Dispose(false);\n        }\n \n        public void Dispose()\n        {\n            this.Dispose(true);\n        }\n \n        private void Dispose(bool disposing)\n        {\n            if (!this._disposed)\n            {\n                lock (_padlock)\n                {\n                    if (!this._disposed)\n                    {\n                        Marshal.FreeCoTaskMem(this.IntPtr);\n                        this.IntPtr = IntPtr.Zero;\n \n                        if (disposing)\n                        {\n                            GC.SuppressFinalize(this);\n                        }\n \n                        this._disposed = true;\n                    }\n                }\n            }\n        }\n    }\n}",
+    "LastUpdatedDate": "2013-02-21T19:00:49.55-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-07-31T19:03:16.67-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Pinvoke to var_arg functions",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 6778
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

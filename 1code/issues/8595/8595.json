@@ -1,0 +1,86 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I need to show some reports with filter options using CrystalReports as marked in the attached file. Could you please provide a sample project in ASP.Net MVC2 with CrystalReports. I Need to render the reports on the view not only to exprot using \"ExportToHttpResponse\" from controller. I have done a test ( for export & with ASP.Net Web mixed) and it works but I could not render to the View, it shows some exceptions. So please provide a simple MVC Project using CrystalReport to Show Data in View. I tried & then google but find only the export options. I need it urgently...Please.",
+    "LastUpdatedDate": "2013-02-21T19:00:10.41-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-04-04T03:45:50.28-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Crystal Report in ASP.Net MVC 2",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 8595
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3274,
+      "FileName": "MVC Report.rar",
+      "DownloadUrl": ".\\3274"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Hello mdrubaiyat,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n\r\n  I'am sorry that I have not deal with your sample idea immediately. It seems that your sample idea's votes is as many as enough. So I can post it to our audit system with well-qualified. But I'm regret that I can not open your sample attached in this issue tacker because of vs2008 environment not fullfiling with your project's prerequisites. Actually I have realized your sample's meaning via your sample picture attached together with your sample.You want a Model-View-Control module system mixed with Crystal report and  present the data into crystal report comed from database system. The main topic about your sample idea is talked about Crystal report  manipulating under the MVC 2.0.  I will post it to our audit system. Look foward for hearing from you again.\r\n\r\nThanks\r\nAll-In-Onecode Framework\r\nhttp://1code.codeplex.com\r\n.\r\n\r\n\r\nSincerely\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-04-13T20:14:05.103-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-14T23:07:26.347-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "the sample idea has been submitted\r\n\r\n\n\n** Closed by orichisonic 4/14/2011 11:07 PM",
+      "PostedDate": "2011-04-15T00:30:53.777-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "It should be closed when it has been approved and updated",
+      "PostedDate": "2011-04-15T00:30:55.313-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-16T21:05:24.417-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Thanks for sample.\r\nIt will be very helpful for me if you kindly say how i can pass data from MVC Controller to ASP.net web forms.\r\nI have used session but session is not working.",
+      "PostedDate": "2011-07-07T10:27:42.483-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-07-20T14:52:32.08-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:10.41-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

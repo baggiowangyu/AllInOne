@@ -1,0 +1,66 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hello sir/madam,\n \nI would like to request the code which makes a C# application cannot be ended by Window Task Manager. It is better that you can write a method to determine whether the application can or cannot be killed.\n \ni.e.\npublic static void UnkillableApp(string ProcessName)\n{\n...\n}\n \nIf users attempt to end the protected process in Window Task Manger, then it will show a message dialog as shown in the attachment.\n \nI have been doing massive research about this topic for a while. Most of the answers are uncompleted. If you try to write an application in C++ to respond to this request, please make an example in C# to demonstrate how to use it.\n \nI am highly looking forward to your response. \nThank you very much in advance!\n \nRegards,\nRaymond Tan",
+    "LastUpdatedDate": "2013-02-21T18:59:47.987-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-08-11T16:33:22.89-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Unkillable C# Application",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9304
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3437,
+      "FileName": "untitled.JPG",
+      "DownloadUrl": ".\\3437"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "Hi RaymondTan,\r\n\r\n  Thanks for using our project service. \r\n   The issue that you provided is taking about the related dll about your mentioned excuted file. We all know the process locking a file first. So we can use the ProcessExplorer program which comes from www.sysinternal.com to resolve your issue, the program mentioned above provide the command-line named as Handle. It can list all of the dlls about your mentioned excuted file. Currently, this functionality can be implemented via PInvoke. \r\n   I would give a blog about its implemetation which is existed in Win32 API Libary. You can read the follow knowledge to implement it.\r\n\r\n   http://blogs.msdn.com/b/vistacompatteam/archive/2007/02/07/internet-explorer-caches-settings.aspx\r\n\r\n   You can use RmStartSession which includes in rstrtmgr.dll to create a restart manager session.And according to the return result, you judge the function is true or false and instantiate a new instance of  Win32Exception object.Consequently, you register resources to a Restart Manager session via the RmRegisterRescources function. Finally,you use RmGetList to ask the restart manager what other applications are using those files,and enumerate the RM_PROCESS_INFO array,But at the beginning of excuting RmGetList function, you should judge the RmGetList function  can be  correct excuted and capture the Win32Exception object if it can be excuted.All the work has been done completely, you can use GetProcessById function to get related process id.\r\n\r\n   Above paragraph is taking about how to implement this functionality. Furthmore I have submitted it to our project audit system. So when the sample idea is approved by our subject matter experts, we would first compose it for providing all of the customers who need this sample to resolve their issue.\r\n\r\nThanks\r\nAll-In-Onecode-Framework",
+      "PostedDate": "2011-08-15T03:33:44.94-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello again,\r\nThank you very much for all the information! I will try to resolve this problem according to your current information.\r\n\r\nI have read some articles on the internet. Some people provided a pretty good solution, however, I do not know how to write it in C# or VB.NET. They said you can hook the API functions OpenProcess() and TerminateProcess(). You have to write two methods instead and change the memory addresses into those API functions. Therefore the application will be executed your methods instead of the API functions.\r\n\r\nAgain, thank you very much! I am looking forward to the sample from those experts.\r\n\r\nRegards,\r\nRaymond Tan",
+      "PostedDate": "2011-08-16T04:06:09.973-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-29T20:34:21.227-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:47.987-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Sample Chat program that use TcpClient class and handle basic problems like connecting, disconnecting, sending/receiving ALL bytes asyncronously (very important async send receive!)",
+    "LastUpdatedDate": "2013-02-21T19:00:14.927-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-03-21T15:00:32.72-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Sample Chat program",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 4,
+    "Id": 8548
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello mladjenovic,\r\n\r\nThank you for using our code sample request service. \r\n\r\nI'd like to confirm with you my understanding of the sample request:\r\n  \r\n    The most major of  your sample idea is how to implement async send and receive function using C/S model. And the better we could provide a sample that it includes message packet sending and receiving using System.Net.Sockets. The sample idea mentioned above is my previous project's topic. It has some data integrity and blocking features. I think that  these feature applied in your sample is a wonderful lightspot. So I have submitted the similar sample idea a few days ago. Then we are waiting for the approved by other team members. Thanks advance for your sample idea. The end I ask a question?Is my understanding correct? Please feel free to  let me know if I misunderstood your needs.\r\n\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com \r\n",
+      "PostedDate": "2011-03-28T04:18:14.063-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi mladjenovic,\r\n  I have posted in our project system to audit it mentioned by your sample idea. and I add a lot of features about data integrity vertification and concurrent thread managing as  well. So If the sample idea would be pasted and composed by our project member. You would see it in website and download them. Coming soon.\r\n\r\nThanks\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-03-29T20:43:50.65-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-03-31T01:33:51.963-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-14T22:56:04.353-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "the sample idea has been submitted\r\n\r\n\n\n** Closed by orichisonic 4/14/2011 10:56 PM",
+      "PostedDate": "2011-04-15T00:33:53.1-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-04-15T00:33:53.743-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-06-29T23:45:18.08-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-08-28T18:19:11.01-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:14.927-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

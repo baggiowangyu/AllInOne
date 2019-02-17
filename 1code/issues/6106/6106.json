@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "http://support.microsoft.com/kb/242558\nhttp://www.koders.com/cpp/fidE82338975A829988226068C61ED69883A543A9E2.aspx?s=cdef%3Atree+mdef%3Ainsert",
+    "LastUpdatedDate": "2013-02-21T19:00:53.043-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-05-11T20:40:20.753-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Check Internet Connection",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 6106
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Scenario: NHS worker is working at home using laptop not connected to the internet.\r\nAs an accountant I want to update my weekly timesheet and record my hours worked at home whilst not connected to the internet.\r\nThe timesheet record is something simple like Date, Hours worked, Numeric Work Badge number (12072011,7.5,80012432)\r\ncondition of satisfaction: timesheet record is uploaded when an internet connection is detected.\r\nNote: Without getting to techy, the upload could be pretend or simulated (smtp, wcf, ado database sql query). \r\nor\r\nAs a team leader, I want to know when all my collegues are on line and doing their work.\r\nCondition of satisfaction: My screen border changes colour to red when I'm not connected, Green to indicate that I'm connected.\r\nCondition of satisfaction: My screen indicates that worker n is online or offline by changing their name to colour red or green to indicate offline or online. This is a little like skype connection status.",
+      "PostedDate": "2011-07-12T09:04:46.82-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:53.043-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

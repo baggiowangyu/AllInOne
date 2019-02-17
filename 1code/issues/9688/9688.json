@@ -1,0 +1,50 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The present Progress Bar Control is required in most of the MFC based applications, where it becomes for the beginner(ametuer) developers to implement one. Even after exploring on the global search engines it's not confirmed that the given application works flawlessly. Therefore, to reduce to MFC developers hassles, there is a need to create a sample Progress Bar Control which uses CProgressCtrl with its respective routines.\n \nGenerally this control is requested by many MFC & COM developers as VC++ platform for the development.",
+    "LastUpdatedDate": "2013-02-21T18:59:40.447-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-10-21T05:03:17.087-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "CProgress Control Bar Sample Application",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 9688
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hi Guys,\r\n Thank you for sample request! Would you please give me additional information about the applied environment of  CProgress Control Bar ?If you can provide some blog article or MSDN threads that present your scenario, I appreciate your help and submit it as a new sample idea as far as possible.\r\n\r\nSincerely,\r\nAll-In-Onecode-Framework",
+      "PostedDate": "2011-12-08T18:51:10.48-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:40.447-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

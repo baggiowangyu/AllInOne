@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "512642",
+    "ThreadId": "232348",
+    "Html": "\r\n<p>There's a couple of rules at the top on style. &nbsp;Those are:</p>\r\n<p>* Don't put multiple statements on a single line, and<br>\r\n* Put braces around single line conditional statements</p>\r\n<p>But then, in the section on implementing the Dispose pattern properly, there's things like:</p>\r\n<p><span lang=\"EN-US\" style=\"font-size:9pt; color:blue\">public</span><span lang=\"EN-US\" style=\"font-size:9pt\">\r\n<span style=\"color:blue\">void</span> DoSomething()<br>\r\n&nbsp;&nbsp; {<br>\r\n<span style=\"font-size:13px\"><span lang=\"EN-US\" style=\"font-size:9pt\">&nbsp;&nbsp;&nbsp;</span><span lang=\"EN-US\" style=\"font-size:9pt\">&nbsp;&nbsp;&nbsp;</span><span lang=\"EN-US\" style=\"font-size:9pt; color:blue\">if\r\n</span><span lang=\"EN-US\" style=\"font-size:9pt\">(disposed)<br>\r\n<span style=\"font-size:13px\"><span lang=\"EN-US\" style=\"font-size:9pt\">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</span><span lang=\"EN-US\" style=\"font-size:9pt\">&nbsp;&nbsp;&nbsp;</span><span lang=\"EN-US\" style=\"font-size:9pt; color:blue\">throw</span><span lang=\"EN-US\" style=\"font-size:9pt\">\r\n<span style=\"color:blue\">new</span> <span style=\"color:#2b91af\">ObjectDisposedException</span>(...);</span></span><br>\r\n</span></span></span></p>\r\n<p><span style=\"font-size:12px\">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;<span style=\"color:green\">// Now call some native methods using the resource<br>\r\n<span style=\"color:#000000\">&nbsp;&nbsp; }</span></span></span></p>\r\n<p><span style=\"font-size:12px\"><span style=\"color:green\"><span style=\"color:#000000\">and</span></span></span></p>\r\n<p><span lang=\"EN-US\" style=\"font-size:9pt\"><span style=\"color:blue\">protected</span>\r\n<span style=\"color:blue\">virtual</span> <span style=\"color:blue\">void</span> Dispose(<span style=\"color:blue\">bool</span> disposing)<br>\r\n&nbsp;&nbsp; {<br>\r\n&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;<span style=\"color:green\">// Protect from being called multiple times.<br>\r\n<span style=\"color:#000000\">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;<span style=\"color:blue\">if\r\n</span>(disposed) <span style=\"color:blue\">return</span>;</span><br>\r\n</span></span></p>\r\n<p>&nbsp;</p>\r\n<p><span style=\"font-size:small\"><span style=\"font-size:12px\">Thought you might like to know...</span></span></p>\r\n",
+    "PostedDate": "2010-10-26T04:48:13.78-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "513091",
+    "ThreadId": "232348",
+    "Html": "\r\n<p>Hello stevedunn</p>\r\n<p>Thank you for pointing out these problems! I have fixed them in <a href=\"http://1code.codeplex.com/SourceControl/changeset/changes/56442\">\r\nthis </a>changeset, and updated the doc's download.</p>\r\n<p>Thanks<br>\r\nJialiang Ge</p>\r\n",
+    "PostedDate": "2010-10-26T18:34:29.293-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

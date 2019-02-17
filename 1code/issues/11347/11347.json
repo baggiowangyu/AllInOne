@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I havent seen any proper samples using MEF in a WinRT application. Would be very benefitial to see some best practices with MEF and WinRT apps.",
+    "LastUpdatedDate": "2013-02-21T18:59:05.15-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2012-11-09T02:52:54.17-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Simple WinRT Sample using MEF",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 11347
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Hello vthh50,\r\n\r\nThank you for using our free Microsoft All-In-One Code Framework Sample Request Service!   \r\n\r\nYour sample request is about how to use MEF in Windows Store Apps.  If I misunderstood your requirement, please feel free to let me know. \r\n\r\nIf you can provide more information, it will be very helpful.\nCan you provide the special scenario use MEF?\r\n\r\nWe’re waiting for your response.\r\n\r\nPlease understand that the free Sample Request Service is not for urgent sample requests.   If your request is urgent, please use Microsoft Professional Advisory Services.\r\n\r\nThanks and have a great day!\r\n\r\n--------------------\nMicrosoft All-In-One Code Framework \nFeedback address: onecode@microsoft.com \n",
+      "PostedDate": "2012-11-14T23:10:02.49-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi mapeng,\r\n\r\nYes that is exactly right. I dont have any certain scenarios in mind other than the basics like how to set up the aggregate catalog and how the imports/exports work in a windows store app.\r\n\r\n\nRegards\nValdimar Thor",
+      "PostedDate": "2012-12-15T05:37:29.493-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-12-22T20:01:34.663-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:05.15-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

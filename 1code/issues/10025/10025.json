@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I am trying to create a DLL which contain a Thumbnail.png image. I set the image as \"Embedded Resource\", because I want to refer the dll in another C# metro Main project to load the image. I have tried several methods.\n1. The first situation：\nCode in the C# Class Library project (the project name is MusicData) as follow:\nBitmapImage bitmap = new BitmapImage(new Uri(\"ms-resource://MusicData/Files/Images/Thumbnail.png\"));\nSet \"Content\" as Build Action for the image.\nThen in C# metro Main project, select the MusicData Class Library project as the reference.\nAs that, I can load the image successful in the Main project.\n \n2. The second situation：\nCode as follow:\nBitmapImage bitmap = new BitmapImage(new Uri(\"/MusicData;component/Images/Thumbnail.png\", UriKind.Relative));\nSet \"Embedded Resource\" as Build Action for the image.\nThen in C# metro Main project, select the MusicData.dll as the reference.\nBut I can not load the image in Main metro project.\n \nThe second situation is I actually wanted! The Main metro project just needed the MusicData.dll not the whole Class Library Project.\nHelp me please...",
+    "LastUpdatedDate": "2013-02-21T18:59:32.563-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-12-20T22:27:42.527-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "How to get the image which is as \"Embedded Resource\" in DLL",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 10025
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3720,
+      "FileName": "Pictures.rar",
+      "DownloadUrl": ".\\3720"
+    }
+  ],
+  "Comments": []
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "806663",
+    "ThreadId": "347600",
+    "Html": "<p><span>For general Windows samples where \"UI\" is not the demo focus (e.g. how to call WMI to query the domain users), do you prefer that the samples are written in:</span></p>\n<p><span>a) a simple console project</span></p>\n<p><span>b) a simple windows forms project</span></p>\n<p><span>c) a simple WPF project</span></p>\n<p><span>You may also join the vote on our Facebook page: </span><span><a href=\"http://www.facebook.com/groups/onecode/\">http://www.facebook.com/groups/onecode/</a></span></p>",
+    "PostedDate": "2012-03-06T22:19:44.413-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "806723",
+    "ThreadId": "347600",
+    "Html": "<p>I prefer WPF project, because I love WPF and I am&nbsp;familiar&nbsp;with it. By the way: I never used windows forms.</p>",
+    "PostedDate": "2012-03-07T01:05:28.453-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

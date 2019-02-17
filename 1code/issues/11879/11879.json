@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi All,\n\nI have problem in print the document which i installed in iis 7.0\n\nI have create a project on print the document which work fine local system, but when i host this project to IIS 7.0 window server 2008 , it shows the processing ..., no response from printer, actually printer is connected to that server.\n\ni have googled everthing, is iis 7.0 is not any take printer to print the document ?\n\nCode works fine in local system but in IIS not working Why?",
+    "LastUpdatedDate": "2013-07-18T07:14:49.85-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2013-06-14T21:38:42.313-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Printing Problem, when project is hosted in IIS7.0",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 11879
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I don't think this site is really meant for Q&A.  Try the MSDN forums maybe?  Lots of bright people over there.\r\n\r\nhttp://social.msdn.microsoft.com/Forums/en-US/home?forum=visualstudiogeneral",
+      "PostedDate": "2013-07-18T07:14:49.85-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

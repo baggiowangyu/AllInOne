@@ -1,0 +1,80 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I WANT MY WEBSITE TO LOAD ALL SHARED PHOTOS OR SHARED FILES. \nOR \nREGISTERED USERS TO ALLOW ACCESS TO PRIVATE FOLDERS (SKYDRIVE) TO MY SITE FOR THERE NEEDS.\nOR UPLOADING FILES OR PHOTOS FROM MY WEBSITE TO SKYDRIVE???\n \nTHIS WILL ALLOW SKYDRIVE TO BE MORE USEFUL. USERS WILL FEEL FREE TO UPLOAD ON SKYDRIVE.",
+    "LastUpdatedDate": "2013-02-21T18:59:34.74-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-11-23T19:38:31.217-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "HOW TO ACCESS SKYDRIVE PHOTOS AND SHARED FILES??? (C#)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 9887
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Sample Request:",
+      "PostedDate": "2011-11-24T06:17:58.43-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-24T06:39:45.797-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-24T11:55:18.97-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-11-24T21:12:49.297-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "http://msdn.microsoft.com/en-us/windowslive/ff621314\r\n\r\nthis is something I have found just now so I thought I should share it. I just hope it's useful.",
+      "PostedDate": "2011-11-25T07:24:48.737-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Found a way to access Skydrive, but this should be added with completed example in All in one Code Framework.\r\n\r\nthank you\r\n\r\nURL: http://msdn.microsoft.com/en-us/windowslive/hh278344\r\n\r\n.",
+      "PostedDate": "2011-11-25T07:33:24.273-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hello Bmuzammil\r\n\r\nThank you for your sample request!  It looks a very good sample topic.   I'd like to know if the official SkyDrive code samples published on http://msdn.microsoft.com/en-us/windowslive/ff621314 have met your requirement?  Our team tries not to duplicate the effort of the official MSDN samples.  If you have specific programming tasks that are not demoed in the official MSDN samples, please let us know.  We will evaluate them and try providing the code samples in Microsoft All-In-One Code Framework.\r\n\r\nThanks again and have a nice day!\r\nJialiang Ge\r\nProgram Manager\r\nMicrosoft All-In-One Code Framework.",
+      "PostedDate": "2011-11-27T18:45:07.323-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:34.74-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

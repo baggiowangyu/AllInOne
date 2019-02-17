@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "closed. this is not a good practice. ",
+    "ClosedDate": "2010-10-19T22:12:39.353-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "http://social.msdn.microsoft.com/Forums/en-US/clr/thread/321f8960-ccbb-49d0-b285-3d2bbf3d20d9/\n \nspawn off a program that calls MiniDumpWriteDump to create a good dump.\nSuperAssert.net \nhttp://msdn.microsoft.com/en-us/magazine/cc188701.aspx\n \nThe problem with having a process dump itself in the event of a failure is that the cause of the failure may be that the process is in such an inconsistent state that it is not able to reliably dump itself. On the whole it is better to rely on some external agent to catch the failure and generate the dump.\nWe observe that the dump is sometimes empty or corrupt. \n \nhttp://voneinem-windbg.blogspot.com/2007/03/creating-and-analyzing-minidumps-in-net.html",
+    "LastUpdatedDate": "2013-05-16T05:33:25.627-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-03-22T22:11:35.193-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "MiniDumpWriteDump",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 5764
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

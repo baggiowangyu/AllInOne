@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "finished",
+    "ClosedDate": "2010-10-19T22:24:28.03-07:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "http://1code.codeplex.com/SourceControl/changeset/view/49207#825880\n \n1. Use IpAddress.Loopback and not a magic constant.\n2. Do NOT use a thread to demonstrate async connections!! BeginAccept....",
+    "LastUpdatedDate": "2013-05-16T05:33:25.107-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2010-06-13T00:00:13.47-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "CSSL3SocketServer",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 6287
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

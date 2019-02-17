@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I have a WPF window showing three ListViews, each listview can have zero or more items. What we would like is for each ListView to show as many items as possible but not go beyond the bottom of the window.\n \nWe've tried putting them in Grids with Auto height but that doesn't limit to the size of the page. If we use * height then they are equally spaced out which is no good if 2 of them have 0 items.\n \nI've even tried to dynamically set the MaxHeight but that only partially works in a very simple example.\nSee MultiListViewTest.7z \"https://skydrive.live.com/embedicon.aspx/.Public/MultiListViewTest.7z?cid=da3e430c1a5f3b81&sc=documents\"",
+    "LastUpdatedDate": "2013-02-21T18:59:51.573-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-07-24T17:11:14.773-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "WPF: How to Display Multiple ListViews",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 9179
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "hi doorscomputers,\r\n\r\nThank you for using our code sample request service. \r\nI have viewed your SkyDrive's resource about this sample. Can you give me a detailed scenario about how to use this control to complete some applies? althrough these controls your designed are very familiar with the Winform controls,your provided information still less enough to arrange a integrate sample idea to let me submit. Thanks for the additonal information.\r\n\r\n\r\n\r\n\r\nHave a good day\r\nAll-In-One Code Framework\r\nhttp://1code.codeplex.com ",
+      "PostedDate": "2011-07-24T18:31:43.33-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Hi orichisonic,\r\n\r\nWe have multiple scenarios that require this type of UI layout. An example one is where the user selects a customer form combo box at the top of the window and there are a number of lists that the user needs to review before pressing a button to create a job report. The lists, for example are are event details, job details and memo details.\r\n\r\nFor each customer they could have zero or more of each list item. Now if they have 1 event, 1 memo and 15 job items, then we want the list of event's and memo's to be only 1 item in height and the jobs take up the rest of the window space. Though for another customer who has 10 events, 1 job, and no memos, then we want to space used by the events list.\r\n\r\nIn basics (without the borders, textblock labels, etc.), at first we had a Grid with 3 Row Definitions of Auto. Each ListView was assigned to a Grid.Row=\"[number]\" section. This worked perfectly until we had a customer who had 10 events, 12 jobs and 20 memos. The jobs only showed half of the list and the memos were off the page.\r\n\r\nWe currently are using the RowDefinition Width=\"*\" but that only allocates an even space, so that a list of 1 takes up the same space as a list of 20. We also tried making the ListView have a VerticalAlignment=\"Top\" but that didn't change the spacing either.\r\n\r\nPlease let me know if this is enough information as I can try again to explain it differently as I believe this should be a solvable problem.\r\n\r\n- N2Cheval",
+      "PostedDate": "2011-07-24T20:01:06.407-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T18:59:51.573-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

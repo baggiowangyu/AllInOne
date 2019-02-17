@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I would like to add an icon to a context menu item for the \"All-In-One Code Framework\" example called\n\"VBShellExtContextMenuHandler\".\n \nThank you\nMatic Kukovec",
+    "LastUpdatedDate": "2013-02-21T19:00:32.357-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "1code",
+    "ReportedDate": "2011-01-10T07:25:55.123-08:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Adding an icon to the context menu (SOLVED)",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 8120
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Found the solution!\r\nThe C# version is in the article here written by Artyom Grigor:  http://artyomgrigor.wordpress.com/2010/10/06/writing-windows-shell-extension-context-menu-with-icon-in-c-4-0/\r\nYou only have to change the QueryContextMenu function!\r\n\r\n\r\nThe VB equivalent is:\r\n//START\r\n    Public Function QueryContextMenu( _\r\n        ByVal hMenu As IntPtr, _\r\n        ByVal iMenu As UInt32, _\r\n        ByVal idCmdFirst As UInt32, _\r\n        ByVal idCmdLast As UInt32, _\r\n        ByVal uFlags As UInt32) As Integer _\r\n        Implements IContextMenu.QueryContextMenu\r\n\r\n        ' If uFlags include CMF_DEFAULTONLY then we should not do anything.\r\n        If ((CMF.CMF_DEFAULTONLY And uFlags) <> 0) Then\r\n            Return WinError.MAKE_HRESULT(WinError.SEVERITY_SUCCESS, 0, 0)\r\n        End If\r\n\r\n        ' Add a separator.\r\n        Dim sep As New MENUITEMINFO\r\n        With sep\r\n            .cbSize = Marshal.SizeOf(sep)\r\n            .fMask = MIIM.MIIM_TYPE\r\n            .fType = MFT.MFT_SEPARATOR\r\n        End With\r\n        If Not NativeMethods.InsertMenuItem(hMenu, iMenu, True, sep) Then\r\n            Return Marshal.GetHRForLastWin32Error\r\n        End If\r\n\r\n        ' Use either InsertMenu or InsertMenuItem to add menu items.\r\n        Dim bmp As System.Drawing.Bitmap = My.Resources.pd_mali          (my bitmap)\r\n        Dim icon As IntPtr = bmp.GetHbitmap                                            (handle(pointer) to bitmap)\r\n        Dim mii As New MENUITEMINFO\r\n        With mii\r\n            .cbSize = Marshal.SizeOf(mii)\r\n            .fMask = MIIM.MIIM_BITMAP Or MIIM.MIIM_CHECKMARKS Or MIIM.MIIM_STRING Or MIIM.MIIM_ID\r\n            .wID = idCmdFirst + Me.IDM_DISPLAY\r\n            .fType = MFT.MFT_BITMAP\r\n            .dwTypeData = Me.menuText\r\n            .fState = MFS.MFS_ENABLED\r\n            .hbmpItem = icon                                                                              \r\n        End With\r\n        If Not NativeMethods.InsertMenuItem(hMenu, iMenu + 1, True, mii) Then\r\n            Return Marshal.GetHRForLastWin32Error\r\n        End If\r\n\r\n        ' Add a separator.\r\n        sep = New MENUITEMINFO\r\n        With sep\r\n            .cbSize = Marshal.SizeOf(sep)\r\n            .fMask = MIIM.MIIM_TYPE\r\n            .fType = MFT.MFT_SEPARATOR\r\n        End With\r\n        If Not NativeMethods.InsertMenuItem(hMenu, iMenu + 2, True, sep) Then\r\n            Return Marshal.GetHRForLastWin32Error\r\n        End If\r\n\r\n        ' Return an HRESULT value with the severity set to SEVERITY_SUCCESS.\r\n        ' Set the code value to the offset of the largest command identifier\r\n        ' that was assigned, plus one (1).\r\n        Return WinError.MAKE_HRESULT(0, 0, (Me.IDM_DISPLAY + 1))\r\n    End Function\r\n//END\r\n\r\nGo through this code and compare it to the \"VBShellExtContextMenuHandler\" example(All-In-One Code Framework examples) and you will see all the changes you need to make.\r\n\r\nIf you are playing around with the code and testing it out, if at some point the changes you make in the code do not appear in the context menu after you register the .dll(e.g.: you change the text of the context menu item), reboot your computer and it should work again.\r\n\r\nHope this helps someone.\r\n\r\nMatic\r\n",
+      "PostedDate": "2011-01-11T01:34:03.063-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-01-14T09:45:55.68-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2011-01-14T09:54:54.007-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-21T19:00:32.357-08:00",
+      "Id": -2147483648
+    }
+  ]
+}

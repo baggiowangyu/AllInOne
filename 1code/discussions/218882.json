@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "465282",
+    "ThreadId": "218882",
+    "Html": "I use VMWare VIX API to take vm snapshot, it need to provide .vmx file, but it is not easy to find it. Is there any other simple way to locate the vm, like virtual machine name?\r\n",
+    "PostedDate": "2010-07-09T02:03:12.567-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]
